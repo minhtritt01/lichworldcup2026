@@ -1,7 +1,7 @@
 'use client';
 
 import { useLocale, useTranslations } from 'next-intl';
-import { useRouter, usePathname } from '../navigation';
+import { usePathname } from '../navigation';
 import { Search, Menu, Moon, Sun } from 'lucide-react';
 import { useState } from 'react';
 import Image from 'next/image';
@@ -12,16 +12,9 @@ import SmartLink from './SmartLink';
 export default function Navbar() {
   const t = useTranslations('nav');
   const locale = useLocale();
-  const router = useRouter();
   const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
   const { theme, toggleTheme } = useTheme();
-
-  function switchLocale(next: Locale) {
-    // Set cookie first so middleware doesn't redirect based on the old value
-    document.cookie = `NEXT_LOCALE=${next}; path=/; max-age=31536000; SameSite=Lax`;
-    router.replace(pathname, { locale: next });
-  }
 
   return (
     <nav className="sticky top-0 z-50 border-b border-slate-200 bg-white text-slate-900 dark:border-slate-800 dark:bg-slate-900 dark:text-slate-100">
@@ -60,18 +53,20 @@ export default function Navbar() {
 
           {/* Locale toggle */}
           <div className="flex items-center rounded-lg border border-slate-200 bg-slate-100 p-1 text-xs font-semibold dark:border-slate-700 dark:bg-slate-800">
-            <button
-              onClick={() => switchLocale('vi')}
+            <SmartLink
+              href={pathname}
+              locale="vi"
               className={`px-2 py-1 rounded-md transition ${locale === 'vi' ? 'bg-blue-700 text-white' : 'text-slate-400 hover:text-white'}`}
             >
               VI
-            </button>
-            <button
-              onClick={() => switchLocale('en')}
+            </SmartLink>
+            <SmartLink
+              href={pathname}
+              locale="en"
               className={`px-2 py-1 rounded-md transition ${locale === 'en' ? 'bg-blue-700 text-white' : 'text-slate-400 hover:text-white'}`}
             >
               EN
-            </button>
+            </SmartLink>
           </div>
 
           {/* Theme toggle */}
