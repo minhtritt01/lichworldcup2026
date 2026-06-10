@@ -4,6 +4,7 @@ import { Link } from '../navigation';
 import type { AnchorHTMLAttributes, ReactNode } from 'react';
 
 type Props = Omit<AnchorHTMLAttributes<HTMLAnchorElement>, 'href'> & {
+  popover?: never;
   href: string;
   children: ReactNode;
 };
@@ -13,16 +14,18 @@ function isInternalHref(href: string) {
 }
 
 export default function SmartLink({ href, children, target, rel, ...props }: Props) {
+  const { popover: _popover, ...rest } = props;
+
   if (isInternalHref(href) && target !== '_blank') {
     return (
-      <Link href={href} {...props}>
+      <Link href={href} {...rest}>
         {children}
       </Link>
     );
   }
 
   return (
-    <a href={href} target={target} rel={rel} {...props}>
+    <a href={href} target={target} rel={rel} {...rest}>
       {children}
     </a>
   );
