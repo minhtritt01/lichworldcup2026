@@ -1,4 +1,4 @@
-claude-code-instructions.md
+*.md
 node_modules/
 .next/
 out/
