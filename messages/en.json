@@ -1,0 +1,78 @@
+{
+  "nav": {
+    "schedule": "Schedule",
+    "standings": "Standings",
+    "teams": "Teams",
+    "search": "Search...",
+    "live": "LIVE"
+  },
+  "hero": {
+    "title": "Live scores & match schedule",
+    "subtitle": "104 matches · 48 teams · 16 stadiums · Jun 11 – Jul 19, 2026",
+    "matches": "matches",
+    "teams": "teams",
+    "days": "days",
+    "stadiums": "stadiums",
+    "hosted": "FIFA World Cup 2026 · North America"
+  },
+  "filter": {
+    "today": "Today",
+    "all": "All",
+    "groupStage": "Group Stage",
+    "knockout": "Knockout"
+  },
+  "match": {
+    "watchLive": "Watch live",
+    "details": "Details",
+    "summary": "Full time",
+    "kickoff": "Kickoff ICT",
+    "prediction": "Prediction",
+    "winProb": "Win probability",
+    "draw": "Draw",
+    "preview": "Match preview",
+    "incidents": "Match events",
+    "stats": "Stats",
+    "possession": "Possession",
+    "shots": "Shots",
+    "onTarget": "On target",
+    "yellowCard": "Yellow card",
+    "home": "Home",
+    "away": "Away",
+    "halfTime": "Half time",
+    "firstHalf": "1st half",
+    "secondHalf": "2nd half"
+  },
+  "status": {
+    "live": "LIVE",
+    "upcoming": "Upcoming",
+    "finished": "FT",
+    "halfTime": "HT",
+    "postponed": "Postponed"
+  },
+  "stage": {
+    "groupStage": "Group Stage",
+    "r32": "Round of 32",
+    "r16": "Round of 16",
+    "qf": "Quarter-finals",
+    "sf": "Semi-finals",
+    "third": "Third-place play-off",
+    "final": "Final"
+  },
+  "preview": {
+    "template": "{home} face {away} in the {stage} of the 2026 FIFA World Cup at {stadium}, {city}. This promises to be an exciting contest between two competitive sides.",
+    "predictionLabel": "Score prediction",
+    "winProbLabel": "Win probability",
+    "drawLabel": "Draw",
+    "loseProbLabel": "Loss"
+  },
+  "footer": {
+    "copy": "© 2026 WorldCup2026Live · Updated every 15s · 104 matches",
+    "disclaimer": "Football information site — no broadcast rights infringed"
+  },
+  "meta": {
+    "homeTitle": "World Cup 2026 Live Scores — Schedule & Results Updated Every 15s",
+    "homeDesc": "Follow live scores, the full 104-match schedule and standings for the 2026 FIFA World Cup. 48 teams, auto-updated.",
+    "matchTitle": "Live: {home} vs {away} | 2026 World Cup Score",
+    "matchDesc": "Follow live commentary and score updates for {home} vs {away} ({stage}) at {stadium}. Kickoff: {kickoff}. Updated every 15 seconds."
+  }
+}

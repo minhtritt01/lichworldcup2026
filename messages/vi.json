@@ -1,0 +1,78 @@
+{
+  "nav": {
+    "schedule": "Lịch thi đấu",
+    "standings": "Bảng xếp hạng",
+    "teams": "Đội tuyển",
+    "search": "Tìm kiếm...",
+    "live": "LIVE"
+  },
+  "hero": {
+    "title": "Lịch thi đấu & kết quả trực tiếp",
+    "subtitle": "104 trận · 48 đội · 16 sân vận động · 11/06 – 19/07/2026",
+    "matches": "trận đấu",
+    "teams": "đội tuyển",
+    "days": "ngày",
+    "stadiums": "sân vận động",
+    "hosted": "FIFA World Cup 2026 · Bắc Mỹ"
+  },
+  "filter": {
+    "today": "Hôm nay",
+    "all": "Tất cả",
+    "groupStage": "Vòng bảng",
+    "knockout": "Knockout"
+  },
+  "match": {
+    "watchLive": "Xem trực tiếp",
+    "details": "Chi tiết",
+    "summary": "Tổng kết",
+    "kickoff": "Giờ VN",
+    "prediction": "Dự đoán",
+    "winProb": "Tỷ lệ thắng",
+    "draw": "Hòa",
+    "preview": "Nhận định",
+    "incidents": "Diễn biến",
+    "stats": "Thống kê",
+    "possession": "Kiểm soát bóng",
+    "shots": "Sút",
+    "onTarget": "Trúng đích",
+    "yellowCard": "Thẻ vàng",
+    "home": "Chủ nhà",
+    "away": "Khách",
+    "halfTime": "Nghỉ giữa hiệp",
+    "firstHalf": "Hiệp 1",
+    "secondHalf": "Hiệp 2"
+  },
+  "status": {
+    "live": "ĐANG DIỄN RA",
+    "upcoming": "Sắp diễn ra",
+    "finished": "Kết thúc",
+    "halfTime": "Nghỉ giữa hiệp",
+    "postponed": "Hoãn"
+  },
+  "stage": {
+    "groupStage": "Vòng Bảng",
+    "r32": "Vòng 1/16",
+    "r16": "Vòng 1/8",
+    "qf": "Tứ Kết",
+    "sf": "Bán Kết",
+    "third": "Tranh Hạng Ba",
+    "final": "Chung Kết"
+  },
+  "preview": {
+    "template": "{home} bước vào trận đấu này với tinh thần cao trước {away} tại {stage} World Cup 2026, diễn ra trên sân {stadium}, {city}. Đây hứa hẹn sẽ là cuộc đối đầu kịch tính giữa hai đội.",
+    "predictionLabel": "Dự đoán tỉ số",
+    "winProbLabel": "Xác suất thắng",
+    "drawLabel": "Hòa",
+    "loseProbLabel": "Thua"
+  },
+  "footer": {
+    "copy": "© 2026 WorldCup2026Live · Cập nhật mỗi 15 giây · 104 trận",
+    "disclaimer": "Trang thông tin bóng đá không vi phạm bản quyền phát sóng"
+  },
+  "meta": {
+    "homeTitle": "Trực Tiếp World Cup 2026 — Lịch thi đấu & Tỉ số cập nhật 15 giây",
+    "homeDesc": "Theo dõi trực tiếp kết quả, lịch thi đấu 104 trận, bảng xếp hạng World Cup 2026. 48 đội, cập nhật tự động.",
+    "matchTitle": "Trực tiếp {home} vs {away} | Tỉ số World Cup 2026",
+    "matchDesc": "Xem diễn biến, kết quả, tỉ số trận {home} vs {away} ({stage}) tại {stadium}. Giờ VN: {kickoff}. Cập nhật 15 giây."
+  }
+}
