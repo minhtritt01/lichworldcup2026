@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 interface Props {
   locale: string;
 }
@@ -29,9 +31,18 @@ export default function Footer({ locale }: Props) {
       <div className="max-w-6xl mx-auto px-4 pt-12 pb-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
         {/* Brand */}
         <div>
-          <div className="flex items-center gap-2 mb-3">
-            <span className="text-white text-base font-semibold">
-              ⚽ World Cup 2026 Live
+          <div className="flex items-center gap-2.5 mb-3">
+            <div className="relative w-6 h-6 flex items-center justify-center bg-slate-800 rounded-full border border-slate-700 overflow-hidden shadow-inner shrink-0">
+              <Image
+                src="/logo.png"
+                alt="World Cup 2026 Logo"
+                width={24}
+                height={24}
+                className="object-cover scale-110"
+              />
+            </div>
+            <span className="text-white text-base font-semibold tracking-tight">
+              World Cup 2026 Live
             </span>
           </div>
           <p className="text-sm text-slate-400 leading-relaxed">

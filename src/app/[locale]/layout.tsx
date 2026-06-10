@@ -21,6 +21,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const t = await getTranslations({ locale: params.locale, namespace: 'meta' });
   return {
+    metadataBase: new URL('https://lichworldcup2026.vn'),
     title: t('homeTitle'),
     description: t('homeDesc'),
     keywords: params.locale === 'vi'
@@ -30,12 +31,35 @@ export async function generateMetadata({
       type: 'website',
       locale: params.locale === 'vi' ? 'vi_VN' : 'en_US',
       siteName: 'World Cup 2026 Live',
+      images: [
+        {
+          url: '/opengraph-image.png',
+          width: 1200,
+          height: 630,
+          alt: 'World Cup 2026 Live',
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: t('homeTitle'),
+      description: t('homeDesc'),
+      images: ['/opengraph-image.png'],
+    },
+    icons: {
+      icon: [
+        { url: '/favicon.ico', sizes: 'any' },
+        { url: '/icon.png', type: 'image/png', sizes: '512x512' },
+      ],
+      apple: [
+        { url: '/apple-icon.png', sizes: '512x512', type: 'image/png' },
+      ],
     },
     alternates: {
-      canonical: params.locale === 'en' ? 'https://worldcup2026live.vn/en' : 'https://worldcup2026live.vn',
+      canonical: params.locale === 'en' ? 'https://lichworldcup2026.vn/en' : 'https://lichworldcup2026.vn',
       languages: {
-        'vi': 'https://worldcup2026live.vn',
-        'en': 'https://worldcup2026live.vn/en',
+        'vi': 'https://lichworldcup2026.vn',
+        'en': 'https://lichworldcup2026.vn/en',
       },
     },
     robots: { index: true, follow: true },

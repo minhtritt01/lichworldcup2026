@@ -35,10 +35,11 @@ export async function generateMetadata({
 
   const stageLabel = getStageLabel(m.stage, locale);
 
-  const viUrl = `https://worldcup2026live.vn/live/${m.match_id}`;
-  const enUrl = `https://worldcup2026live.vn/en/live/${m.match_id}`;
+  const viUrl = `https://lichworldcup2026.vn/live/${m.match_id}`;
+  const enUrl = `https://lichworldcup2026.vn/en/live/${m.match_id}`;
 
   return {
+    metadataBase: new URL('https://lichworldcup2026.vn'),
     title: t('matchTitle', { home: homeName, away: awayName }),
     description: t('matchDesc', { home: homeName, away: awayName, stage: stageLabel, stadium: m.stadium, kickoff }),
     alternates: {
@@ -48,6 +49,20 @@ export async function generateMetadata({
     openGraph: {
       title: `${homeName} vs ${awayName} — World Cup 2026`,
       description: `${stageLabel} · ${m.stadium}, ${m.city}`,
+      images: [
+        {
+          url: '/opengraph-image.png',
+          width: 1200,
+          height: 630,
+          alt: `${homeName} vs ${awayName} — World Cup 2026`,
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${homeName} vs ${awayName} — World Cup 2026`,
+      description: `${stageLabel} · ${m.stadium}, ${m.city}`,
+      images: ['/opengraph-image.png'],
     },
   };
 }

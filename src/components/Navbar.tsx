@@ -4,6 +4,7 @@ import { useLocale, useTranslations } from 'next-intl';
 import { useRouter, usePathname } from '../navigation';
 import { Search, Menu } from 'lucide-react';
 import { useState } from 'react';
+import Image from 'next/image';
 import type { Locale } from '../config';
 
 export default function Navbar() {
@@ -22,8 +23,17 @@ export default function Navbar() {
   return (
     <nav className="bg-slate-900 sticky top-0 z-50 border-b border-slate-800">
       <div className="max-w-6xl mx-auto px-4 h-12 flex items-center justify-between gap-4">
-        <a href={locale === 'en' ? '/en' : '/'} className="flex items-center gap-2 shrink-0">
-          <span className="text-white font-semibold text-sm sm:text-base">⚽ World Cup 2026</span>
+        <a href={locale === 'en' ? '/en' : '/'} className="flex items-center gap-2.5 shrink-0">
+          <div className="relative w-6 h-6 sm:w-7 sm:h-7 flex items-center justify-center bg-slate-800 rounded-full border border-slate-700 overflow-hidden shadow-inner shrink-0">
+            <Image
+              src="/logo.png"
+              alt="World Cup 2026 Logo"
+              width={28}
+              height={28}
+              className="object-cover scale-110"
+            />
+          </div>
+          <span className="text-white font-semibold text-xs sm:text-sm md:text-base tracking-tight">World Cup 2026</span>
           <span className="bg-red-600 text-white text-[9px] font-semibold px-2 py-0.5 rounded-full tracking-wide hidden sm:inline">
             {t('live')}
           </span>
