@@ -1,14 +1,12 @@
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, getTranslations } from 'next-intl/server';
-import { Inter } from 'next/font/google';
 import type { Metadata } from 'next';
 import { locales } from '../../i18n';
 import Navbar from '../../components/Navbar';
 import LiveTicker from '../../components/LiveTicker';
 import Footer from '../../components/Footer';
+import { ThemeProvider } from '../../components/ThemeProvider';
 import '../globals.css';
-
-const inter = Inter({ subsets: ['latin', 'vietnamese'] });
 
 export function generateStaticParams() {
   return locales.map(locale => ({ locale }));
@@ -76,15 +74,36 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={params.locale} className="scroll-smooth">
-      <body className={`${inter.className} bg-slate-50 min-h-screen text-slate-900 antialiased`}>
+    <html lang={params.locale} className="scroll-smooth" suppressHydrationWarning>
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                try {
+                  var root = document.documentElement;
+                  var stored = localStorage.getItem('theme');
+                  var theme = stored === 'dark' || stored === 'light'
+                    ? stored
+                    : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+                  root.classList.toggle('dark', theme === 'dark');
+                  root.style.colorScheme = theme;
+                } catch (error) {}
+              })()
+            `,
+          }}
+        />
+      </head>
+      <body className="bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 min-h-screen antialiased transition-colors duration-150">
         <NextIntlClientProvider messages={messages}>
-          <Navbar />
-          <LiveTicker />
-          <div className="max-w-6xl mx-auto px-4">
-            {children}
-          </div>
-          <Footer locale={params.locale} />
+          <ThemeProvider>
+            <Navbar />
+            <LiveTicker />
+            <div className="max-w-6xl mx-auto px-4">
+              {children}
+            </div>
+            <Footer locale={params.locale} />
+          </ThemeProvider>
         </NextIntlClientProvider>
       </body>
     </html>

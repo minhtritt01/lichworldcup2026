@@ -19,7 +19,8 @@
     "today": "Today",
     "all": "All",
     "groupStage": "Group Stage",
-    "knockout": "Knockout"
+    "knockout": "Knockout",
+    "pinnedTeams": "Your Matches"
   },
   "match": {
     "watchLive": "Watch live",
@@ -42,7 +43,12 @@
     "firstHalf": "1st half",
     "secondHalf": "2nd half",
     "officialBroadcast": "Official Broadcasters",
-    "watchOn": "Watch live on"
+    "watchOn": "Watch live on",
+    "timeline": "Match timeline",
+    "lineups": "Lineups",
+    "stadiumInfo": "Stadium information",
+    "projectedXI": "Projected XI",
+    "noIncidents": "No incidents yet"
   },
   "status": {
     "live": "LIVE",

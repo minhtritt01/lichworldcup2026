@@ -19,7 +19,8 @@
     "today": "Hôm nay",
     "all": "Tất cả",
     "groupStage": "Vòng bảng",
-    "knockout": "Knockout"
+    "knockout": "Knockout",
+    "pinnedTeams": "Trận đấu quan tâm"
   },
   "match": {
     "watchLive": "Xem trực tiếp",
@@ -42,7 +43,12 @@
     "firstHalf": "Hiệp 1",
     "secondHalf": "Hiệp 2",
     "officialBroadcast": "Kênh phát sóng chính thức",
-    "watchOn": "Xem trực tiếp trên"
+    "watchOn": "Xem trực tiếp trên",
+    "timeline": "Diễn biến trận đấu",
+    "lineups": "Đội hình",
+    "stadiumInfo": "Thông tin sân vận động",
+    "projectedXI": "Đội hình dự kiến",
+    "noIncidents": "Chưa có sự kiện nào"
   },
   "status": {
     "live": "ĐANG DIỄN RA",

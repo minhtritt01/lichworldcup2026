@@ -7,6 +7,11 @@ import { getStageLabel } from '../../../../lib/stage-labels';
 import { locales } from '../../../../i18n';
 import LiveScoreTicker from '../../../../components/LiveScoreTicker';
 import MatchCard from '../../../../components/MatchCard';
+import StadiumCard from '../../../../components/StadiumCard';
+import MatchTimeline from '../../../../components/MatchTimeline';
+import LineupPitch from '../../../../components/LineupPitch';
+import { buildLiveMatchDetails } from '../../../../lib/live-match-details';
+import SmartLink from '../../../../components/SmartLink';
 
 export function generateStaticParams() {
   return locales.flatMap(locale =>
@@ -77,6 +82,7 @@ export default async function MatchDetailPage({
 
   const locale = params.locale as 'vi' | 'en';
   const t = await getTranslations({ locale });
+  const details = buildLiveMatchDetails(m, locale);
 
   const defaultBroadcasts = {
     vi: [
@@ -92,7 +98,6 @@ export default async function MatchDetailPage({
   };
 
   const broadcastList = m.broadcasts?.[locale] || defaultBroadcasts[locale];
-
   const homeName = getTeamName(m.home_slug, locale);
   const awayName = getTeamName(m.away_slug, locale);
 
@@ -144,33 +149,27 @@ export default async function MatchDetailPage({
 
   return (
     <main className="py-8">
-      {/* Breadcrumb */}
-      <nav className="text-xs text-slate-400 mb-5 flex items-center gap-1.5">
-        <a href={locale === 'en' ? '/en' : '/'} className="hover:text-slate-600 transition">
+      <nav className="mb-5 flex items-center gap-1.5 text-xs text-slate-400">
+        <SmartLink href="/" className="transition hover:text-slate-600 dark:hover:text-slate-300">
           {locale === 'vi' ? 'Trang chủ' : 'Home'}
-        </a>
+        </SmartLink>
         <span>/</span>
         <span>{stageLabel}</span>
         <span>/</span>
-        <span className="text-slate-600">{homeName} vs {awayName}</span>
+        <span className="text-slate-600 dark:text-slate-300">{homeName} vs {awayName}</span>
       </nav>
 
-      {/* Live ticker */}
-      <LiveScoreTicker
-        initialStaticData={initialStaticData}
-        matchId={params.match_id}
-      />
+      <LiveScoreTicker initialStaticData={initialStaticData} matchId={params.match_id} />
 
-      {/* Preview / Nhận định */}
-      <section className="mt-6 bg-white rounded-2xl border border-slate-200 p-5 sm:p-6">
-        <h2 className="text-lg font-semibold text-slate-900 mb-1">
+      <section className="mt-6 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 p-5 sm:p-6">
+        <h2 className="mb-1 text-lg font-semibold text-slate-900 dark:text-slate-100">
           {t('match.preview')}: {homeName} vs {awayName}
         </h2>
-        <p className="text-slate-400 text-sm mb-4">
+        <p className="mb-4 text-sm text-slate-400 dark:text-slate-500">
           🕐 {kickoffLocale} (ICT) · 📍 {m.stadium}, {m.city}, {m.country}
         </p>
 
-        <p className="text-slate-600 text-sm leading-relaxed mb-5">
+        <p className="mb-5 text-sm leading-relaxed text-slate-600 dark:text-slate-300">
           {t('preview.template', {
             home: homeName,
             away: awayName,
@@ -180,34 +179,76 @@ export default async function MatchDetailPage({
           })}
         </p>
 
-        {/* Prediction probabilities */}
         <div className="grid grid-cols-3 gap-3">
-          <div className="bg-slate-50 rounded-xl p-3 text-center border border-slate-100">
-            <div className="text-xs text-slate-400 mb-1">{homeName}</div>
+          <div className="rounded-xl border border-slate-100 bg-slate-50 p-3 text-center dark:border-slate-800 dark:bg-slate-950/50">
+            <div className="mb-1 text-xs text-slate-400">{homeName}</div>
             <div className="text-xl font-semibold text-green-600">{probs.home}%</div>
             <div className="text-[10px] text-slate-400">{t('preview.winProbLabel')}</div>
           </div>
-          <div className="bg-slate-50 rounded-xl p-3 text-center border border-slate-100">
-            <div className="text-xs text-slate-400 mb-1">{t('preview.drawLabel')}</div>
-            <div className="text-xl font-semibold text-slate-600">{probs.draw}%</div>
+          <div className="rounded-xl border border-slate-100 bg-slate-50 p-3 text-center dark:border-slate-800 dark:bg-slate-950/50">
+            <div className="mb-1 text-xs text-slate-400">{t('preview.drawLabel')}</div>
+            <div className="text-xl font-semibold text-slate-600 dark:text-slate-300">{probs.draw}%</div>
             <div className="text-[10px] text-slate-400">{t('match.draw')}</div>
           </div>
-          <div className="bg-slate-50 rounded-xl p-3 text-center border border-slate-100">
-            <div className="text-xs text-slate-400 mb-1">{awayName}</div>
+          <div className="rounded-xl border border-slate-100 bg-slate-50 p-3 text-center dark:border-slate-800 dark:bg-slate-950/50">
+            <div className="mb-1 text-xs text-slate-400">{awayName}</div>
             <div className="text-xl font-semibold text-red-500">{probs.away}%</div>
             <div className="text-[10px] text-slate-400">{t('preview.loseProbLabel')}</div>
           </div>
         </div>
       </section>
 
-      {/* Official Broadcasters */}
+      <section className="mt-6 grid gap-6 xl:grid-cols-[1.1fr_0.9fr]">
+        <div className="rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 p-5 sm:p-6">
+          <div className="mb-4 flex items-center gap-2">
+            <h2 className="text-base font-semibold text-slate-900 dark:text-slate-100">
+              {t('match.timeline')}
+            </h2>
+            <div className="h-px flex-1 bg-slate-200 dark:bg-slate-800" />
+          </div>
+          <MatchTimeline
+            incidents={details.incidents}
+            homeSlug={m.home_slug}
+            awaySlug={m.away_slug}
+            homeLabel={homeName}
+            awayLabel={awayName}
+            emptyLabel={t('match.noIncidents')}
+          />
+        </div>
+
+        <div className="rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 p-5 sm:p-6">
+          <div className="mb-4 flex items-center gap-2">
+            <h2 className="text-base font-semibold text-slate-900 dark:text-slate-100">
+              {t('match.lineups')}
+            </h2>
+            <div className="h-px flex-1 bg-slate-200 dark:bg-slate-800" />
+          </div>
+          <div className="space-y-4">
+            <LineupPitch
+              title={`${homeName} - ${locale === 'vi' ? 'Dự kiến XI' : 'Projected XI'}`}
+              formation={details.homeLineup.formation}
+              accent={details.homeLineup.accent}
+              players={details.homeLineup.players}
+            />
+            <LineupPitch
+              title={`${awayName} - ${locale === 'vi' ? 'Dự kiến XI' : 'Projected XI'}`}
+              formation={details.awayLineup.formation}
+              accent={details.awayLineup.accent}
+              players={details.awayLineup.players}
+            />
+          </div>
+        </div>
+      </section>
+
+      <StadiumCard stadiumName={m.stadium} />
+
       {broadcastList && broadcastList.length > 0 && (
-        <section className="mt-6 bg-white rounded-2xl border border-slate-200 p-5 sm:p-6">
-          <h2 className="text-base font-semibold text-slate-900 mb-4 flex items-center gap-2">
-            <span className="inline-block w-2.5 h-2.5 rounded-full bg-blue-600 animate-pulse" />
+        <section className="mt-6 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 p-5 sm:p-6">
+          <h2 className="mb-4 flex items-center gap-2 text-base font-semibold text-slate-900 dark:text-slate-100">
+            <span className="inline-block h-2.5 w-2.5 rounded-full bg-blue-600 animate-pulse" />
             {t('match.officialBroadcast')}
           </h2>
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+          <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
             {broadcastList.map(channel => (
               channel.url ? (
                 <a
@@ -215,14 +256,14 @@ export default async function MatchDetailPage({
                   href={channel.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex flex-col items-center justify-center bg-slate-50 border border-slate-200 hover:border-blue-500 hover:bg-blue-50/50 rounded-xl p-4 transition text-center group"
+                  className="group flex flex-col items-center justify-center rounded-xl border border-slate-200 bg-slate-50 p-4 text-center transition hover:border-blue-500 hover:bg-blue-50/60 dark:border-slate-800 dark:bg-slate-950/40 dark:hover:border-blue-400 dark:hover:bg-blue-950/30"
                 >
-                  <span className="font-semibold text-slate-800 group-hover:text-blue-600 transition text-sm sm:text-base">
+                  <span className="text-sm font-semibold text-slate-800 transition group-hover:text-blue-600 dark:text-slate-100 dark:group-hover:text-blue-300">
                     {channel.name}
                   </span>
-                  <span className="text-[10px] text-blue-500 font-medium mt-1 flex items-center gap-1">
+                  <span className="mt-1 flex items-center gap-1 text-[10px] font-medium text-blue-500">
                     {t('match.watchOn')}
-                    <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="h-3.5 w-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                     </svg>
                   </span>
@@ -230,12 +271,12 @@ export default async function MatchDetailPage({
               ) : (
                 <div
                   key={channel.name}
-                  className="flex flex-col items-center justify-center bg-slate-50 border border-slate-200 rounded-xl p-4 text-center"
+                  className="flex flex-col items-center justify-center rounded-xl border border-slate-200 bg-slate-50 p-4 text-center dark:border-slate-800 dark:bg-slate-950/40"
                 >
-                  <span className="font-semibold text-slate-800 text-sm sm:text-base">
+                  <span className="text-sm font-semibold text-slate-800 dark:text-slate-100">
                     {channel.name}
                   </span>
-                  <span className="text-[10px] text-slate-400 mt-1">
+                  <span className="mt-1 text-[10px] text-slate-400">
                     TV Channel
                   </span>
                 </div>
@@ -245,18 +286,18 @@ export default async function MatchDetailPage({
         </section>
       )}
 
-      {/* Ad slot */}
-      <div className="my-6 bg-slate-100 rounded-xl border border-dashed border-slate-300 h-[90px] flex items-center justify-center">
-        <span className="text-xs text-slate-400 tracking-wide uppercase">Advertisement · 728×90</span>
+      <div className="my-6 flex h-[90px] items-center justify-center rounded-xl border border-dashed border-slate-300 bg-slate-100 dark:border-slate-800 dark:bg-slate-950/30">
+        <span className="text-xs uppercase tracking-wide text-slate-400">
+          Advertisement · 728×90
+        </span>
       </div>
 
-      {/* Related matches */}
       {relatedMatches.length > 0 && (
         <section className="mt-2">
-          <h3 className="text-sm font-semibold text-slate-600 uppercase tracking-wide mb-3">
+          <h3 className="mb-3 text-sm font-semibold uppercase tracking-wide text-slate-600 dark:text-slate-400">
             {locale === 'vi' ? 'Trận đấu khác cùng vòng' : 'More matches in this round'}
           </h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
             {relatedMatches.map(x => (
               <MatchCard key={x.match_id} match={x} status="upcoming" />
             ))}

@@ -31,7 +31,7 @@ export default function LiveScoreTicker({ matchId, initialStaticData }: Props) {
 
   if (!data) {
     return (
-      <div className="w-full p-8 rounded-2xl bg-slate-900 text-white text-center animate-pulse">
+      <div className="w-full rounded-2xl border border-slate-200 bg-white p-8 text-center text-slate-600 animate-pulse dark:border-slate-800 dark:bg-slate-900 dark:text-slate-300">
         {locale === 'vi' ? 'Đang tải...' : 'Loading...'}
       </div>
     );
@@ -58,23 +58,23 @@ export default function LiveScoreTicker({ matchId, initialStaticData }: Props) {
     : isHT ? 50 : data.status === 'Finished' ? 100 : 0;
 
   return (
-    <div className="w-full rounded-2xl bg-slate-900 text-white overflow-hidden shadow-xl">
+    <div className="w-full overflow-hidden rounded-2xl border border-slate-200 bg-white text-slate-900 shadow-xl dark:border-slate-800 dark:bg-slate-900 dark:text-slate-100">
       {/* Status bar */}
       <div className="flex items-center justify-between px-5 pt-4 pb-2">
         <span
           className={`text-[11px] font-semibold uppercase tracking-wider px-3 py-1 rounded-full ${
-            isLive || isHT ? 'bg-red-600 animate-pulse' : 'bg-slate-700'
+            isLive || isHT ? 'bg-red-600 text-white animate-pulse' : 'bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-300'
           }`}
         >
           {statusLabel[data.status] ?? data.status}
           {isLive && ` · ${data.current_minute}'`}
         </span>
-        <span className="text-slate-400 text-xs">{data.stage}</span>
+        <span className="text-xs text-slate-500 dark:text-slate-400">{data.stage}</span>
         {isValidating
           ? <Wifi size={13} className="text-green-400 animate-pulse" />
           : error
           ? <WifiOff size={13} className="text-red-400" />
-          : <Wifi size={13} className="text-slate-700" />}
+          : <Wifi size={13} className="text-slate-400 dark:text-slate-500" />}
       </div>
 
       {/* Scoreboard */}
@@ -83,18 +83,18 @@ export default function LiveScoreTicker({ matchId, initialStaticData }: Props) {
         <div className="flex flex-col items-center flex-1 gap-2">
           <span className="text-4xl sm:text-5xl leading-none">{homeFlag}</span>
           <span className="text-sm font-semibold text-center leading-tight">{homeName}</span>
-          <span className="text-[10px] text-slate-400">{t('match.home')}</span>
+          <span className="text-[10px] text-slate-500 dark:text-slate-400">{t('match.home')}</span>
         </div>
 
         {/* Score */}
         <div className="flex flex-col items-center shrink-0 gap-1">
           <div className="text-4xl sm:text-5xl font-semibold tabular-nums tracking-tight">
             {data.home_team?.score ?? 0}
-            <span className="text-slate-500 mx-1">–</span>
+            <span className="mx-1 text-slate-400 dark:text-slate-500">–</span>
             {data.away_team?.score ?? 0}
           </div>
           {(isLive || isHT) && (
-            <div className="flex items-center gap-1 text-red-400 text-xs font-medium">
+            <div className="flex items-center gap-1 text-xs font-medium text-red-500 dark:text-red-400">
               <Timer size={11} />
               <span>
                 {isHT ? t('match.halfTime') : `${data.current_minute}'`}
@@ -107,30 +107,30 @@ export default function LiveScoreTicker({ matchId, initialStaticData }: Props) {
         <div className="flex flex-col items-center flex-1 gap-2">
           <span className="text-4xl sm:text-5xl leading-none">{awayFlag}</span>
           <span className="text-sm font-semibold text-center leading-tight">{awayName}</span>
-          <span className="text-[10px] text-slate-400">{t('match.away')}</span>
+          <span className="text-[10px] text-slate-500 dark:text-slate-400">{t('match.away')}</span>
         </div>
       </div>
 
       {/* Progress bar */}
-      <div className="mx-5 mb-1 bg-slate-700 rounded-full h-1 overflow-hidden">
+      <div className="mx-5 mb-1 h-1 overflow-hidden rounded-full bg-slate-200 dark:bg-slate-700">
         <div
           className="bg-red-500 h-full rounded-full transition-all duration-1000"
           style={{ width: `${progressPct}%` }}
         />
       </div>
-      <div className="flex justify-between px-5 mb-4 text-[10px] text-slate-500">
+      <div className="flex justify-between px-5 mb-4 text-[10px] text-slate-500 dark:text-slate-500">
         <span>0&apos;</span>
         <span>{isHT ? t('match.halfTime') : isLive ? t('match.firstHalf') : ''}</span>
         <span>90&apos;</span>
       </div>
 
       {/* Stadium */}
-      <p className="text-center text-xs text-slate-400 pb-3">{data.stadium}</p>
+      <p className="pb-3 text-center text-xs text-slate-500 dark:text-slate-400">{data.stadium}</p>
 
       {/* Incidents */}
       {data.incidents?.length > 0 && (
-        <div className="border-t border-slate-700 px-5 py-3 space-y-2">
-          <p className="text-[10px] font-semibold text-slate-400 uppercase tracking-wider mb-2">
+        <div className="space-y-2 border-t border-slate-200 px-5 py-3 dark:border-slate-800">
+          <p className="mb-2 text-[10px] font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-400">
             {t('match.incidents')}
           </p>
           {data.incidents.map((inc: Record<string, unknown>, i: number) => {
@@ -142,9 +142,9 @@ export default function LiveScoreTicker({ matchId, initialStaticData }: Props) {
               : '↕️';
             return (
               <div key={String(inc.incident_id ?? i)} className="flex items-center gap-3 text-xs">
-                <span className="text-slate-500 tabular-nums w-7 text-right">{String(inc.time_minute)}&apos;</span>
+                <span className="w-7 tabular-nums text-right text-slate-500 dark:text-slate-400">{String(inc.time_minute)}&apos;</span>
                 <span>{icon}</span>
-                <span className="text-slate-200">{String(inc.player_name)}</span>
+                <span className="text-slate-700 dark:text-slate-200">{String(inc.player_name)}</span>
               </div>
             );
           })}
