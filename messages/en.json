@@ -40,7 +40,9 @@
     "away": "Away",
     "halfTime": "Half time",
     "firstHalf": "1st half",
-    "secondHalf": "2nd half"
+    "secondHalf": "2nd half",
+    "officialBroadcast": "Official Broadcasters",
+    "watchOn": "Watch live on"
   },
   "status": {
     "live": "LIVE",

@@ -78,6 +78,21 @@ export default async function MatchDetailPage({
   const locale = params.locale as 'vi' | 'en';
   const t = await getTranslations({ locale });
 
+  const defaultBroadcasts = {
+    vi: [
+      { name: 'VTV2', url: 'https://vtvgo.vn/xem-truc-tiep-kenh-vtv2-2.html' },
+      { name: 'VTVGo', url: `https://vtvgo.vn/xem-truc-tiep-${m.home_slug}-vs-${m.away_slug}.html` },
+      { name: 'FPT Play', url: `https://fptplay.vn/xem-truc-tiep/${m.home_slug}-vs-${m.away_slug}` },
+    ],
+    en: [
+      { name: 'Fox Sports Live', url: `https://www.foxsports.com/live/${m.home_slug}-vs-${m.away_slug}` },
+      { name: 'Telemundo', url: `https://www.telemundo.com/shows/fifa-world-cup/${m.home_slug}-vs-${m.away_slug}` },
+      { name: 'Peacock Live', url: `https://www.peacocktv.com/watch/sports/${m.home_slug}-vs-${m.away_slug}` },
+    ],
+  };
+
+  const broadcastList = m.broadcasts?.[locale] || defaultBroadcasts[locale];
+
   const homeName = getTeamName(m.home_slug, locale);
   const awayName = getTeamName(m.away_slug, locale);
 
@@ -184,6 +199,51 @@ export default async function MatchDetailPage({
           </div>
         </div>
       </section>
+
+      {/* Official Broadcasters */}
+      {broadcastList && broadcastList.length > 0 && (
+        <section className="mt-6 bg-white rounded-2xl border border-slate-200 p-5 sm:p-6">
+          <h2 className="text-base font-semibold text-slate-900 mb-4 flex items-center gap-2">
+            <span className="inline-block w-2.5 h-2.5 rounded-full bg-blue-600 animate-pulse" />
+            {t('match.officialBroadcast')}
+          </h2>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+            {broadcastList.map(channel => (
+              channel.url ? (
+                <a
+                  key={channel.name}
+                  href={channel.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex flex-col items-center justify-center bg-slate-50 border border-slate-200 hover:border-blue-500 hover:bg-blue-50/50 rounded-xl p-4 transition text-center group"
+                >
+                  <span className="font-semibold text-slate-800 group-hover:text-blue-600 transition text-sm sm:text-base">
+                    {channel.name}
+                  </span>
+                  <span className="text-[10px] text-blue-500 font-medium mt-1 flex items-center gap-1">
+                    {t('match.watchOn')}
+                    <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                  </span>
+                </a>
+              ) : (
+                <div
+                  key={channel.name}
+                  className="flex flex-col items-center justify-center bg-slate-50 border border-slate-200 rounded-xl p-4 text-center"
+                >
+                  <span className="font-semibold text-slate-800 text-sm sm:text-base">
+                    {channel.name}
+                  </span>
+                  <span className="text-[10px] text-slate-400 mt-1">
+                    TV Channel
+                  </span>
+                </div>
+              )
+            ))}
+          </div>
+        </section>
+      )}
 
       {/* Ad slot */}
       <div className="my-6 bg-slate-100 rounded-xl border border-dashed border-slate-300 h-[90px] flex items-center justify-center">

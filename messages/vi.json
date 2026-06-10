@@ -40,7 +40,9 @@
     "away": "Khách",
     "halfTime": "Nghỉ giữa hiệp",
     "firstHalf": "Hiệp 1",
-    "secondHalf": "Hiệp 2"
+    "secondHalf": "Hiệp 2",
+    "officialBroadcast": "Kênh phát sóng chính thức",
+    "watchOn": "Xem trực tiếp trên"
   },
   "status": {
     "live": "ĐANG DIỄN RA",
