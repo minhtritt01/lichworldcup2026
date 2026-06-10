@@ -1,5 +1,6 @@
 import { Inter } from 'next/font/google';
 import type { Metadata } from 'next';
+import { GoogleAnalytics } from '@next/third-parties/google';
 import './globals.css';
 
 const inter = Inter({ subsets: ['latin', 'vietnamese'] });
@@ -27,6 +28,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="vi">
+      <GoogleAnalytics gaId="G-31RBWHFLB7" />
       <body
         className={`${inter.className} bg-slate-50 min-h-screen text-slate-900 antialiased`}
       >
