@@ -47,7 +47,7 @@ export default function MatchCard({
     }
   );
 
-  const href = locale === 'en' ? `/en/live/${match.match_id}` : `/live/${match.match_id}`;
+  const href = `/live/${match.match_id}`;
 
   const isLive = status === 'live';
   const isFinished = status === 'finished';

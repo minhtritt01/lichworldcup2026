@@ -15,32 +15,41 @@ function applyTheme(theme: Theme) {
   root.style.colorScheme = theme;
 }
 
-export function ThemeProvider({ children }: { children: React.ReactNode }) {
-  const [theme, setTheme] = useState<Theme>('light');
+function persistTheme(theme: Theme) {
+  try {
+    window.localStorage.setItem('theme', theme);
+  } catch {
+    // Ignore storage failures.
+  }
 
-  useEffect(() => {
-    try {
-      const stored = window.localStorage.getItem('theme');
-      const nextTheme: Theme =
-        stored === 'dark' || stored === 'light'
-          ? stored
-          : window.document.documentElement.classList.contains('dark')
-          ? 'dark'
-          : 'light';
-      setTheme(nextTheme);
-      applyTheme(nextTheme);
-    } catch {
-      applyTheme('light');
-    }
-  }, []);
+  window.document.cookie = `theme=${theme}; Path=/; Max-Age=31536000; SameSite=Lax`;
+}
+
+function getInitialTheme(): Theme {
+  if (typeof window === 'undefined') return 'light';
+
+  try {
+    const stored = window.localStorage.getItem('theme');
+    if (stored === 'dark' || stored === 'light') return stored;
+
+    return window.document.documentElement.classList.contains('dark') ? 'dark' : 'light';
+  } catch {
+    return window.document.documentElement.classList.contains('dark') ? 'dark' : 'light';
+  }
+}
+
+export function ThemeProvider({
+  children,
+  initialTheme,
+}: {
+  children: React.ReactNode;
+  initialTheme?: Theme;
+}) {
+  const [theme, setTheme] = useState<Theme>(() => initialTheme ?? getInitialTheme());
 
   useEffect(() => {
     applyTheme(theme);
-    try {
-      window.localStorage.setItem('theme', theme);
-    } catch {
-      // Ignore storage failures.
-    }
+    persistTheme(theme);
   }, [theme]);
 
   useEffect(() => {
@@ -58,11 +67,7 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     setTheme(prev => {
       const next = prev === 'light' ? 'dark' : 'light';
       applyTheme(next);
-      try {
-        window.localStorage.setItem('theme', next);
-      } catch {
-        // Ignore storage failures.
-      }
+      persistTheme(next);
       return next;
     });
   };
