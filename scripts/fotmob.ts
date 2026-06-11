@@ -181,11 +181,29 @@ function toSlug(name: string): string {
     .replace(/^-|-$/g, '');
 }
 
+// TheSportsDB uses different names for some teams — map to our nameEn
+const TEAM_NAME_ALIASES: Record<string, string> = {
+  'czech republic': 'czechia',
+  'korea republic': 'south korea',
+  'republic of korea': 'south korea',
+  'ivory coast': "côte d'ivoire",
+  "cote d'ivoire": "côte d'ivoire",
+  'cape verde islands': 'cape verde',
+  'dr congo': 'democratic republic of congo',
+  'united states': 'usa',
+  'trinidad & tobago': 'trinidad and tobago',
+  'bosnia-herzegovina': 'bosnia and herzegovina',
+  'bosnia & herzegovina': 'bosnia and herzegovina',
+};
+
 function findTeamByName(teamName: string): typeof TEAMS_DATA[0] | undefined {
-  const slug = toSlug(teamName);
+  const lower = teamName.toLowerCase();
+  const resolved = TEAM_NAME_ALIASES[lower] ?? lower;
+  const slug = toSlug(resolved);
   return (
     TEAMS_DATA.find(t => t.slug === slug) ||
-    TEAMS_DATA.find(t => t.nameEn.toLowerCase() === teamName.toLowerCase()) ||
+    TEAMS_DATA.find(t => t.nameEn.toLowerCase() === resolved) ||
+    TEAMS_DATA.find(t => t.nameEn.toLowerCase() === lower) ||
     TEAMS_DATA.find(t => t.slug.includes(slug.split('-')[0]))
   );
 }
