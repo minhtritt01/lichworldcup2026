@@ -1,0 +1,317 @@
+{
+  "matchId": "wc26_001",
+  "eventId": "2391728",
+  "status": "upcoming",
+  "scrapedAt": "2026-06-11T11:10:18.163Z",
+  "general": {
+    "homeTeam": "Mexico",
+    "homeSlug": "mexico",
+    "awayTeam": "South Africa",
+    "awaySlug": "nam-phi",
+    "stage": "FIFA World Cup",
+    "group": "A",
+    "kickoffUTC": "2026-06-11T19:00:00",
+    "venue": "Estadio Azteca",
+    "referee": ""
+  },
+  "form": {
+    "home": [
+      {
+        "opponent": "Serbia",
+        "result": "W",
+        "score": "5-1",
+        "date": "2026-06-05"
+      }
+    ],
+    "away": [
+      {
+        "opponent": "Nicaragua",
+        "result": "D",
+        "score": "0-0",
+        "date": "2026-05-29"
+      }
+    ]
+  },
+  "squads": {
+    "home": [
+      {
+        "name": "Guillermo Ochoa",
+        "number": 1,
+        "position": "",
+        "age": 40
+      },
+      {
+        "name": "Raúl Rangel",
+        "number": 2,
+        "position": "",
+        "age": 26
+      },
+      {
+        "name": "Carlos Acevedo",
+        "number": 3,
+        "position": "",
+        "age": 30
+      },
+      {
+        "name": "Jesús Gallardo",
+        "number": 4,
+        "position": "",
+        "age": 31
+      },
+      {
+        "name": "César Montes",
+        "number": 5,
+        "position": "",
+        "age": 29
+      },
+      {
+        "name": "Jorge Sánchez",
+        "number": 6,
+        "position": "",
+        "age": 28
+      },
+      {
+        "name": "Johan Vásquez",
+        "number": 7,
+        "position": "",
+        "age": 27
+      },
+      {
+        "name": "Israel Reyes",
+        "number": 8,
+        "position": "",
+        "age": 26
+      },
+      {
+        "name": "Mateo Chávez",
+        "number": 9,
+        "position": "",
+        "age": 22
+      },
+      {
+        "name": "Edson Álvarez",
+        "number": 10,
+        "position": "",
+        "age": 28
+      },
+      {
+        "name": "Orbelín Pineda",
+        "number": 11,
+        "position": "",
+        "age": 30
+      },
+      {
+        "name": "Roberto Alvarado",
+        "number": 12,
+        "position": "",
+        "age": 27
+      },
+      {
+        "name": "Luis Romo",
+        "number": 13,
+        "position": "",
+        "age": 31
+      },
+      {
+        "name": "Luis Chávez",
+        "number": 14,
+        "position": "",
+        "age": 30
+      },
+      {
+        "name": "Érik Lira",
+        "number": 15,
+        "position": "",
+        "age": 26
+      },
+      {
+        "name": "Gilberto Mora",
+        "number": 16,
+        "position": "",
+        "age": 17
+      },
+      {
+        "name": "Brian Gutiérrez",
+        "number": 17,
+        "position": "",
+        "age": 22
+      },
+      {
+        "name": "Obed Vargas",
+        "number": 18,
+        "position": "",
+        "age": 20
+      },
+      {
+        "name": "Álvaro Fidalgo",
+        "number": 19,
+        "position": "",
+        "age": 29
+      },
+      {
+        "name": "Raúl Jiménez",
+        "number": 20,
+        "position": "",
+        "age": 35
+      },
+      {
+        "name": "Alexis Vega",
+        "number": 21,
+        "position": "",
+        "age": 28
+      },
+      {
+        "name": "Santiago Giménez",
+        "number": 22,
+        "position": "",
+        "age": 25
+      },
+      {
+        "name": "César Huerta",
+        "number": 23,
+        "position": "",
+        "age": 25
+      }
+    ],
+    "away": [
+      {
+        "name": "Ronwen Williams",
+        "number": 1,
+        "position": "",
+        "age": 34
+      },
+      {
+        "name": "Ricardo Goss",
+        "number": 2,
+        "position": "",
+        "age": 32
+      },
+      {
+        "name": "Sipho Chaine",
+        "number": 3,
+        "position": "",
+        "age": 29
+      },
+      {
+        "name": "Aubrey Modiba",
+        "number": 4,
+        "position": "",
+        "age": 30
+      },
+      {
+        "name": "Khuliso Mudau",
+        "number": 5,
+        "position": "",
+        "age": 31
+      },
+      {
+        "name": "Nkosinathi Sibisi",
+        "number": 6,
+        "position": "",
+        "age": 30
+      },
+      {
+        "name": "Mbekezeli Mbokazi",
+        "number": 7,
+        "position": "",
+        "age": 20
+      },
+      {
+        "name": "Ime Okon",
+        "number": 8,
+        "position": "",
+        "age": 22
+      },
+      {
+        "name": "Samukele Kabini",
+        "number": 9,
+        "position": "",
+        "age": 22
+      },
+      {
+        "name": "Khulumani Ndamane",
+        "number": 10,
+        "position": "",
+        "age": 22
+      },
+      {
+        "name": "Thabang Matuludi",
+        "number": 11,
+        "position": "",
+        "age": 27
+      },
+      {
+        "name": "Kamogelo Sebelebele",
+        "number": 12,
+        "position": "",
+        "age": 23
+      },
+      {
+        "name": "Bradley Cross",
+        "number": 13,
+        "position": "",
+        "age": 25
+      },
+      {
+        "name": "Olwethu Makhanya",
+        "number": 14,
+        "position": "",
+        "age": 22
+      },
+      {
+        "name": "Teboho Mokoena",
+        "number": 15,
+        "position": "",
+        "age": 29
+      },
+      {
+        "name": "Sphephelo Sithole",
+        "number": 16,
+        "position": "",
+        "age": 27
+      },
+      {
+        "name": "Thalente Mbatha",
+        "number": 17,
+        "position": "",
+        "age": 26
+      },
+      {
+        "name": "Jayden Adams",
+        "number": 18,
+        "position": "",
+        "age": 25
+      },
+      {
+        "name": "Themba Zwane",
+        "number": 19,
+        "position": "",
+        "age": 36
+      },
+      {
+        "name": "Lyle Foster",
+        "number": 20,
+        "position": "",
+        "age": 26
+      },
+      {
+        "name": "Evidence Makgopa",
+        "number": 21,
+        "position": "",
+        "age": 26
+      },
+      {
+        "name": "Oswin Appollis",
+        "number": 22,
+        "position": "",
+        "age": 24
+      },
+      {
+        "name": "Iqraam Rayners",
+        "number": 23,
+        "position": "",
+        "age": 30
+      }
+    ]
+  }
+}

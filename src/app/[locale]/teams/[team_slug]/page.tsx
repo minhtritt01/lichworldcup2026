@@ -1,6 +1,8 @@
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { TEAMS_DATA } from '../../../../lib/teams-data';
+
+const BASE = (process.env.NEXT_PUBLIC_BASE_URL ?? 'https://worldcup2026live.vn').replace(/\/$/, '');
 import { getFlag } from '../../../../lib/flag-map';
 import { MOCK_MATCHES } from '../../../../lib/mock-data';
 import { locales } from '../../../../i18n';
@@ -31,8 +33,8 @@ export async function generateMetadata({
       : `Danh sách cầu thủ ${name} (${team.players.length} người), HLV ${team.coach}, FIFA hạng #${team.fifaRank} — Bảng ${team.group} tại World Cup 2026.`,
     alternates: {
       languages: {
-        vi: `https://worldcup2026live.vn/teams/${team.slug}`,
-        en: `https://worldcup2026live.vn/en/teams/${team.slug}`,
+        vi: `${BASE}/teams/${team.slug}`,
+        en: `${BASE}/en/teams/${team.slug}`,
       },
     },
   };

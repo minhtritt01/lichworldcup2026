@@ -1,6 +1,7 @@
 import { MetadataRoute } from 'next';
 import { MOCK_MATCHES } from '../lib/mock-data';
 import { TEAMS_DATA } from '../lib/teams-data';
+import { getAllReportSlugs } from '../lib/report-types';
 
 const BASE = (process.env.NEXT_PUBLIC_BASE_URL ?? 'https://worldcup2026live.vn').replace(/\/$/, '');
 
@@ -65,6 +66,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   }));
 
+  const viReportSlugs = getAllReportSlugs('vi');
+  const enReportSlugs = getAllReportSlugs('en');
+
+  const viReportPages: MetadataRoute.Sitemap = viReportSlugs.map(slug => ({
+    url: `${BASE}/reports/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'daily' as const,
+    priority: 0.85,
+  }));
+
+  const enReportPages: MetadataRoute.Sitemap = enReportSlugs.map(slug => ({
+    url: `${BASE}/en/reports/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'daily' as const,
+    priority: 0.85,
+  }));
+
   return [
     {
       url: BASE,
@@ -94,9 +112,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
       alternates: { languages: { vi: `${BASE}/teams`, en: `${BASE}/en/teams` } },
     },
+    { url: `${BASE}/reports`, lastModified: new Date(), changeFrequency: 'hourly' as const, priority: 0.9 },
+    { url: `${BASE}/en/reports`, lastModified: new Date(), changeFrequency: 'hourly' as const, priority: 0.9 },
     ...viMatchPages,
     ...enMatchPages,
     ...viTeamPages,
     ...enTeamPages,
+    ...viReportPages,
+    ...enReportPages,
   ];
 }
