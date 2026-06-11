@@ -196,8 +196,8 @@ function buildSquad(teamName: string): PlayerInfo[] {
 
   return team.players.slice(0, 23).map((p, idx) => ({
     name: p.name,
-    number: p.number ?? idx + 1,
-    position: p.position ?? '',
+    number: p.no ?? idx + 1,
+    position: p.pos ?? '',
     age: p.age,
   }));
 }

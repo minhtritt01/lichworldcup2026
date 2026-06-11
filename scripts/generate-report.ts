@@ -99,7 +99,7 @@ function buildPreData(data: MatchPreData) {
   const awayXI = pickStartingXI(data.squads.away);
 
   const formToLetters = (entries: Array<{ result: string }>): string[] => {
-    const letters = entries.map(e => e.result as 'W' | 'D' | 'L');
+    const letters: string[] = entries.map(e => e.result as 'W' | 'D' | 'L');
     while (letters.length < 5) letters.push('?');
     return letters.slice(0, 5);
   };
