@@ -11,11 +11,14 @@ export async function generateMetadata({
   const isEn = params.locale === 'en';
   return {
     title: isEn
-      ? 'Match Reports — World Cup 2026 Analysis & Previews'
-      : 'Báo cáo trận đấu — Nhận định & Phân tích World Cup 2026',
+      ? 'World Cup 2026 Match Reports | Previews, Predictions & Analysis'
+      : 'Nhận định bóng đá World Cup 2026 | Dự đoán tỷ số & Phân tích trận đấu',
     description: isEn
-      ? 'Pre-match previews and post-match analysis for all 104 FIFA World Cup 2026 matches. Tactical breakdowns, predicted lineups and player ratings.'
-      : 'Nhận định trước trận và phân tích sau trận cho 104 trận World Cup 2026. Phân tích chiến thuật, đội hình dự kiến và đánh giá cầu thủ.',
+      ? 'World Cup 2026 previews and match reports for all 104 games — tactical analysis, predicted lineups, win odds and score predictions.'
+      : 'Tổng hợp nhận định bóng đá World Cup 2026 mới nhất — phân tích chiến thuật, dự đoán tỷ số, tỷ lệ thắng và đội hình ra sân cho tất cả 104 trận đấu.',
+    keywords: isEn
+      ? ['World Cup 2026', 'match preview', 'score prediction', 'tactical analysis', 'predicted lineup', 'win odds', 'FIFA World Cup', 'match report', 'team form']
+      : ['nhận định bóng đá', 'nhận định trận đấu', 'World Cup 2026', 'dự đoán tỷ số', 'tỷ lệ thắng', 'đội hình ra sân', 'phân tích chiến thuật', 'vòng bảng World Cup', 'FIFA World Cup 2026', 'lịch thi đấu'],
   };
 }
 

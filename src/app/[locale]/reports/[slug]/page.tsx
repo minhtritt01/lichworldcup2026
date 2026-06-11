@@ -14,6 +14,55 @@ export function generateStaticParams() {
   );
 }
 
+type ReportMeta = NonNullable<ReturnType<typeof parseReportFile>>['meta'];
+
+function buildTitle(meta: ReportMeta, locale: string) {
+  const isPre = meta.type === 'pre-match';
+  if (locale === 'en') {
+    return isPre
+      ? `${meta.homeTeam} vs ${meta.awayTeam} Preview | Score Prediction & Odds — World Cup 2026`
+      : `${meta.homeTeam} vs ${meta.awayTeam} Analysis | Match Report & Ratings — World Cup 2026`;
+  }
+  return isPre
+    ? `Nhận định ${meta.homeTeam} vs ${meta.awayTeam} | Dự đoán tỷ số & Tỷ lệ thắng World Cup 2026`
+    : `Phân tích ${meta.homeTeam} vs ${meta.awayTeam} | Tường thuật & Đánh giá trận đấu World Cup 2026`;
+}
+
+function buildDescription(meta: ReportMeta, locale: string) {
+  const isPre = meta.type === 'pre-match';
+  if (locale === 'en') {
+    return isPre
+      ? `${meta.homeTeam} vs ${meta.awayTeam} World Cup 2026 preview — tactical analysis, predicted lineups, recent form, win odds and score prediction.`
+      : `${meta.homeTeam} vs ${meta.awayTeam} World Cup 2026 match report — full analysis, key moments, player ratings and group standings update.`;
+  }
+  return isPre
+    ? `Nhận định trận đấu ${meta.homeTeam} vs ${meta.awayTeam} World Cup 2026 — phân tích chiến thuật, đội hình ra sân dự kiến, phong độ gần đây, tỷ lệ thắng và dự đoán tỷ số chính xác nhất.`
+    : `Phân tích trận đấu ${meta.homeTeam} vs ${meta.awayTeam} World Cup 2026 — tường thuật diễn biến, nhận định chiến thuật, bước ngoặt trận đấu và cập nhật bảng xếp hạng.`;
+}
+
+function buildKeywords(meta: ReportMeta, locale: string): string[] {
+  const isPre = meta.type === 'pre-match';
+  const home = meta.homeTeam;
+  const away = meta.awayTeam;
+  if (locale === 'en') {
+    return [
+      `${home} vs ${away}`, 'World Cup 2026', 'FIFA World Cup',
+      ...(isPre
+        ? ['match preview', 'score prediction', 'win odds', 'predicted lineup', 'tactical analysis', 'team form', 'head to head']
+        : ['match analysis', 'match report', 'player ratings', 'group standings', 'key moments']),
+      home, away,
+    ];
+  }
+  return [
+    `nhận định ${home} vs ${away}`, 'nhận định trận đấu', 'nhận định bóng đá',
+    'World Cup 2026', 'FIFA World Cup 2026',
+    ...(isPre
+      ? ['dự đoán tỷ số', 'tỷ lệ thắng', 'đội hình ra sân', 'phong độ thi đấu', 'phân tích chiến thuật', 'vòng bảng World Cup', 'lịch sử đối đầu']
+      : ['phân tích trận đấu', 'tường thuật trận đấu', 'bước ngoặt trận đấu', 'bảng xếp hạng', 'đánh giá cầu thủ']),
+    home, away,
+  ];
+}
+
 export async function generateMetadata({
   params,
 }: {
@@ -25,17 +74,20 @@ export async function generateMetadata({
   const { meta } = report;
   const viUrl = `${BASE}/reports/${params.slug}`;
   const enUrl = `${BASE}/en/reports/${params.slug}`;
+  const title = buildTitle(meta, params.locale);
+  const description = buildDescription(meta, params.locale);
 
   return {
-    title: meta.title,
-    description: meta.description,
+    title,
+    description,
+    keywords: buildKeywords(meta, params.locale),
     alternates: {
       canonical: params.locale === 'en' ? enUrl : viUrl,
       languages: { vi: viUrl, en: enUrl },
     },
     openGraph: {
-      title: meta.title,
-      description: meta.description,
+      title,
+      description,
       type: 'article',
       publishedTime: meta.publishedAt,
     },
@@ -52,9 +104,26 @@ export default function ReportPage({
 
   const { meta } = report;
   const locale = params.locale as 'vi' | 'en';
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'SportsEvent',
+    name: `${meta.homeTeam} vs ${meta.awayTeam} — FIFA World Cup 2026`,
+    description: buildDescription(meta, locale),
+    keywords: buildKeywords(meta, locale).join(', '),
+    startDate: meta.kickoff,
+    location: { '@type': 'Place', name: meta.stadium },
+    homeTeam: { '@type': 'SportsTeam', name: meta.homeTeam },
+    awayTeam: { '@type': 'SportsTeam', name: meta.awayTeam },
+    superEvent: { '@type': 'SportsEvent', name: 'FIFA World Cup 2026' },
+    url: locale === 'en' ? `${BASE}/en/reports/${params.slug}` : `${BASE}/reports/${params.slug}`,
+  };
 
   return (
     <main className="py-8 max-w-3xl mx-auto">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <nav className="text-xs text-slate-400 mb-4 flex items-center gap-1.5">
         <SmartLink href="/" className="hover:text-slate-600 dark:hover:text-slate-300 transition">
           {locale === 'vi' ? 'Trang chủ' : 'Home'}

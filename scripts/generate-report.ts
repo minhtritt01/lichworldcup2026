@@ -178,10 +178,10 @@ ${general.homeTeam}: ${homePlayers}
 ${general.awayTeam}: ${awayPlayers}
 
 YÊU CẦU: Viết 4 đoạn phân tích bằng tiếng Việt, mỗi đoạn 100-150 từ:
-1. ## Phân tích chiến thuật — sơ đồ, vùng chiến thuật then chốt, điểm yếu có thể khai thác
-2. ## Phong độ và tâm lý — phong độ gần đây, áp lực tâm lý
-3. ## Đội hình và nhân sự — dự kiến đội hình, cầu thủ quan trọng
-4. ## Lịch sử đối đầu — head-to-head và ý nghĩa trận này
+1. ## Nhận định chiến thuật trận đấu — sơ đồ, vùng chiến thuật then chốt, điểm yếu có thể khai thác
+2. ## Phong độ & Tâm lý thi đấu — phong độ gần đây, áp lực tâm lý
+3. ## Đội hình ra sân dự kiến — danh sách cầu thủ dự kiến, nhân tố quan trọng
+4. ## Dự đoán tỷ số & Tỷ lệ thắng — lịch sử đối đầu, nhận định kết quả
 
 Chỉ trả lời nội dung markdown thuần, KHÔNG dùng code fence.`;
   }
@@ -202,8 +202,8 @@ ${general.awayTeam}: ${awayPlayers}
 Write 4 sections, each 100-150 words:
 1. ## Tactical Analysis — formations, key battle zones, exploitable weaknesses
 2. ## Form & Momentum — recent results, psychological edge
-3. ## Team News & Lineups — expected XI, key players to watch
-4. ## Head-to-Head Record — h2h history and what it means
+3. ## Predicted Lineup & Key Players — expected starting XI, players to watch
+4. ## Score Prediction & Match Odds — head-to-head history and final verdict
 
 Plain markdown only, NO code fences.`;
 }
@@ -224,10 +224,10 @@ ${general.homeTeam}: ${homePlayers}
 ${general.awayTeam}: ${awayPlayers}
 
 YÊU CẦU: Viết 4 đoạn phân tích bằng tiếng Việt, mỗi đoạn 120-150 từ:
-1. ## Diễn biến trận đấu — tường thuật các giai đoạn chính, bàn thắng, bước ngoặt
-2. ## Phân tích chiến thuật — chiến lược hai đội, điều chỉnh trong trận, ai thắng cuộc chiến sơ đồ
-3. ## Điểm nhấn và bước ngoặt — khoảnh khắc quyết định trận đấu (cụ thể phút, tình huống)
-4. ## Nhận xét sau trận — ảnh hưởng bảng xếp hạng, nhận xét HLV hai đội
+1. ## Tường thuật trận đấu — diễn biến các giai đoạn chính, bàn thắng, bước ngoặt
+2. ## Nhận định chiến thuật — chiến lược hai đội, điều chỉnh trong trận, ai thắng cuộc chiến sơ đồ
+3. ## Bước ngoặt quyết định — khoảnh khắc định đoạt trận đấu (cụ thể phút, tình huống)
+4. ## Phân tích sau trận — ảnh hưởng bảng xếp hạng, nhận xét HLV hai đội
 
 Chỉ trả lời nội dung markdown thuần, KHÔNG dùng code fence.`;
   }
