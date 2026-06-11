@@ -12,6 +12,7 @@ import MatchTimeline from '../../../../components/MatchTimeline';
 import LineupPitch from '../../../../components/LineupPitch';
 import { loadMatchDetails } from '../../../../lib/live-match-details';
 import SmartLink from '../../../../components/SmartLink';
+import { FREE_BROADCASTS } from '../../../../lib/broadcasts-data';
 
 export function generateStaticParams() {
   return locales.flatMap(locale =>
@@ -84,20 +85,7 @@ export default async function MatchDetailPage({
   const t = await getTranslations({ locale });
   const details = loadMatchDetails(m, locale);
 
-  const defaultBroadcasts = {
-    vi: [
-      { name: 'VTV2', url: 'https://vtvgo.vn/xem-truc-tiep-kenh-vtv2-2.html' },
-      { name: 'VTVGo', url: `https://vtvgo.vn/xem-truc-tiep-${m.home_slug}-vs-${m.away_slug}.html` },
-      { name: 'FPT Play', url: `https://fptplay.vn/xem-truc-tiep/${m.home_slug}-vs-${m.away_slug}` },
-    ],
-    en: [
-      { name: 'Fox Sports Live', url: `https://www.foxsports.com/live/${m.home_slug}-vs-${m.away_slug}` },
-      { name: 'Telemundo', url: `https://www.telemundo.com/shows/fifa-world-cup/${m.home_slug}-vs-${m.away_slug}` },
-      { name: 'Peacock Live', url: `https://www.peacocktv.com/watch/sports/${m.home_slug}-vs-${m.away_slug}` },
-    ],
-  };
-
-  const broadcastList = m.broadcasts?.[locale] || defaultBroadcasts[locale];
+  const broadcastList = m.broadcasts?.[locale] ?? FREE_BROADCASTS[locale];
   const homeName = getTeamName(m.home_slug, locale);
   const awayName = getTeamName(m.away_slug, locale);
 
@@ -258,6 +246,11 @@ export default async function MatchDetailPage({
                   rel="noopener noreferrer"
                   className="group flex flex-col items-center justify-center rounded-xl border border-slate-200 bg-slate-50 p-4 text-center transition hover:border-blue-500 hover:bg-blue-50/60 dark:border-slate-800 dark:bg-slate-950/40 dark:hover:border-blue-400 dark:hover:bg-blue-950/30"
                 >
+                  {'region' in channel && channel.region && (
+                    <span className="mb-1 rounded px-1.5 py-0.5 text-[9px] font-semibold uppercase tracking-wider bg-slate-200 text-slate-500 dark:bg-slate-800 dark:text-slate-400">
+                      {channel.region}
+                    </span>
+                  )}
                   <span className="text-sm font-semibold text-slate-800 transition group-hover:text-blue-600 dark:text-slate-100 dark:group-hover:text-blue-300">
                     {channel.name}
                   </span>

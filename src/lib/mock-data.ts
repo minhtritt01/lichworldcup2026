@@ -14,8 +14,8 @@ export interface MockMatch {
   city: string;
   country: string;
   broadcasts?: {
-    vi: Array<{ name: string; url?: string }>;
-    en: Array<{ name: string; url?: string }>;
+    vi: Array<{ name: string; url?: string; region?: string }>;
+    en: Array<{ name: string; url?: string; region?: string }>;
   };
 }
 
@@ -41,16 +41,6 @@ export const MOCK_MATCHES: MockMatch[] = [
     stadium: "Estadio Azteca",
     city: "Mexico City",
     country: "Mexico",
-    broadcasts: {
-      vi: [
-        { name: "VTV2", url: "https://vtvgo.vn/xem-truc-tiep-kenh-vtv2-2.html" },
-        { name: "VTVGo", url: "https://vtvgo.vn/xem-truc-tiep-mexico-vs-nam-phi.html" }
-      ],
-      en: [
-        { name: "Fox Sports Live", url: "https://www.foxsports.com/live/mexico-vs-south-africa" },
-        { name: "Telemundo", url: "https://www.telemundo.com/shows/fifa-world-cup/mexico-vs-south-africa" }
-      ]
-    }
   },
   {
     match_number: 2,
@@ -67,16 +57,6 @@ export const MOCK_MATCHES: MockMatch[] = [
     stadium: "Estadio Akron",
     city: "Zapopan",
     country: "Mexico",
-    broadcasts: {
-      vi: [
-        { name: "VTV5", url: "https://vtvgo.vn/xem-truc-tiep-kenh-vtv5-5.html" },
-        { name: "FPT Play", url: "https://fptplay.vn/xem-truc-tiep/han-quoc-vs-sec" }
-      ],
-      en: [
-        { name: "FS1 Live", url: "https://www.foxsports.com/live/south-korea-vs-czech-republic" },
-        { name: "Peacock Live", url: "https://www.peacocktv.com/watch/sports/south-korea-vs-czech-republic" }
-      ]
-    }
   },
 
   // Friday, June 12
