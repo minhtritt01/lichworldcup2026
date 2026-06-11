@@ -21,8 +21,34 @@ export async function generateMetadata({
     title: t('homeTitle'),
     description: t('homeDesc'),
     keywords: params.locale === 'vi'
-      ? ['trực tiếp bóng đá', 'truc tiep bong da', 'lịch thi đấu World Cup 2026', 'kết quả World Cup 2026']
-      : ['World Cup 2026 live', 'World Cup 2026 scores', 'World Cup 2026 schedule', 'FIFA 2026'],
+      ? [
+          'trực tiếp bóng đá world cup 2026',
+          'truc tiep bong da world cup 2026',
+          'lịch thi đấu world cup 2026 hôm nay',
+          'kết quả world cup 2026',
+          'bảng xếp hạng world cup 2026',
+          'tỉ số world cup 2026 mới nhất',
+          'world cup 2026 xem kênh nào',
+          'lịch thi đấu vòng bảng world cup 2026',
+          'nhận định world cup 2026',
+          'dự đoán tỷ số world cup 2026',
+          'world cup 2026 vòng 1/8',
+          'world cup 2026 bán kết',
+        ]
+      : [
+          'World Cup 2026 live score',
+          'World Cup 2026 schedule today',
+          'FIFA World Cup 2026 results',
+          'World Cup 2026 group standings',
+          'World Cup 2026 live stream',
+          'FIFA 2026 match scores',
+          'World Cup 2026 round of 16',
+          'World Cup 2026 predictions',
+          'World Cup 2026 lineup today',
+          'World Cup 2026 kickoff time',
+          '2026 FIFA World Cup scores',
+          'World Cup 2026 quarter final',
+        ],
     openGraph: {
       type: 'website',
       locale: params.locale === 'vi' ? 'vi_VN' : 'en_US',

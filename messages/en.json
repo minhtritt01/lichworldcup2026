@@ -98,7 +98,7 @@
   "meta": {
     "homeTitle": "World Cup 2026 Live Scores — Schedule & Results Updated Every 15s",
     "homeDesc": "Follow live scores, the full 104-match schedule and standings for the 2026 FIFA World Cup. 48 teams, auto-updated.",
-    "matchTitle": "Live: {home} vs {away} | 2026 World Cup Score",
-    "matchDesc": "Follow live commentary and score updates for {home} vs {away} ({stage}) at {stadium}. Kickoff: {kickoff}. Updated every 15 seconds."
+    "matchTitle": "{home} vs {away} Live Score — 2026 FIFA World Cup {stage}",
+    "matchDesc": "Live score & match updates for {home} vs {away} at the 2026 FIFA World Cup {stage}, {stadium}. Kickoff: {kickoff} ICT. Real-time events, lineups & stats — updated every 15 seconds."
   }
 }

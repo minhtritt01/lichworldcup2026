@@ -31,6 +31,26 @@ export async function generateMetadata({
     description: isEn
       ? `Full ${name} squad list (${team.players.length} players), coach ${team.coach}, FIFA rank #${team.fifaRank} — Group ${team.group} at the 2026 FIFA World Cup.`
       : `Danh sách cầu thủ ${name} (${team.players.length} người), HLV ${team.coach}, FIFA hạng #${team.fifaRank} — Bảng ${team.group} tại World Cup 2026.`,
+    keywords: isEn
+      ? [
+          `${name} World Cup 2026`,
+          `${name} squad 2026`,
+          `${name} lineup World Cup 2026`,
+          `${name} world cup schedule`,
+          `${name} world cup results`,
+          `${name} FIFA rank 2026`,
+          `${name} group ${team.group} world cup`,
+          `${name} coach ${team.coach}`,
+        ]
+      : [
+          `${name} world cup 2026`,
+          `đội hình ${name} world cup 2026`,
+          `lịch thi đấu ${name} world cup 2026`,
+          `kết quả ${name} world cup 2026`,
+          `${name} bảng ${team.group} world cup`,
+          `${name} HLV ${team.coach}`,
+          `${name} danh sách cầu thủ 2026`,
+        ],
     alternates: {
       languages: {
         vi: `${BASE}/teams/${team.slug}`,

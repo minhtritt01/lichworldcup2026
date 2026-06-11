@@ -98,7 +98,7 @@
   "meta": {
     "homeTitle": "Trực Tiếp World Cup 2026 — Lịch thi đấu & Tỉ số cập nhật 15 giây",
     "homeDesc": "Theo dõi trực tiếp kết quả, lịch thi đấu 104 trận, bảng xếp hạng World Cup 2026. 48 đội, cập nhật tự động.",
-    "matchTitle": "Trực tiếp {home} vs {away} | Tỉ số World Cup 2026",
-    "matchDesc": "Xem diễn biến, kết quả, tỉ số trận {home} vs {away} ({stage}) tại {stadium}. Giờ VN: {kickoff}. Cập nhật 15 giây."
+    "matchTitle": "Trực tiếp {home} vs {away} — Tỉ số World Cup 2026 {stage}",
+    "matchDesc": "Tỉ số & diễn biến trực tiếp {home} vs {away} tại {stage} World Cup 2026, sân {stadium}. Giờ VN: {kickoff}. Kết quả, đội hình & thống kê cập nhật 15 giây."
   }
 }

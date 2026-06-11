@@ -44,10 +44,34 @@ export async function generateMetadata({
   const viUrl = `https://lichworldcup2026.vn/live/${m.match_id}`;
   const enUrl = `https://lichworldcup2026.vn/en/live/${m.match_id}`;
 
+  const keywords = locale === 'vi'
+    ? [
+        `trực tiếp ${homeName} vs ${awayName}`,
+        `${homeName} vs ${awayName} tỉ số`,
+        `${homeName} đấu ${awayName} world cup 2026`,
+        `xem ${homeName} vs ${awayName} ở đâu`,
+        `${homeName} vs ${awayName} mấy giờ`,
+        `kết quả ${homeName} vs ${awayName}`,
+        `${homeName} world cup 2026`,
+        `${awayName} world cup 2026`,
+        `trực tiếp ${stageLabel} world cup 2026`,
+      ]
+    : [
+        `${homeName} vs ${awayName} live score`,
+        `${homeName} vs ${awayName} World Cup 2026`,
+        `${homeName} vs ${awayName} prediction`,
+        `${homeName} vs ${awayName} lineup`,
+        `${homeName} vs ${awayName} kickoff time`,
+        `${homeName} World Cup 2026`,
+        `${awayName} World Cup 2026`,
+        `${stageLabel} World Cup 2026 live`,
+      ];
+
   return {
     metadataBase: new URL('https://lichworldcup2026.vn'),
     title: t('matchTitle', { home: homeName, away: awayName }),
     description: t('matchDesc', { home: homeName, away: awayName, stage: stageLabel, stadium: m.stadium, kickoff }),
+    keywords,
     alternates: {
       canonical: locale === 'en' ? enUrl : viUrl,
       languages: { vi: viUrl, en: enUrl },
