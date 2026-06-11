@@ -1,7 +1,8 @@
 import { MetadataRoute } from 'next';
 import { MOCK_MATCHES } from '../lib/mock-data';
+import { TEAMS_DATA } from '../lib/teams-data';
 
-const BASE = (process.env.NEXT_PUBLIC_BASE_URL ?? 'https://lichworldcup2026.vn').replace(/\/$/, '');
+const BASE = (process.env.NEXT_PUBLIC_BASE_URL ?? 'https://worldcup2026live.vn').replace(/\/$/, '');
 
 function matchPriority(matchNumber: number): number {
   if (matchNumber >= 101) return 1.0;
@@ -12,7 +13,7 @@ function matchPriority(matchNumber: number): number {
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const viPages: MetadataRoute.Sitemap = MOCK_MATCHES.map(m => ({
+  const viMatchPages: MetadataRoute.Sitemap = MOCK_MATCHES.map(m => ({
     url: `${BASE}/live/${m.match_id}`,
     lastModified: new Date(m.kickoff_utc),
     changeFrequency: 'hourly' as const,
@@ -25,7 +26,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   }));
 
-  const enPages: MetadataRoute.Sitemap = MOCK_MATCHES.map(m => ({
+  const enMatchPages: MetadataRoute.Sitemap = MOCK_MATCHES.map(m => ({
     url: `${BASE}/en/live/${m.match_id}`,
     lastModified: new Date(m.kickoff_utc),
     changeFrequency: 'hourly' as const,
@@ -34,6 +35,32 @@ export default function sitemap(): MetadataRoute.Sitemap {
       languages: {
         vi: `${BASE}/live/${m.match_id}`,
         en: `${BASE}/en/live/${m.match_id}`,
+      },
+    },
+  }));
+
+  const viTeamPages: MetadataRoute.Sitemap = TEAMS_DATA.map(t => ({
+    url: `${BASE}/teams/${t.slug}`,
+    lastModified: new Date('2026-06-02'),
+    changeFrequency: 'weekly' as const,
+    priority: 0.7,
+    alternates: {
+      languages: {
+        vi: `${BASE}/teams/${t.slug}`,
+        en: `${BASE}/en/teams/${t.slug}`,
+      },
+    },
+  }));
+
+  const enTeamPages: MetadataRoute.Sitemap = TEAMS_DATA.map(t => ({
+    url: `${BASE}/en/teams/${t.slug}`,
+    lastModified: new Date('2026-06-02'),
+    changeFrequency: 'weekly' as const,
+    priority: 0.7,
+    alternates: {
+      languages: {
+        vi: `${BASE}/teams/${t.slug}`,
+        en: `${BASE}/en/teams/${t.slug}`,
       },
     },
   }));
@@ -53,7 +80,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1.0,
       alternates: { languages: { vi: BASE, en: `${BASE}/en` } },
     },
-    ...viPages,
-    ...enPages,
+    {
+      url: `${BASE}/teams`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+      alternates: { languages: { vi: `${BASE}/teams`, en: `${BASE}/en/teams` } },
+    },
+    {
+      url: `${BASE}/en/teams`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+      alternates: { languages: { vi: `${BASE}/teams`, en: `${BASE}/en/teams` } },
+    },
+    ...viMatchPages,
+    ...enMatchPages,
+    ...viTeamPages,
+    ...enTeamPages,
   ];
 }
