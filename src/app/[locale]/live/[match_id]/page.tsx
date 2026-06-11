@@ -10,7 +10,7 @@ import MatchCard from '../../../../components/MatchCard';
 import StadiumCard from '../../../../components/StadiumCard';
 import MatchTimeline from '../../../../components/MatchTimeline';
 import LineupPitch from '../../../../components/LineupPitch';
-import { buildLiveMatchDetails } from '../../../../lib/live-match-details';
+import { loadMatchDetails } from '../../../../lib/live-match-details';
 import SmartLink from '../../../../components/SmartLink';
 
 export function generateStaticParams() {
@@ -82,7 +82,7 @@ export default async function MatchDetailPage({
 
   const locale = params.locale as 'vi' | 'en';
   const t = await getTranslations({ locale });
-  const details = buildLiveMatchDetails(m, locale);
+  const details = loadMatchDetails(m, locale);
 
   const defaultBroadcasts = {
     vi: [

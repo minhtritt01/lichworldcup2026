@@ -1,3 +1,5 @@
+import { readFileSync, existsSync } from 'fs';
+import { join } from 'path';
 import type { MockMatch } from './mock-data';
 import { getTeamName } from './team-names';
 
@@ -74,49 +76,24 @@ function buildLineup(
   };
 }
 
+export function loadMatchDetails(match: MockMatch, locale: 'vi' | 'en' = 'en'): LiveMatchDetails {
+  const detailsPath = join(process.cwd(), 'content', 'match-details', `${match.match_id}.json`);
+  if (existsSync(detailsPath)) {
+    const raw = JSON.parse(readFileSync(detailsPath, 'utf-8')) as LiveMatchDetails;
+    // Patch teamName with locale-aware name so VI/EN renders correctly
+    return {
+      ...raw,
+      homeLineup: { ...raw.homeLineup, teamName: getTeamName(match.home_slug, locale) },
+      awayLineup: { ...raw.awayLineup, teamName: getTeamName(match.away_slug, locale) },
+    };
+  }
+  return buildLiveMatchDetails(match, locale);
+}
+
 export function buildLiveMatchDetails(match: MockMatch, locale: 'vi' | 'en' = 'en'): LiveMatchDetails {
   const homeLineup = buildLineup(match, 'home', '#ef4444', locale);
   const awayLineup = buildLineup(match, 'away', '#2563eb', locale);
-  const homeDisplayName = getTeamName(match.home_slug, locale);
-  const awayDisplayName = getTeamName(match.away_slug, locale);
-
-  const incidents: MatchIncident[] = [
-    {
-      minute: 8,
-      type: 'yellow',
-      player: `${homeDisplayName} CM`,
-      detail: 'Stopped a dangerous transition in midfield.',
-      teamSlug: match.home_slug,
-    },
-    {
-      minute: 17,
-      type: 'goal',
-      player: `${homeDisplayName} ST`,
-      detail: 'Low finish after a quick two-touch move.',
-      teamSlug: match.home_slug,
-    },
-    {
-      minute: 34,
-      type: 'sub',
-      player: `${awayDisplayName} RW`,
-      detail: 'Tactical change after sustained pressure.',
-      teamSlug: match.away_slug,
-    },
-    {
-      minute: 61,
-      type: 'goal',
-      player: `${awayDisplayName} ST`,
-      detail: 'Header from a clipped cross at the near post.',
-      teamSlug: match.away_slug,
-    },
-    {
-      minute: 79,
-      type: 'red',
-      player: `${homeDisplayName} CB`,
-      detail: 'Second yellow for a late challenge.',
-      teamSlug: match.home_slug,
-    },
-  ];
+  const incidents: MatchIncident[] = [];
 
   return {
     incidents,
