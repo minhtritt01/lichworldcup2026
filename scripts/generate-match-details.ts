@@ -19,10 +19,11 @@ import { writeFileSync, readFileSync, mkdirSync, existsSync } from 'fs';
 import { join } from 'path';
 import { spawnSync } from 'child_process';
 import { MOCK_MATCHES } from '../src/lib/mock-data';
+import { TEAMS_DATA } from '../src/lib/teams-data';
 import type { MatchIncident, PlayerPosition, TeamLineup, LiveMatchDetails } from '../src/lib/live-match-details';
 import type { MatchPostData } from './fotmob';
 
-// ─── Claude call ──────────────────────────────────────────
+// ─── Claude call (used only for post-match incidents) ─────
 
 function runClaude(prompt: string): string {
   const result = spawnSync('claude', ['--print', '--model', 'haiku'], {
@@ -96,32 +97,86 @@ function getTemplate(formation: string): PitchSlot[] {
   return PITCH_433;
 }
 
+// ─── TEAMS_DATA lineup builder ────────────────────────────
+
+function toSlug(name: string): string {
+  return name.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+}
+
+const TEAM_NAME_ALIASES: Record<string, string> = {
+  'bosnia & herzegovina': 'bosnia-and-herzegovina',
+  'bosnia and herzegovina': 'bosnia-and-herzegovina',
+  'usa': 'my',
+  'south korea': 'han-quoc',
+  'czechia': 'sec',
+  "côte d'ivoire": 'cote-d-ivoire',
+  'turkey': 'tho-nhi-ky',
+  'türkiye': 'tho-nhi-ky',
+};
+
+function findTeamSlug(name: string): string {
+  const lower = name.toLowerCase();
+  return TEAM_NAME_ALIASES[lower] ?? toSlug(name);
+}
+
+function buildLineupFromData(
+  teamSlug: string,
+  teamName: string,
+  accent: string,
+  mirrored: boolean
+): TeamLineup {
+  const team = TEAMS_DATA.find(t => t.slug === teamSlug)
+    ?? TEAMS_DATA.find(t => t.slug === findTeamSlug(teamName));
+
+  let formation = '4-3-3';
+  let players: PlayerPosition[] = [];
+
+  if (team?.players?.length) {
+    const gks  = team.players.filter(p => p.pos === 'GK');
+    const defs = team.players.filter(p => p.pos === 'DF');
+    const mids = team.players.filter(p => p.pos === 'MF');
+    const fwds = team.players.filter(p => p.pos === 'FW');
+
+    const xi = [
+      ...(gks.slice(0, 1)),
+      ...defs.slice(0, 4),
+      ...mids.slice(0, 3),
+      ...fwds.slice(0, 3),
+    ].slice(0, 11);
+
+    const defCount = Math.min(defs.length, 4);
+    const midCount = Math.min(mids.length, 3);
+    const fwdCount = Math.min(fwds.length, 3);
+    if (defCount === 4 && midCount === 4 && fwdCount === 2) formation = '4-4-2';
+    else if (defCount === 4 && midCount === 2 && fwdCount === 3) formation = '4-2-3-1';
+    else formation = '4-3-3';
+
+    const template = getTemplate(formation);
+    players = xi.map((p, i) => {
+      const slot = template[i] ?? template[template.length - 1];
+      return {
+        name: p.name,
+        number: p.no,
+        role: slot.role,
+        x: slot.x,
+        y: mirrored ? 100 - slot.y : slot.y,
+        teamSlug,
+        captain: !!p.captain,
+      };
+    });
+  }
+
+  return { teamSlug, teamName, formation, accent, players };
+}
+
 // ─── Prompts ──────────────────────────────────────────────
 
-interface AILineupPlayer { name: string; number: number; }
-interface AILineupResponse { formation: string; players: AILineupPlayer[]; }
 interface AIIncident {
   minute: number;
   type: 'goal' | 'yellow' | 'red' | 'sub';
   player: string;
   detail: string;
   team: 'home' | 'away';
-}
-
-function lineupPrompt(teamName: string, opponent: string, stage: string): string {
-  return `You are a football data expert. Generate the projected starting XI for ${teamName} vs ${opponent} at World Cup 2026 (${stage}).
-
-Use real active players (2025-2026 season). Return ONLY valid JSON, no markdown fences.
-
-{
-  "formation": "4-3-3",
-  "players": [
-    { "name": "PlayerName", "number": 1 },
-    ... 11 players in positional order: GK, RB, CB, CB, LB, DM, CM, CM, RW, ST, LW
-  ]
-}
-
-Rules: exactly 11 players, formation one of "4-3-3"/"4-4-2"/"4-2-3-1", GK number is 1.`;
 }
 
 function postIncidentsPrompt(
@@ -164,30 +219,6 @@ Rules:
 - detail should be specific: technique, body part, distance, assist, context`;
 }
 
-// ─── Builders ─────────────────────────────────────────────
-
-function buildLineup(
-  ai: AILineupResponse,
-  teamSlug: string,
-  teamName: string,
-  accent: string,
-  mirrored: boolean
-): TeamLineup {
-  const template = getTemplate(ai.formation);
-  const players: PlayerPosition[] = ai.players.slice(0, 11).map((p, i) => {
-    const slot = template[i] ?? template[template.length - 1];
-    return {
-      name: p.name,
-      number: p.number,
-      role: slot.role,
-      x: slot.x,
-      y: mirrored ? 100 - slot.y : slot.y,
-      teamSlug,
-    };
-  });
-  return { teamSlug, teamName, formation: ai.formation, accent, players };
-}
-
 // ─── Pre-match: lineups only ──────────────────────────────
 
 async function generateLineups(matchId: string, outDir: string): Promise<void> {
@@ -196,16 +227,11 @@ async function generateLineups(matchId: string, outDir: string): Promise<void> {
 
   console.log(`\n⚽ ${m.home_team} vs ${m.away_team} (${matchId})`);
 
-  process.stdout.write(`   🤖 Home lineup (${m.home_team})...`);
-  const homeAI = extractJson<AILineupResponse>(runClaude(lineupPrompt(m.home_team, m.away_team, m.stage)));
-  console.log(` ✅  ${homeAI.formation}`);
+  const homeLineup = buildLineupFromData(m.home_slug, m.home_team, '#ef4444', true);
+  const awayLineup = buildLineupFromData(m.away_slug, m.away_team, '#2563eb', false);
 
-  process.stdout.write(`   🤖 Away lineup (${m.away_team})...`);
-  const awayAI = extractJson<AILineupResponse>(runClaude(lineupPrompt(m.away_team, m.home_team, m.stage)));
-  console.log(` ✅  ${awayAI.formation}`);
-
-  const homeLineup = buildLineup(homeAI, m.home_slug, m.home_team, '#ef4444', true);
-  const awayLineup = buildLineup(awayAI, m.away_slug, m.away_team, '#2563eb', false);
+  console.log(`   ✅ ${m.home_team}: ${homeLineup.formation} (${homeLineup.players.length} players)`);
+  console.log(`   ✅ ${m.away_team}: ${awayLineup.formation} (${awayLineup.players.length} players)`);
 
   // incidents intentionally empty — will be filled by --post after match
   const details: LiveMatchDetails = { incidents: [], homeLineup, awayLineup };

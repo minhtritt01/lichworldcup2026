@@ -1,0 +1,217 @@
+{
+  "incidents": [],
+  "homeLineup": {
+    "teamSlug": "haiti",
+    "teamName": "Haiti",
+    "formation": "4-3-3",
+    "accent": "#ef4444",
+    "players": [
+      {
+        "name": "Johny Placide",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 12,
+        "teamSlug": "haiti",
+        "captain": true
+      },
+      {
+        "name": "Ricardo Adé",
+        "number": 4,
+        "role": "RB",
+        "x": 14,
+        "y": 28,
+        "teamSlug": "haiti",
+        "captain": false
+      },
+      {
+        "name": "Carlens Arcus",
+        "number": 5,
+        "role": "CB",
+        "x": 36,
+        "y": 30,
+        "teamSlug": "haiti",
+        "captain": false
+      },
+      {
+        "name": "Martin Expérience",
+        "number": 6,
+        "role": "CB",
+        "x": 64,
+        "y": 30,
+        "teamSlug": "haiti",
+        "captain": false
+      },
+      {
+        "name": "Jean-Kévin Duverne",
+        "number": 7,
+        "role": "LB",
+        "x": 86,
+        "y": 28,
+        "teamSlug": "haiti",
+        "captain": false
+      },
+      {
+        "name": "Leverton Pierre",
+        "number": 12,
+        "role": "DM",
+        "x": 22,
+        "y": 48,
+        "teamSlug": "haiti",
+        "captain": false
+      },
+      {
+        "name": "Danley Jean Jacques",
+        "number": 13,
+        "role": "CM",
+        "x": 50,
+        "y": 56,
+        "teamSlug": "haiti",
+        "captain": false
+      },
+      {
+        "name": "Carl Sainté",
+        "number": 14,
+        "role": "CM",
+        "x": 78,
+        "y": 48,
+        "teamSlug": "haiti",
+        "captain": false
+      },
+      {
+        "name": "Duckens Nazon",
+        "number": 18,
+        "role": "RW",
+        "x": 18,
+        "y": 76,
+        "teamSlug": "haiti",
+        "captain": false
+      },
+      {
+        "name": "Frantzdy Pierrot",
+        "number": 19,
+        "role": "ST",
+        "x": 50,
+        "y": 84,
+        "teamSlug": "haiti",
+        "captain": false
+      },
+      {
+        "name": "Derrick Etienne Jr.",
+        "number": 20,
+        "role": "LW",
+        "x": 82,
+        "y": 76,
+        "teamSlug": "haiti",
+        "captain": false
+      }
+    ]
+  },
+  "awayLineup": {
+    "teamSlug": "scotland",
+    "teamName": "Scotland",
+    "formation": "4-3-3",
+    "accent": "#2563eb",
+    "players": [
+      {
+        "name": "Craig Gordon",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 88,
+        "teamSlug": "scotland",
+        "captain": false
+      },
+      {
+        "name": "Andy Robertson",
+        "number": 4,
+        "role": "RB",
+        "x": 14,
+        "y": 72,
+        "teamSlug": "scotland",
+        "captain": true
+      },
+      {
+        "name": "Grant Hanley",
+        "number": 5,
+        "role": "CB",
+        "x": 36,
+        "y": 70,
+        "teamSlug": "scotland",
+        "captain": false
+      },
+      {
+        "name": "Kieran Tierney",
+        "number": 6,
+        "role": "CB",
+        "x": 64,
+        "y": 70,
+        "teamSlug": "scotland",
+        "captain": false
+      },
+      {
+        "name": "Scott McKenna",
+        "number": 7,
+        "role": "LB",
+        "x": 86,
+        "y": 72,
+        "teamSlug": "scotland",
+        "captain": false
+      },
+      {
+        "name": "John McGinn",
+        "number": 14,
+        "role": "DM",
+        "x": 22,
+        "y": 52,
+        "teamSlug": "scotland",
+        "captain": false
+      },
+      {
+        "name": "Scott McTominay",
+        "number": 15,
+        "role": "CM",
+        "x": 50,
+        "y": 44,
+        "teamSlug": "scotland",
+        "captain": false
+      },
+      {
+        "name": "Ryan Christie",
+        "number": 16,
+        "role": "CM",
+        "x": 78,
+        "y": 52,
+        "teamSlug": "scotland",
+        "captain": false
+      },
+      {
+        "name": "Lyndon Dykes",
+        "number": 22,
+        "role": "RW",
+        "x": 18,
+        "y": 24,
+        "teamSlug": "scotland",
+        "captain": false
+      },
+      {
+        "name": "Lawrence Shankland",
+        "number": 23,
+        "role": "ST",
+        "x": 50,
+        "y": 16,
+        "teamSlug": "scotland",
+        "captain": false
+      },
+      {
+        "name": "Che Adams",
+        "number": 24,
+        "role": "LW",
+        "x": 82,
+        "y": 24,
+        "teamSlug": "scotland",
+        "captain": false
+      }
+    ]
+  }
+}

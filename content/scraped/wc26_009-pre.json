@@ -1,0 +1,317 @@
+{
+  "matchId": "wc26_009",
+  "eventId": "2391733",
+  "status": "upcoming",
+  "scrapedAt": "2026-06-11T18:10:59.926Z",
+  "general": {
+    "homeTeam": "Germany",
+    "homeSlug": "duc",
+    "awayTeam": "Curaçao",
+    "awaySlug": "curacao",
+    "stage": "FIFA World Cup",
+    "group": "E",
+    "kickoffUTC": "2026-06-14T17:00:00",
+    "venue": "Reliant Stadium",
+    "referee": ""
+  },
+  "form": {
+    "home": [
+      {
+        "opponent": "Finland",
+        "result": "W",
+        "score": "4-0",
+        "date": "2026-05-31"
+      }
+    ],
+    "away": [
+      {
+        "opponent": "Aruba",
+        "result": "W",
+        "score": "4-0",
+        "date": "2026-06-07"
+      }
+    ]
+  },
+  "squads": {
+    "home": [
+      {
+        "name": "Manuel Neuer",
+        "number": 1,
+        "position": "GK",
+        "age": 40
+      },
+      {
+        "name": "Marc-André ter Stegen",
+        "number": 2,
+        "position": "GK",
+        "age": 34
+      },
+      {
+        "name": "Oliver Baumann",
+        "number": 3,
+        "position": "GK",
+        "age": 36
+      },
+      {
+        "name": "Joshua Kimmich",
+        "number": 4,
+        "position": "DF",
+        "age": 31
+      },
+      {
+        "name": "Antonio Rüdiger",
+        "number": 5,
+        "position": "DF",
+        "age": 33
+      },
+      {
+        "name": "Jonathan Tah",
+        "number": 6,
+        "position": "DF",
+        "age": 30
+      },
+      {
+        "name": "Robin Koch",
+        "number": 7,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "David Raum",
+        "number": 8,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Maximilian Mittelstädt",
+        "number": 9,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Jamal Musiala",
+        "number": 10,
+        "position": "MF",
+        "age": 23
+      },
+      {
+        "name": "Florian Wirtz",
+        "number": 11,
+        "position": "MF",
+        "age": 23
+      },
+      {
+        "name": "Toni Kroos",
+        "number": 12,
+        "position": "MF",
+        "age": 36
+      },
+      {
+        "name": "Leon Goretzka",
+        "number": 13,
+        "position": "MF",
+        "age": 31
+      },
+      {
+        "name": "Emre Can",
+        "number": 14,
+        "position": "MF",
+        "age": 32
+      },
+      {
+        "name": "Ilkay Gündogan",
+        "number": 15,
+        "position": "MF",
+        "age": 35
+      },
+      {
+        "name": "Aleksandar Pavlović",
+        "number": 16,
+        "position": "MF",
+        "age": 21
+      },
+      {
+        "name": "Kai Havertz",
+        "number": 17,
+        "position": "FW",
+        "age": 27
+      },
+      {
+        "name": "Leroy Sané",
+        "number": 18,
+        "position": "FW",
+        "age": 30
+      },
+      {
+        "name": "Maximilian Beier",
+        "number": 19,
+        "position": "FW",
+        "age": 23
+      },
+      {
+        "name": "Niclas Füllkrug",
+        "number": 20,
+        "position": "FW",
+        "age": 33
+      },
+      {
+        "name": "Denis Undav",
+        "number": 21,
+        "position": "FW",
+        "age": 29
+      },
+      {
+        "name": "Nick Woltemade",
+        "number": 22,
+        "position": "FW",
+        "age": 24
+      },
+      {
+        "name": "Assan Ouédraogo",
+        "number": 23,
+        "position": "FW",
+        "age": 19
+      }
+    ],
+    "away": [
+      {
+        "name": "Eloy Room",
+        "number": 1,
+        "position": "GK",
+        "age": 37
+      },
+      {
+        "name": "Shurandy Sambo",
+        "number": 2,
+        "position": "DF",
+        "age": 24
+      },
+      {
+        "name": "Juriën Gaari",
+        "number": 3,
+        "position": "DF",
+        "age": 32
+      },
+      {
+        "name": "Roshon van Eijma",
+        "number": 4,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Sherel Floranus",
+        "number": 5,
+        "position": "DF",
+        "age": 27
+      },
+      {
+        "name": "Godfried Roemeratoe",
+        "number": 6,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Juninho Bacuna",
+        "number": 7,
+        "position": "MF",
+        "age": 28
+      },
+      {
+        "name": "Livano Comenencia",
+        "number": 8,
+        "position": "MF",
+        "age": 22
+      },
+      {
+        "name": "Jürgen Locadia",
+        "number": 9,
+        "position": "FW",
+        "age": 32
+      },
+      {
+        "name": "Leandro Bacuna",
+        "number": 10,
+        "position": "MF",
+        "age": 34
+      },
+      {
+        "name": "Jeremy Antonisse",
+        "number": 11,
+        "position": "FW",
+        "age": 24
+      },
+      {
+        "name": "Sontje Hansen",
+        "number": 12,
+        "position": "FW",
+        "age": 24
+      },
+      {
+        "name": "Tyrese Noslin",
+        "number": 13,
+        "position": "FW",
+        "age": 23
+      },
+      {
+        "name": "Kenji Gorre",
+        "number": 14,
+        "position": "FW",
+        "age": 31
+      },
+      {
+        "name": "Ar'jany Martha",
+        "number": 15,
+        "position": "MF",
+        "age": 22
+      },
+      {
+        "name": "Jearl Margaritha",
+        "number": 16,
+        "position": "FW",
+        "age": 26
+      },
+      {
+        "name": "Brandley Kuwas",
+        "number": 17,
+        "position": "FW",
+        "age": 33
+      },
+      {
+        "name": "Armando Obispo",
+        "number": 18,
+        "position": "DF",
+        "age": 27
+      },
+      {
+        "name": "Gervane Kastaneer",
+        "number": 19,
+        "position": "FW",
+        "age": 29
+      },
+      {
+        "name": "Joshua Brenet",
+        "number": 20,
+        "position": "DF",
+        "age": 32
+      },
+      {
+        "name": "Tahith Chong",
+        "number": 21,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Kevin Felida",
+        "number": 22,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Riechedly Bazoer",
+        "number": 23,
+        "position": "DF",
+        "age": 29
+      }
+    ]
+  }
+}

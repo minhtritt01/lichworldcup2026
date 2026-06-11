@@ -1,0 +1,217 @@
+{
+  "incidents": [],
+  "homeLineup": {
+    "teamSlug": "my",
+    "teamName": "USA",
+    "formation": "4-3-3",
+    "accent": "#ef4444",
+    "players": [
+      {
+        "name": "Matt Turner",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 12,
+        "teamSlug": "my",
+        "captain": false
+      },
+      {
+        "name": "Sergiño Dest",
+        "number": 2,
+        "role": "RB",
+        "x": 14,
+        "y": 28,
+        "teamSlug": "my",
+        "captain": false
+      },
+      {
+        "name": "Antonee Robinson",
+        "number": 3,
+        "role": "CB",
+        "x": 36,
+        "y": 30,
+        "teamSlug": "my",
+        "captain": false
+      },
+      {
+        "name": "Chris Richards",
+        "number": 4,
+        "role": "CB",
+        "x": 64,
+        "y": 30,
+        "teamSlug": "my",
+        "captain": false
+      },
+      {
+        "name": "Tim Ream",
+        "number": 5,
+        "role": "LB",
+        "x": 86,
+        "y": 28,
+        "teamSlug": "my",
+        "captain": false
+      },
+      {
+        "name": "Weston McKennie",
+        "number": 7,
+        "role": "DM",
+        "x": 22,
+        "y": 48,
+        "teamSlug": "my",
+        "captain": false
+      },
+      {
+        "name": "Tyler Adams",
+        "number": 8,
+        "role": "CM",
+        "x": 50,
+        "y": 56,
+        "teamSlug": "my",
+        "captain": true
+      },
+      {
+        "name": "Cristian Roldan",
+        "number": 17,
+        "role": "CM",
+        "x": 78,
+        "y": 48,
+        "teamSlug": "my",
+        "captain": false
+      },
+      {
+        "name": "Ricardo Pepi",
+        "number": 9,
+        "role": "RW",
+        "x": 18,
+        "y": 76,
+        "teamSlug": "my",
+        "captain": false
+      },
+      {
+        "name": "Christian Pulisic",
+        "number": 10,
+        "role": "ST",
+        "x": 50,
+        "y": 84,
+        "teamSlug": "my",
+        "captain": false
+      },
+      {
+        "name": "Brenden Aaronson",
+        "number": 11,
+        "role": "LW",
+        "x": 82,
+        "y": 76,
+        "teamSlug": "my",
+        "captain": false
+      }
+    ]
+  },
+  "awayLineup": {
+    "teamSlug": "paraguay",
+    "teamName": "Paraguay",
+    "formation": "4-3-3",
+    "accent": "#2563eb",
+    "players": [
+      {
+        "name": "Antony Silva",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 88,
+        "teamSlug": "paraguay",
+        "captain": true
+      },
+      {
+        "name": "Fabián Balbuena",
+        "number": 4,
+        "role": "RB",
+        "x": 14,
+        "y": 72,
+        "teamSlug": "paraguay",
+        "captain": false
+      },
+      {
+        "name": "Gustavo Velázquez",
+        "number": 5,
+        "role": "CB",
+        "x": 36,
+        "y": 70,
+        "teamSlug": "paraguay",
+        "captain": false
+      },
+      {
+        "name": "Omar Alderete",
+        "number": 6,
+        "role": "CB",
+        "x": 64,
+        "y": 70,
+        "teamSlug": "paraguay",
+        "captain": false
+      },
+      {
+        "name": "Junior Alonso",
+        "number": 7,
+        "role": "LB",
+        "x": 86,
+        "y": 72,
+        "teamSlug": "paraguay",
+        "captain": false
+      },
+      {
+        "name": "Mathías Villasanti",
+        "number": 9,
+        "role": "DM",
+        "x": 22,
+        "y": 52,
+        "teamSlug": "paraguay",
+        "captain": false
+      },
+      {
+        "name": "Miguel Almirón",
+        "number": 10,
+        "role": "CM",
+        "x": 50,
+        "y": 44,
+        "teamSlug": "paraguay",
+        "captain": false
+      },
+      {
+        "name": "Andrés Cubas",
+        "number": 11,
+        "role": "CM",
+        "x": 78,
+        "y": 52,
+        "teamSlug": "paraguay",
+        "captain": false
+      },
+      {
+        "name": "Ángel Romero",
+        "number": 17,
+        "role": "RW",
+        "x": 18,
+        "y": 24,
+        "teamSlug": "paraguay",
+        "captain": false
+      },
+      {
+        "name": "Óscar Romero",
+        "number": 18,
+        "role": "ST",
+        "x": 50,
+        "y": 16,
+        "teamSlug": "paraguay",
+        "captain": false
+      },
+      {
+        "name": "Antonio Sanabria",
+        "number": 19,
+        "role": "LW",
+        "x": 82,
+        "y": 24,
+        "teamSlug": "paraguay",
+        "captain": false
+      }
+    ]
+  }
+}

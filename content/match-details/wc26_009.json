@@ -1,0 +1,217 @@
+{
+  "incidents": [],
+  "homeLineup": {
+    "teamSlug": "duc",
+    "teamName": "Germany",
+    "formation": "4-3-3",
+    "accent": "#ef4444",
+    "players": [
+      {
+        "name": "Manuel Neuer",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 12,
+        "teamSlug": "duc",
+        "captain": true
+      },
+      {
+        "name": "Joshua Kimmich",
+        "number": 4,
+        "role": "RB",
+        "x": 14,
+        "y": 28,
+        "teamSlug": "duc",
+        "captain": false
+      },
+      {
+        "name": "Antonio Rüdiger",
+        "number": 5,
+        "role": "CB",
+        "x": 36,
+        "y": 30,
+        "teamSlug": "duc",
+        "captain": false
+      },
+      {
+        "name": "Jonathan Tah",
+        "number": 6,
+        "role": "CB",
+        "x": 64,
+        "y": 30,
+        "teamSlug": "duc",
+        "captain": false
+      },
+      {
+        "name": "Robin Koch",
+        "number": 7,
+        "role": "LB",
+        "x": 86,
+        "y": 28,
+        "teamSlug": "duc",
+        "captain": false
+      },
+      {
+        "name": "Jamal Musiala",
+        "number": 10,
+        "role": "DM",
+        "x": 22,
+        "y": 48,
+        "teamSlug": "duc",
+        "captain": false
+      },
+      {
+        "name": "Florian Wirtz",
+        "number": 11,
+        "role": "CM",
+        "x": 50,
+        "y": 56,
+        "teamSlug": "duc",
+        "captain": false
+      },
+      {
+        "name": "Toni Kroos",
+        "number": 12,
+        "role": "CM",
+        "x": 78,
+        "y": 48,
+        "teamSlug": "duc",
+        "captain": false
+      },
+      {
+        "name": "Kai Havertz",
+        "number": 17,
+        "role": "RW",
+        "x": 18,
+        "y": 76,
+        "teamSlug": "duc",
+        "captain": false
+      },
+      {
+        "name": "Leroy Sané",
+        "number": 18,
+        "role": "ST",
+        "x": 50,
+        "y": 84,
+        "teamSlug": "duc",
+        "captain": false
+      },
+      {
+        "name": "Maximilian Beier",
+        "number": 19,
+        "role": "LW",
+        "x": 82,
+        "y": 76,
+        "teamSlug": "duc",
+        "captain": false
+      }
+    ]
+  },
+  "awayLineup": {
+    "teamSlug": "curacao",
+    "teamName": "Curaçao",
+    "formation": "4-3-3",
+    "accent": "#2563eb",
+    "players": [
+      {
+        "name": "Eloy Room",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 88,
+        "teamSlug": "curacao",
+        "captain": true
+      },
+      {
+        "name": "Shurandy Sambo",
+        "number": 2,
+        "role": "RB",
+        "x": 14,
+        "y": 72,
+        "teamSlug": "curacao",
+        "captain": false
+      },
+      {
+        "name": "Juriën Gaari",
+        "number": 3,
+        "role": "CB",
+        "x": 36,
+        "y": 70,
+        "teamSlug": "curacao",
+        "captain": false
+      },
+      {
+        "name": "Roshon van Eijma",
+        "number": 4,
+        "role": "CB",
+        "x": 64,
+        "y": 70,
+        "teamSlug": "curacao",
+        "captain": false
+      },
+      {
+        "name": "Sherel Floranus",
+        "number": 5,
+        "role": "LB",
+        "x": 86,
+        "y": 72,
+        "teamSlug": "curacao",
+        "captain": false
+      },
+      {
+        "name": "Godfried Roemeratoe",
+        "number": 6,
+        "role": "DM",
+        "x": 22,
+        "y": 52,
+        "teamSlug": "curacao",
+        "captain": false
+      },
+      {
+        "name": "Juninho Bacuna",
+        "number": 7,
+        "role": "CM",
+        "x": 50,
+        "y": 44,
+        "teamSlug": "curacao",
+        "captain": false
+      },
+      {
+        "name": "Livano Comenencia",
+        "number": 8,
+        "role": "CM",
+        "x": 78,
+        "y": 52,
+        "teamSlug": "curacao",
+        "captain": false
+      },
+      {
+        "name": "Jürgen Locadia",
+        "number": 9,
+        "role": "RW",
+        "x": 18,
+        "y": 24,
+        "teamSlug": "curacao",
+        "captain": false
+      },
+      {
+        "name": "Jeremy Antonisse",
+        "number": 11,
+        "role": "ST",
+        "x": 50,
+        "y": 16,
+        "teamSlug": "curacao",
+        "captain": false
+      },
+      {
+        "name": "Sontje Hansen",
+        "number": 12,
+        "role": "LW",
+        "x": 82,
+        "y": 24,
+        "teamSlug": "curacao",
+        "captain": false
+      }
+    ]
+  }
+}
