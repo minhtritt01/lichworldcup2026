@@ -1,0 +1,303 @@
+{
+  "matchId": "wc26_030",
+  "eventId": "local",
+  "status": "upcoming",
+  "scrapedAt": "2026-06-12T14:44:31.470Z",
+  "general": {
+    "homeTeam": "Scotland",
+    "homeSlug": "scotland",
+    "awayTeam": "Morocco",
+    "awaySlug": "maroc",
+    "stage": "Vòng Bảng - Bảng C",
+    "group": "C",
+    "kickoffUTC": "2026-06-19T22:00:00Z",
+    "venue": "Gillette Stadium",
+    "referee": ""
+  },
+  "form": {
+    "home": [],
+    "away": []
+  },
+  "squads": {
+    "home": [
+      {
+        "name": "Craig Gordon",
+        "number": 1,
+        "position": "GK",
+        "age": 43
+      },
+      {
+        "name": "Angus Gunn",
+        "number": 2,
+        "position": "GK",
+        "age": 30
+      },
+      {
+        "name": "Liam Kelly",
+        "number": 3,
+        "position": "GK",
+        "age": 30
+      },
+      {
+        "name": "Andy Robertson",
+        "number": 4,
+        "position": "DF",
+        "age": 32
+      },
+      {
+        "name": "Grant Hanley",
+        "number": 5,
+        "position": "DF",
+        "age": 34
+      },
+      {
+        "name": "Kieran Tierney",
+        "number": 6,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Scott McKenna",
+        "number": 7,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Jack Hendry",
+        "number": 8,
+        "position": "DF",
+        "age": 31
+      },
+      {
+        "name": "Nathan Patterson",
+        "number": 9,
+        "position": "DF",
+        "age": 24
+      },
+      {
+        "name": "Anthony Ralston",
+        "number": 10,
+        "position": "DF",
+        "age": 27
+      },
+      {
+        "name": "John Souttar",
+        "number": 11,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Aaron Hickey",
+        "number": 12,
+        "position": "DF",
+        "age": 24
+      },
+      {
+        "name": "Dominic Hyam",
+        "number": 13,
+        "position": "DF",
+        "age": 30
+      },
+      {
+        "name": "John McGinn",
+        "number": 14,
+        "position": "MF",
+        "age": 31
+      },
+      {
+        "name": "Scott McTominay",
+        "number": 15,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Ryan Christie",
+        "number": 16,
+        "position": "MF",
+        "age": 31
+      },
+      {
+        "name": "Kenny McLean",
+        "number": 17,
+        "position": "MF",
+        "age": 34
+      },
+      {
+        "name": "Lewis Ferguson",
+        "number": 18,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Ben Gannon-Doak",
+        "number": 19,
+        "position": "MF",
+        "age": 20
+      },
+      {
+        "name": "Findlay Curtis",
+        "number": 20,
+        "position": "MF",
+        "age": 20
+      },
+      {
+        "name": "Tyler Fletcher",
+        "number": 21,
+        "position": "MF",
+        "age": 21
+      },
+      {
+        "name": "Lyndon Dykes",
+        "number": 22,
+        "position": "FW",
+        "age": 30
+      },
+      {
+        "name": "Lawrence Shankland",
+        "number": 23,
+        "position": "FW",
+        "age": 30
+      }
+    ],
+    "away": [
+      {
+        "name": "Yassine Bounou",
+        "number": 1,
+        "position": "GK",
+        "age": 35
+      },
+      {
+        "name": "Munir Mohamedi",
+        "number": 2,
+        "position": "GK",
+        "age": 37
+      },
+      {
+        "name": "Ahmed Tagnaouti",
+        "number": 3,
+        "position": "GK",
+        "age": 30
+      },
+      {
+        "name": "Achraf Hakimi",
+        "number": 4,
+        "position": "DF",
+        "age": 27
+      },
+      {
+        "name": "Nayef Aguerd",
+        "number": 5,
+        "position": "DF",
+        "age": 30
+      },
+      {
+        "name": "Noussair Mazraoui",
+        "number": 6,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Youssef Belammari",
+        "number": 7,
+        "position": "DF",
+        "age": 27
+      },
+      {
+        "name": "Anass Salah-Eddine",
+        "number": 8,
+        "position": "DF",
+        "age": 24
+      },
+      {
+        "name": "Chadi Riad",
+        "number": 9,
+        "position": "DF",
+        "age": 22
+      },
+      {
+        "name": "Issa Diop",
+        "number": 10,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Zakaria El Ouahdi",
+        "number": 11,
+        "position": "DF",
+        "age": 24
+      },
+      {
+        "name": "Redouane Halhal",
+        "number": 12,
+        "position": "DF",
+        "age": 23
+      },
+      {
+        "name": "Sofyan Amrabat",
+        "number": 13,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Azzedine Ounahi",
+        "number": 14,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Bilal El Khannouss",
+        "number": 15,
+        "position": "MF",
+        "age": 22
+      },
+      {
+        "name": "Ismael Saibari",
+        "number": 16,
+        "position": "MF",
+        "age": 25
+      },
+      {
+        "name": "Neil El Aynaoui",
+        "number": 17,
+        "position": "MF",
+        "age": 24
+      },
+      {
+        "name": "Samir El Mourabet",
+        "number": 18,
+        "position": "MF",
+        "age": 19
+      },
+      {
+        "name": "Ayyoub Bouaddi",
+        "number": 19,
+        "position": "MF",
+        "age": 18
+      },
+      {
+        "name": "Ayoub El Kaabi",
+        "number": 20,
+        "position": "FW",
+        "age": 32
+      },
+      {
+        "name": "Soufiane Rahimi",
+        "number": 21,
+        "position": "FW",
+        "age": 30
+      },
+      {
+        "name": "Abde Ezzalzouli",
+        "number": 22,
+        "position": "FW",
+        "age": 24
+      },
+      {
+        "name": "Brahim Díaz",
+        "number": 23,
+        "position": "FW",
+        "age": 26
+      }
+    ]
+  }
+}

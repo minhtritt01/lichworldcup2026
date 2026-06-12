@@ -1,0 +1,217 @@
+{
+  "incidents": [],
+  "homeLineup": {
+    "teamSlug": "cape-verde",
+    "teamName": "Cape Verde",
+    "formation": "4-3-3",
+    "accent": "#ef4444",
+    "players": [
+      {
+        "name": "Vozinha",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 12,
+        "teamSlug": "cape-verde",
+        "captain": true
+      },
+      {
+        "name": "Stopira",
+        "number": 2,
+        "role": "RB",
+        "x": 14,
+        "y": 28,
+        "teamSlug": "cape-verde",
+        "captain": false
+      },
+      {
+        "name": "Diney Borges",
+        "number": 3,
+        "role": "CB",
+        "x": 36,
+        "y": 30,
+        "teamSlug": "cape-verde",
+        "captain": false
+      },
+      {
+        "name": "Pico Lopes",
+        "number": 4,
+        "role": "CB",
+        "x": 64,
+        "y": 30,
+        "teamSlug": "cape-verde",
+        "captain": false
+      },
+      {
+        "name": "Logan Costa",
+        "number": 5,
+        "role": "LB",
+        "x": 86,
+        "y": 28,
+        "teamSlug": "cape-verde",
+        "captain": false
+      },
+      {
+        "name": "Kevin Pina",
+        "number": 6,
+        "role": "DM",
+        "x": 22,
+        "y": 48,
+        "teamSlug": "cape-verde",
+        "captain": false
+      },
+      {
+        "name": "Jovane Cabral",
+        "number": 7,
+        "role": "CM",
+        "x": 50,
+        "y": 56,
+        "teamSlug": "cape-verde",
+        "captain": false
+      },
+      {
+        "name": "João Paulo",
+        "number": 8,
+        "role": "CM",
+        "x": 78,
+        "y": 48,
+        "teamSlug": "cape-verde",
+        "captain": false
+      },
+      {
+        "name": "Gilson Benchimol",
+        "number": 9,
+        "role": "RW",
+        "x": 18,
+        "y": 76,
+        "teamSlug": "cape-verde",
+        "captain": false
+      },
+      {
+        "name": "Dailon Livramento",
+        "number": 19,
+        "role": "ST",
+        "x": 50,
+        "y": 84,
+        "teamSlug": "cape-verde",
+        "captain": false
+      },
+      {
+        "name": "Ryan Mendes",
+        "number": 20,
+        "role": "LW",
+        "x": 82,
+        "y": 76,
+        "teamSlug": "cape-verde",
+        "captain": false
+      }
+    ]
+  },
+  "awayLineup": {
+    "teamSlug": "a-rap-xe-ut",
+    "teamName": "Saudi Arabia",
+    "formation": "4-3-3",
+    "accent": "#2563eb",
+    "players": [
+      {
+        "name": "Mohammed Al-Owais",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 88,
+        "teamSlug": "a-rap-xe-ut",
+        "captain": true
+      },
+      {
+        "name": "Saud Abdulhamid",
+        "number": 4,
+        "role": "RB",
+        "x": 14,
+        "y": 72,
+        "teamSlug": "a-rap-xe-ut",
+        "captain": false
+      },
+      {
+        "name": "Ali Al-Bulayhi",
+        "number": 5,
+        "role": "CB",
+        "x": 36,
+        "y": 70,
+        "teamSlug": "a-rap-xe-ut",
+        "captain": false
+      },
+      {
+        "name": "Abdulelah Al-Amri",
+        "number": 6,
+        "role": "CB",
+        "x": 64,
+        "y": 70,
+        "teamSlug": "a-rap-xe-ut",
+        "captain": false
+      },
+      {
+        "name": "Hassan Al-Tambakti",
+        "number": 7,
+        "role": "LB",
+        "x": 86,
+        "y": 72,
+        "teamSlug": "a-rap-xe-ut",
+        "captain": false
+      },
+      {
+        "name": "Salman Al-Faraj",
+        "number": 9,
+        "role": "DM",
+        "x": 22,
+        "y": 52,
+        "teamSlug": "a-rap-xe-ut",
+        "captain": false
+      },
+      {
+        "name": "Mohamed Kanno",
+        "number": 10,
+        "role": "CM",
+        "x": 50,
+        "y": 44,
+        "teamSlug": "a-rap-xe-ut",
+        "captain": false
+      },
+      {
+        "name": "Abdullah Otayf",
+        "number": 11,
+        "role": "CM",
+        "x": 78,
+        "y": 52,
+        "teamSlug": "a-rap-xe-ut",
+        "captain": false
+      },
+      {
+        "name": "Salem Al-Dawsari",
+        "number": 16,
+        "role": "RW",
+        "x": 18,
+        "y": 24,
+        "teamSlug": "a-rap-xe-ut",
+        "captain": false
+      },
+      {
+        "name": "Firas Al-Buraikan",
+        "number": 17,
+        "role": "ST",
+        "x": 50,
+        "y": 16,
+        "teamSlug": "a-rap-xe-ut",
+        "captain": false
+      },
+      {
+        "name": "Hattan Bahebri",
+        "number": 18,
+        "role": "LW",
+        "x": 82,
+        "y": 24,
+        "teamSlug": "a-rap-xe-ut",
+        "captain": false
+      }
+    ]
+  }
+}

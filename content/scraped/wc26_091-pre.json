@@ -1,0 +1,25 @@
+{
+  "matchId": "wc26_091",
+  "eventId": "local",
+  "status": "upcoming",
+  "scrapedAt": "2026-06-12T14:44:31.478Z",
+  "general": {
+    "homeTeam": "Thắng trận 76",
+    "homeSlug": "thang-76",
+    "awayTeam": "Thắng trận 78",
+    "awaySlug": "thang-78",
+    "stage": "Vòng 1/8",
+    "group": "",
+    "kickoffUTC": "2026-07-05T20:00:00Z",
+    "venue": "MetLife Stadium",
+    "referee": ""
+  },
+  "form": {
+    "home": [],
+    "away": []
+  },
+  "squads": {
+    "home": [],
+    "away": []
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "matchId": "wc26_102",
+  "eventId": "local",
+  "status": "upcoming",
+  "scrapedAt": "2026-06-12T14:44:31.479Z",
+  "general": {
+    "homeTeam": "Thắng trận 99",
+    "homeSlug": "thang-99",
+    "awayTeam": "Thắng trận 100",
+    "awaySlug": "thang-100",
+    "stage": "Bán Kết",
+    "group": "",
+    "kickoffUTC": "2026-07-15T19:00:00Z",
+    "venue": "Mercedes-Benz Stadium",
+    "referee": ""
+  },
+  "form": {
+    "home": [],
+    "away": []
+  },
+  "squads": {
+    "home": [],
+    "away": []
+  }
+}

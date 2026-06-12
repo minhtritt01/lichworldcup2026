@@ -1,0 +1,25 @@
+{
+  "matchId": "wc26_086",
+  "eventId": "local",
+  "status": "upcoming",
+  "scrapedAt": "2026-06-12T14:44:31.477Z",
+  "general": {
+    "homeTeam": "Winner J",
+    "homeSlug": "nhat-bang-j",
+    "awayTeam": "Runner-up H",
+    "awaySlug": "a-quan-bang-h",
+    "stage": "Vòng 1/16",
+    "group": "",
+    "kickoffUTC": "2026-07-03T22:00:00Z",
+    "venue": "Hard Rock Stadium",
+    "referee": ""
+  },
+  "form": {
+    "home": [],
+    "away": []
+  },
+  "squads": {
+    "home": [],
+    "away": []
+  }
+}

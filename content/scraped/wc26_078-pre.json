@@ -1,0 +1,25 @@
+{
+  "matchId": "wc26_078",
+  "eventId": "local",
+  "status": "upcoming",
+  "scrapedAt": "2026-06-12T14:44:31.476Z",
+  "general": {
+    "homeTeam": "Runner-up E",
+    "homeSlug": "a-quan-bang-e",
+    "awayTeam": "Runner-up I",
+    "awaySlug": "a-quan-bang-i",
+    "stage": "Vòng 1/16",
+    "group": "",
+    "kickoffUTC": "2026-06-30T17:00:00Z",
+    "venue": "AT&T Stadium",
+    "referee": ""
+  },
+  "form": {
+    "home": [],
+    "away": []
+  },
+  "squads": {
+    "home": [],
+    "away": []
+  }
+}

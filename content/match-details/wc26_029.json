@@ -1,0 +1,217 @@
+{
+  "incidents": [],
+  "homeLineup": {
+    "teamSlug": "my",
+    "teamName": "USA",
+    "formation": "4-3-3",
+    "accent": "#ef4444",
+    "players": [
+      {
+        "name": "Matt Turner",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 12,
+        "teamSlug": "my",
+        "captain": false
+      },
+      {
+        "name": "Sergiño Dest",
+        "number": 2,
+        "role": "RB",
+        "x": 14,
+        "y": 28,
+        "teamSlug": "my",
+        "captain": false
+      },
+      {
+        "name": "Antonee Robinson",
+        "number": 3,
+        "role": "CB",
+        "x": 36,
+        "y": 30,
+        "teamSlug": "my",
+        "captain": false
+      },
+      {
+        "name": "Chris Richards",
+        "number": 4,
+        "role": "CB",
+        "x": 64,
+        "y": 30,
+        "teamSlug": "my",
+        "captain": false
+      },
+      {
+        "name": "Tim Ream",
+        "number": 5,
+        "role": "LB",
+        "x": 86,
+        "y": 28,
+        "teamSlug": "my",
+        "captain": false
+      },
+      {
+        "name": "Weston McKennie",
+        "number": 7,
+        "role": "DM",
+        "x": 22,
+        "y": 48,
+        "teamSlug": "my",
+        "captain": false
+      },
+      {
+        "name": "Tyler Adams",
+        "number": 8,
+        "role": "CM",
+        "x": 50,
+        "y": 56,
+        "teamSlug": "my",
+        "captain": true
+      },
+      {
+        "name": "Cristian Roldan",
+        "number": 17,
+        "role": "CM",
+        "x": 78,
+        "y": 48,
+        "teamSlug": "my",
+        "captain": false
+      },
+      {
+        "name": "Ricardo Pepi",
+        "number": 9,
+        "role": "RW",
+        "x": 18,
+        "y": 76,
+        "teamSlug": "my",
+        "captain": false
+      },
+      {
+        "name": "Christian Pulisic",
+        "number": 10,
+        "role": "ST",
+        "x": 50,
+        "y": 84,
+        "teamSlug": "my",
+        "captain": false
+      },
+      {
+        "name": "Brenden Aaronson",
+        "number": 11,
+        "role": "LW",
+        "x": 82,
+        "y": 76,
+        "teamSlug": "my",
+        "captain": false
+      }
+    ]
+  },
+  "awayLineup": {
+    "teamSlug": "uc",
+    "teamName": "Australia",
+    "formation": "4-3-3",
+    "accent": "#2563eb",
+    "players": [
+      {
+        "name": "Mathew Ryan",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 88,
+        "teamSlug": "uc",
+        "captain": true
+      },
+      {
+        "name": "Milos Degenek",
+        "number": 2,
+        "role": "RB",
+        "x": 14,
+        "y": 72,
+        "teamSlug": "uc",
+        "captain": false
+      },
+      {
+        "name": "Alessandro Circati",
+        "number": 3,
+        "role": "CB",
+        "x": 36,
+        "y": 70,
+        "teamSlug": "uc",
+        "captain": false
+      },
+      {
+        "name": "Jacob Italiano",
+        "number": 4,
+        "role": "CB",
+        "x": 64,
+        "y": 70,
+        "teamSlug": "uc",
+        "captain": false
+      },
+      {
+        "name": "Jordan Bos",
+        "number": 5,
+        "role": "LB",
+        "x": 86,
+        "y": 72,
+        "teamSlug": "uc",
+        "captain": false
+      },
+      {
+        "name": "Connor Metcalfe",
+        "number": 8,
+        "role": "DM",
+        "x": 22,
+        "y": 52,
+        "teamSlug": "uc",
+        "captain": false
+      },
+      {
+        "name": "Aiden O'Neill",
+        "number": 13,
+        "role": "CM",
+        "x": 50,
+        "y": 44,
+        "teamSlug": "uc",
+        "captain": false
+      },
+      {
+        "name": "Cameron Devlin",
+        "number": 14,
+        "role": "CM",
+        "x": 78,
+        "y": 52,
+        "teamSlug": "uc",
+        "captain": false
+      },
+      {
+        "name": "Mathew Leckie",
+        "number": 7,
+        "role": "RW",
+        "x": 18,
+        "y": 24,
+        "teamSlug": "uc",
+        "captain": false
+      },
+      {
+        "name": "Mohamed Toure",
+        "number": 9,
+        "role": "ST",
+        "x": 50,
+        "y": 16,
+        "teamSlug": "uc",
+        "captain": false
+      },
+      {
+        "name": "Ajdin Hrustic",
+        "number": 10,
+        "role": "LW",
+        "x": 82,
+        "y": 24,
+        "teamSlug": "uc",
+        "captain": false
+      }
+    ]
+  }
+}

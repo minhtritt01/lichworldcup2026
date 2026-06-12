@@ -1,0 +1,217 @@
+{
+  "incidents": [],
+  "homeLineup": {
+    "teamSlug": "new-zealand",
+    "teamName": "New Zealand",
+    "formation": "4-3-3",
+    "accent": "#ef4444",
+    "players": [
+      {
+        "name": "Stefan Marinovic",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 12,
+        "teamSlug": "new-zealand",
+        "captain": true
+      },
+      {
+        "name": "Winston Reid",
+        "number": 4,
+        "role": "RB",
+        "x": 14,
+        "y": 28,
+        "teamSlug": "new-zealand",
+        "captain": false
+      },
+      {
+        "name": "Tommy Smith",
+        "number": 5,
+        "role": "CB",
+        "x": 36,
+        "y": 30,
+        "teamSlug": "new-zealand",
+        "captain": false
+      },
+      {
+        "name": "Liberato Cacace",
+        "number": 6,
+        "role": "CB",
+        "x": 64,
+        "y": 30,
+        "teamSlug": "new-zealand",
+        "captain": false
+      },
+      {
+        "name": "Nando Pijnaker",
+        "number": 7,
+        "role": "LB",
+        "x": 86,
+        "y": 28,
+        "teamSlug": "new-zealand",
+        "captain": false
+      },
+      {
+        "name": "Ryan Thomas",
+        "number": 9,
+        "role": "DM",
+        "x": 22,
+        "y": 48,
+        "teamSlug": "new-zealand",
+        "captain": false
+      },
+      {
+        "name": "Elijah Just",
+        "number": 10,
+        "role": "CM",
+        "x": 50,
+        "y": 56,
+        "teamSlug": "new-zealand",
+        "captain": false
+      },
+      {
+        "name": "Marko Stamenic",
+        "number": 11,
+        "role": "CM",
+        "x": 78,
+        "y": 48,
+        "teamSlug": "new-zealand",
+        "captain": false
+      },
+      {
+        "name": "Chris Wood",
+        "number": 17,
+        "role": "RW",
+        "x": 18,
+        "y": 76,
+        "teamSlug": "new-zealand",
+        "captain": false
+      },
+      {
+        "name": "Hamish Watson",
+        "number": 18,
+        "role": "ST",
+        "x": 50,
+        "y": 84,
+        "teamSlug": "new-zealand",
+        "captain": false
+      },
+      {
+        "name": "Dane Scarlett",
+        "number": 19,
+        "role": "LW",
+        "x": 82,
+        "y": 76,
+        "teamSlug": "new-zealand",
+        "captain": false
+      }
+    ]
+  },
+  "awayLineup": {
+    "teamSlug": "bi",
+    "teamName": "Belgium",
+    "formation": "4-3-3",
+    "accent": "#2563eb",
+    "players": [
+      {
+        "name": "Thibaut Courtois",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 88,
+        "teamSlug": "bi",
+        "captain": true
+      },
+      {
+        "name": "Zeno Debast",
+        "number": 2,
+        "role": "RB",
+        "x": 14,
+        "y": 72,
+        "teamSlug": "bi",
+        "captain": false
+      },
+      {
+        "name": "Arthur Theate",
+        "number": 3,
+        "role": "CB",
+        "x": 36,
+        "y": 70,
+        "teamSlug": "bi",
+        "captain": false
+      },
+      {
+        "name": "Brandon Mechele",
+        "number": 4,
+        "role": "CB",
+        "x": 64,
+        "y": 70,
+        "teamSlug": "bi",
+        "captain": false
+      },
+      {
+        "name": "Maxim De Cuyper",
+        "number": 5,
+        "role": "LB",
+        "x": 86,
+        "y": 72,
+        "teamSlug": "bi",
+        "captain": false
+      },
+      {
+        "name": "Axel Witsel",
+        "number": 6,
+        "role": "DM",
+        "x": 22,
+        "y": 52,
+        "teamSlug": "bi",
+        "captain": false
+      },
+      {
+        "name": "Kevin De Bruyne",
+        "number": 7,
+        "role": "CM",
+        "x": 50,
+        "y": 44,
+        "teamSlug": "bi",
+        "captain": false
+      },
+      {
+        "name": "Youri Tielemans",
+        "number": 8,
+        "role": "CM",
+        "x": 78,
+        "y": 52,
+        "teamSlug": "bi",
+        "captain": false
+      },
+      {
+        "name": "Romelu Lukaku",
+        "number": 9,
+        "role": "RW",
+        "x": 18,
+        "y": 24,
+        "teamSlug": "bi",
+        "captain": false
+      },
+      {
+        "name": "Leandro Trossard",
+        "number": 10,
+        "role": "ST",
+        "x": 50,
+        "y": 16,
+        "teamSlug": "bi",
+        "captain": false
+      },
+      {
+        "name": "Jeremy Doku",
+        "number": 11,
+        "role": "LW",
+        "x": 82,
+        "y": 24,
+        "teamSlug": "bi",
+        "captain": false
+      }
+    ]
+  }
+}

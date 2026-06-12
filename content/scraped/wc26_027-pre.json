@@ -1,0 +1,303 @@
+{
+  "matchId": "wc26_027",
+  "eventId": "local",
+  "status": "upcoming",
+  "scrapedAt": "2026-06-12T14:44:31.470Z",
+  "general": {
+    "homeTeam": "Canada",
+    "homeSlug": "canada",
+    "awayTeam": "Qatar",
+    "awaySlug": "qatar",
+    "stage": "Vòng Bảng - Bảng B",
+    "group": "B",
+    "kickoffUTC": "2026-06-18T22:00:00Z",
+    "venue": "BC Place",
+    "referee": ""
+  },
+  "form": {
+    "home": [],
+    "away": []
+  },
+  "squads": {
+    "home": [
+      {
+        "name": "Dayne St. Clair",
+        "number": 1,
+        "position": "GK",
+        "age": 29
+      },
+      {
+        "name": "Alistair Johnston",
+        "number": 2,
+        "position": "DF",
+        "age": 27
+      },
+      {
+        "name": "Luc de Fougerolles",
+        "number": 3,
+        "position": "DF",
+        "age": 20
+      },
+      {
+        "name": "Alfie Jones",
+        "number": 4,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Joel Waterman",
+        "number": 5,
+        "position": "DF",
+        "age": 30
+      },
+      {
+        "name": "Mathieu Choinière",
+        "number": 6,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Stephen Eustáquio",
+        "number": 7,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Ismaël Koné",
+        "number": 8,
+        "position": "MF",
+        "age": 23
+      },
+      {
+        "name": "Cyle Larin",
+        "number": 9,
+        "position": "FW",
+        "age": 31
+      },
+      {
+        "name": "Jonathan David",
+        "number": 10,
+        "position": "FW",
+        "age": 26
+      },
+      {
+        "name": "Liam Millar",
+        "number": 11,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Tani Oluwaseyi",
+        "number": 12,
+        "position": "FW",
+        "age": 26
+      },
+      {
+        "name": "Derek Cornelius",
+        "number": 13,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Jacob Shaffelburg",
+        "number": 14,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Moïse Bombito",
+        "number": 15,
+        "position": "DF",
+        "age": 26
+      },
+      {
+        "name": "Maxime Crépeau",
+        "number": 16,
+        "position": "GK",
+        "age": 32
+      },
+      {
+        "name": "Tajon Buchanan",
+        "number": 17,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Owen Goodman",
+        "number": 18,
+        "position": "GK",
+        "age": 22
+      },
+      {
+        "name": "Alphonso Davies",
+        "number": 19,
+        "position": "DF",
+        "age": 25
+      },
+      {
+        "name": "Ali Ahmed",
+        "number": 20,
+        "position": "MF",
+        "age": 25
+      },
+      {
+        "name": "Jonathan Osorio",
+        "number": 21,
+        "position": "MF",
+        "age": 33
+      },
+      {
+        "name": "Richie Laryea",
+        "number": 22,
+        "position": "DF",
+        "age": 31
+      },
+      {
+        "name": "Niko Sigur",
+        "number": 23,
+        "position": "DF",
+        "age": 22
+      }
+    ],
+    "away": [
+      {
+        "name": "Mahmud Abunada",
+        "number": 1,
+        "position": "GK",
+        "age": 26
+      },
+      {
+        "name": "Pedro Miguel",
+        "number": 2,
+        "position": "DF",
+        "age": 35
+      },
+      {
+        "name": "Lucas Mendes",
+        "number": 3,
+        "position": "DF",
+        "age": 35
+      },
+      {
+        "name": "Issa Laye",
+        "number": 4,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Jassem Gaber",
+        "number": 5,
+        "position": "MF",
+        "age": 24
+      },
+      {
+        "name": "Abdulaziz Hatem",
+        "number": 6,
+        "position": "MF",
+        "age": 35
+      },
+      {
+        "name": "Ahmed Alaaeldin",
+        "number": 7,
+        "position": "FW",
+        "age": 33
+      },
+      {
+        "name": "Edmilson Junior",
+        "number": 8,
+        "position": "FW",
+        "age": 31
+      },
+      {
+        "name": "Mohammed Muntari",
+        "number": 9,
+        "position": "FW",
+        "age": 32
+      },
+      {
+        "name": "Hassan Al-Haydos",
+        "number": 10,
+        "position": "FW",
+        "age": 35
+      },
+      {
+        "name": "Akram Afif",
+        "number": 11,
+        "position": "FW",
+        "age": 29
+      },
+      {
+        "name": "Karim Boudiaf",
+        "number": 12,
+        "position": "MF",
+        "age": 35
+      },
+      {
+        "name": "Ayoub Al-Oui",
+        "number": 13,
+        "position": "DF",
+        "age": 21
+      },
+      {
+        "name": "Homam Ahmed",
+        "number": 14,
+        "position": "DF",
+        "age": 26
+      },
+      {
+        "name": "Yusuf Abdurisag",
+        "number": 15,
+        "position": "FW",
+        "age": 26
+      },
+      {
+        "name": "Boualem Khoukhi",
+        "number": 16,
+        "position": "DF",
+        "age": 35
+      },
+      {
+        "name": "Ahmed Al-Ganehi",
+        "number": 17,
+        "position": "FW",
+        "age": 25
+      },
+      {
+        "name": "Sultan Al-Brake",
+        "number": 18,
+        "position": "DF",
+        "age": 30
+      },
+      {
+        "name": "Almoez Ali",
+        "number": 19,
+        "position": "FW",
+        "age": 29
+      },
+      {
+        "name": "Ahmed Fathy",
+        "number": 20,
+        "position": "MF",
+        "age": 33
+      },
+      {
+        "name": "Salah Zakaria",
+        "number": 21,
+        "position": "GK",
+        "age": 27
+      },
+      {
+        "name": "Meshaal Barsham",
+        "number": 22,
+        "position": "GK",
+        "age": 28
+      },
+      {
+        "name": "Assim Madibo",
+        "number": 23,
+        "position": "MF",
+        "age": 29
+      }
+    ]
+  }
+}

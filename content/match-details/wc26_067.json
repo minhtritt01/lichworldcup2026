@@ -1,0 +1,217 @@
+{
+  "incidents": [],
+  "homeLineup": {
+    "teamSlug": "panama",
+    "teamName": "Panama",
+    "formation": "4-3-3",
+    "accent": "#ef4444",
+    "players": [
+      {
+        "name": "Orlando Mosquera",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 12,
+        "teamSlug": "panama",
+        "captain": true
+      },
+      {
+        "name": "César Blackman",
+        "number": 4,
+        "role": "RB",
+        "x": 14,
+        "y": 28,
+        "teamSlug": "panama",
+        "captain": false
+      },
+      {
+        "name": "Jorge Gutiérrez",
+        "number": 5,
+        "role": "CB",
+        "x": 36,
+        "y": 30,
+        "teamSlug": "panama",
+        "captain": false
+      },
+      {
+        "name": "Amir Murillo",
+        "number": 6,
+        "role": "CB",
+        "x": 64,
+        "y": 30,
+        "teamSlug": "panama",
+        "captain": false
+      },
+      {
+        "name": "Fidel Escobar",
+        "number": 7,
+        "role": "LB",
+        "x": 86,
+        "y": 28,
+        "teamSlug": "panama",
+        "captain": false
+      },
+      {
+        "name": "Aníbal Godoy",
+        "number": 9,
+        "role": "DM",
+        "x": 22,
+        "y": 48,
+        "teamSlug": "panama",
+        "captain": false
+      },
+      {
+        "name": "Carlos Harvey",
+        "number": 10,
+        "role": "CM",
+        "x": 50,
+        "y": 56,
+        "teamSlug": "panama",
+        "captain": false
+      },
+      {
+        "name": "Cristian Martínez",
+        "number": 11,
+        "role": "CM",
+        "x": 78,
+        "y": 48,
+        "teamSlug": "panama",
+        "captain": false
+      },
+      {
+        "name": "Ismael Díaz",
+        "number": 18,
+        "role": "RW",
+        "x": 18,
+        "y": 76,
+        "teamSlug": "panama",
+        "captain": false
+      },
+      {
+        "name": "Cecilio Waterman",
+        "number": 19,
+        "role": "ST",
+        "x": 50,
+        "y": 84,
+        "teamSlug": "panama",
+        "captain": false
+      },
+      {
+        "name": "José Fajardo",
+        "number": 20,
+        "role": "LW",
+        "x": 82,
+        "y": 76,
+        "teamSlug": "panama",
+        "captain": false
+      }
+    ]
+  },
+  "awayLineup": {
+    "teamSlug": "anh",
+    "teamName": "England",
+    "formation": "4-3-3",
+    "accent": "#2563eb",
+    "players": [
+      {
+        "name": "Jordan Pickford",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 88,
+        "teamSlug": "anh",
+        "captain": true
+      },
+      {
+        "name": "Kyle Walker",
+        "number": 4,
+        "role": "RB",
+        "x": 14,
+        "y": 72,
+        "teamSlug": "anh",
+        "captain": false
+      },
+      {
+        "name": "Harry Maguire",
+        "number": 5,
+        "role": "CB",
+        "x": 36,
+        "y": 70,
+        "teamSlug": "anh",
+        "captain": false
+      },
+      {
+        "name": "John Stones",
+        "number": 6,
+        "role": "CB",
+        "x": 64,
+        "y": 70,
+        "teamSlug": "anh",
+        "captain": false
+      },
+      {
+        "name": "Luke Shaw",
+        "number": 7,
+        "role": "LB",
+        "x": 86,
+        "y": 72,
+        "teamSlug": "anh",
+        "captain": false
+      },
+      {
+        "name": "Jude Bellingham",
+        "number": 10,
+        "role": "DM",
+        "x": 22,
+        "y": 52,
+        "teamSlug": "anh",
+        "captain": false
+      },
+      {
+        "name": "Declan Rice",
+        "number": 11,
+        "role": "CM",
+        "x": 50,
+        "y": 44,
+        "teamSlug": "anh",
+        "captain": false
+      },
+      {
+        "name": "Phil Foden",
+        "number": 12,
+        "role": "CM",
+        "x": 78,
+        "y": 52,
+        "teamSlug": "anh",
+        "captain": false
+      },
+      {
+        "name": "Harry Kane",
+        "number": 16,
+        "role": "RW",
+        "x": 18,
+        "y": 24,
+        "teamSlug": "anh",
+        "captain": false
+      },
+      {
+        "name": "Bukayo Saka",
+        "number": 17,
+        "role": "ST",
+        "x": 50,
+        "y": 16,
+        "teamSlug": "anh",
+        "captain": false
+      },
+      {
+        "name": "Marcus Rashford",
+        "number": 18,
+        "role": "LW",
+        "x": 82,
+        "y": 24,
+        "teamSlug": "anh",
+        "captain": false
+      }
+    ]
+  }
+}

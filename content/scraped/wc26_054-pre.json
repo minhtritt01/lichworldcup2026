@@ -1,0 +1,303 @@
+{
+  "matchId": "wc26_054",
+  "eventId": "local",
+  "status": "upcoming",
+  "scrapedAt": "2026-06-12T14:44:31.473Z",
+  "general": {
+    "homeTeam": "South Africa",
+    "homeSlug": "nam-phi",
+    "awayTeam": "South Korea",
+    "awaySlug": "han-quoc",
+    "stage": "Vòng Bảng - Bảng A",
+    "group": "A",
+    "kickoffUTC": "2026-06-25T01:00:00Z",
+    "venue": "Estadio BBVA",
+    "referee": ""
+  },
+  "form": {
+    "home": [],
+    "away": []
+  },
+  "squads": {
+    "home": [
+      {
+        "name": "Ronwen Williams",
+        "number": 1,
+        "position": "GK",
+        "age": 34
+      },
+      {
+        "name": "Ricardo Goss",
+        "number": 2,
+        "position": "GK",
+        "age": 32
+      },
+      {
+        "name": "Sipho Chaine",
+        "number": 3,
+        "position": "GK",
+        "age": 29
+      },
+      {
+        "name": "Aubrey Modiba",
+        "number": 4,
+        "position": "DF",
+        "age": 30
+      },
+      {
+        "name": "Khuliso Mudau",
+        "number": 5,
+        "position": "DF",
+        "age": 31
+      },
+      {
+        "name": "Nkosinathi Sibisi",
+        "number": 6,
+        "position": "DF",
+        "age": 30
+      },
+      {
+        "name": "Mbekezeli Mbokazi",
+        "number": 7,
+        "position": "DF",
+        "age": 20
+      },
+      {
+        "name": "Ime Okon",
+        "number": 8,
+        "position": "DF",
+        "age": 22
+      },
+      {
+        "name": "Samukele Kabini",
+        "number": 9,
+        "position": "DF",
+        "age": 22
+      },
+      {
+        "name": "Khulumani Ndamane",
+        "number": 10,
+        "position": "DF",
+        "age": 22
+      },
+      {
+        "name": "Thabang Matuludi",
+        "number": 11,
+        "position": "DF",
+        "age": 27
+      },
+      {
+        "name": "Kamogelo Sebelebele",
+        "number": 12,
+        "position": "DF",
+        "age": 23
+      },
+      {
+        "name": "Bradley Cross",
+        "number": 13,
+        "position": "DF",
+        "age": 25
+      },
+      {
+        "name": "Olwethu Makhanya",
+        "number": 14,
+        "position": "DF",
+        "age": 22
+      },
+      {
+        "name": "Teboho Mokoena",
+        "number": 15,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Sphephelo Sithole",
+        "number": 16,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Thalente Mbatha",
+        "number": 17,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Jayden Adams",
+        "number": 18,
+        "position": "MF",
+        "age": 25
+      },
+      {
+        "name": "Themba Zwane",
+        "number": 19,
+        "position": "FW",
+        "age": 36
+      },
+      {
+        "name": "Lyle Foster",
+        "number": 20,
+        "position": "FW",
+        "age": 26
+      },
+      {
+        "name": "Evidence Makgopa",
+        "number": 21,
+        "position": "FW",
+        "age": 26
+      },
+      {
+        "name": "Oswin Appollis",
+        "number": 22,
+        "position": "FW",
+        "age": 24
+      },
+      {
+        "name": "Iqraam Rayners",
+        "number": 23,
+        "position": "FW",
+        "age": 30
+      }
+    ],
+    "away": [
+      {
+        "name": "Kim Seung-gyu",
+        "number": 1,
+        "position": "GK",
+        "age": 35
+      },
+      {
+        "name": "Jo Hyeon-woo",
+        "number": 2,
+        "position": "GK",
+        "age": 34
+      },
+      {
+        "name": "Song Bum-keun",
+        "number": 3,
+        "position": "GK",
+        "age": 28
+      },
+      {
+        "name": "Kim Min-jae",
+        "number": 4,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Kim Moon-hwan",
+        "number": 5,
+        "position": "DF",
+        "age": 30
+      },
+      {
+        "name": "Seol Young-woo",
+        "number": 6,
+        "position": "DF",
+        "age": 27
+      },
+      {
+        "name": "Lee Tae-seok",
+        "number": 7,
+        "position": "DF",
+        "age": 23
+      },
+      {
+        "name": "Park Jin-seob",
+        "number": 8,
+        "position": "DF",
+        "age": 30
+      },
+      {
+        "name": "Kim Tae-hyeon",
+        "number": 9,
+        "position": "DF",
+        "age": 25
+      },
+      {
+        "name": "Lee Han-beom",
+        "number": 10,
+        "position": "DF",
+        "age": 23
+      },
+      {
+        "name": "Jens Castrop",
+        "number": 11,
+        "position": "DF",
+        "age": 22
+      },
+      {
+        "name": "Lee Ki-hyuk",
+        "number": 12,
+        "position": "DF",
+        "age": 25
+      },
+      {
+        "name": "Cho Wi-je",
+        "number": 13,
+        "position": "DF",
+        "age": 24
+      },
+      {
+        "name": "Lee Jae-sung",
+        "number": 14,
+        "position": "MF",
+        "age": 33
+      },
+      {
+        "name": "Hwang Hee-chan",
+        "number": 15,
+        "position": "MF",
+        "age": 30
+      },
+      {
+        "name": "Hwang In-beom",
+        "number": 16,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Lee Kang-in",
+        "number": 17,
+        "position": "MF",
+        "age": 25
+      },
+      {
+        "name": "Paik Seung-ho",
+        "number": 18,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Kim Jin-gyu",
+        "number": 19,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Lee Dong-gyeong",
+        "number": 20,
+        "position": "MF",
+        "age": 28
+      },
+      {
+        "name": "Bae Jun-ho",
+        "number": 21,
+        "position": "MF",
+        "age": 22
+      },
+      {
+        "name": "Eom Ji-sung",
+        "number": 22,
+        "position": "MF",
+        "age": 24
+      },
+      {
+        "name": "Yang Hyun-jun",
+        "number": 23,
+        "position": "MF",
+        "age": 24
+      }
+    ]
+  }
+}

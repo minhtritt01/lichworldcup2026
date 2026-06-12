@@ -1,0 +1,17 @@
+{
+  "incidents": [],
+  "homeLineup": {
+    "teamSlug": "nhat-bang-c",
+    "teamName": "Winner C",
+    "formation": "4-3-3",
+    "accent": "#ef4444",
+    "players": []
+  },
+  "awayLineup": {
+    "teamSlug": "a-quan-bang-f",
+    "teamName": "Runner-up F",
+    "formation": "4-3-3",
+    "accent": "#2563eb",
+    "players": []
+  }
+}

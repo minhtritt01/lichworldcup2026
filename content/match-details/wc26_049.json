@@ -1,0 +1,217 @@
+{
+  "incidents": [],
+  "homeLineup": {
+    "teamSlug": "thuy-si",
+    "teamName": "Switzerland",
+    "formation": "4-3-3",
+    "accent": "#ef4444",
+    "players": [
+      {
+        "name": "Gregor Kobel",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 12,
+        "teamSlug": "thuy-si",
+        "captain": false
+      },
+      {
+        "name": "Miro Muheim",
+        "number": 2,
+        "role": "RB",
+        "x": 14,
+        "y": 28,
+        "teamSlug": "thuy-si",
+        "captain": false
+      },
+      {
+        "name": "Silvan Widmer",
+        "number": 3,
+        "role": "CB",
+        "x": 36,
+        "y": 30,
+        "teamSlug": "thuy-si",
+        "captain": false
+      },
+      {
+        "name": "Nico Elvedi",
+        "number": 4,
+        "role": "CB",
+        "x": 64,
+        "y": 30,
+        "teamSlug": "thuy-si",
+        "captain": false
+      },
+      {
+        "name": "Manuel Akanji",
+        "number": 5,
+        "role": "LB",
+        "x": 86,
+        "y": 28,
+        "teamSlug": "thuy-si",
+        "captain": false
+      },
+      {
+        "name": "Denis Zakaria",
+        "number": 6,
+        "role": "DM",
+        "x": 22,
+        "y": 48,
+        "teamSlug": "thuy-si",
+        "captain": false
+      },
+      {
+        "name": "Remo Freuler",
+        "number": 8,
+        "role": "CM",
+        "x": 50,
+        "y": 56,
+        "teamSlug": "thuy-si",
+        "captain": false
+      },
+      {
+        "name": "Johan Manzambi",
+        "number": 9,
+        "role": "CM",
+        "x": 78,
+        "y": 48,
+        "teamSlug": "thuy-si",
+        "captain": false
+      },
+      {
+        "name": "Breel Embolo",
+        "number": 7,
+        "role": "RW",
+        "x": 18,
+        "y": 76,
+        "teamSlug": "thuy-si",
+        "captain": false
+      },
+      {
+        "name": "Dan Ndoye",
+        "number": 11,
+        "role": "ST",
+        "x": 50,
+        "y": 84,
+        "teamSlug": "thuy-si",
+        "captain": false
+      },
+      {
+        "name": "Rubén Vargas",
+        "number": 17,
+        "role": "LW",
+        "x": 82,
+        "y": 76,
+        "teamSlug": "thuy-si",
+        "captain": false
+      }
+    ]
+  },
+  "awayLineup": {
+    "teamSlug": "canada",
+    "teamName": "Canada",
+    "formation": "4-3-3",
+    "accent": "#2563eb",
+    "players": [
+      {
+        "name": "Dayne St. Clair",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 88,
+        "teamSlug": "canada",
+        "captain": false
+      },
+      {
+        "name": "Alistair Johnston",
+        "number": 2,
+        "role": "RB",
+        "x": 14,
+        "y": 72,
+        "teamSlug": "canada",
+        "captain": false
+      },
+      {
+        "name": "Luc de Fougerolles",
+        "number": 3,
+        "role": "CB",
+        "x": 36,
+        "y": 70,
+        "teamSlug": "canada",
+        "captain": false
+      },
+      {
+        "name": "Alfie Jones",
+        "number": 4,
+        "role": "CB",
+        "x": 64,
+        "y": 70,
+        "teamSlug": "canada",
+        "captain": false
+      },
+      {
+        "name": "Joel Waterman",
+        "number": 5,
+        "role": "LB",
+        "x": 86,
+        "y": 72,
+        "teamSlug": "canada",
+        "captain": false
+      },
+      {
+        "name": "Mathieu Choinière",
+        "number": 6,
+        "role": "DM",
+        "x": 22,
+        "y": 52,
+        "teamSlug": "canada",
+        "captain": false
+      },
+      {
+        "name": "Stephen Eustáquio",
+        "number": 7,
+        "role": "CM",
+        "x": 50,
+        "y": 44,
+        "teamSlug": "canada",
+        "captain": false
+      },
+      {
+        "name": "Ismaël Koné",
+        "number": 8,
+        "role": "CM",
+        "x": 78,
+        "y": 52,
+        "teamSlug": "canada",
+        "captain": false
+      },
+      {
+        "name": "Cyle Larin",
+        "number": 9,
+        "role": "RW",
+        "x": 18,
+        "y": 24,
+        "teamSlug": "canada",
+        "captain": false
+      },
+      {
+        "name": "Jonathan David",
+        "number": 10,
+        "role": "ST",
+        "x": 50,
+        "y": 16,
+        "teamSlug": "canada",
+        "captain": false
+      },
+      {
+        "name": "Tani Oluwaseyi",
+        "number": 12,
+        "role": "LW",
+        "x": 82,
+        "y": 24,
+        "teamSlug": "canada",
+        "captain": false
+      }
+    ]
+  }
+}

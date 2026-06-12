@@ -1,0 +1,217 @@
+{
+  "incidents": [],
+  "homeLineup": {
+    "teamSlug": "colombia",
+    "teamName": "Colombia",
+    "formation": "4-3-3",
+    "accent": "#ef4444",
+    "players": [
+      {
+        "name": "David Ospina",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 12,
+        "teamSlug": "colombia",
+        "captain": true
+      },
+      {
+        "name": "Daniel Muñoz",
+        "number": 2,
+        "role": "RB",
+        "x": 14,
+        "y": 28,
+        "teamSlug": "colombia",
+        "captain": false
+      },
+      {
+        "name": "Jhon Lucumí",
+        "number": 3,
+        "role": "CB",
+        "x": 36,
+        "y": 30,
+        "teamSlug": "colombia",
+        "captain": false
+      },
+      {
+        "name": "Santiago Arias",
+        "number": 4,
+        "role": "CB",
+        "x": 64,
+        "y": 30,
+        "teamSlug": "colombia",
+        "captain": false
+      },
+      {
+        "name": "Yerry Mina",
+        "number": 13,
+        "role": "LB",
+        "x": 86,
+        "y": 28,
+        "teamSlug": "colombia",
+        "captain": false
+      },
+      {
+        "name": "Kevin Castaño",
+        "number": 5,
+        "role": "DM",
+        "x": 22,
+        "y": 48,
+        "teamSlug": "colombia",
+        "captain": false
+      },
+      {
+        "name": "Richard Ríos",
+        "number": 6,
+        "role": "CM",
+        "x": 50,
+        "y": 56,
+        "teamSlug": "colombia",
+        "captain": false
+      },
+      {
+        "name": "Jorge Carrascal",
+        "number": 8,
+        "role": "CM",
+        "x": 78,
+        "y": 48,
+        "teamSlug": "colombia",
+        "captain": false
+      },
+      {
+        "name": "Luis Díaz",
+        "number": 7,
+        "role": "RW",
+        "x": 18,
+        "y": 76,
+        "teamSlug": "colombia",
+        "captain": false
+      },
+      {
+        "name": "Jhon Córdoba",
+        "number": 9,
+        "role": "ST",
+        "x": 50,
+        "y": 84,
+        "teamSlug": "colombia",
+        "captain": false
+      },
+      {
+        "name": "Cucho Hernández",
+        "number": 19,
+        "role": "LW",
+        "x": 82,
+        "y": 76,
+        "teamSlug": "colombia",
+        "captain": false
+      }
+    ]
+  },
+  "awayLineup": {
+    "teamSlug": "bo-dao-nha",
+    "teamName": "Portugal",
+    "formation": "4-3-3",
+    "accent": "#2563eb",
+    "players": [
+      {
+        "name": "Diogo Costa",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 88,
+        "teamSlug": "bo-dao-nha",
+        "captain": false
+      },
+      {
+        "name": "João Cancelo",
+        "number": 4,
+        "role": "RB",
+        "x": 14,
+        "y": 72,
+        "teamSlug": "bo-dao-nha",
+        "captain": false
+      },
+      {
+        "name": "Rúben Dias",
+        "number": 5,
+        "role": "CB",
+        "x": 36,
+        "y": 70,
+        "teamSlug": "bo-dao-nha",
+        "captain": false
+      },
+      {
+        "name": "Gonçalo Inácio",
+        "number": 6,
+        "role": "CB",
+        "x": 64,
+        "y": 70,
+        "teamSlug": "bo-dao-nha",
+        "captain": false
+      },
+      {
+        "name": "Nuno Mendes",
+        "number": 7,
+        "role": "LB",
+        "x": 86,
+        "y": 72,
+        "teamSlug": "bo-dao-nha",
+        "captain": false
+      },
+      {
+        "name": "Rúben Neves",
+        "number": 9,
+        "role": "DM",
+        "x": 22,
+        "y": 52,
+        "teamSlug": "bo-dao-nha",
+        "captain": false
+      },
+      {
+        "name": "João Palhinha",
+        "number": 12,
+        "role": "CM",
+        "x": 50,
+        "y": 44,
+        "teamSlug": "bo-dao-nha",
+        "captain": false
+      },
+      {
+        "name": "Vitinha",
+        "number": 13,
+        "role": "CM",
+        "x": 78,
+        "y": 52,
+        "teamSlug": "bo-dao-nha",
+        "captain": false
+      },
+      {
+        "name": "Cristiano Ronaldo",
+        "number": 10,
+        "role": "RW",
+        "x": 18,
+        "y": 24,
+        "teamSlug": "bo-dao-nha",
+        "captain": true
+      },
+      {
+        "name": "Bernardo Silva",
+        "number": 11,
+        "role": "ST",
+        "x": 50,
+        "y": 16,
+        "teamSlug": "bo-dao-nha",
+        "captain": false
+      },
+      {
+        "name": "Rafael Leão",
+        "number": 16,
+        "role": "LW",
+        "x": 82,
+        "y": 24,
+        "teamSlug": "bo-dao-nha",
+        "captain": false
+      }
+    ]
+  }
+}

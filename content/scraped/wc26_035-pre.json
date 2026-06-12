@@ -1,0 +1,303 @@
+{
+  "matchId": "wc26_035",
+  "eventId": "local",
+  "status": "upcoming",
+  "scrapedAt": "2026-06-12T14:44:31.471Z",
+  "general": {
+    "homeTeam": "Ecuador",
+    "homeSlug": "ecuador",
+    "awayTeam": "Curaçao",
+    "awaySlug": "curacao",
+    "stage": "Vòng Bảng - Bảng E",
+    "group": "E",
+    "kickoffUTC": "2026-06-21T00:00:00Z",
+    "venue": "Arrowhead Stadium",
+    "referee": ""
+  },
+  "form": {
+    "home": [],
+    "away": []
+  },
+  "squads": {
+    "home": [
+      {
+        "name": "Hernán Galíndez",
+        "number": 1,
+        "position": "GK",
+        "age": 39
+      },
+      {
+        "name": "Félix Torres",
+        "number": 2,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Piero Hincapié",
+        "number": 3,
+        "position": "DF",
+        "age": 24
+      },
+      {
+        "name": "Joel Ordóñez",
+        "number": 4,
+        "position": "DF",
+        "age": 22
+      },
+      {
+        "name": "Jordy Alcívar",
+        "number": 5,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Willian Pacho",
+        "number": 6,
+        "position": "DF",
+        "age": 24
+      },
+      {
+        "name": "Pervis Estupiñán",
+        "number": 7,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Anthony Valencia",
+        "number": 8,
+        "position": "MF",
+        "age": 22
+      },
+      {
+        "name": "John Yeboah",
+        "number": 9,
+        "position": "FW",
+        "age": 25
+      },
+      {
+        "name": "Kendry Páez",
+        "number": 10,
+        "position": "MF",
+        "age": 19
+      },
+      {
+        "name": "Kevin Rodríguez",
+        "number": 11,
+        "position": "FW",
+        "age": 26
+      },
+      {
+        "name": "Moisés Ramírez",
+        "number": 12,
+        "position": "GK",
+        "age": 25
+      },
+      {
+        "name": "Enner Valencia",
+        "number": 13,
+        "position": "FW",
+        "age": 36
+      },
+      {
+        "name": "Alan Minda",
+        "number": 14,
+        "position": "MF",
+        "age": 23
+      },
+      {
+        "name": "Pedro Vite",
+        "number": 15,
+        "position": "MF",
+        "age": 24
+      },
+      {
+        "name": "Jordy Caicedo",
+        "number": 16,
+        "position": "FW",
+        "age": 28
+      },
+      {
+        "name": "Ángelo Preciado",
+        "number": 17,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Denil Castillo",
+        "number": 18,
+        "position": "MF",
+        "age": 22
+      },
+      {
+        "name": "Gonzalo Plata",
+        "number": 19,
+        "position": "FW",
+        "age": 25
+      },
+      {
+        "name": "Nilson Angulo",
+        "number": 20,
+        "position": "FW",
+        "age": 22
+      },
+      {
+        "name": "Alan Franco",
+        "number": 21,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Gonzalo Valle",
+        "number": 22,
+        "position": "GK",
+        "age": 30
+      },
+      {
+        "name": "Moisés Caicedo",
+        "number": 23,
+        "position": "MF",
+        "age": 24
+      }
+    ],
+    "away": [
+      {
+        "name": "Eloy Room",
+        "number": 1,
+        "position": "GK",
+        "age": 37
+      },
+      {
+        "name": "Shurandy Sambo",
+        "number": 2,
+        "position": "DF",
+        "age": 24
+      },
+      {
+        "name": "Juriën Gaari",
+        "number": 3,
+        "position": "DF",
+        "age": 32
+      },
+      {
+        "name": "Roshon van Eijma",
+        "number": 4,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Sherel Floranus",
+        "number": 5,
+        "position": "DF",
+        "age": 27
+      },
+      {
+        "name": "Godfried Roemeratoe",
+        "number": 6,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Juninho Bacuna",
+        "number": 7,
+        "position": "MF",
+        "age": 28
+      },
+      {
+        "name": "Livano Comenencia",
+        "number": 8,
+        "position": "MF",
+        "age": 22
+      },
+      {
+        "name": "Jürgen Locadia",
+        "number": 9,
+        "position": "FW",
+        "age": 32
+      },
+      {
+        "name": "Leandro Bacuna",
+        "number": 10,
+        "position": "MF",
+        "age": 34
+      },
+      {
+        "name": "Jeremy Antonisse",
+        "number": 11,
+        "position": "FW",
+        "age": 24
+      },
+      {
+        "name": "Sontje Hansen",
+        "number": 12,
+        "position": "FW",
+        "age": 24
+      },
+      {
+        "name": "Tyrese Noslin",
+        "number": 13,
+        "position": "FW",
+        "age": 23
+      },
+      {
+        "name": "Kenji Gorre",
+        "number": 14,
+        "position": "FW",
+        "age": 31
+      },
+      {
+        "name": "Ar'jany Martha",
+        "number": 15,
+        "position": "MF",
+        "age": 22
+      },
+      {
+        "name": "Jearl Margaritha",
+        "number": 16,
+        "position": "FW",
+        "age": 26
+      },
+      {
+        "name": "Brandley Kuwas",
+        "number": 17,
+        "position": "FW",
+        "age": 33
+      },
+      {
+        "name": "Armando Obispo",
+        "number": 18,
+        "position": "DF",
+        "age": 27
+      },
+      {
+        "name": "Gervane Kastaneer",
+        "number": 19,
+        "position": "FW",
+        "age": 29
+      },
+      {
+        "name": "Joshua Brenet",
+        "number": 20,
+        "position": "DF",
+        "age": 32
+      },
+      {
+        "name": "Tahith Chong",
+        "number": 21,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Kevin Felida",
+        "number": 22,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Riechedly Bazoer",
+        "number": 23,
+        "position": "DF",
+        "age": 29
+      }
+    ]
+  }
+}

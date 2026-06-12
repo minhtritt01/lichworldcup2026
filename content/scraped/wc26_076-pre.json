@@ -1,0 +1,25 @@
+{
+  "matchId": "wc26_076",
+  "eventId": "local",
+  "status": "upcoming",
+  "scrapedAt": "2026-06-12T14:44:31.476Z",
+  "general": {
+    "homeTeam": "Winner C",
+    "homeSlug": "nhat-bang-c",
+    "awayTeam": "Runner-up F",
+    "awaySlug": "a-quan-bang-f",
+    "stage": "Vòng 1/16",
+    "group": "",
+    "kickoffUTC": "2026-06-29T17:00:00Z",
+    "venue": "NRG Stadium",
+    "referee": ""
+  },
+  "form": {
+    "home": [],
+    "away": []
+  },
+  "squads": {
+    "home": [],
+    "away": []
+  }
+}

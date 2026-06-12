@@ -1,0 +1,25 @@
+{
+  "matchId": "wc26_092",
+  "eventId": "local",
+  "status": "upcoming",
+  "scrapedAt": "2026-06-12T14:44:31.478Z",
+  "general": {
+    "homeTeam": "Thắng trận 79",
+    "homeSlug": "thang-79",
+    "awayTeam": "Thắng trận 80",
+    "awaySlug": "thang-80",
+    "stage": "Vòng 1/8",
+    "group": "",
+    "kickoffUTC": "2026-07-06T00:00:00Z",
+    "venue": "Estadio Azteca",
+    "referee": ""
+  },
+  "form": {
+    "home": [],
+    "away": []
+  },
+  "squads": {
+    "home": [],
+    "away": []
+  }
+}

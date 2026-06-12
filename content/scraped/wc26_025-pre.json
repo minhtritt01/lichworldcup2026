@@ -1,0 +1,303 @@
+{
+  "matchId": "wc26_025",
+  "eventId": "local",
+  "status": "upcoming",
+  "scrapedAt": "2026-06-12T14:44:31.469Z",
+  "general": {
+    "homeTeam": "Czechia",
+    "homeSlug": "sec",
+    "awayTeam": "South Africa",
+    "awaySlug": "nam-phi",
+    "stage": "Vòng Bảng - Bảng A",
+    "group": "A",
+    "kickoffUTC": "2026-06-18T16:00:00Z",
+    "venue": "Mercedes-Benz Stadium",
+    "referee": ""
+  },
+  "form": {
+    "home": [],
+    "away": []
+  },
+  "squads": {
+    "home": [
+      {
+        "name": "Matěj Kovář",
+        "number": 1,
+        "position": "GK",
+        "age": 26
+      },
+      {
+        "name": "Jindřich Staněk",
+        "number": 2,
+        "position": "GK",
+        "age": 30
+      },
+      {
+        "name": "Lukáš Horníček",
+        "number": 3,
+        "position": "GK",
+        "age": 23
+      },
+      {
+        "name": "Vladimír Coufal",
+        "number": 4,
+        "position": "DF",
+        "age": 33
+      },
+      {
+        "name": "Tomáš Holeš",
+        "number": 5,
+        "position": "DF",
+        "age": 33
+      },
+      {
+        "name": "Ladislav Krejčí",
+        "number": 6,
+        "position": "DF",
+        "age": 27
+      },
+      {
+        "name": "David Zima",
+        "number": 7,
+        "position": "DF",
+        "age": 25
+      },
+      {
+        "name": "Jaroslav Zelený",
+        "number": 8,
+        "position": "DF",
+        "age": 33
+      },
+      {
+        "name": "David Jurásek",
+        "number": 9,
+        "position": "DF",
+        "age": 25
+      },
+      {
+        "name": "David Douděra",
+        "number": 10,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Robin Hranáč",
+        "number": 11,
+        "position": "DF",
+        "age": 26
+      },
+      {
+        "name": "Štěpán Chaloupek",
+        "number": 12,
+        "position": "DF",
+        "age": 23
+      },
+      {
+        "name": "Tomáš Souček",
+        "number": 13,
+        "position": "MF",
+        "age": 31
+      },
+      {
+        "name": "Vladimír Darida",
+        "number": 14,
+        "position": "MF",
+        "age": 35
+      },
+      {
+        "name": "Lukáš Provod",
+        "number": 15,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Michal Sadílek",
+        "number": 16,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Pavel Šulc",
+        "number": 17,
+        "position": "MF",
+        "age": 25
+      },
+      {
+        "name": "Lukáš Červ",
+        "number": 18,
+        "position": "MF",
+        "age": 25
+      },
+      {
+        "name": "Hugo Sochůrek",
+        "number": 19,
+        "position": "MF",
+        "age": 18
+      },
+      {
+        "name": "Alexandr Sojka",
+        "number": 20,
+        "position": "MF",
+        "age": 23
+      },
+      {
+        "name": "Denis Višinský",
+        "number": 21,
+        "position": "MF",
+        "age": 23
+      },
+      {
+        "name": "Patrik Schick",
+        "number": 22,
+        "position": "FW",
+        "age": 30
+      },
+      {
+        "name": "Adam Hložek",
+        "number": 23,
+        "position": "FW",
+        "age": 23
+      }
+    ],
+    "away": [
+      {
+        "name": "Ronwen Williams",
+        "number": 1,
+        "position": "GK",
+        "age": 34
+      },
+      {
+        "name": "Ricardo Goss",
+        "number": 2,
+        "position": "GK",
+        "age": 32
+      },
+      {
+        "name": "Sipho Chaine",
+        "number": 3,
+        "position": "GK",
+        "age": 29
+      },
+      {
+        "name": "Aubrey Modiba",
+        "number": 4,
+        "position": "DF",
+        "age": 30
+      },
+      {
+        "name": "Khuliso Mudau",
+        "number": 5,
+        "position": "DF",
+        "age": 31
+      },
+      {
+        "name": "Nkosinathi Sibisi",
+        "number": 6,
+        "position": "DF",
+        "age": 30
+      },
+      {
+        "name": "Mbekezeli Mbokazi",
+        "number": 7,
+        "position": "DF",
+        "age": 20
+      },
+      {
+        "name": "Ime Okon",
+        "number": 8,
+        "position": "DF",
+        "age": 22
+      },
+      {
+        "name": "Samukele Kabini",
+        "number": 9,
+        "position": "DF",
+        "age": 22
+      },
+      {
+        "name": "Khulumani Ndamane",
+        "number": 10,
+        "position": "DF",
+        "age": 22
+      },
+      {
+        "name": "Thabang Matuludi",
+        "number": 11,
+        "position": "DF",
+        "age": 27
+      },
+      {
+        "name": "Kamogelo Sebelebele",
+        "number": 12,
+        "position": "DF",
+        "age": 23
+      },
+      {
+        "name": "Bradley Cross",
+        "number": 13,
+        "position": "DF",
+        "age": 25
+      },
+      {
+        "name": "Olwethu Makhanya",
+        "number": 14,
+        "position": "DF",
+        "age": 22
+      },
+      {
+        "name": "Teboho Mokoena",
+        "number": 15,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Sphephelo Sithole",
+        "number": 16,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Thalente Mbatha",
+        "number": 17,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Jayden Adams",
+        "number": 18,
+        "position": "MF",
+        "age": 25
+      },
+      {
+        "name": "Themba Zwane",
+        "number": 19,
+        "position": "FW",
+        "age": 36
+      },
+      {
+        "name": "Lyle Foster",
+        "number": 20,
+        "position": "FW",
+        "age": 26
+      },
+      {
+        "name": "Evidence Makgopa",
+        "number": 21,
+        "position": "FW",
+        "age": 26
+      },
+      {
+        "name": "Oswin Appollis",
+        "number": 22,
+        "position": "FW",
+        "age": 24
+      },
+      {
+        "name": "Iqraam Rayners",
+        "number": 23,
+        "position": "FW",
+        "age": 30
+      }
+    ]
+  }
+}

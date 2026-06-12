@@ -1,0 +1,217 @@
+{
+  "incidents": [],
+  "homeLineup": {
+    "teamSlug": "duc",
+    "teamName": "Germany",
+    "formation": "4-3-3",
+    "accent": "#ef4444",
+    "players": [
+      {
+        "name": "Manuel Neuer",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 12,
+        "teamSlug": "duc",
+        "captain": true
+      },
+      {
+        "name": "Joshua Kimmich",
+        "number": 4,
+        "role": "RB",
+        "x": 14,
+        "y": 28,
+        "teamSlug": "duc",
+        "captain": false
+      },
+      {
+        "name": "Antonio Rüdiger",
+        "number": 5,
+        "role": "CB",
+        "x": 36,
+        "y": 30,
+        "teamSlug": "duc",
+        "captain": false
+      },
+      {
+        "name": "Jonathan Tah",
+        "number": 6,
+        "role": "CB",
+        "x": 64,
+        "y": 30,
+        "teamSlug": "duc",
+        "captain": false
+      },
+      {
+        "name": "Robin Koch",
+        "number": 7,
+        "role": "LB",
+        "x": 86,
+        "y": 28,
+        "teamSlug": "duc",
+        "captain": false
+      },
+      {
+        "name": "Jamal Musiala",
+        "number": 10,
+        "role": "DM",
+        "x": 22,
+        "y": 48,
+        "teamSlug": "duc",
+        "captain": false
+      },
+      {
+        "name": "Florian Wirtz",
+        "number": 11,
+        "role": "CM",
+        "x": 50,
+        "y": 56,
+        "teamSlug": "duc",
+        "captain": false
+      },
+      {
+        "name": "Toni Kroos",
+        "number": 12,
+        "role": "CM",
+        "x": 78,
+        "y": 48,
+        "teamSlug": "duc",
+        "captain": false
+      },
+      {
+        "name": "Kai Havertz",
+        "number": 17,
+        "role": "RW",
+        "x": 18,
+        "y": 76,
+        "teamSlug": "duc",
+        "captain": false
+      },
+      {
+        "name": "Leroy Sané",
+        "number": 18,
+        "role": "ST",
+        "x": 50,
+        "y": 84,
+        "teamSlug": "duc",
+        "captain": false
+      },
+      {
+        "name": "Maximilian Beier",
+        "number": 19,
+        "role": "LW",
+        "x": 82,
+        "y": 76,
+        "teamSlug": "duc",
+        "captain": false
+      }
+    ]
+  },
+  "awayLineup": {
+    "teamSlug": "bo-bien-nga",
+    "teamName": "Ivory Coast",
+    "formation": "4-3-3",
+    "accent": "#2563eb",
+    "players": [
+      {
+        "name": "Yahia Fofana",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 88,
+        "teamSlug": "bo-bien-nga",
+        "captain": false
+      },
+      {
+        "name": "Ousmane Diomandé",
+        "number": 2,
+        "role": "RB",
+        "x": 14,
+        "y": 72,
+        "teamSlug": "bo-bien-nga",
+        "captain": false
+      },
+      {
+        "name": "Ghislain Konan",
+        "number": 3,
+        "role": "CB",
+        "x": 36,
+        "y": 70,
+        "teamSlug": "bo-bien-nga",
+        "captain": false
+      },
+      {
+        "name": "Wilfried Singo",
+        "number": 5,
+        "role": "CB",
+        "x": 64,
+        "y": 70,
+        "teamSlug": "bo-bien-nga",
+        "captain": false
+      },
+      {
+        "name": "Odilon Kossounou",
+        "number": 7,
+        "role": "LB",
+        "x": 86,
+        "y": 72,
+        "teamSlug": "bo-bien-nga",
+        "captain": false
+      },
+      {
+        "name": "Jean Michaël Seri",
+        "number": 4,
+        "role": "DM",
+        "x": 22,
+        "y": 52,
+        "teamSlug": "bo-bien-nga",
+        "captain": false
+      },
+      {
+        "name": "Seko Fofana",
+        "number": 6,
+        "role": "CM",
+        "x": 50,
+        "y": 44,
+        "teamSlug": "bo-bien-nga",
+        "captain": true
+      },
+      {
+        "name": "Franck Kessié",
+        "number": 8,
+        "role": "CM",
+        "x": 78,
+        "y": 52,
+        "teamSlug": "bo-bien-nga",
+        "captain": false
+      },
+      {
+        "name": "Ange-Yoan Bonny",
+        "number": 9,
+        "role": "RW",
+        "x": 18,
+        "y": 24,
+        "teamSlug": "bo-bien-nga",
+        "captain": false
+      },
+      {
+        "name": "Simon Adingra",
+        "number": 10,
+        "role": "ST",
+        "x": 50,
+        "y": 16,
+        "teamSlug": "bo-bien-nga",
+        "captain": false
+      },
+      {
+        "name": "Yan Diomandé",
+        "number": 11,
+        "role": "LW",
+        "x": 82,
+        "y": 24,
+        "teamSlug": "bo-bien-nga",
+        "captain": false
+      }
+    ]
+  }
+}

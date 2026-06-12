@@ -1,0 +1,217 @@
+{
+  "incidents": [],
+  "homeLineup": {
+    "teamSlug": "sec",
+    "teamName": "Czechia",
+    "formation": "4-3-3",
+    "accent": "#ef4444",
+    "players": [
+      {
+        "name": "Matěj Kovář",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 12,
+        "teamSlug": "sec",
+        "captain": false
+      },
+      {
+        "name": "Vladimír Coufal",
+        "number": 4,
+        "role": "RB",
+        "x": 14,
+        "y": 28,
+        "teamSlug": "sec",
+        "captain": false
+      },
+      {
+        "name": "Tomáš Holeš",
+        "number": 5,
+        "role": "CB",
+        "x": 36,
+        "y": 30,
+        "teamSlug": "sec",
+        "captain": false
+      },
+      {
+        "name": "Ladislav Krejčí",
+        "number": 6,
+        "role": "CB",
+        "x": 64,
+        "y": 30,
+        "teamSlug": "sec",
+        "captain": true
+      },
+      {
+        "name": "David Zima",
+        "number": 7,
+        "role": "LB",
+        "x": 86,
+        "y": 28,
+        "teamSlug": "sec",
+        "captain": false
+      },
+      {
+        "name": "Tomáš Souček",
+        "number": 13,
+        "role": "DM",
+        "x": 22,
+        "y": 48,
+        "teamSlug": "sec",
+        "captain": false
+      },
+      {
+        "name": "Vladimír Darida",
+        "number": 14,
+        "role": "CM",
+        "x": 50,
+        "y": 56,
+        "teamSlug": "sec",
+        "captain": false
+      },
+      {
+        "name": "Lukáš Provod",
+        "number": 15,
+        "role": "CM",
+        "x": 78,
+        "y": 48,
+        "teamSlug": "sec",
+        "captain": false
+      },
+      {
+        "name": "Patrik Schick",
+        "number": 22,
+        "role": "RW",
+        "x": 18,
+        "y": 76,
+        "teamSlug": "sec",
+        "captain": false
+      },
+      {
+        "name": "Adam Hložek",
+        "number": 23,
+        "role": "ST",
+        "x": 50,
+        "y": 84,
+        "teamSlug": "sec",
+        "captain": false
+      },
+      {
+        "name": "Jan Kuchta",
+        "number": 24,
+        "role": "LW",
+        "x": 82,
+        "y": 76,
+        "teamSlug": "sec",
+        "captain": false
+      }
+    ]
+  },
+  "awayLineup": {
+    "teamSlug": "nam-phi",
+    "teamName": "South Africa",
+    "formation": "4-3-3",
+    "accent": "#2563eb",
+    "players": [
+      {
+        "name": "Ronwen Williams",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 88,
+        "teamSlug": "nam-phi",
+        "captain": true
+      },
+      {
+        "name": "Aubrey Modiba",
+        "number": 4,
+        "role": "RB",
+        "x": 14,
+        "y": 72,
+        "teamSlug": "nam-phi",
+        "captain": false
+      },
+      {
+        "name": "Khuliso Mudau",
+        "number": 5,
+        "role": "CB",
+        "x": 36,
+        "y": 70,
+        "teamSlug": "nam-phi",
+        "captain": false
+      },
+      {
+        "name": "Nkosinathi Sibisi",
+        "number": 6,
+        "role": "CB",
+        "x": 64,
+        "y": 70,
+        "teamSlug": "nam-phi",
+        "captain": false
+      },
+      {
+        "name": "Mbekezeli Mbokazi",
+        "number": 7,
+        "role": "LB",
+        "x": 86,
+        "y": 72,
+        "teamSlug": "nam-phi",
+        "captain": false
+      },
+      {
+        "name": "Teboho Mokoena",
+        "number": 15,
+        "role": "DM",
+        "x": 22,
+        "y": 52,
+        "teamSlug": "nam-phi",
+        "captain": false
+      },
+      {
+        "name": "Sphephelo Sithole",
+        "number": 16,
+        "role": "CM",
+        "x": 50,
+        "y": 44,
+        "teamSlug": "nam-phi",
+        "captain": false
+      },
+      {
+        "name": "Thalente Mbatha",
+        "number": 17,
+        "role": "CM",
+        "x": 78,
+        "y": 52,
+        "teamSlug": "nam-phi",
+        "captain": false
+      },
+      {
+        "name": "Themba Zwane",
+        "number": 19,
+        "role": "RW",
+        "x": 18,
+        "y": 24,
+        "teamSlug": "nam-phi",
+        "captain": false
+      },
+      {
+        "name": "Lyle Foster",
+        "number": 20,
+        "role": "ST",
+        "x": 50,
+        "y": 16,
+        "teamSlug": "nam-phi",
+        "captain": false
+      },
+      {
+        "name": "Evidence Makgopa",
+        "number": 21,
+        "role": "LW",
+        "x": 82,
+        "y": 24,
+        "teamSlug": "nam-phi",
+        "captain": false
+      }
+    ]
+  }
+}

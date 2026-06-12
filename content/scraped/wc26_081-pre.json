@@ -1,0 +1,25 @@
+{
+  "matchId": "wc26_081",
+  "eventId": "local",
+  "status": "upcoming",
+  "scrapedAt": "2026-06-12T14:44:31.476Z",
+  "general": {
+    "homeTeam": "Winner D",
+    "homeSlug": "nhat-bang-d",
+    "awayTeam": "Best 3rd",
+    "awaySlug": "best-3rd-5",
+    "stage": "Vòng 1/16",
+    "group": "",
+    "kickoffUTC": "2026-07-02T00:00:00Z",
+    "venue": "Levi's Stadium",
+    "referee": ""
+  },
+  "form": {
+    "home": [],
+    "away": []
+  },
+  "squads": {
+    "home": [],
+    "away": []
+  }
+}

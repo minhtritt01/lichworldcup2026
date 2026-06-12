@@ -1,0 +1,303 @@
+{
+  "matchId": "wc26_045",
+  "eventId": "local",
+  "status": "upcoming",
+  "scrapedAt": "2026-06-12T14:44:31.472Z",
+  "general": {
+    "homeTeam": "Portugal",
+    "homeSlug": "bo-dao-nha",
+    "awayTeam": "Uzbekistan",
+    "awaySlug": "uzbekistan",
+    "stage": "Vòng Bảng - Bảng K",
+    "group": "K",
+    "kickoffUTC": "2026-06-23T17:00:00Z",
+    "venue": "NRG Stadium",
+    "referee": ""
+  },
+  "form": {
+    "home": [],
+    "away": []
+  },
+  "squads": {
+    "home": [
+      {
+        "name": "Diogo Costa",
+        "number": 1,
+        "position": "GK",
+        "age": 26
+      },
+      {
+        "name": "José Sá",
+        "number": 2,
+        "position": "GK",
+        "age": 33
+      },
+      {
+        "name": "Rui Patrício",
+        "number": 3,
+        "position": "GK",
+        "age": 38
+      },
+      {
+        "name": "João Cancelo",
+        "number": 4,
+        "position": "DF",
+        "age": 32
+      },
+      {
+        "name": "Rúben Dias",
+        "number": 5,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Gonçalo Inácio",
+        "number": 6,
+        "position": "DF",
+        "age": 24
+      },
+      {
+        "name": "Nuno Mendes",
+        "number": 7,
+        "position": "DF",
+        "age": 24
+      },
+      {
+        "name": "Diogo Dalot",
+        "number": 8,
+        "position": "DF",
+        "age": 27
+      },
+      {
+        "name": "Rúben Neves",
+        "number": 9,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Cristiano Ronaldo",
+        "number": 10,
+        "position": "FW",
+        "age": 41
+      },
+      {
+        "name": "Bernardo Silva",
+        "number": 11,
+        "position": "FW",
+        "age": 31
+      },
+      {
+        "name": "João Palhinha",
+        "number": 12,
+        "position": "MF",
+        "age": 30
+      },
+      {
+        "name": "Vitinha",
+        "number": 13,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Bruno Fernandes",
+        "number": 14,
+        "position": "MF",
+        "age": 31
+      },
+      {
+        "name": "João Mário",
+        "number": 15,
+        "position": "MF",
+        "age": 33
+      },
+      {
+        "name": "Rafael Leão",
+        "number": 16,
+        "position": "FW",
+        "age": 27
+      },
+      {
+        "name": "Pedro Neto",
+        "number": 17,
+        "position": "FW",
+        "age": 26
+      },
+      {
+        "name": "Gonçalo Ramos",
+        "number": 18,
+        "position": "FW",
+        "age": 25
+      },
+      {
+        "name": "João Félix",
+        "number": 19,
+        "position": "FW",
+        "age": 26
+      },
+      {
+        "name": "Francisco Conceição",
+        "number": 20,
+        "position": "FW",
+        "age": 23
+      },
+      {
+        "name": "Diogo Jota",
+        "number": 21,
+        "position": "FW",
+        "age": 29
+      },
+      {
+        "name": "Pepe",
+        "number": 22,
+        "position": "DF",
+        "age": 43
+      },
+      {
+        "name": "António Silva",
+        "number": 23,
+        "position": "DF",
+        "age": 22
+      }
+    ],
+    "away": [
+      {
+        "name": "Abduvohid Nematov",
+        "number": 1,
+        "position": "GK",
+        "age": 32
+      },
+      {
+        "name": "Otabek Shukurov",
+        "number": 2,
+        "position": "GK",
+        "age": 28
+      },
+      {
+        "name": "Jasur Yakhshiboyev",
+        "number": 3,
+        "position": "GK",
+        "age": 25
+      },
+      {
+        "name": "Jasur Jalolov",
+        "number": 4,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Jamshid Iskanderov",
+        "number": 5,
+        "position": "DF",
+        "age": 27
+      },
+      {
+        "name": "Odiljon Hamrobekov",
+        "number": 6,
+        "position": "DF",
+        "age": 30
+      },
+      {
+        "name": "Jaloliddin Masharipov",
+        "number": 7,
+        "position": "MF",
+        "age": 32
+      },
+      {
+        "name": "Azizbek Ganiev",
+        "number": 8,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Sherzod Esanov",
+        "number": 9,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Abbosbek Fayzullaev",
+        "number": 10,
+        "position": "MF",
+        "age": 24
+      },
+      {
+        "name": "Azizbek Amonov",
+        "number": 11,
+        "position": "FW",
+        "age": 29
+      },
+      {
+        "name": "Eldor Shomurodov",
+        "number": 12,
+        "position": "FW",
+        "age": 31
+      },
+      {
+        "name": "Igor Sergeev",
+        "number": 13,
+        "position": "FW",
+        "age": 30
+      },
+      {
+        "name": "Oston Urunov",
+        "number": 14,
+        "position": "FW",
+        "age": 25
+      },
+      {
+        "name": "Dostonbek Hamdamov",
+        "number": 15,
+        "position": "FW",
+        "age": 23
+      },
+      {
+        "name": "Akmal Mozgovoy",
+        "number": 16,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Doniyor Akhmedov",
+        "number": 17,
+        "position": "DF",
+        "age": 27
+      },
+      {
+        "name": "Ulugbek Rashidov",
+        "number": 18,
+        "position": "DF",
+        "age": 27
+      },
+      {
+        "name": "Khojiakbar Alijonov",
+        "number": 19,
+        "position": "MF",
+        "age": 24
+      },
+      {
+        "name": "Bobur Abdixoliqov",
+        "number": 20,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Otabek Tursunov",
+        "number": 21,
+        "position": "FW",
+        "age": 25
+      },
+      {
+        "name": "Xasan Khusanov",
+        "number": 22,
+        "position": "DF",
+        "age": 24
+      },
+      {
+        "name": "Dzhavokhir Sidiqov",
+        "number": 23,
+        "position": "DF",
+        "age": 26
+      }
+    ]
+  }
+}

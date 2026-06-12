@@ -1,0 +1,217 @@
+{
+  "incidents": [],
+  "homeLineup": {
+    "teamSlug": "mexico",
+    "teamName": "Mexico",
+    "formation": "4-3-3",
+    "accent": "#ef4444",
+    "players": [
+      {
+        "name": "Guillermo Ochoa",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 12,
+        "teamSlug": "mexico",
+        "captain": false
+      },
+      {
+        "name": "Jesús Gallardo",
+        "number": 4,
+        "role": "RB",
+        "x": 14,
+        "y": 28,
+        "teamSlug": "mexico",
+        "captain": false
+      },
+      {
+        "name": "César Montes",
+        "number": 5,
+        "role": "CB",
+        "x": 36,
+        "y": 30,
+        "teamSlug": "mexico",
+        "captain": false
+      },
+      {
+        "name": "Jorge Sánchez",
+        "number": 6,
+        "role": "CB",
+        "x": 64,
+        "y": 30,
+        "teamSlug": "mexico",
+        "captain": false
+      },
+      {
+        "name": "Johan Vásquez",
+        "number": 7,
+        "role": "LB",
+        "x": 86,
+        "y": 28,
+        "teamSlug": "mexico",
+        "captain": false
+      },
+      {
+        "name": "Edson Álvarez",
+        "number": 10,
+        "role": "DM",
+        "x": 22,
+        "y": 48,
+        "teamSlug": "mexico",
+        "captain": true
+      },
+      {
+        "name": "Orbelín Pineda",
+        "number": 11,
+        "role": "CM",
+        "x": 50,
+        "y": 56,
+        "teamSlug": "mexico",
+        "captain": false
+      },
+      {
+        "name": "Roberto Alvarado",
+        "number": 12,
+        "role": "CM",
+        "x": 78,
+        "y": 48,
+        "teamSlug": "mexico",
+        "captain": false
+      },
+      {
+        "name": "Raúl Jiménez",
+        "number": 20,
+        "role": "RW",
+        "x": 18,
+        "y": 76,
+        "teamSlug": "mexico",
+        "captain": false
+      },
+      {
+        "name": "Alexis Vega",
+        "number": 21,
+        "role": "ST",
+        "x": 50,
+        "y": 84,
+        "teamSlug": "mexico",
+        "captain": false
+      },
+      {
+        "name": "Santiago Giménez",
+        "number": 22,
+        "role": "LW",
+        "x": 82,
+        "y": 76,
+        "teamSlug": "mexico",
+        "captain": false
+      }
+    ]
+  },
+  "awayLineup": {
+    "teamSlug": "han-quoc",
+    "teamName": "South Korea",
+    "formation": "4-3-3",
+    "accent": "#2563eb",
+    "players": [
+      {
+        "name": "Kim Seung-gyu",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 88,
+        "teamSlug": "han-quoc",
+        "captain": false
+      },
+      {
+        "name": "Kim Min-jae",
+        "number": 4,
+        "role": "RB",
+        "x": 14,
+        "y": 72,
+        "teamSlug": "han-quoc",
+        "captain": false
+      },
+      {
+        "name": "Kim Moon-hwan",
+        "number": 5,
+        "role": "CB",
+        "x": 36,
+        "y": 70,
+        "teamSlug": "han-quoc",
+        "captain": false
+      },
+      {
+        "name": "Seol Young-woo",
+        "number": 6,
+        "role": "CB",
+        "x": 64,
+        "y": 70,
+        "teamSlug": "han-quoc",
+        "captain": false
+      },
+      {
+        "name": "Lee Tae-seok",
+        "number": 7,
+        "role": "LB",
+        "x": 86,
+        "y": 72,
+        "teamSlug": "han-quoc",
+        "captain": false
+      },
+      {
+        "name": "Lee Jae-sung",
+        "number": 14,
+        "role": "DM",
+        "x": 22,
+        "y": 52,
+        "teamSlug": "han-quoc",
+        "captain": false
+      },
+      {
+        "name": "Hwang Hee-chan",
+        "number": 15,
+        "role": "CM",
+        "x": 50,
+        "y": 44,
+        "teamSlug": "han-quoc",
+        "captain": false
+      },
+      {
+        "name": "Hwang In-beom",
+        "number": 16,
+        "role": "CM",
+        "x": 78,
+        "y": 52,
+        "teamSlug": "han-quoc",
+        "captain": false
+      },
+      {
+        "name": "Son Heung-min",
+        "number": 24,
+        "role": "RW",
+        "x": 18,
+        "y": 24,
+        "teamSlug": "han-quoc",
+        "captain": true
+      },
+      {
+        "name": "Cho Gue-sung",
+        "number": 25,
+        "role": "ST",
+        "x": 50,
+        "y": 16,
+        "teamSlug": "han-quoc",
+        "captain": false
+      },
+      {
+        "name": "Oh Hyeon-gyu",
+        "number": 26,
+        "role": "LW",
+        "x": 82,
+        "y": 24,
+        "teamSlug": "han-quoc",
+        "captain": false
+      }
+    ]
+  }
+}

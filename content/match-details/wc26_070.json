@@ -1,0 +1,217 @@
+{
+  "incidents": [],
+  "homeLineup": {
+    "teamSlug": "congo-dr",
+    "teamName": "DR Congo",
+    "formation": "4-3-3",
+    "accent": "#ef4444",
+    "players": [
+      {
+        "name": "Lionel Mpasi",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 12,
+        "teamSlug": "congo-dr",
+        "captain": false
+      },
+      {
+        "name": "Aaron Wan-Bissaka",
+        "number": 2,
+        "role": "RB",
+        "x": 14,
+        "y": 28,
+        "teamSlug": "congo-dr",
+        "captain": false
+      },
+      {
+        "name": "Steve Kapuadi",
+        "number": 3,
+        "role": "CB",
+        "x": 36,
+        "y": 30,
+        "teamSlug": "congo-dr",
+        "captain": false
+      },
+      {
+        "name": "Axel Tuanzebe",
+        "number": 4,
+        "role": "CB",
+        "x": 64,
+        "y": 30,
+        "teamSlug": "congo-dr",
+        "captain": false
+      },
+      {
+        "name": "Dylan Batubinsika",
+        "number": 5,
+        "role": "LB",
+        "x": 86,
+        "y": 28,
+        "teamSlug": "congo-dr",
+        "captain": false
+      },
+      {
+        "name": "Ngal'ayel Mukau",
+        "number": 6,
+        "role": "DM",
+        "x": 22,
+        "y": 48,
+        "teamSlug": "congo-dr",
+        "captain": false
+      },
+      {
+        "name": "Nathanaël Mbuku",
+        "number": 7,
+        "role": "CM",
+        "x": 50,
+        "y": 56,
+        "teamSlug": "congo-dr",
+        "captain": false
+      },
+      {
+        "name": "Samuel Moutoussamy",
+        "number": 8,
+        "role": "CM",
+        "x": 78,
+        "y": 48,
+        "teamSlug": "congo-dr",
+        "captain": false
+      },
+      {
+        "name": "Brian Cipenga",
+        "number": 9,
+        "role": "RW",
+        "x": 18,
+        "y": 76,
+        "teamSlug": "congo-dr",
+        "captain": false
+      },
+      {
+        "name": "Gaël Kakuta",
+        "number": 11,
+        "role": "ST",
+        "x": 50,
+        "y": 84,
+        "teamSlug": "congo-dr",
+        "captain": false
+      },
+      {
+        "name": "Meschack Elia",
+        "number": 13,
+        "role": "LW",
+        "x": 82,
+        "y": 76,
+        "teamSlug": "congo-dr",
+        "captain": false
+      }
+    ]
+  },
+  "awayLineup": {
+    "teamSlug": "uzbekistan",
+    "teamName": "Uzbekistan",
+    "formation": "4-3-3",
+    "accent": "#2563eb",
+    "players": [
+      {
+        "name": "Abduvohid Nematov",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 88,
+        "teamSlug": "uzbekistan",
+        "captain": true
+      },
+      {
+        "name": "Jasur Jalolov",
+        "number": 4,
+        "role": "RB",
+        "x": 14,
+        "y": 72,
+        "teamSlug": "uzbekistan",
+        "captain": false
+      },
+      {
+        "name": "Jamshid Iskanderov",
+        "number": 5,
+        "role": "CB",
+        "x": 36,
+        "y": 70,
+        "teamSlug": "uzbekistan",
+        "captain": false
+      },
+      {
+        "name": "Odiljon Hamrobekov",
+        "number": 6,
+        "role": "CB",
+        "x": 64,
+        "y": 70,
+        "teamSlug": "uzbekistan",
+        "captain": false
+      },
+      {
+        "name": "Doniyor Akhmedov",
+        "number": 17,
+        "role": "LB",
+        "x": 86,
+        "y": 72,
+        "teamSlug": "uzbekistan",
+        "captain": false
+      },
+      {
+        "name": "Jaloliddin Masharipov",
+        "number": 7,
+        "role": "DM",
+        "x": 22,
+        "y": 52,
+        "teamSlug": "uzbekistan",
+        "captain": false
+      },
+      {
+        "name": "Azizbek Ganiev",
+        "number": 8,
+        "role": "CM",
+        "x": 50,
+        "y": 44,
+        "teamSlug": "uzbekistan",
+        "captain": false
+      },
+      {
+        "name": "Sherzod Esanov",
+        "number": 9,
+        "role": "CM",
+        "x": 78,
+        "y": 52,
+        "teamSlug": "uzbekistan",
+        "captain": false
+      },
+      {
+        "name": "Azizbek Amonov",
+        "number": 11,
+        "role": "RW",
+        "x": 18,
+        "y": 24,
+        "teamSlug": "uzbekistan",
+        "captain": false
+      },
+      {
+        "name": "Eldor Shomurodov",
+        "number": 12,
+        "role": "ST",
+        "x": 50,
+        "y": 16,
+        "teamSlug": "uzbekistan",
+        "captain": false
+      },
+      {
+        "name": "Igor Sergeev",
+        "number": 13,
+        "role": "LW",
+        "x": 82,
+        "y": 24,
+        "teamSlug": "uzbekistan",
+        "captain": false
+      }
+    ]
+  }
+}

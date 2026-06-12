@@ -1,0 +1,217 @@
+{
+  "incidents": [],
+  "homeLineup": {
+    "teamSlug": "anh",
+    "teamName": "England",
+    "formation": "4-3-3",
+    "accent": "#ef4444",
+    "players": [
+      {
+        "name": "Jordan Pickford",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 12,
+        "teamSlug": "anh",
+        "captain": true
+      },
+      {
+        "name": "Kyle Walker",
+        "number": 4,
+        "role": "RB",
+        "x": 14,
+        "y": 28,
+        "teamSlug": "anh",
+        "captain": false
+      },
+      {
+        "name": "Harry Maguire",
+        "number": 5,
+        "role": "CB",
+        "x": 36,
+        "y": 30,
+        "teamSlug": "anh",
+        "captain": false
+      },
+      {
+        "name": "John Stones",
+        "number": 6,
+        "role": "CB",
+        "x": 64,
+        "y": 30,
+        "teamSlug": "anh",
+        "captain": false
+      },
+      {
+        "name": "Luke Shaw",
+        "number": 7,
+        "role": "LB",
+        "x": 86,
+        "y": 28,
+        "teamSlug": "anh",
+        "captain": false
+      },
+      {
+        "name": "Jude Bellingham",
+        "number": 10,
+        "role": "DM",
+        "x": 22,
+        "y": 48,
+        "teamSlug": "anh",
+        "captain": false
+      },
+      {
+        "name": "Declan Rice",
+        "number": 11,
+        "role": "CM",
+        "x": 50,
+        "y": 56,
+        "teamSlug": "anh",
+        "captain": false
+      },
+      {
+        "name": "Phil Foden",
+        "number": 12,
+        "role": "CM",
+        "x": 78,
+        "y": 48,
+        "teamSlug": "anh",
+        "captain": false
+      },
+      {
+        "name": "Harry Kane",
+        "number": 16,
+        "role": "RW",
+        "x": 18,
+        "y": 76,
+        "teamSlug": "anh",
+        "captain": false
+      },
+      {
+        "name": "Bukayo Saka",
+        "number": 17,
+        "role": "ST",
+        "x": 50,
+        "y": 84,
+        "teamSlug": "anh",
+        "captain": false
+      },
+      {
+        "name": "Marcus Rashford",
+        "number": 18,
+        "role": "LW",
+        "x": 82,
+        "y": 76,
+        "teamSlug": "anh",
+        "captain": false
+      }
+    ]
+  },
+  "awayLineup": {
+    "teamSlug": "ghana",
+    "teamName": "Ghana",
+    "formation": "4-3-3",
+    "accent": "#2563eb",
+    "players": [
+      {
+        "name": "Lawrence Ati Zigi",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 88,
+        "teamSlug": "ghana",
+        "captain": true
+      },
+      {
+        "name": "Daniel Amartey",
+        "number": 4,
+        "role": "RB",
+        "x": 14,
+        "y": 72,
+        "teamSlug": "ghana",
+        "captain": false
+      },
+      {
+        "name": "Alexander Djiku",
+        "number": 5,
+        "role": "CB",
+        "x": 36,
+        "y": 70,
+        "teamSlug": "ghana",
+        "captain": false
+      },
+      {
+        "name": "Tariq Lamptey",
+        "number": 6,
+        "role": "CB",
+        "x": 64,
+        "y": 70,
+        "teamSlug": "ghana",
+        "captain": false
+      },
+      {
+        "name": "Baba Rahman",
+        "number": 7,
+        "role": "LB",
+        "x": 86,
+        "y": 72,
+        "teamSlug": "ghana",
+        "captain": false
+      },
+      {
+        "name": "Thomas Partey",
+        "number": 9,
+        "role": "DM",
+        "x": 22,
+        "y": 52,
+        "teamSlug": "ghana",
+        "captain": false
+      },
+      {
+        "name": "Iddrisu Baba",
+        "number": 10,
+        "role": "CM",
+        "x": 50,
+        "y": 44,
+        "teamSlug": "ghana",
+        "captain": false
+      },
+      {
+        "name": "Daniel Kofi Kyereh",
+        "number": 11,
+        "role": "CM",
+        "x": 78,
+        "y": 52,
+        "teamSlug": "ghana",
+        "captain": false
+      },
+      {
+        "name": "Jordan Ayew",
+        "number": 16,
+        "role": "RW",
+        "x": 18,
+        "y": 24,
+        "teamSlug": "ghana",
+        "captain": false
+      },
+      {
+        "name": "André Ayew",
+        "number": 17,
+        "role": "ST",
+        "x": 50,
+        "y": 16,
+        "teamSlug": "ghana",
+        "captain": false
+      },
+      {
+        "name": "Inaki Williams",
+        "number": 18,
+        "role": "LW",
+        "x": 82,
+        "y": 24,
+        "teamSlug": "ghana",
+        "captain": false
+      }
+    ]
+  }
+}

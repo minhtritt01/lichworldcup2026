@@ -1,0 +1,217 @@
+{
+  "incidents": [],
+  "homeLineup": {
+    "teamSlug": "ai-cap",
+    "teamName": "Egypt",
+    "formation": "4-3-3",
+    "accent": "#ef4444",
+    "players": [
+      {
+        "name": "Mohamed El-Shenawy",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 12,
+        "teamSlug": "ai-cap",
+        "captain": false
+      },
+      {
+        "name": "Ahmed Hegazy",
+        "number": 4,
+        "role": "RB",
+        "x": 14,
+        "y": 28,
+        "teamSlug": "ai-cap",
+        "captain": true
+      },
+      {
+        "name": "Ali Gabr",
+        "number": 5,
+        "role": "CB",
+        "x": 36,
+        "y": 30,
+        "teamSlug": "ai-cap",
+        "captain": false
+      },
+      {
+        "name": "Omar Kamal",
+        "number": 6,
+        "role": "CB",
+        "x": 64,
+        "y": 30,
+        "teamSlug": "ai-cap",
+        "captain": false
+      },
+      {
+        "name": "Akram Tawfik",
+        "number": 7,
+        "role": "LB",
+        "x": 86,
+        "y": 28,
+        "teamSlug": "ai-cap",
+        "captain": false
+      },
+      {
+        "name": "Tarek Hamed",
+        "number": 9,
+        "role": "DM",
+        "x": 22,
+        "y": 48,
+        "teamSlug": "ai-cap",
+        "captain": false
+      },
+      {
+        "name": "Mahmoud Trezeguet",
+        "number": 10,
+        "role": "CM",
+        "x": 50,
+        "y": 56,
+        "teamSlug": "ai-cap",
+        "captain": false
+      },
+      {
+        "name": "Amr El Sulaya",
+        "number": 12,
+        "role": "CM",
+        "x": 78,
+        "y": 48,
+        "teamSlug": "ai-cap",
+        "captain": false
+      },
+      {
+        "name": "Mohamed Salah",
+        "number": 11,
+        "role": "RW",
+        "x": 18,
+        "y": 76,
+        "teamSlug": "ai-cap",
+        "captain": false
+      },
+      {
+        "name": "Mostafa Mohamed",
+        "number": 18,
+        "role": "ST",
+        "x": 50,
+        "y": 84,
+        "teamSlug": "ai-cap",
+        "captain": false
+      },
+      {
+        "name": "Omar Marmoush",
+        "number": 19,
+        "role": "LW",
+        "x": 82,
+        "y": 76,
+        "teamSlug": "ai-cap",
+        "captain": false
+      }
+    ]
+  },
+  "awayLineup": {
+    "teamSlug": "iran",
+    "teamName": "Iran",
+    "formation": "4-3-3",
+    "accent": "#2563eb",
+    "players": [
+      {
+        "name": "Alireza Beiranvand",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 88,
+        "teamSlug": "iran",
+        "captain": true
+      },
+      {
+        "name": "Milad Mohammadi",
+        "number": 4,
+        "role": "RB",
+        "x": 14,
+        "y": 72,
+        "teamSlug": "iran",
+        "captain": false
+      },
+      {
+        "name": "Morteza Pouraliganji",
+        "number": 5,
+        "role": "CB",
+        "x": 36,
+        "y": 70,
+        "teamSlug": "iran",
+        "captain": false
+      },
+      {
+        "name": "Majid Hosseini",
+        "number": 6,
+        "role": "CB",
+        "x": 64,
+        "y": 70,
+        "teamSlug": "iran",
+        "captain": false
+      },
+      {
+        "name": "Sadegh Moharrami",
+        "number": 7,
+        "role": "LB",
+        "x": 86,
+        "y": 72,
+        "teamSlug": "iran",
+        "captain": false
+      },
+      {
+        "name": "Saeid Ezatolahi",
+        "number": 9,
+        "role": "DM",
+        "x": 22,
+        "y": 52,
+        "teamSlug": "iran",
+        "captain": false
+      },
+      {
+        "name": "Ali Gholizadeh",
+        "number": 10,
+        "role": "CM",
+        "x": 50,
+        "y": 44,
+        "teamSlug": "iran",
+        "captain": false
+      },
+      {
+        "name": "Alireza Jahanbakhsh",
+        "number": 11,
+        "role": "CM",
+        "x": 78,
+        "y": 52,
+        "teamSlug": "iran",
+        "captain": false
+      },
+      {
+        "name": "Sardar Azmoun",
+        "number": 17,
+        "role": "RW",
+        "x": 18,
+        "y": 24,
+        "teamSlug": "iran",
+        "captain": false
+      },
+      {
+        "name": "Mehdi Taremi",
+        "number": 18,
+        "role": "ST",
+        "x": 50,
+        "y": 16,
+        "teamSlug": "iran",
+        "captain": false
+      },
+      {
+        "name": "Allahyar Sayyadmanesh",
+        "number": 19,
+        "role": "LW",
+        "x": 82,
+        "y": 24,
+        "teamSlug": "iran",
+        "captain": false
+      }
+    ]
+  }
+}

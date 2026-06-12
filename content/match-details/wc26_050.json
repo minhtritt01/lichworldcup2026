@@ -1,0 +1,217 @@
+{
+  "incidents": [],
+  "homeLineup": {
+    "teamSlug": "bosnia",
+    "teamName": "Bosnia & Herzegovina",
+    "formation": "4-3-3",
+    "accent": "#ef4444",
+    "players": [
+      {
+        "name": "Nikola Vasilj",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 12,
+        "teamSlug": "bosnia",
+        "captain": false
+      },
+      {
+        "name": "Sead Kolašinac",
+        "number": 4,
+        "role": "RB",
+        "x": 14,
+        "y": 28,
+        "teamSlug": "bosnia",
+        "captain": false
+      },
+      {
+        "name": "Dennis Hadžikadunić",
+        "number": 5,
+        "role": "CB",
+        "x": 36,
+        "y": 30,
+        "teamSlug": "bosnia",
+        "captain": false
+      },
+      {
+        "name": "Amar Dedić",
+        "number": 6,
+        "role": "CB",
+        "x": 64,
+        "y": 30,
+        "teamSlug": "bosnia",
+        "captain": false
+      },
+      {
+        "name": "Nikola Katić",
+        "number": 7,
+        "role": "LB",
+        "x": 86,
+        "y": 28,
+        "teamSlug": "bosnia",
+        "captain": false
+      },
+      {
+        "name": "Amir Hadžiahmetović",
+        "number": 12,
+        "role": "DM",
+        "x": 22,
+        "y": 48,
+        "teamSlug": "bosnia",
+        "captain": false
+      },
+      {
+        "name": "Benjamin Tahirović",
+        "number": 13,
+        "role": "CM",
+        "x": 50,
+        "y": 56,
+        "teamSlug": "bosnia",
+        "captain": false
+      },
+      {
+        "name": "Armin Gigović",
+        "number": 14,
+        "role": "CM",
+        "x": 78,
+        "y": 48,
+        "teamSlug": "bosnia",
+        "captain": false
+      },
+      {
+        "name": "Edin Džeko",
+        "number": 22,
+        "role": "RW",
+        "x": 18,
+        "y": 76,
+        "teamSlug": "bosnia",
+        "captain": true
+      },
+      {
+        "name": "Ermedin Demirović",
+        "number": 23,
+        "role": "ST",
+        "x": 50,
+        "y": 84,
+        "teamSlug": "bosnia",
+        "captain": false
+      },
+      {
+        "name": "Samed Baždar",
+        "number": 24,
+        "role": "LW",
+        "x": 82,
+        "y": 76,
+        "teamSlug": "bosnia",
+        "captain": false
+      }
+    ]
+  },
+  "awayLineup": {
+    "teamSlug": "qatar",
+    "teamName": "Qatar",
+    "formation": "4-3-3",
+    "accent": "#2563eb",
+    "players": [
+      {
+        "name": "Mahmud Abunada",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 88,
+        "teamSlug": "qatar",
+        "captain": false
+      },
+      {
+        "name": "Pedro Miguel",
+        "number": 2,
+        "role": "RB",
+        "x": 14,
+        "y": 72,
+        "teamSlug": "qatar",
+        "captain": false
+      },
+      {
+        "name": "Lucas Mendes",
+        "number": 3,
+        "role": "CB",
+        "x": 36,
+        "y": 70,
+        "teamSlug": "qatar",
+        "captain": false
+      },
+      {
+        "name": "Issa Laye",
+        "number": 4,
+        "role": "CB",
+        "x": 64,
+        "y": 70,
+        "teamSlug": "qatar",
+        "captain": false
+      },
+      {
+        "name": "Ayoub Al-Oui",
+        "number": 13,
+        "role": "LB",
+        "x": 86,
+        "y": 72,
+        "teamSlug": "qatar",
+        "captain": false
+      },
+      {
+        "name": "Jassem Gaber",
+        "number": 5,
+        "role": "DM",
+        "x": 22,
+        "y": 52,
+        "teamSlug": "qatar",
+        "captain": false
+      },
+      {
+        "name": "Abdulaziz Hatem",
+        "number": 6,
+        "role": "CM",
+        "x": 50,
+        "y": 44,
+        "teamSlug": "qatar",
+        "captain": false
+      },
+      {
+        "name": "Karim Boudiaf",
+        "number": 12,
+        "role": "CM",
+        "x": 78,
+        "y": 52,
+        "teamSlug": "qatar",
+        "captain": false
+      },
+      {
+        "name": "Ahmed Alaaeldin",
+        "number": 7,
+        "role": "RW",
+        "x": 18,
+        "y": 24,
+        "teamSlug": "qatar",
+        "captain": false
+      },
+      {
+        "name": "Edmilson Junior",
+        "number": 8,
+        "role": "ST",
+        "x": 50,
+        "y": 16,
+        "teamSlug": "qatar",
+        "captain": false
+      },
+      {
+        "name": "Mohammed Muntari",
+        "number": 9,
+        "role": "LW",
+        "x": 82,
+        "y": 24,
+        "teamSlug": "qatar",
+        "captain": false
+      }
+    ]
+  }
+}

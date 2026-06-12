@@ -1,0 +1,303 @@
+{
+  "matchId": "wc26_069",
+  "eventId": "local",
+  "status": "upcoming",
+  "scrapedAt": "2026-06-12T14:44:31.475Z",
+  "general": {
+    "homeTeam": "Colombia",
+    "homeSlug": "colombia",
+    "awayTeam": "Portugal",
+    "awaySlug": "bo-dao-nha",
+    "stage": "Vòng Bảng - Bảng K",
+    "group": "K",
+    "kickoffUTC": "2026-06-27T23:30:00Z",
+    "venue": "Hard Rock Stadium",
+    "referee": ""
+  },
+  "form": {
+    "home": [],
+    "away": []
+  },
+  "squads": {
+    "home": [
+      {
+        "name": "David Ospina",
+        "number": 1,
+        "position": "GK",
+        "age": 37
+      },
+      {
+        "name": "Daniel Muñoz",
+        "number": 2,
+        "position": "DF",
+        "age": 30
+      },
+      {
+        "name": "Jhon Lucumí",
+        "number": 3,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Santiago Arias",
+        "number": 4,
+        "position": "DF",
+        "age": 34
+      },
+      {
+        "name": "Kevin Castaño",
+        "number": 5,
+        "position": "MF",
+        "age": 25
+      },
+      {
+        "name": "Richard Ríos",
+        "number": 6,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Luis Díaz",
+        "number": 7,
+        "position": "FW",
+        "age": 29
+      },
+      {
+        "name": "Jorge Carrascal",
+        "number": 8,
+        "position": "MF",
+        "age": 28
+      },
+      {
+        "name": "Jhon Córdoba",
+        "number": 9,
+        "position": "FW",
+        "age": 33
+      },
+      {
+        "name": "James Rodríguez",
+        "number": 10,
+        "position": "MF",
+        "age": 34
+      },
+      {
+        "name": "Jhon Arias",
+        "number": 11,
+        "position": "MF",
+        "age": 28
+      },
+      {
+        "name": "Camilo Vargas",
+        "number": 12,
+        "position": "GK",
+        "age": 37
+      },
+      {
+        "name": "Yerry Mina",
+        "number": 13,
+        "position": "DF",
+        "age": 31
+      },
+      {
+        "name": "Gustavo Puerta",
+        "number": 14,
+        "position": "DF",
+        "age": 22
+      },
+      {
+        "name": "Juan Portilla",
+        "number": 15,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Jefferson Lerma",
+        "number": 16,
+        "position": "MF",
+        "age": 31
+      },
+      {
+        "name": "Johan Mojica",
+        "number": 17,
+        "position": "DF",
+        "age": 33
+      },
+      {
+        "name": "Willer Ditta",
+        "number": 18,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Cucho Hernández",
+        "number": 19,
+        "position": "FW",
+        "age": 27
+      },
+      {
+        "name": "Juan Quintero",
+        "number": 20,
+        "position": "MF",
+        "age": 33
+      },
+      {
+        "name": "Jaminton Campaz",
+        "number": 21,
+        "position": "FW",
+        "age": 26
+      },
+      {
+        "name": "Deiver Machado",
+        "number": 22,
+        "position": "DF",
+        "age": 32
+      },
+      {
+        "name": "Davinson Sánchez",
+        "number": 23,
+        "position": "DF",
+        "age": 30
+      }
+    ],
+    "away": [
+      {
+        "name": "Diogo Costa",
+        "number": 1,
+        "position": "GK",
+        "age": 26
+      },
+      {
+        "name": "José Sá",
+        "number": 2,
+        "position": "GK",
+        "age": 33
+      },
+      {
+        "name": "Rui Patrício",
+        "number": 3,
+        "position": "GK",
+        "age": 38
+      },
+      {
+        "name": "João Cancelo",
+        "number": 4,
+        "position": "DF",
+        "age": 32
+      },
+      {
+        "name": "Rúben Dias",
+        "number": 5,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Gonçalo Inácio",
+        "number": 6,
+        "position": "DF",
+        "age": 24
+      },
+      {
+        "name": "Nuno Mendes",
+        "number": 7,
+        "position": "DF",
+        "age": 24
+      },
+      {
+        "name": "Diogo Dalot",
+        "number": 8,
+        "position": "DF",
+        "age": 27
+      },
+      {
+        "name": "Rúben Neves",
+        "number": 9,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Cristiano Ronaldo",
+        "number": 10,
+        "position": "FW",
+        "age": 41
+      },
+      {
+        "name": "Bernardo Silva",
+        "number": 11,
+        "position": "FW",
+        "age": 31
+      },
+      {
+        "name": "João Palhinha",
+        "number": 12,
+        "position": "MF",
+        "age": 30
+      },
+      {
+        "name": "Vitinha",
+        "number": 13,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Bruno Fernandes",
+        "number": 14,
+        "position": "MF",
+        "age": 31
+      },
+      {
+        "name": "João Mário",
+        "number": 15,
+        "position": "MF",
+        "age": 33
+      },
+      {
+        "name": "Rafael Leão",
+        "number": 16,
+        "position": "FW",
+        "age": 27
+      },
+      {
+        "name": "Pedro Neto",
+        "number": 17,
+        "position": "FW",
+        "age": 26
+      },
+      {
+        "name": "Gonçalo Ramos",
+        "number": 18,
+        "position": "FW",
+        "age": 25
+      },
+      {
+        "name": "João Félix",
+        "number": 19,
+        "position": "FW",
+        "age": 26
+      },
+      {
+        "name": "Francisco Conceição",
+        "number": 20,
+        "position": "FW",
+        "age": 23
+      },
+      {
+        "name": "Diogo Jota",
+        "number": 21,
+        "position": "FW",
+        "age": 29
+      },
+      {
+        "name": "Pepe",
+        "number": 22,
+        "position": "DF",
+        "age": 43
+      },
+      {
+        "name": "António Silva",
+        "number": 23,
+        "position": "DF",
+        "age": 22
+      }
+    ]
+  }
+}

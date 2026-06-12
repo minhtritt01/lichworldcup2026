@@ -1,0 +1,217 @@
+{
+  "incidents": [],
+  "homeLineup": {
+    "teamSlug": "tunisia",
+    "teamName": "Tunisia",
+    "formation": "4-3-3",
+    "accent": "#ef4444",
+    "players": [
+      {
+        "name": "Aymen Dahmen",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 12,
+        "teamSlug": "tunisia",
+        "captain": true
+      },
+      {
+        "name": "Montassar Talbi",
+        "number": 4,
+        "role": "RB",
+        "x": 14,
+        "y": 28,
+        "teamSlug": "tunisia",
+        "captain": false
+      },
+      {
+        "name": "Nader Ghandri",
+        "number": 5,
+        "role": "CB",
+        "x": 36,
+        "y": 30,
+        "teamSlug": "tunisia",
+        "captain": false
+      },
+      {
+        "name": "Bilel Ifa",
+        "number": 6,
+        "role": "CB",
+        "x": 64,
+        "y": 30,
+        "teamSlug": "tunisia",
+        "captain": false
+      },
+      {
+        "name": "Mohamed Dräger",
+        "number": 7,
+        "role": "LB",
+        "x": 86,
+        "y": 28,
+        "teamSlug": "tunisia",
+        "captain": false
+      },
+      {
+        "name": "Hannibal Mejbri",
+        "number": 10,
+        "role": "DM",
+        "x": 22,
+        "y": 48,
+        "teamSlug": "tunisia",
+        "captain": false
+      },
+      {
+        "name": "Aïssa Laïdouni",
+        "number": 11,
+        "role": "CM",
+        "x": 50,
+        "y": 56,
+        "teamSlug": "tunisia",
+        "captain": false
+      },
+      {
+        "name": "Ellyes Skhiri",
+        "number": 12,
+        "role": "CM",
+        "x": 78,
+        "y": 48,
+        "teamSlug": "tunisia",
+        "captain": false
+      },
+      {
+        "name": "Naïm Sliti",
+        "number": 17,
+        "role": "RW",
+        "x": 18,
+        "y": 76,
+        "teamSlug": "tunisia",
+        "captain": false
+      },
+      {
+        "name": "Youssef Msakni",
+        "number": 18,
+        "role": "ST",
+        "x": 50,
+        "y": 84,
+        "teamSlug": "tunisia",
+        "captain": false
+      },
+      {
+        "name": "Wahbi Khazri",
+        "number": 19,
+        "role": "LW",
+        "x": 82,
+        "y": 76,
+        "teamSlug": "tunisia",
+        "captain": false
+      }
+    ]
+  },
+  "awayLineup": {
+    "teamSlug": "ha-lan",
+    "teamName": "Netherlands",
+    "formation": "4-3-3",
+    "accent": "#2563eb",
+    "players": [
+      {
+        "name": "Bart Verbruggen",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 88,
+        "teamSlug": "ha-lan",
+        "captain": false
+      },
+      {
+        "name": "Denzel Dumfries",
+        "number": 2,
+        "role": "RB",
+        "x": 14,
+        "y": 72,
+        "teamSlug": "ha-lan",
+        "captain": false
+      },
+      {
+        "name": "Jurriën Timber",
+        "number": 3,
+        "role": "CB",
+        "x": 36,
+        "y": 70,
+        "teamSlug": "ha-lan",
+        "captain": false
+      },
+      {
+        "name": "Virgil van Dijk",
+        "number": 4,
+        "role": "CB",
+        "x": 64,
+        "y": 70,
+        "teamSlug": "ha-lan",
+        "captain": true
+      },
+      {
+        "name": "Nathan Aké",
+        "number": 5,
+        "role": "LB",
+        "x": 86,
+        "y": 72,
+        "teamSlug": "ha-lan",
+        "captain": false
+      },
+      {
+        "name": "Frenkie de Jong",
+        "number": 7,
+        "role": "DM",
+        "x": 22,
+        "y": 52,
+        "teamSlug": "ha-lan",
+        "captain": false
+      },
+      {
+        "name": "Tijjani Reijnders",
+        "number": 8,
+        "role": "CM",
+        "x": 50,
+        "y": 44,
+        "teamSlug": "ha-lan",
+        "captain": false
+      },
+      {
+        "name": "Mats Wieffer",
+        "number": 14,
+        "role": "CM",
+        "x": 78,
+        "y": 52,
+        "teamSlug": "ha-lan",
+        "captain": false
+      },
+      {
+        "name": "Memphis Depay",
+        "number": 9,
+        "role": "RW",
+        "x": 18,
+        "y": 24,
+        "teamSlug": "ha-lan",
+        "captain": false
+      },
+      {
+        "name": "Cody Gakpo",
+        "number": 10,
+        "role": "ST",
+        "x": 50,
+        "y": 16,
+        "teamSlug": "ha-lan",
+        "captain": false
+      },
+      {
+        "name": "Xavi Simons",
+        "number": 11,
+        "role": "LW",
+        "x": 82,
+        "y": 24,
+        "teamSlug": "ha-lan",
+        "captain": false
+      }
+    ]
+  }
+}

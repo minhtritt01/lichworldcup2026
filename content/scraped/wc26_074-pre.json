@@ -1,0 +1,25 @@
+{
+  "matchId": "wc26_074",
+  "eventId": "local",
+  "status": "upcoming",
+  "scrapedAt": "2026-06-12T14:44:31.476Z",
+  "general": {
+    "homeTeam": "Winner E",
+    "homeSlug": "nhat-bang-e",
+    "awayTeam": "Best 3rd",
+    "awaySlug": "best-3rd-1",
+    "stage": "Vòng 1/16",
+    "group": "",
+    "kickoffUTC": "2026-06-29T20:30:00Z",
+    "venue": "Gillette Stadium",
+    "referee": ""
+  },
+  "form": {
+    "home": [],
+    "away": []
+  },
+  "squads": {
+    "home": [],
+    "away": []
+  }
+}

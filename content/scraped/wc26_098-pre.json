@@ -1,0 +1,25 @@
+{
+  "matchId": "wc26_098",
+  "eventId": "local",
+  "status": "upcoming",
+  "scrapedAt": "2026-06-12T14:44:31.478Z",
+  "general": {
+    "homeTeam": "Thắng trận 93",
+    "homeSlug": "thang-93",
+    "awayTeam": "Thắng trận 94",
+    "awaySlug": "thang-94",
+    "stage": "Tứ Kết",
+    "group": "",
+    "kickoffUTC": "2026-07-10T19:00:00Z",
+    "venue": "SoFi Stadium",
+    "referee": ""
+  },
+  "form": {
+    "home": [],
+    "away": []
+  },
+  "squads": {
+    "home": [],
+    "away": []
+  }
+}

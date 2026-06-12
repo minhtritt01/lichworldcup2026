@@ -1,0 +1,217 @@
+{
+  "incidents": [],
+  "homeLineup": {
+    "teamSlug": "jordan",
+    "teamName": "Jordan",
+    "formation": "4-3-3",
+    "accent": "#ef4444",
+    "players": [
+      {
+        "name": "Yazeed Abulaila",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 12,
+        "teamSlug": "jordan",
+        "captain": true
+      },
+      {
+        "name": "Yazan Al-Naimat",
+        "number": 4,
+        "role": "RB",
+        "x": 14,
+        "y": 28,
+        "teamSlug": "jordan",
+        "captain": false
+      },
+      {
+        "name": "Osama Rashid",
+        "number": 5,
+        "role": "CB",
+        "x": 36,
+        "y": 30,
+        "teamSlug": "jordan",
+        "captain": false
+      },
+      {
+        "name": "Anas Bani Yaseen",
+        "number": 6,
+        "role": "CB",
+        "x": 64,
+        "y": 30,
+        "teamSlug": "jordan",
+        "captain": false
+      },
+      {
+        "name": "Iyad Haddad",
+        "number": 7,
+        "role": "LB",
+        "x": 86,
+        "y": 28,
+        "teamSlug": "jordan",
+        "captain": false
+      },
+      {
+        "name": "Noor Al-Rawabdeh",
+        "number": 9,
+        "role": "DM",
+        "x": 22,
+        "y": 48,
+        "teamSlug": "jordan",
+        "captain": false
+      },
+      {
+        "name": "Ahmad Hayel",
+        "number": 10,
+        "role": "CM",
+        "x": 50,
+        "y": 56,
+        "teamSlug": "jordan",
+        "captain": false
+      },
+      {
+        "name": "Musa Al-Taamari",
+        "number": 11,
+        "role": "CM",
+        "x": 78,
+        "y": 48,
+        "teamSlug": "jordan",
+        "captain": false
+      },
+      {
+        "name": "Ahmad Dababneh",
+        "number": 17,
+        "role": "RW",
+        "x": 18,
+        "y": 76,
+        "teamSlug": "jordan",
+        "captain": false
+      },
+      {
+        "name": "Khaled Al-Nobani",
+        "number": 18,
+        "role": "ST",
+        "x": 50,
+        "y": 84,
+        "teamSlug": "jordan",
+        "captain": false
+      },
+      {
+        "name": "Emad Lutfi",
+        "number": 19,
+        "role": "LW",
+        "x": 82,
+        "y": 76,
+        "teamSlug": "jordan",
+        "captain": false
+      }
+    ]
+  },
+  "awayLineup": {
+    "teamSlug": "argentina",
+    "teamName": "Argentina",
+    "formation": "4-3-3",
+    "accent": "#2563eb",
+    "players": [
+      {
+        "name": "Juan Musso",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 88,
+        "teamSlug": "argentina",
+        "captain": false
+      },
+      {
+        "name": "Leonardo Balerdi",
+        "number": 2,
+        "role": "RB",
+        "x": 14,
+        "y": 72,
+        "teamSlug": "argentina",
+        "captain": false
+      },
+      {
+        "name": "Nicolás Tagliafico",
+        "number": 3,
+        "role": "CB",
+        "x": 36,
+        "y": 70,
+        "teamSlug": "argentina",
+        "captain": false
+      },
+      {
+        "name": "Gonzalo Montiel",
+        "number": 4,
+        "role": "CB",
+        "x": 64,
+        "y": 70,
+        "teamSlug": "argentina",
+        "captain": false
+      },
+      {
+        "name": "Lisandro Martínez",
+        "number": 6,
+        "role": "LB",
+        "x": 86,
+        "y": 72,
+        "teamSlug": "argentina",
+        "captain": false
+      },
+      {
+        "name": "Leandro Paredes",
+        "number": 5,
+        "role": "DM",
+        "x": 22,
+        "y": 52,
+        "teamSlug": "argentina",
+        "captain": false
+      },
+      {
+        "name": "Rodrigo De Paul",
+        "number": 7,
+        "role": "CM",
+        "x": 50,
+        "y": 44,
+        "teamSlug": "argentina",
+        "captain": false
+      },
+      {
+        "name": "Valentín Barco",
+        "number": 8,
+        "role": "CM",
+        "x": 78,
+        "y": 52,
+        "teamSlug": "argentina",
+        "captain": false
+      },
+      {
+        "name": "Julián Álvarez",
+        "number": 9,
+        "role": "RW",
+        "x": 18,
+        "y": 24,
+        "teamSlug": "argentina",
+        "captain": false
+      },
+      {
+        "name": "Lionel Messi",
+        "number": 10,
+        "role": "ST",
+        "x": 50,
+        "y": 16,
+        "teamSlug": "argentina",
+        "captain": true
+      },
+      {
+        "name": "Thiago Almada",
+        "number": 16,
+        "role": "LW",
+        "x": 82,
+        "y": 24,
+        "teamSlug": "argentina",
+        "captain": false
+      }
+    ]
+  }
+}

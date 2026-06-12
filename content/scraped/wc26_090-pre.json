@@ -1,0 +1,25 @@
+{
+  "matchId": "wc26_090",
+  "eventId": "local",
+  "status": "upcoming",
+  "scrapedAt": "2026-06-12T14:44:31.478Z",
+  "general": {
+    "homeTeam": "Thắng trận 73",
+    "homeSlug": "thang-73",
+    "awayTeam": "Thắng trận 75",
+    "awaySlug": "thang-75",
+    "stage": "Vòng 1/8",
+    "group": "",
+    "kickoffUTC": "2026-07-04T17:00:00Z",
+    "venue": "NRG Stadium",
+    "referee": ""
+  },
+  "form": {
+    "home": [],
+    "away": []
+  },
+  "squads": {
+    "home": [],
+    "away": []
+  }
+}

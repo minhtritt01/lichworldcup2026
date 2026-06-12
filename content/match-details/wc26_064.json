@@ -1,0 +1,217 @@
+{
+  "incidents": [],
+  "homeLineup": {
+    "teamSlug": "uruguay",
+    "teamName": "Uruguay",
+    "formation": "4-3-3",
+    "accent": "#ef4444",
+    "players": [
+      {
+        "name": "Sergio Rochet",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 12,
+        "teamSlug": "uruguay",
+        "captain": false
+      },
+      {
+        "name": "Diego Godín",
+        "number": 4,
+        "role": "RB",
+        "x": 14,
+        "y": 28,
+        "teamSlug": "uruguay",
+        "captain": true
+      },
+      {
+        "name": "José María Giménez",
+        "number": 5,
+        "role": "CB",
+        "x": 36,
+        "y": 30,
+        "teamSlug": "uruguay",
+        "captain": false
+      },
+      {
+        "name": "Ronald Araújo",
+        "number": 6,
+        "role": "CB",
+        "x": 64,
+        "y": 30,
+        "teamSlug": "uruguay",
+        "captain": false
+      },
+      {
+        "name": "Mathías Olivera",
+        "number": 7,
+        "role": "LB",
+        "x": 86,
+        "y": 28,
+        "teamSlug": "uruguay",
+        "captain": false
+      },
+      {
+        "name": "Rodrigo Bentancur",
+        "number": 9,
+        "role": "DM",
+        "x": 22,
+        "y": 48,
+        "teamSlug": "uruguay",
+        "captain": false
+      },
+      {
+        "name": "Federico Valverde",
+        "number": 10,
+        "role": "CM",
+        "x": 50,
+        "y": 56,
+        "teamSlug": "uruguay",
+        "captain": false
+      },
+      {
+        "name": "Manuel Ugarte",
+        "number": 11,
+        "role": "CM",
+        "x": 78,
+        "y": 48,
+        "teamSlug": "uruguay",
+        "captain": false
+      },
+      {
+        "name": "Darwin Núñez",
+        "number": 17,
+        "role": "RW",
+        "x": 18,
+        "y": 76,
+        "teamSlug": "uruguay",
+        "captain": false
+      },
+      {
+        "name": "Luis Suárez",
+        "number": 18,
+        "role": "ST",
+        "x": 50,
+        "y": 84,
+        "teamSlug": "uruguay",
+        "captain": false
+      },
+      {
+        "name": "Rodrigo Aguirre",
+        "number": 19,
+        "role": "LW",
+        "x": 82,
+        "y": 76,
+        "teamSlug": "uruguay",
+        "captain": false
+      }
+    ]
+  },
+  "awayLineup": {
+    "teamSlug": "tay-ban-nha",
+    "teamName": "Spain",
+    "formation": "4-3-3",
+    "accent": "#2563eb",
+    "players": [
+      {
+        "name": "Unai Simón",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 88,
+        "teamSlug": "tay-ban-nha",
+        "captain": false
+      },
+      {
+        "name": "Dani Carvajal",
+        "number": 4,
+        "role": "RB",
+        "x": 14,
+        "y": 72,
+        "teamSlug": "tay-ban-nha",
+        "captain": true
+      },
+      {
+        "name": "Robin Le Normand",
+        "number": 5,
+        "role": "CB",
+        "x": 36,
+        "y": 70,
+        "teamSlug": "tay-ban-nha",
+        "captain": false
+      },
+      {
+        "name": "Aymeric Laporte",
+        "number": 6,
+        "role": "CB",
+        "x": 64,
+        "y": 70,
+        "teamSlug": "tay-ban-nha",
+        "captain": false
+      },
+      {
+        "name": "Alejandro Balde",
+        "number": 7,
+        "role": "LB",
+        "x": 86,
+        "y": 72,
+        "teamSlug": "tay-ban-nha",
+        "captain": false
+      },
+      {
+        "name": "Rodri",
+        "number": 10,
+        "role": "DM",
+        "x": 22,
+        "y": 52,
+        "teamSlug": "tay-ban-nha",
+        "captain": false
+      },
+      {
+        "name": "Pedri",
+        "number": 11,
+        "role": "CM",
+        "x": 50,
+        "y": 44,
+        "teamSlug": "tay-ban-nha",
+        "captain": false
+      },
+      {
+        "name": "Fabián Ruiz",
+        "number": 12,
+        "role": "CM",
+        "x": 78,
+        "y": 52,
+        "teamSlug": "tay-ban-nha",
+        "captain": false
+      },
+      {
+        "name": "Lamine Yamal",
+        "number": 16,
+        "role": "RW",
+        "x": 18,
+        "y": 24,
+        "teamSlug": "tay-ban-nha",
+        "captain": false
+      },
+      {
+        "name": "Nico Williams",
+        "number": 17,
+        "role": "ST",
+        "x": 50,
+        "y": 16,
+        "teamSlug": "tay-ban-nha",
+        "captain": false
+      },
+      {
+        "name": "Álvaro Morata",
+        "number": 18,
+        "role": "LW",
+        "x": 82,
+        "y": 24,
+        "teamSlug": "tay-ban-nha",
+        "captain": false
+      }
+    ]
+  }
+}

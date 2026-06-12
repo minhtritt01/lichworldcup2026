@@ -1,0 +1,25 @@
+{
+  "matchId": "wc26_093",
+  "eventId": "local",
+  "status": "upcoming",
+  "scrapedAt": "2026-06-12T14:44:31.478Z",
+  "general": {
+    "homeTeam": "Thắng trận 83",
+    "homeSlug": "thang-83",
+    "awayTeam": "Thắng trận 84",
+    "awaySlug": "thang-84",
+    "stage": "Vòng 1/8",
+    "group": "",
+    "kickoffUTC": "2026-07-06T19:00:00Z",
+    "venue": "AT&T Stadium",
+    "referee": ""
+  },
+  "form": {
+    "home": [],
+    "away": []
+  },
+  "squads": {
+    "home": [],
+    "away": []
+  }
+}

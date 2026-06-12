@@ -1,0 +1,303 @@
+{
+  "matchId": "wc26_057",
+  "eventId": "local",
+  "status": "upcoming",
+  "scrapedAt": "2026-06-12T14:44:31.473Z",
+  "general": {
+    "homeTeam": "Japan",
+    "homeSlug": "nhat-ban",
+    "awayTeam": "Sweden",
+    "awaySlug": "thuy-dien",
+    "stage": "Vòng Bảng - Bảng F",
+    "group": "F",
+    "kickoffUTC": "2026-06-25T23:00:00Z",
+    "venue": "AT&T Stadium",
+    "referee": ""
+  },
+  "form": {
+    "home": [],
+    "away": []
+  },
+  "squads": {
+    "home": [
+      {
+        "name": "Shuichi Gonda",
+        "number": 1,
+        "position": "GK",
+        "age": 36
+      },
+      {
+        "name": "Zion Suzuki",
+        "number": 2,
+        "position": "GK",
+        "age": 24
+      },
+      {
+        "name": "Kosei Tani",
+        "number": 3,
+        "position": "GK",
+        "age": 25
+      },
+      {
+        "name": "Hiroki Sakai",
+        "number": 4,
+        "position": "DF",
+        "age": 36
+      },
+      {
+        "name": "Yuto Nagatomo",
+        "number": 5,
+        "position": "DF",
+        "age": 39
+      },
+      {
+        "name": "Ko Itakura",
+        "number": 6,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Shogo Taniguchi",
+        "number": 7,
+        "position": "DF",
+        "age": 34
+      },
+      {
+        "name": "Miki Yamane",
+        "number": 8,
+        "position": "DF",
+        "age": 32
+      },
+      {
+        "name": "Shunta Nakagawa",
+        "number": 9,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Wataru Endo",
+        "number": 10,
+        "position": "MF",
+        "age": 33
+      },
+      {
+        "name": "Hidemasa Morita",
+        "number": 11,
+        "position": "MF",
+        "age": 31
+      },
+      {
+        "name": "Daichi Kamada",
+        "number": 12,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Gaku Shibasaki",
+        "number": 13,
+        "position": "MF",
+        "age": 34
+      },
+      {
+        "name": "Ao Tanaka",
+        "number": 14,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Junya Ito",
+        "number": 15,
+        "position": "MF",
+        "age": 33
+      },
+      {
+        "name": "Kaoru Mitoma",
+        "number": 16,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Ritsu Doan",
+        "number": 17,
+        "position": "MF",
+        "age": 28
+      },
+      {
+        "name": "Takumi Minamino",
+        "number": 18,
+        "position": "FW",
+        "age": 31
+      },
+      {
+        "name": "Yuya Osako",
+        "number": 19,
+        "position": "FW",
+        "age": 36
+      },
+      {
+        "name": "Reo Hatate",
+        "number": 20,
+        "position": "FW",
+        "age": 28
+      },
+      {
+        "name": "Kyogo Furuhashi",
+        "number": 21,
+        "position": "FW",
+        "age": 31
+      },
+      {
+        "name": "Shota Fujii",
+        "number": 22,
+        "position": "FW",
+        "age": 24
+      },
+      {
+        "name": "Ayase Ueda",
+        "number": 23,
+        "position": "FW",
+        "age": 27
+      }
+    ],
+    "away": [
+      {
+        "name": "Robin Olsen",
+        "number": 1,
+        "position": "GK",
+        "age": 36
+      },
+      {
+        "name": "Kristoffer Nordfeldt",
+        "number": 2,
+        "position": "GK",
+        "age": 37
+      },
+      {
+        "name": "Oscar Linnér",
+        "number": 3,
+        "position": "GK",
+        "age": 28
+      },
+      {
+        "name": "Mikael Lustig",
+        "number": 4,
+        "position": "DF",
+        "age": 39
+      },
+      {
+        "name": "Victor Nilsson Lindelöf",
+        "number": 5,
+        "position": "DF",
+        "age": 31
+      },
+      {
+        "name": "Isak Hien",
+        "number": 6,
+        "position": "DF",
+        "age": 26
+      },
+      {
+        "name": "Emil Krafth",
+        "number": 7,
+        "position": "DF",
+        "age": 31
+      },
+      {
+        "name": "Carl Starfelt",
+        "number": 8,
+        "position": "DF",
+        "age": 31
+      },
+      {
+        "name": "Albin Ekdal",
+        "number": 9,
+        "position": "MF",
+        "age": 36
+      },
+      {
+        "name": "Jens-Lys Cajuste",
+        "number": 10,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Mattias Svanberg",
+        "number": 11,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Anthony Elanga",
+        "number": 12,
+        "position": "MF",
+        "age": 24
+      },
+      {
+        "name": "Jesper Karlsson",
+        "number": 13,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Dejan Kulusevski",
+        "number": 14,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Jesper Lindström",
+        "number": 15,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Alexander Isak",
+        "number": 16,
+        "position": "FW",
+        "age": 26
+      },
+      {
+        "name": "Viktor Gyökeres",
+        "number": 17,
+        "position": "FW",
+        "age": 28
+      },
+      {
+        "name": "Jordan Larsson",
+        "number": 18,
+        "position": "FW",
+        "age": 29
+      },
+      {
+        "name": "John Guidetti",
+        "number": 19,
+        "position": "FW",
+        "age": 34
+      },
+      {
+        "name": "Niclas Eliasson",
+        "number": 20,
+        "position": "FW",
+        "age": 30
+      },
+      {
+        "name": "Kristoffer Ajer",
+        "number": 21,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Pontus Jansson",
+        "number": 22,
+        "position": "MF",
+        "age": 35
+      },
+      {
+        "name": "Samuel Chukwueze",
+        "number": 23,
+        "position": "FW",
+        "age": 27
+      }
+    ]
+  }
+}

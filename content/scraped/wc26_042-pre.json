@@ -1,0 +1,303 @@
+{
+  "matchId": "wc26_042",
+  "eventId": "local",
+  "status": "upcoming",
+  "scrapedAt": "2026-06-12T14:44:31.472Z",
+  "general": {
+    "homeTeam": "France",
+    "homeSlug": "phap",
+    "awayTeam": "Iraq",
+    "awaySlug": "iraq",
+    "stage": "Vòng Bảng - Bảng I",
+    "group": "I",
+    "kickoffUTC": "2026-06-22T21:00:00Z",
+    "venue": "Lincoln Financial Field",
+    "referee": ""
+  },
+  "form": {
+    "home": [],
+    "away": []
+  },
+  "squads": {
+    "home": [
+      {
+        "name": "Mike Maignan",
+        "number": 1,
+        "position": "GK",
+        "age": 30
+      },
+      {
+        "name": "Brice Samba",
+        "number": 2,
+        "position": "GK",
+        "age": 32
+      },
+      {
+        "name": "Illan Meslier",
+        "number": 3,
+        "position": "GK",
+        "age": 26
+      },
+      {
+        "name": "Jules Koundé",
+        "number": 4,
+        "position": "DF",
+        "age": 27
+      },
+      {
+        "name": "Dayot Upamecano",
+        "number": 5,
+        "position": "DF",
+        "age": 27
+      },
+      {
+        "name": "William Saliba",
+        "number": 6,
+        "position": "DF",
+        "age": 25
+      },
+      {
+        "name": "Théo Hernández",
+        "number": 7,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Benjamin Pavard",
+        "number": 8,
+        "position": "DF",
+        "age": 30
+      },
+      {
+        "name": "N'Golo Kanté",
+        "number": 9,
+        "position": "MF",
+        "age": 35
+      },
+      {
+        "name": "Aurélien Tchouaméni",
+        "number": 10,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Adrien Rabiot",
+        "number": 11,
+        "position": "MF",
+        "age": 31
+      },
+      {
+        "name": "Eduardo Camavinga",
+        "number": 12,
+        "position": "MF",
+        "age": 23
+      },
+      {
+        "name": "Youssouf Fofana",
+        "number": 13,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Warren Zaïre-Emery",
+        "number": 14,
+        "position": "MF",
+        "age": 20
+      },
+      {
+        "name": "Kylian Mbappé",
+        "number": 15,
+        "position": "FW",
+        "age": 27
+      },
+      {
+        "name": "Antoine Griezmann",
+        "number": 16,
+        "position": "FW",
+        "age": 35
+      },
+      {
+        "name": "Ousmane Dembélé",
+        "number": 17,
+        "position": "FW",
+        "age": 29
+      },
+      {
+        "name": "Marcus Thuram",
+        "number": 18,
+        "position": "FW",
+        "age": 28
+      },
+      {
+        "name": "Randal Kolo Muani",
+        "number": 19,
+        "position": "FW",
+        "age": 27
+      },
+      {
+        "name": "Bradley Barcola",
+        "number": 20,
+        "position": "FW",
+        "age": 23
+      },
+      {
+        "name": "Michael Olise",
+        "number": 21,
+        "position": "FW",
+        "age": 24
+      },
+      {
+        "name": "Ibrahima Konaté",
+        "number": 22,
+        "position": "DF",
+        "age": 27
+      },
+      {
+        "name": "Lucas Hernández",
+        "number": 23,
+        "position": "DF",
+        "age": 30
+      }
+    ],
+    "away": [
+      {
+        "name": "Jalal Hassan",
+        "number": 1,
+        "position": "GK",
+        "age": 38
+      },
+      {
+        "name": "Dhurgham Ismail",
+        "number": 2,
+        "position": "GK",
+        "age": 30
+      },
+      {
+        "name": "Mohammed Hameed",
+        "number": 3,
+        "position": "GK",
+        "age": 26
+      },
+      {
+        "name": "Ali Adnan",
+        "number": 4,
+        "position": "DF",
+        "age": 32
+      },
+      {
+        "name": "Saman Goran",
+        "number": 5,
+        "position": "DF",
+        "age": 37
+      },
+      {
+        "name": "Rebin Sulaka",
+        "number": 6,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Amjad Attwan",
+        "number": 7,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Saad Abdul Amir",
+        "number": 8,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Bashar Resan",
+        "number": 9,
+        "position": "MF",
+        "age": 28
+      },
+      {
+        "name": "Nashat Akram",
+        "number": 10,
+        "position": "MF",
+        "age": 39
+      },
+      {
+        "name": "Aymen Hussein",
+        "number": 11,
+        "position": "MF",
+        "age": 28
+      },
+      {
+        "name": "Aziz Karim",
+        "number": 12,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Alaa Abdul-Zahra",
+        "number": 13,
+        "position": "MF",
+        "age": 33
+      },
+      {
+        "name": "Karrar Mohammed",
+        "number": 14,
+        "position": "MF",
+        "age": 28
+      },
+      {
+        "name": "Hudhayfah Al-Nazawi",
+        "number": 15,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Mohammed Dawood",
+        "number": 16,
+        "position": "MF",
+        "age": 24
+      },
+      {
+        "name": "Hammam Ibrahim",
+        "number": 17,
+        "position": "FW",
+        "age": 27
+      },
+      {
+        "name": "Emad Mohammed",
+        "number": 18,
+        "position": "FW",
+        "age": 28
+      },
+      {
+        "name": "Ameen Al-Dakhil",
+        "number": 19,
+        "position": "FW",
+        "age": 23
+      },
+      {
+        "name": "Ahmad Yasin",
+        "number": 20,
+        "position": "FW",
+        "age": 28
+      },
+      {
+        "name": "Osama Rashid",
+        "number": 21,
+        "position": "FW",
+        "age": 26
+      },
+      {
+        "name": "Ahmed Yasin",
+        "number": 22,
+        "position": "DF",
+        "age": 33
+      },
+      {
+        "name": "Hussein Ali",
+        "number": 23,
+        "position": "DF",
+        "age": 29
+      }
+    ]
+  }
+}

@@ -1,0 +1,303 @@
+{
+  "matchId": "wc26_031",
+  "eventId": "local",
+  "status": "upcoming",
+  "scrapedAt": "2026-06-12T14:44:31.470Z",
+  "general": {
+    "homeTeam": "Brazil",
+    "homeSlug": "brazil",
+    "awayTeam": "Haiti",
+    "awaySlug": "haiti",
+    "stage": "Vòng Bảng - Bảng C",
+    "group": "C",
+    "kickoffUTC": "2026-06-20T00:30:00Z",
+    "venue": "Lincoln Financial Field",
+    "referee": ""
+  },
+  "form": {
+    "home": [],
+    "away": []
+  },
+  "squads": {
+    "home": [
+      {
+        "name": "Alisson",
+        "number": 1,
+        "position": "GK",
+        "age": 33
+      },
+      {
+        "name": "Wesley",
+        "number": 2,
+        "position": "DF",
+        "age": 22
+      },
+      {
+        "name": "Gabriel Magalhães",
+        "number": 3,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Marquinhos",
+        "number": 4,
+        "position": "DF",
+        "age": 32
+      },
+      {
+        "name": "Casemiro",
+        "number": 5,
+        "position": "MF",
+        "age": 34
+      },
+      {
+        "name": "Alex Sandro",
+        "number": 6,
+        "position": "DF",
+        "age": 35
+      },
+      {
+        "name": "Vinícius Júnior",
+        "number": 7,
+        "position": "FW",
+        "age": 25
+      },
+      {
+        "name": "Bruno Guimarães",
+        "number": 8,
+        "position": "MF",
+        "age": 28
+      },
+      {
+        "name": "Matheus Cunha",
+        "number": 9,
+        "position": "FW",
+        "age": 27
+      },
+      {
+        "name": "Neymar",
+        "number": 10,
+        "position": "FW",
+        "age": 34
+      },
+      {
+        "name": "Raphinha",
+        "number": 11,
+        "position": "FW",
+        "age": 29
+      },
+      {
+        "name": "Weverton",
+        "number": 12,
+        "position": "GK",
+        "age": 38
+      },
+      {
+        "name": "Danilo Luiz",
+        "number": 13,
+        "position": "DF",
+        "age": 34
+      },
+      {
+        "name": "Bremer",
+        "number": 14,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Léo Pereira",
+        "number": 15,
+        "position": "DF",
+        "age": 30
+      },
+      {
+        "name": "Douglas Santos",
+        "number": 16,
+        "position": "DF",
+        "age": 32
+      },
+      {
+        "name": "Fabinho",
+        "number": 17,
+        "position": "MF",
+        "age": 32
+      },
+      {
+        "name": "Danilo Santos",
+        "number": 18,
+        "position": "MF",
+        "age": 25
+      },
+      {
+        "name": "Endrick",
+        "number": 19,
+        "position": "FW",
+        "age": 19
+      },
+      {
+        "name": "Lucas Paquetá",
+        "number": 20,
+        "position": "MF",
+        "age": 28
+      },
+      {
+        "name": "Luiz Henrique",
+        "number": 21,
+        "position": "FW",
+        "age": 25
+      },
+      {
+        "name": "Gabriel Martinelli",
+        "number": 22,
+        "position": "FW",
+        "age": 24
+      },
+      {
+        "name": "Ederson",
+        "number": 23,
+        "position": "GK",
+        "age": 32
+      }
+    ],
+    "away": [
+      {
+        "name": "Johny Placide",
+        "number": 1,
+        "position": "GK",
+        "age": 38
+      },
+      {
+        "name": "Alexandre Pierre",
+        "number": 2,
+        "position": "GK",
+        "age": 25
+      },
+      {
+        "name": "Josué Duverger",
+        "number": 3,
+        "position": "GK",
+        "age": 26
+      },
+      {
+        "name": "Ricardo Adé",
+        "number": 4,
+        "position": "DF",
+        "age": 36
+      },
+      {
+        "name": "Carlens Arcus",
+        "number": 5,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Martin Expérience",
+        "number": 6,
+        "position": "DF",
+        "age": 27
+      },
+      {
+        "name": "Jean-Kévin Duverne",
+        "number": 7,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Duke Lacroix",
+        "number": 8,
+        "position": "DF",
+        "age": 32
+      },
+      {
+        "name": "Wilguens Paugain",
+        "number": 9,
+        "position": "DF",
+        "age": 24
+      },
+      {
+        "name": "Hannes Delcroix",
+        "number": 10,
+        "position": "DF",
+        "age": 27
+      },
+      {
+        "name": "Keeto Thermoncy",
+        "number": 11,
+        "position": "DF",
+        "age": 20
+      },
+      {
+        "name": "Leverton Pierre",
+        "number": 12,
+        "position": "MF",
+        "age": 28
+      },
+      {
+        "name": "Danley Jean Jacques",
+        "number": 13,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Carl Sainté",
+        "number": 14,
+        "position": "MF",
+        "age": 23
+      },
+      {
+        "name": "Jean-Ricner Bellegarde",
+        "number": 15,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Woodensky Pierre",
+        "number": 16,
+        "position": "MF",
+        "age": 21
+      },
+      {
+        "name": "Dominique Simon",
+        "number": 17,
+        "position": "MF",
+        "age": 25
+      },
+      {
+        "name": "Duckens Nazon",
+        "number": 18,
+        "position": "FW",
+        "age": 32
+      },
+      {
+        "name": "Frantzdy Pierrot",
+        "number": 19,
+        "position": "FW",
+        "age": 31
+      },
+      {
+        "name": "Derrick Etienne Jr.",
+        "number": 20,
+        "position": "FW",
+        "age": 29
+      },
+      {
+        "name": "Louicius Deedson",
+        "number": 21,
+        "position": "FW",
+        "age": 25
+      },
+      {
+        "name": "Ruben Providence",
+        "number": 22,
+        "position": "FW",
+        "age": 24
+      },
+      {
+        "name": "Josué Casimir",
+        "number": 23,
+        "position": "FW",
+        "age": 24
+      }
+    ]
+  }
+}

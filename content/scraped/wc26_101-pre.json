@@ -1,0 +1,25 @@
+{
+  "matchId": "wc26_101",
+  "eventId": "local",
+  "status": "upcoming",
+  "scrapedAt": "2026-06-12T14:44:31.479Z",
+  "general": {
+    "homeTeam": "Thắng trận 97",
+    "homeSlug": "thang-97",
+    "awayTeam": "Thắng trận 98",
+    "awaySlug": "thang-98",
+    "stage": "Bán Kết",
+    "group": "",
+    "kickoffUTC": "2026-07-14T19:00:00Z",
+    "venue": "AT&T Stadium",
+    "referee": ""
+  },
+  "form": {
+    "home": [],
+    "away": []
+  },
+  "squads": {
+    "home": [],
+    "away": []
+  }
+}

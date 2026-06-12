@@ -1,0 +1,25 @@
+{
+  "matchId": "wc26_094",
+  "eventId": "local",
+  "status": "upcoming",
+  "scrapedAt": "2026-06-12T14:44:31.478Z",
+  "general": {
+    "homeTeam": "Thắng trận 81",
+    "homeSlug": "thang-81",
+    "awayTeam": "Thắng trận 82",
+    "awaySlug": "thang-82",
+    "stage": "Vòng 1/8",
+    "group": "",
+    "kickoffUTC": "2026-07-07T00:00:00Z",
+    "venue": "Lumen Field",
+    "referee": ""
+  },
+  "form": {
+    "home": [],
+    "away": []
+  },
+  "squads": {
+    "home": [],
+    "away": []
+  }
+}

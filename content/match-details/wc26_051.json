@@ -1,0 +1,217 @@
+{
+  "incidents": [],
+  "homeLineup": {
+    "teamSlug": "scotland",
+    "teamName": "Scotland",
+    "formation": "4-3-3",
+    "accent": "#ef4444",
+    "players": [
+      {
+        "name": "Craig Gordon",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 12,
+        "teamSlug": "scotland",
+        "captain": false
+      },
+      {
+        "name": "Andy Robertson",
+        "number": 4,
+        "role": "RB",
+        "x": 14,
+        "y": 28,
+        "teamSlug": "scotland",
+        "captain": true
+      },
+      {
+        "name": "Grant Hanley",
+        "number": 5,
+        "role": "CB",
+        "x": 36,
+        "y": 30,
+        "teamSlug": "scotland",
+        "captain": false
+      },
+      {
+        "name": "Kieran Tierney",
+        "number": 6,
+        "role": "CB",
+        "x": 64,
+        "y": 30,
+        "teamSlug": "scotland",
+        "captain": false
+      },
+      {
+        "name": "Scott McKenna",
+        "number": 7,
+        "role": "LB",
+        "x": 86,
+        "y": 28,
+        "teamSlug": "scotland",
+        "captain": false
+      },
+      {
+        "name": "John McGinn",
+        "number": 14,
+        "role": "DM",
+        "x": 22,
+        "y": 48,
+        "teamSlug": "scotland",
+        "captain": false
+      },
+      {
+        "name": "Scott McTominay",
+        "number": 15,
+        "role": "CM",
+        "x": 50,
+        "y": 56,
+        "teamSlug": "scotland",
+        "captain": false
+      },
+      {
+        "name": "Ryan Christie",
+        "number": 16,
+        "role": "CM",
+        "x": 78,
+        "y": 48,
+        "teamSlug": "scotland",
+        "captain": false
+      },
+      {
+        "name": "Lyndon Dykes",
+        "number": 22,
+        "role": "RW",
+        "x": 18,
+        "y": 76,
+        "teamSlug": "scotland",
+        "captain": false
+      },
+      {
+        "name": "Lawrence Shankland",
+        "number": 23,
+        "role": "ST",
+        "x": 50,
+        "y": 84,
+        "teamSlug": "scotland",
+        "captain": false
+      },
+      {
+        "name": "Che Adams",
+        "number": 24,
+        "role": "LW",
+        "x": 82,
+        "y": 76,
+        "teamSlug": "scotland",
+        "captain": false
+      }
+    ]
+  },
+  "awayLineup": {
+    "teamSlug": "brazil",
+    "teamName": "Brazil",
+    "formation": "4-3-3",
+    "accent": "#2563eb",
+    "players": [
+      {
+        "name": "Alisson",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 88,
+        "teamSlug": "brazil",
+        "captain": false
+      },
+      {
+        "name": "Wesley",
+        "number": 2,
+        "role": "RB",
+        "x": 14,
+        "y": 72,
+        "teamSlug": "brazil",
+        "captain": false
+      },
+      {
+        "name": "Gabriel Magalhães",
+        "number": 3,
+        "role": "CB",
+        "x": 36,
+        "y": 70,
+        "teamSlug": "brazil",
+        "captain": false
+      },
+      {
+        "name": "Marquinhos",
+        "number": 4,
+        "role": "CB",
+        "x": 64,
+        "y": 70,
+        "teamSlug": "brazil",
+        "captain": true
+      },
+      {
+        "name": "Alex Sandro",
+        "number": 6,
+        "role": "LB",
+        "x": 86,
+        "y": 72,
+        "teamSlug": "brazil",
+        "captain": false
+      },
+      {
+        "name": "Casemiro",
+        "number": 5,
+        "role": "DM",
+        "x": 22,
+        "y": 52,
+        "teamSlug": "brazil",
+        "captain": false
+      },
+      {
+        "name": "Bruno Guimarães",
+        "number": 8,
+        "role": "CM",
+        "x": 50,
+        "y": 44,
+        "teamSlug": "brazil",
+        "captain": false
+      },
+      {
+        "name": "Fabinho",
+        "number": 17,
+        "role": "CM",
+        "x": 78,
+        "y": 52,
+        "teamSlug": "brazil",
+        "captain": false
+      },
+      {
+        "name": "Vinícius Júnior",
+        "number": 7,
+        "role": "RW",
+        "x": 18,
+        "y": 24,
+        "teamSlug": "brazil",
+        "captain": false
+      },
+      {
+        "name": "Matheus Cunha",
+        "number": 9,
+        "role": "ST",
+        "x": 50,
+        "y": 16,
+        "teamSlug": "brazil",
+        "captain": false
+      },
+      {
+        "name": "Neymar",
+        "number": 10,
+        "role": "LW",
+        "x": 82,
+        "y": 24,
+        "teamSlug": "brazil",
+        "captain": false
+      }
+    ]
+  }
+}

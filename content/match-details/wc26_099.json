@@ -1,0 +1,17 @@
+{
+  "incidents": [],
+  "homeLineup": {
+    "teamSlug": "thang-91",
+    "teamName": "Thắng trận 91",
+    "formation": "4-3-3",
+    "accent": "#ef4444",
+    "players": []
+  },
+  "awayLineup": {
+    "teamSlug": "thang-92",
+    "teamName": "Thắng trận 92",
+    "formation": "4-3-3",
+    "accent": "#2563eb",
+    "players": []
+  }
+}

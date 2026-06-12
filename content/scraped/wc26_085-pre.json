@@ -1,0 +1,25 @@
+{
+  "matchId": "wc26_085",
+  "eventId": "local",
+  "status": "upcoming",
+  "scrapedAt": "2026-06-12T14:44:31.477Z",
+  "general": {
+    "homeTeam": "Winner B",
+    "homeSlug": "nhat-bang-b",
+    "awayTeam": "Best 3rd",
+    "awaySlug": "best-3rd-7",
+    "stage": "Vòng 1/16",
+    "group": "",
+    "kickoffUTC": "2026-07-03T03:00:00Z",
+    "venue": "BC Place",
+    "referee": ""
+  },
+  "form": {
+    "home": [],
+    "away": []
+  },
+  "squads": {
+    "home": [],
+    "away": []
+  }
+}

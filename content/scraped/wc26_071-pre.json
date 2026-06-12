@@ -1,0 +1,303 @@
+{
+  "matchId": "wc26_071",
+  "eventId": "local",
+  "status": "upcoming",
+  "scrapedAt": "2026-06-12T14:44:31.475Z",
+  "general": {
+    "homeTeam": "Algeria",
+    "homeSlug": "algeria",
+    "awayTeam": "Austria",
+    "awaySlug": "ao",
+    "stage": "Vòng Bảng - Bảng J",
+    "group": "J",
+    "kickoffUTC": "2026-06-28T02:00:00Z",
+    "venue": "Arrowhead Stadium",
+    "referee": ""
+  },
+  "form": {
+    "home": [],
+    "away": []
+  },
+  "squads": {
+    "home": [
+      {
+        "name": "Melvin Mastil",
+        "number": 1,
+        "position": "GK",
+        "age": 26
+      },
+      {
+        "name": "Aïssa Mandi",
+        "number": 2,
+        "position": "DF",
+        "age": 34
+      },
+      {
+        "name": "Achref Abada",
+        "number": 3,
+        "position": "DF",
+        "age": 26
+      },
+      {
+        "name": "Mohamed Amine Tougai",
+        "number": 4,
+        "position": "DF",
+        "age": 26
+      },
+      {
+        "name": "Zinedine Belaïd",
+        "number": 5,
+        "position": "DF",
+        "age": 27
+      },
+      {
+        "name": "Ramiz Zerrouki",
+        "number": 6,
+        "position": "MF",
+        "age": 28
+      },
+      {
+        "name": "Riyad Mahrez",
+        "number": 7,
+        "position": "FW",
+        "age": 35
+      },
+      {
+        "name": "Houssem Aouar",
+        "number": 8,
+        "position": "MF",
+        "age": 28
+      },
+      {
+        "name": "Amine Gouiri",
+        "number": 9,
+        "position": "FW",
+        "age": 26
+      },
+      {
+        "name": "Fares Chaibi",
+        "number": 10,
+        "position": "MF",
+        "age": 23
+      },
+      {
+        "name": "Anis Hadj Moussa",
+        "number": 11,
+        "position": "FW",
+        "age": 24
+      },
+      {
+        "name": "Nadhir Benbouali",
+        "number": 12,
+        "position": "FW",
+        "age": 26
+      },
+      {
+        "name": "Jaouen Hadjam",
+        "number": 13,
+        "position": "DF",
+        "age": 23
+      },
+      {
+        "name": "Hicham Boudaoui",
+        "number": 14,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Rayan Aït-Nouri",
+        "number": 15,
+        "position": "DF",
+        "age": 25
+      },
+      {
+        "name": "Oussama Benbot",
+        "number": 16,
+        "position": "GK",
+        "age": 31
+      },
+      {
+        "name": "Rak Belghali",
+        "number": 17,
+        "position": "DF",
+        "age": 24
+      },
+      {
+        "name": "Mohamed Amoura",
+        "number": 18,
+        "position": "FW",
+        "age": 26
+      },
+      {
+        "name": "Nabil Bentaleb",
+        "number": 19,
+        "position": "MF",
+        "age": 31
+      },
+      {
+        "name": "Adil Boulbina",
+        "number": 20,
+        "position": "FW",
+        "age": 23
+      },
+      {
+        "name": "Ramy Bensebaini",
+        "number": 21,
+        "position": "DF",
+        "age": 31
+      },
+      {
+        "name": "Ibrahim Maza",
+        "number": 22,
+        "position": "MF",
+        "age": 20
+      },
+      {
+        "name": "Luca Zidane",
+        "number": 23,
+        "position": "GK",
+        "age": 28
+      }
+    ],
+    "away": [
+      {
+        "name": "Alexander Schlager",
+        "number": 1,
+        "position": "GK",
+        "age": 30
+      },
+      {
+        "name": "David Affengruber",
+        "number": 2,
+        "position": "DF",
+        "age": 25
+      },
+      {
+        "name": "Kevin Danso",
+        "number": 3,
+        "position": "DF",
+        "age": 27
+      },
+      {
+        "name": "Xaver Schlager",
+        "number": 4,
+        "position": "MF",
+        "age": 28
+      },
+      {
+        "name": "Stefan Posch",
+        "number": 5,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Nicolas Seiwald",
+        "number": 6,
+        "position": "MF",
+        "age": 25
+      },
+      {
+        "name": "Marko Arnautović",
+        "number": 7,
+        "position": "FW",
+        "age": 37
+      },
+      {
+        "name": "David Alaba",
+        "number": 8,
+        "position": "DF",
+        "age": 34
+      },
+      {
+        "name": "Marcel Sabitzer",
+        "number": 9,
+        "position": "MF",
+        "age": 32
+      },
+      {
+        "name": "Florian Grillitsch",
+        "number": 10,
+        "position": "MF",
+        "age": 30
+      },
+      {
+        "name": "Michael Gregoritsch",
+        "number": 11,
+        "position": "FW",
+        "age": 32
+      },
+      {
+        "name": "Florian Wiegele",
+        "number": 12,
+        "position": "GK",
+        "age": 25
+      },
+      {
+        "name": "Patrick Pentz",
+        "number": 13,
+        "position": "GK",
+        "age": 29
+      },
+      {
+        "name": "Saša Kalajdžić",
+        "number": 14,
+        "position": "FW",
+        "age": 28
+      },
+      {
+        "name": "Philipp Lienhart",
+        "number": 15,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Phillip Mwene",
+        "number": 16,
+        "position": "DF",
+        "age": 32
+      },
+      {
+        "name": "Carney Chukwuemeka",
+        "number": 17,
+        "position": "MF",
+        "age": 22
+      },
+      {
+        "name": "Romano Schmid",
+        "number": 18,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Christoph Baumgartner",
+        "number": 19,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Konrad Laimer",
+        "number": 20,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Patrick Wimmer",
+        "number": 21,
+        "position": "FW",
+        "age": 25
+      },
+      {
+        "name": "Alexander Prass",
+        "number": 22,
+        "position": "MF",
+        "age": 25
+      },
+      {
+        "name": "Marco Friedl",
+        "number": 23,
+        "position": "DF",
+        "age": 28
+      }
+    ]
+  }
+}

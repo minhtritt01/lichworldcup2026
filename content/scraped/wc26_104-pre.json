@@ -1,0 +1,25 @@
+{
+  "matchId": "wc26_104",
+  "eventId": "local",
+  "status": "upcoming",
+  "scrapedAt": "2026-06-12T14:44:31.479Z",
+  "general": {
+    "homeTeam": "Thắng trận 101",
+    "homeSlug": "thang-101",
+    "awayTeam": "Thắng trận 102",
+    "awaySlug": "thang-102",
+    "stage": "Chung Kết",
+    "group": "",
+    "kickoffUTC": "2026-07-19T19:00:00Z",
+    "venue": "MetLife Stadium",
+    "referee": ""
+  },
+  "form": {
+    "home": [],
+    "away": []
+  },
+  "squads": {
+    "home": [],
+    "away": []
+  }
+}

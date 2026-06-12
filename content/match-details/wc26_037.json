@@ -1,0 +1,217 @@
+{
+  "incidents": [],
+  "homeLineup": {
+    "teamSlug": "tay-ban-nha",
+    "teamName": "Spain",
+    "formation": "4-3-3",
+    "accent": "#ef4444",
+    "players": [
+      {
+        "name": "Unai Simón",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 12,
+        "teamSlug": "tay-ban-nha",
+        "captain": false
+      },
+      {
+        "name": "Dani Carvajal",
+        "number": 4,
+        "role": "RB",
+        "x": 14,
+        "y": 28,
+        "teamSlug": "tay-ban-nha",
+        "captain": true
+      },
+      {
+        "name": "Robin Le Normand",
+        "number": 5,
+        "role": "CB",
+        "x": 36,
+        "y": 30,
+        "teamSlug": "tay-ban-nha",
+        "captain": false
+      },
+      {
+        "name": "Aymeric Laporte",
+        "number": 6,
+        "role": "CB",
+        "x": 64,
+        "y": 30,
+        "teamSlug": "tay-ban-nha",
+        "captain": false
+      },
+      {
+        "name": "Alejandro Balde",
+        "number": 7,
+        "role": "LB",
+        "x": 86,
+        "y": 28,
+        "teamSlug": "tay-ban-nha",
+        "captain": false
+      },
+      {
+        "name": "Rodri",
+        "number": 10,
+        "role": "DM",
+        "x": 22,
+        "y": 48,
+        "teamSlug": "tay-ban-nha",
+        "captain": false
+      },
+      {
+        "name": "Pedri",
+        "number": 11,
+        "role": "CM",
+        "x": 50,
+        "y": 56,
+        "teamSlug": "tay-ban-nha",
+        "captain": false
+      },
+      {
+        "name": "Fabián Ruiz",
+        "number": 12,
+        "role": "CM",
+        "x": 78,
+        "y": 48,
+        "teamSlug": "tay-ban-nha",
+        "captain": false
+      },
+      {
+        "name": "Lamine Yamal",
+        "number": 16,
+        "role": "RW",
+        "x": 18,
+        "y": 76,
+        "teamSlug": "tay-ban-nha",
+        "captain": false
+      },
+      {
+        "name": "Nico Williams",
+        "number": 17,
+        "role": "ST",
+        "x": 50,
+        "y": 84,
+        "teamSlug": "tay-ban-nha",
+        "captain": false
+      },
+      {
+        "name": "Álvaro Morata",
+        "number": 18,
+        "role": "LW",
+        "x": 82,
+        "y": 76,
+        "teamSlug": "tay-ban-nha",
+        "captain": false
+      }
+    ]
+  },
+  "awayLineup": {
+    "teamSlug": "a-rap-xe-ut",
+    "teamName": "Saudi Arabia",
+    "formation": "4-3-3",
+    "accent": "#2563eb",
+    "players": [
+      {
+        "name": "Mohammed Al-Owais",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 88,
+        "teamSlug": "a-rap-xe-ut",
+        "captain": true
+      },
+      {
+        "name": "Saud Abdulhamid",
+        "number": 4,
+        "role": "RB",
+        "x": 14,
+        "y": 72,
+        "teamSlug": "a-rap-xe-ut",
+        "captain": false
+      },
+      {
+        "name": "Ali Al-Bulayhi",
+        "number": 5,
+        "role": "CB",
+        "x": 36,
+        "y": 70,
+        "teamSlug": "a-rap-xe-ut",
+        "captain": false
+      },
+      {
+        "name": "Abdulelah Al-Amri",
+        "number": 6,
+        "role": "CB",
+        "x": 64,
+        "y": 70,
+        "teamSlug": "a-rap-xe-ut",
+        "captain": false
+      },
+      {
+        "name": "Hassan Al-Tambakti",
+        "number": 7,
+        "role": "LB",
+        "x": 86,
+        "y": 72,
+        "teamSlug": "a-rap-xe-ut",
+        "captain": false
+      },
+      {
+        "name": "Salman Al-Faraj",
+        "number": 9,
+        "role": "DM",
+        "x": 22,
+        "y": 52,
+        "teamSlug": "a-rap-xe-ut",
+        "captain": false
+      },
+      {
+        "name": "Mohamed Kanno",
+        "number": 10,
+        "role": "CM",
+        "x": 50,
+        "y": 44,
+        "teamSlug": "a-rap-xe-ut",
+        "captain": false
+      },
+      {
+        "name": "Abdullah Otayf",
+        "number": 11,
+        "role": "CM",
+        "x": 78,
+        "y": 52,
+        "teamSlug": "a-rap-xe-ut",
+        "captain": false
+      },
+      {
+        "name": "Salem Al-Dawsari",
+        "number": 16,
+        "role": "RW",
+        "x": 18,
+        "y": 24,
+        "teamSlug": "a-rap-xe-ut",
+        "captain": false
+      },
+      {
+        "name": "Firas Al-Buraikan",
+        "number": 17,
+        "role": "ST",
+        "x": 50,
+        "y": 16,
+        "teamSlug": "a-rap-xe-ut",
+        "captain": false
+      },
+      {
+        "name": "Hattan Bahebri",
+        "number": 18,
+        "role": "LW",
+        "x": 82,
+        "y": 24,
+        "teamSlug": "a-rap-xe-ut",
+        "captain": false
+      }
+    ]
+  }
+}

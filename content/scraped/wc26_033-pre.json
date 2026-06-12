@@ -1,0 +1,303 @@
+{
+  "matchId": "wc26_033",
+  "eventId": "local",
+  "status": "upcoming",
+  "scrapedAt": "2026-06-12T14:44:31.471Z",
+  "general": {
+    "homeTeam": "Netherlands",
+    "homeSlug": "ha-lan",
+    "awayTeam": "Sweden",
+    "awaySlug": "thuy-dien",
+    "stage": "Vòng Bảng - Bảng F",
+    "group": "F",
+    "kickoffUTC": "2026-06-20T17:00:00Z",
+    "venue": "NRG Stadium",
+    "referee": ""
+  },
+  "form": {
+    "home": [],
+    "away": []
+  },
+  "squads": {
+    "home": [
+      {
+        "name": "Bart Verbruggen",
+        "number": 1,
+        "position": "GK",
+        "age": 23
+      },
+      {
+        "name": "Denzel Dumfries",
+        "number": 2,
+        "position": "DF",
+        "age": 30
+      },
+      {
+        "name": "Jurriën Timber",
+        "number": 3,
+        "position": "DF",
+        "age": 25
+      },
+      {
+        "name": "Virgil van Dijk",
+        "number": 4,
+        "position": "DF",
+        "age": 34
+      },
+      {
+        "name": "Nathan Aké",
+        "number": 5,
+        "position": "DF",
+        "age": 31
+      },
+      {
+        "name": "Stefan de Vrij",
+        "number": 6,
+        "position": "DF",
+        "age": 34
+      },
+      {
+        "name": "Frenkie de Jong",
+        "number": 7,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Tijjani Reijnders",
+        "number": 8,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Memphis Depay",
+        "number": 9,
+        "position": "FW",
+        "age": 32
+      },
+      {
+        "name": "Cody Gakpo",
+        "number": 10,
+        "position": "FW",
+        "age": 27
+      },
+      {
+        "name": "Xavi Simons",
+        "number": 11,
+        "position": "FW",
+        "age": 23
+      },
+      {
+        "name": "Remko Pasveer",
+        "number": 12,
+        "position": "GK",
+        "age": 42
+      },
+      {
+        "name": "Matthijs de Ligt",
+        "number": 13,
+        "position": "DF",
+        "age": 26
+      },
+      {
+        "name": "Mats Wieffer",
+        "number": 14,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Teun Koopmeiners",
+        "number": 15,
+        "position": "MF",
+        "age": 28
+      },
+      {
+        "name": "Ryan Gravenberch",
+        "number": 16,
+        "position": "MF",
+        "age": 24
+      },
+      {
+        "name": "Donyell Malen",
+        "number": 17,
+        "position": "FW",
+        "age": 27
+      },
+      {
+        "name": "Brian Brobbey",
+        "number": 18,
+        "position": "FW",
+        "age": 24
+      },
+      {
+        "name": "Wout Weghorst",
+        "number": 19,
+        "position": "FW",
+        "age": 33
+      },
+      {
+        "name": "Georginio Wijnaldum",
+        "number": 20,
+        "position": "MF",
+        "age": 35
+      },
+      {
+        "name": "Devyne Rensch",
+        "number": 21,
+        "position": "DF",
+        "age": 23
+      },
+      {
+        "name": "Ian Maatsen",
+        "number": 22,
+        "position": "DF",
+        "age": 24
+      },
+      {
+        "name": "Justin Bijlow",
+        "number": 23,
+        "position": "GK",
+        "age": 28
+      }
+    ],
+    "away": [
+      {
+        "name": "Robin Olsen",
+        "number": 1,
+        "position": "GK",
+        "age": 36
+      },
+      {
+        "name": "Kristoffer Nordfeldt",
+        "number": 2,
+        "position": "GK",
+        "age": 37
+      },
+      {
+        "name": "Oscar Linnér",
+        "number": 3,
+        "position": "GK",
+        "age": 28
+      },
+      {
+        "name": "Mikael Lustig",
+        "number": 4,
+        "position": "DF",
+        "age": 39
+      },
+      {
+        "name": "Victor Nilsson Lindelöf",
+        "number": 5,
+        "position": "DF",
+        "age": 31
+      },
+      {
+        "name": "Isak Hien",
+        "number": 6,
+        "position": "DF",
+        "age": 26
+      },
+      {
+        "name": "Emil Krafth",
+        "number": 7,
+        "position": "DF",
+        "age": 31
+      },
+      {
+        "name": "Carl Starfelt",
+        "number": 8,
+        "position": "DF",
+        "age": 31
+      },
+      {
+        "name": "Albin Ekdal",
+        "number": 9,
+        "position": "MF",
+        "age": 36
+      },
+      {
+        "name": "Jens-Lys Cajuste",
+        "number": 10,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Mattias Svanberg",
+        "number": 11,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Anthony Elanga",
+        "number": 12,
+        "position": "MF",
+        "age": 24
+      },
+      {
+        "name": "Jesper Karlsson",
+        "number": 13,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Dejan Kulusevski",
+        "number": 14,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Jesper Lindström",
+        "number": 15,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Alexander Isak",
+        "number": 16,
+        "position": "FW",
+        "age": 26
+      },
+      {
+        "name": "Viktor Gyökeres",
+        "number": 17,
+        "position": "FW",
+        "age": 28
+      },
+      {
+        "name": "Jordan Larsson",
+        "number": 18,
+        "position": "FW",
+        "age": 29
+      },
+      {
+        "name": "John Guidetti",
+        "number": 19,
+        "position": "FW",
+        "age": 34
+      },
+      {
+        "name": "Niclas Eliasson",
+        "number": 20,
+        "position": "FW",
+        "age": 30
+      },
+      {
+        "name": "Kristoffer Ajer",
+        "number": 21,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Pontus Jansson",
+        "number": 22,
+        "position": "MF",
+        "age": 35
+      },
+      {
+        "name": "Samuel Chukwueze",
+        "number": 23,
+        "position": "FW",
+        "age": 27
+      }
+    ]
+  }
+}

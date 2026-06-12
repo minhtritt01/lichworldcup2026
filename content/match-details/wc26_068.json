@@ -1,0 +1,217 @@
+{
+  "incidents": [],
+  "homeLineup": {
+    "teamSlug": "croatia",
+    "teamName": "Croatia",
+    "formation": "4-3-3",
+    "accent": "#ef4444",
+    "players": [
+      {
+        "name": "Dominik Livaković",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 12,
+        "teamSlug": "croatia",
+        "captain": false
+      },
+      {
+        "name": "Josip Stanišić",
+        "number": 2,
+        "role": "RB",
+        "x": 14,
+        "y": 28,
+        "teamSlug": "croatia",
+        "captain": false
+      },
+      {
+        "name": "Marin Pongračić",
+        "number": 3,
+        "role": "CB",
+        "x": 36,
+        "y": 30,
+        "teamSlug": "croatia",
+        "captain": false
+      },
+      {
+        "name": "Joško Gvardiol",
+        "number": 4,
+        "role": "CB",
+        "x": 64,
+        "y": 30,
+        "teamSlug": "croatia",
+        "captain": false
+      },
+      {
+        "name": "Duje Ćaleta-Car",
+        "number": 5,
+        "role": "LB",
+        "x": 86,
+        "y": 28,
+        "teamSlug": "croatia",
+        "captain": false
+      },
+      {
+        "name": "Nikola Moro",
+        "number": 7,
+        "role": "DM",
+        "x": 22,
+        "y": 48,
+        "teamSlug": "croatia",
+        "captain": false
+      },
+      {
+        "name": "Mateo Kovačić",
+        "number": 8,
+        "role": "CM",
+        "x": 50,
+        "y": 56,
+        "teamSlug": "croatia",
+        "captain": true
+      },
+      {
+        "name": "Luka Modrić",
+        "number": 10,
+        "role": "CM",
+        "x": 78,
+        "y": 48,
+        "teamSlug": "croatia",
+        "captain": false
+      },
+      {
+        "name": "Andrej Kramarić",
+        "number": 9,
+        "role": "RW",
+        "x": 18,
+        "y": 76,
+        "teamSlug": "croatia",
+        "captain": false
+      },
+      {
+        "name": "Ante Budimir",
+        "number": 11,
+        "role": "ST",
+        "x": 50,
+        "y": 84,
+        "teamSlug": "croatia",
+        "captain": false
+      },
+      {
+        "name": "Ivan Perišić",
+        "number": 14,
+        "role": "LW",
+        "x": 82,
+        "y": 76,
+        "teamSlug": "croatia",
+        "captain": false
+      }
+    ]
+  },
+  "awayLineup": {
+    "teamSlug": "ghana",
+    "teamName": "Ghana",
+    "formation": "4-3-3",
+    "accent": "#2563eb",
+    "players": [
+      {
+        "name": "Lawrence Ati Zigi",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 88,
+        "teamSlug": "ghana",
+        "captain": true
+      },
+      {
+        "name": "Daniel Amartey",
+        "number": 4,
+        "role": "RB",
+        "x": 14,
+        "y": 72,
+        "teamSlug": "ghana",
+        "captain": false
+      },
+      {
+        "name": "Alexander Djiku",
+        "number": 5,
+        "role": "CB",
+        "x": 36,
+        "y": 70,
+        "teamSlug": "ghana",
+        "captain": false
+      },
+      {
+        "name": "Tariq Lamptey",
+        "number": 6,
+        "role": "CB",
+        "x": 64,
+        "y": 70,
+        "teamSlug": "ghana",
+        "captain": false
+      },
+      {
+        "name": "Baba Rahman",
+        "number": 7,
+        "role": "LB",
+        "x": 86,
+        "y": 72,
+        "teamSlug": "ghana",
+        "captain": false
+      },
+      {
+        "name": "Thomas Partey",
+        "number": 9,
+        "role": "DM",
+        "x": 22,
+        "y": 52,
+        "teamSlug": "ghana",
+        "captain": false
+      },
+      {
+        "name": "Iddrisu Baba",
+        "number": 10,
+        "role": "CM",
+        "x": 50,
+        "y": 44,
+        "teamSlug": "ghana",
+        "captain": false
+      },
+      {
+        "name": "Daniel Kofi Kyereh",
+        "number": 11,
+        "role": "CM",
+        "x": 78,
+        "y": 52,
+        "teamSlug": "ghana",
+        "captain": false
+      },
+      {
+        "name": "Jordan Ayew",
+        "number": 16,
+        "role": "RW",
+        "x": 18,
+        "y": 24,
+        "teamSlug": "ghana",
+        "captain": false
+      },
+      {
+        "name": "André Ayew",
+        "number": 17,
+        "role": "ST",
+        "x": 50,
+        "y": 16,
+        "teamSlug": "ghana",
+        "captain": false
+      },
+      {
+        "name": "Inaki Williams",
+        "number": 18,
+        "role": "LW",
+        "x": 82,
+        "y": 24,
+        "teamSlug": "ghana",
+        "captain": false
+      }
+    ]
+  }
+}

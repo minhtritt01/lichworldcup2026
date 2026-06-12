@@ -1,0 +1,217 @@
+{
+  "incidents": [],
+  "homeLineup": {
+    "teamSlug": "ecuador",
+    "teamName": "Ecuador",
+    "formation": "4-3-3",
+    "accent": "#ef4444",
+    "players": [
+      {
+        "name": "Hernán Galíndez",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 12,
+        "teamSlug": "ecuador",
+        "captain": true
+      },
+      {
+        "name": "Félix Torres",
+        "number": 2,
+        "role": "RB",
+        "x": 14,
+        "y": 28,
+        "teamSlug": "ecuador",
+        "captain": false
+      },
+      {
+        "name": "Piero Hincapié",
+        "number": 3,
+        "role": "CB",
+        "x": 36,
+        "y": 30,
+        "teamSlug": "ecuador",
+        "captain": false
+      },
+      {
+        "name": "Joel Ordóñez",
+        "number": 4,
+        "role": "CB",
+        "x": 64,
+        "y": 30,
+        "teamSlug": "ecuador",
+        "captain": false
+      },
+      {
+        "name": "Willian Pacho",
+        "number": 6,
+        "role": "LB",
+        "x": 86,
+        "y": 28,
+        "teamSlug": "ecuador",
+        "captain": false
+      },
+      {
+        "name": "Jordy Alcívar",
+        "number": 5,
+        "role": "DM",
+        "x": 22,
+        "y": 48,
+        "teamSlug": "ecuador",
+        "captain": false
+      },
+      {
+        "name": "Anthony Valencia",
+        "number": 8,
+        "role": "CM",
+        "x": 50,
+        "y": 56,
+        "teamSlug": "ecuador",
+        "captain": false
+      },
+      {
+        "name": "Kendry Páez",
+        "number": 10,
+        "role": "CM",
+        "x": 78,
+        "y": 48,
+        "teamSlug": "ecuador",
+        "captain": false
+      },
+      {
+        "name": "John Yeboah",
+        "number": 9,
+        "role": "RW",
+        "x": 18,
+        "y": 76,
+        "teamSlug": "ecuador",
+        "captain": false
+      },
+      {
+        "name": "Kevin Rodríguez",
+        "number": 11,
+        "role": "ST",
+        "x": 50,
+        "y": 84,
+        "teamSlug": "ecuador",
+        "captain": false
+      },
+      {
+        "name": "Enner Valencia",
+        "number": 13,
+        "role": "LW",
+        "x": 82,
+        "y": 76,
+        "teamSlug": "ecuador",
+        "captain": false
+      }
+    ]
+  },
+  "awayLineup": {
+    "teamSlug": "curacao",
+    "teamName": "Curaçao",
+    "formation": "4-3-3",
+    "accent": "#2563eb",
+    "players": [
+      {
+        "name": "Eloy Room",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 88,
+        "teamSlug": "curacao",
+        "captain": true
+      },
+      {
+        "name": "Shurandy Sambo",
+        "number": 2,
+        "role": "RB",
+        "x": 14,
+        "y": 72,
+        "teamSlug": "curacao",
+        "captain": false
+      },
+      {
+        "name": "Juriën Gaari",
+        "number": 3,
+        "role": "CB",
+        "x": 36,
+        "y": 70,
+        "teamSlug": "curacao",
+        "captain": false
+      },
+      {
+        "name": "Roshon van Eijma",
+        "number": 4,
+        "role": "CB",
+        "x": 64,
+        "y": 70,
+        "teamSlug": "curacao",
+        "captain": false
+      },
+      {
+        "name": "Sherel Floranus",
+        "number": 5,
+        "role": "LB",
+        "x": 86,
+        "y": 72,
+        "teamSlug": "curacao",
+        "captain": false
+      },
+      {
+        "name": "Godfried Roemeratoe",
+        "number": 6,
+        "role": "DM",
+        "x": 22,
+        "y": 52,
+        "teamSlug": "curacao",
+        "captain": false
+      },
+      {
+        "name": "Juninho Bacuna",
+        "number": 7,
+        "role": "CM",
+        "x": 50,
+        "y": 44,
+        "teamSlug": "curacao",
+        "captain": false
+      },
+      {
+        "name": "Livano Comenencia",
+        "number": 8,
+        "role": "CM",
+        "x": 78,
+        "y": 52,
+        "teamSlug": "curacao",
+        "captain": false
+      },
+      {
+        "name": "Jürgen Locadia",
+        "number": 9,
+        "role": "RW",
+        "x": 18,
+        "y": 24,
+        "teamSlug": "curacao",
+        "captain": false
+      },
+      {
+        "name": "Jeremy Antonisse",
+        "number": 11,
+        "role": "ST",
+        "x": 50,
+        "y": 16,
+        "teamSlug": "curacao",
+        "captain": false
+      },
+      {
+        "name": "Sontje Hansen",
+        "number": 12,
+        "role": "LW",
+        "x": 82,
+        "y": 24,
+        "teamSlug": "curacao",
+        "captain": false
+      }
+    ]
+  }
+}
