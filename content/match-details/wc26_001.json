@@ -1,46 +1,60 @@
 {
   "incidents": [
     {
-      "minute": 18,
-      "type": "yellow",
-      "player": "Nkosinathi Sibisi",
-      "detail": "Sibisi receives a yellow card for a two-footed lunge at Roberto Alvarado in midfield, earning an immediate caution from the referee.",
-      "teamSlug": "nam-phi"
-    },
-    {
-      "minute": 36,
+      "minute": 9,
       "type": "goal",
-      "player": "Santiago Giménez",
-      "detail": "Giménez rises above the South African backline to meet Edson Álvarez's inch-perfect cross, powering a header from 8 yards out that leaves Ronwen Williams helpless.",
+      "player": "Julian Quiñones",
+      "detail": "Quiñones fires a low, powerful strike that nutmegs goalkeeper Ronwen Williams, scoring the first goal of the 2026 World Cup after capitalizing on a South African defensive error.",
       "teamSlug": "mexico"
     },
     {
-      "minute": 52,
+      "minute": 17,
       "type": "yellow",
       "player": "Teboho Mokoena",
-      "detail": "Mokoena is booked for vehemently protesting a foul decision, unable to contain his frustration with the referee's call near the technical area.",
+      "detail": "Mokoena picks up South Africa's first yellow card of the tournament for a serious foul in midfield as the Bafana Bafana struggle to contain Mexico's attacking play.",
       "teamSlug": "nam-phi"
     },
     {
-      "minute": 73,
-      "type": "goal",
-      "player": "Raúl Jiménez",
-      "detail": "Jiménez latches onto Alexis Vega's through ball and finishes with a clinical left-footed strike from 12 yards, slotting past Williams to double Mexico's advantage.",
+      "minute": 23,
+      "type": "yellow",
+      "player": "Brian Gutiérrez",
+      "detail": "Gutiérrez is cautioned for a serious foul as the referee aims to maintain control of a physical encounter at the Estadio Azteca.",
       "teamSlug": "mexico"
     },
     {
-      "minute": 81,
-      "type": "yellow",
-      "player": "Mbekezeli Mbokazi",
-      "detail": "Mbokazi is cautioned for a heavy late challenge on Jesús Gallardo down the left flank, desperately trying to disrupt Mexico's relentless attacking play.",
+      "minute": 50,
+      "type": "red",
+      "player": "Yaya Sithole",
+      "detail": "Sithole brings down Brian Gutiérrez who was through on goal, leaving the referee with no choice but to show a straight red card and reduce South Africa to ten men.",
       "teamSlug": "nam-phi"
     },
     {
-      "minute": 87,
+      "minute": 67,
+      "type": "goal",
+      "player": "Raúl Jiménez",
+      "detail": "Jiménez converts Roberto Alvarado's precise assist to double Mexico's lead, the veteran striker finally delivering his landmark World Cup moment on home soil.",
+      "teamSlug": "mexico"
+    },
+    {
+      "minute": 74,
       "type": "yellow",
-      "player": "Evidence Makgopa",
-      "detail": "Makgopa sees yellow for kicking the ball away in frustration after losing possession, his team's despair mounting as Mexico cruises toward a convincing victory.",
+      "player": "Nkosinathi Sibisi",
+      "detail": "Sibisi is booked for a foul as South Africa's depleted defense continues to struggle against Mexico's relentless pressure.",
       "teamSlug": "nam-phi"
+    },
+    {
+      "minute": 84,
+      "type": "red",
+      "player": "Themba Zwane",
+      "detail": "After a VAR review, Zwane is given a straight red card for striking Roberto Alvarado in the face — an act of unsporting behavior that further compounds South Africa's misery.",
+      "teamSlug": "nam-phi"
+    },
+    {
+      "minute": 92,
+      "type": "red",
+      "player": "César Montes",
+      "detail": "Montes receives a red card in stoppage time for a reckless tackle on Khuliso Mudau inside the penalty area, ending an otherwise perfect night for Mexico on a sour note.",
+      "teamSlug": "mexico"
     }
   ],
   "homeLineup": {

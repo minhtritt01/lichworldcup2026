@@ -21,7 +21,7 @@ import { spawnSync } from 'child_process';
 import { MOCK_MATCHES } from '../src/lib/mock-data';
 import { TEAMS_DATA } from '../src/lib/teams-data';
 import type { MatchIncident, PlayerPosition, TeamLineup, LiveMatchDetails } from '../src/lib/live-match-details';
-import type { MatchPostData } from './fotmob';
+import type { MatchPostData, MatchEvent } from './fotmob';
 
 // ─── Claude call (used only for post-match incidents) ─────
 
@@ -241,6 +241,23 @@ async function generateLineups(matchId: string, outDir: string): Promise<void> {
   console.log(`   💾 Saved → content/match-details/${matchId}.json`);
 }
 
+// ─── Map real TSDB events → MatchIncident ────────────────
+
+function mapRealEvents(
+  events: import('./fotmob').MatchEvent[],
+  homeTeam: string,
+  homeSlug: string,
+  awaySlug: string,
+): MatchIncident[] {
+  return events.map(e => ({
+    minute: e.minute,
+    type: e.type,
+    player: e.player,
+    detail: e.type === 'sub' && e.player2 ? `${e.player} replaced by ${e.player2}` : '',
+    teamSlug: e.team.toLowerCase().includes(homeTeam.toLowerCase()) ? homeSlug : awaySlug,
+  }));
+}
+
 // ─── Post-match: generate incidents from scraped result ───
 
 async function generateIncidents(matchId: string, outDir: string): Promise<void> {
@@ -266,30 +283,23 @@ async function generateIncidents(matchId: string, outDir: string): Promise<void>
     ? JSON.parse(readFileSync(detailsPath, 'utf-8'))
     : { incidents: [], homeLineup: { teamSlug: m.home_slug, teamName: m.home_team, formation: '4-3-3', accent: '#ef4444', players: [] }, awayLineup: { teamSlug: m.away_slug, teamName: m.away_team, formation: '4-3-3', accent: '#2563eb', players: [] } };
 
-  // Use lineup player names from scraped squads if available, else fall back to existing lineup
-  const homeXI = existing.homeLineup.players.length
-    ? existing.homeLineup.players.map(p => p.name).join(', ')
-    : squads.home.slice(0, 11).map(p => p.name).join(', ');
-  const awayXI = existing.awayLineup.players.length
-    ? existing.awayLineup.players.map(p => p.name).join(', ')
-    : squads.away.slice(0, 11).map(p => p.name).join(', ');
+  let incidents: MatchIncident[];
 
-  process.stdout.write(`   🤖 Generating incidents (score: ${score.home}–${score.away})...`);
-  const aiIncidents = extractJson<AIIncident[]>(
-    runClaude(postIncidentsPrompt(
-      m.home_team, m.away_team,
-      score.home, score.away,
-      m.stage, m.stadium,
-      homeXI, awayXI
-    ))
-  );
+  if (scraped.events?.length) {
+    // Use real events from TheSportsDB timeline
+    console.log(`   ✅ Using ${scraped.events.length} real events from TSDB timeline`);
+    incidents = mapRealEvents(scraped.events, m.home_team, m.home_slug, m.away_slug);
+  } else {
+    // Fall back to AI generation when TSDB returned no timeline data
+    const homeXI = existing.homeLineup.players.length
+      ? existing.homeLineup.players.map(p => p.name).join(', ')
+      : squads.home.slice(0, 11).map(p => p.name).join(', ');
+    const awayXI = existing.awayLineup.players.length
+      ? existing.awayLineup.players.map(p => p.name).join(', ')
+      : squads.away.slice(0, 11).map(p => p.name).join(', ');
 
-  // Validate goal count matches real score
-  const homeGoals = aiIncidents.filter(i => i.type === 'goal' && i.team === 'home').length;
-  const awayGoals = aiIncidents.filter(i => i.type === 'goal' && i.team === 'away').length;
-  if (homeGoals !== score.home || awayGoals !== score.away) {
-    console.log(` ⚠️  goal mismatch (got ${homeGoals}–${awayGoals}, expected ${score.home}–${score.away}), retrying...`);
-    const retry = extractJson<AIIncident[]>(
+    process.stdout.write(`   🤖 No TSDB timeline — generating incidents via AI (score: ${score.home}–${score.away})...`);
+    const aiIncidents = extractJson<AIIncident[]>(
       runClaude(postIncidentsPrompt(
         m.home_team, m.away_team,
         score.home, score.away,
@@ -297,20 +307,34 @@ async function generateIncidents(matchId: string, outDir: string): Promise<void>
         homeXI, awayXI
       ))
     );
-    aiIncidents.splice(0, aiIncidents.length, ...retry);
+
+    const homeGoals = aiIncidents.filter(i => i.type === 'goal' && i.team === 'home').length;
+    const awayGoals = aiIncidents.filter(i => i.type === 'goal' && i.team === 'away').length;
+    if (homeGoals !== score.home || awayGoals !== score.away) {
+      console.log(` ⚠️  goal mismatch (got ${homeGoals}–${awayGoals}, expected ${score.home}–${score.away}), retrying...`);
+      const retry = extractJson<AIIncident[]>(
+        runClaude(postIncidentsPrompt(
+          m.home_team, m.away_team,
+          score.home, score.away,
+          m.stage, m.stadium,
+          homeXI, awayXI
+        ))
+      );
+      aiIncidents.splice(0, aiIncidents.length, ...retry);
+    }
+
+    console.log(` ✅  ${aiIncidents.length} events`);
+
+    incidents = aiIncidents
+      .sort((a, b) => a.minute - b.minute)
+      .map(inc => ({
+        minute: inc.minute,
+        type: inc.type,
+        player: inc.player,
+        detail: inc.detail,
+        teamSlug: inc.team === 'home' ? m.home_slug : m.away_slug,
+      }));
   }
-
-  console.log(` ✅  ${aiIncidents.length} events`);
-
-  const incidents: MatchIncident[] = aiIncidents
-    .sort((a, b) => a.minute - b.minute)
-    .map(inc => ({
-      minute: inc.minute,
-      type: inc.type,
-      player: inc.player,
-      detail: inc.detail,
-      teamSlug: inc.team === 'home' ? m.home_slug : m.away_slug,
-    }));
 
   const updated: LiveMatchDetails = { ...existing, incidents };
   writeFileSync(detailsPath, JSON.stringify(updated, null, 2), 'utf-8');

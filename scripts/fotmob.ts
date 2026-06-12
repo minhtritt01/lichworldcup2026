@@ -50,6 +50,14 @@ export interface MatchPreData {
   };
 }
 
+export interface MatchEvent {
+  minute: number;
+  type: 'goal' | 'yellow' | 'red' | 'sub';
+  player: string;
+  player2?: string;
+  team: string;
+}
+
 export interface MatchPostData {
   matchId: string;
   eventId: string;
@@ -67,6 +75,7 @@ export interface MatchPostData {
     referee: string;
   };
   score: { home: number; away: number };
+  events: MatchEvent[];
   form: {
     home: FormEntry[];
     away: FormEntry[];
@@ -220,6 +229,55 @@ function buildSquad(teamName: string): PlayerInfo[] {
   }));
 }
 
+// ─── Match timeline (real events) ────────────────────────
+
+interface TsdbTimelineEvent {
+  idEvent: string;
+  strTimeline: string;
+  strTimelineExtra?: string;
+  strComment: string;
+  strPlayer: string;
+  strPlayer2?: string;
+  strTeam: string;
+  intHomeScore?: string;
+  intAwayScore?: string;
+}
+
+function parseEventType(comment: string): MatchEvent['type'] | null {
+  const c = comment.toLowerCase();
+  if (c.includes('goal')) return 'goal';
+  if (c.includes('yellow')) return 'yellow';
+  if (c.includes('red')) return 'red';
+  if (c.includes('sub')) return 'sub';
+  return null;
+}
+
+async function fetchMatchTimeline(eventId: string): Promise<MatchEvent[]> {
+  try {
+    const data = await tsdbGet<{ timeline: TsdbTimelineEvent[] | null }>(
+      `/eventtimeline.php?id=${eventId}`
+    );
+    const raw = data.timeline ?? [];
+    const events: MatchEvent[] = [];
+
+    for (const e of raw) {
+      const type = parseEventType(e.strComment);
+      if (!type) continue;
+      const base = parseInt(e.strTimeline ?? '0', 10) || 0;
+      const extra = parseInt(e.strTimelineExtra ?? '0', 10) || 0;
+      const minute = base + extra;
+      if (!minute || !e.strPlayer) continue;
+      const ev: MatchEvent = { minute, type, player: e.strPlayer, team: e.strTeam };
+      if (type === 'sub' && e.strPlayer2) ev.player2 = e.strPlayer2;
+      events.push(ev);
+    }
+
+    return events.sort((a, b) => a.minute - b.minute);
+  } catch {
+    return [];
+  }
+}
+
 // ─── Status detection ─────────────────────────────────────
 
 type MatchStatus = 'upcoming' | 'live' | 'finished';
@@ -290,14 +348,17 @@ async function main(): Promise<void> {
 
   const kickoffUTC = event.strTimestamp ?? `${event.dateEvent}T${event.strTime}Z`;
 
-  // Fetch form for both teams
-  console.log('\n📊 Fetching team form...');
-  const [homeForm, awayForm] = await Promise.all([
+  // Fetch form + timeline in parallel
+  console.log('\n📊 Fetching team form and match timeline...');
+  const [homeForm, awayForm, events] = await Promise.all([
     fetchTeamForm(event.idHomeTeam, event.strHomeTeam),
     fetchTeamForm(event.idAwayTeam, event.strAwayTeam),
+    status === 'finished' ? fetchMatchTimeline(eventId) : Promise.resolve([]),
   ]);
   console.log(`  ${event.strHomeTeam}: ${homeForm.map(f => f.result).join('') || '(no data)'}`);
   console.log(`  ${event.strAwayTeam}: ${awayForm.map(f => f.result).join('') || '(no data)'}`);
+  if (events.length) console.log(`  Timeline: ${events.length} events (goals/cards/subs)`);
+  else if (status === 'finished') console.log(`  Timeline: no events returned from TSDB (AI fallback will be used)`);
 
   // Build squads from local TEAMS_DATA
   console.log('\n👥 Building squads from local data...');
@@ -340,6 +401,7 @@ async function main(): Promise<void> {
         home: Number(event.intHomeScore ?? 0),
         away: Number(event.intAwayScore ?? 0),
       },
+      events,
       form: formData,
       squads,
     };
