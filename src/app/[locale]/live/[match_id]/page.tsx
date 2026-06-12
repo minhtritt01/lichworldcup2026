@@ -148,7 +148,7 @@ export default async function MatchDetailPage({
     if (pre.status === 'live') liveStatus = 'In_Play';
   }
 
-  let liveIncidents: unknown[] = [];
+  let liveIncidents: { incident_id: number; type: string; player_name: string; time_minute: number; team_slug: string }[] = [];
   if (existsSync(detailsPath)) {
     const details = JSON.parse(readFileSync(detailsPath, 'utf-8'));
     liveIncidents = (details.incidents ?? []).map(
