@@ -343,7 +343,7 @@ async function listMatches(dateStr?: string, showAll = false): Promise<void> {
         console.log(`\n📅 All soccer matches on ${date} (--all mode):\n`);
       } else if (!events.length && !showAll) {
         // Show all leagues found so user can debug
-        const leagues = [...new Set(all.map(e => e.strLeague))].sort();
+        const leagues = Array.from(new Set(all.map(e => e.strLeague))).sort();
         console.log(`\n📅 World Cup 2026 matches on ${date}:\n`);
         console.log('  No World Cup matches found. Leagues returned by TSDB today:');
         leagues.forEach(l => console.log(`    · ${l}`));
