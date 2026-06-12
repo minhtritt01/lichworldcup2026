@@ -1,5 +1,5 @@
 import { getTranslations } from 'next-intl/server';
-import { existsSync } from 'fs';
+import { existsSync, readFileSync } from 'fs';
 import { join } from 'path';
 import { MOCK_MATCHES } from '../../lib/mock-data';
 import HomeSchedule from '../../components/HomeSchedule';
@@ -17,9 +17,19 @@ const STAGE_GROUPS = [
 export default async function HomePage({ params }: { params: { locale: string } }) {
   const t = await getTranslations({ locale: params.locale });
 
-  const upcomingMatches = MOCK_MATCHES.filter(
-    m => !existsSync(join(process.cwd(), 'content', 'scraped', `${m.match_id}-post.json`))
-  );
+  const root = process.cwd();
+  const matchStatuses: Record<string, { status: 'upcoming' | 'finished' | 'live'; score?: { home: number; away: number } }> = {};
+  for (const m of MOCK_MATCHES) {
+    const postPath = join(root, 'content', 'scraped', `${m.match_id}-post.json`);
+    const prePath  = join(root, 'content', 'scraped', `${m.match_id}-pre.json`);
+    if (existsSync(postPath)) {
+      const post = JSON.parse(readFileSync(postPath, 'utf-8'));
+      matchStatuses[m.match_id] = { status: 'finished', score: post.score };
+    } else if (existsSync(prePath)) {
+      const pre = JSON.parse(readFileSync(prePath, 'utf-8'));
+      matchStatuses[m.match_id] = { status: pre.status === 'live' ? 'live' : 'upcoming' };
+    }
+  }
   const stageGroups = STAGE_GROUPS.map(group => ({
     key: group.key,
     label:
@@ -88,7 +98,8 @@ export default async function HomePage({ params }: { params: { locale: string } 
       </div>
 
       <HomeSchedule
-        matches={upcomingMatches}
+        matches={MOCK_MATCHES}
+        matchStatuses={matchStatuses}
         stageGroups={stageGroups}
         favoritesTitle={t('filter.pinnedTeams')}
         favoritesEmpty={params.locale === 'vi'

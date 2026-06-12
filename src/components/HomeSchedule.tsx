@@ -11,12 +11,18 @@ interface StageGroup {
   label: string;
 }
 
+interface MatchStatus {
+  status: 'upcoming' | 'finished' | 'live';
+  score?: { home: number; away: number };
+}
+
 interface Props {
   matches: MockMatch[];
   stageGroups: StageGroup[];
   favoritesTitle: string;
   favoritesEmpty: string;
   scheduleTitle: string;
+  matchStatuses?: Record<string, MatchStatus>;
 }
 
 function getStageGroup(stage: string, stageOrder: string[]): string {
@@ -24,7 +30,7 @@ function getStageGroup(stage: string, stageOrder: string[]): string {
   return stageOrder.find(item => stage.startsWith(item)) ?? stage;
 }
 
-export default function HomeSchedule({ matches, stageGroups, favoritesTitle, favoritesEmpty, scheduleTitle }: Props) {
+export default function HomeSchedule({ matches, stageGroups, favoritesTitle, favoritesEmpty, scheduleTitle, matchStatuses = {} }: Props) {
   const { favorites } = useFavorites();
 
   const { favoriteMatches, regularMatches } = useMemo(() => {
@@ -63,7 +69,9 @@ export default function HomeSchedule({ matches, stageGroups, favoritesTitle, fav
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {favoriteMatches.map(match => (
-              <MatchCard key={match.match_id} match={match} status="upcoming" />
+              <MatchCard key={match.match_id} match={match}
+                status={matchStatuses[match.match_id]?.status ?? 'upcoming'}
+                score={matchStatuses[match.match_id]?.score} />
             ))}
           </div>
         </section>
@@ -98,7 +106,9 @@ export default function HomeSchedule({ matches, stageGroups, favoritesTitle, fav
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 {matchesInStage.map(match => (
-                  <MatchCard key={match.match_id} match={match} status="upcoming" />
+                  <MatchCard key={match.match_id} match={match}
+                    status={matchStatuses[match.match_id]?.status ?? 'upcoming'}
+                    score={matchStatuses[match.match_id]?.score} />
                 ))}
               </div>
             </section>
