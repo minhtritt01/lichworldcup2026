@@ -1,0 +1,321 @@
+{
+  "matchId": "wc26_001",
+  "eventId": "2391728",
+  "status": "finished",
+  "scrapedAt": "2026-06-12T01:10:21.733Z",
+  "general": {
+    "homeTeam": "Mexico",
+    "homeSlug": "mexico",
+    "awayTeam": "South Africa",
+    "awaySlug": "nam-phi",
+    "stage": "FIFA World Cup",
+    "group": "A",
+    "kickoffUTC": "2026-06-11T19:00:00",
+    "venue": "Estadio Azteca",
+    "referee": ""
+  },
+  "score": {
+    "home": 2,
+    "away": 0
+  },
+  "form": {
+    "home": [
+      {
+        "opponent": "South Africa",
+        "result": "W",
+        "score": "2-0",
+        "date": "2026-06-11"
+      }
+    ],
+    "away": [
+      {
+        "opponent": "Nicaragua",
+        "result": "D",
+        "score": "0-0",
+        "date": "2026-05-29"
+      }
+    ]
+  },
+  "squads": {
+    "home": [
+      {
+        "name": "Guillermo Ochoa",
+        "number": 1,
+        "position": "GK",
+        "age": 40
+      },
+      {
+        "name": "Raúl Rangel",
+        "number": 2,
+        "position": "GK",
+        "age": 26
+      },
+      {
+        "name": "Carlos Acevedo",
+        "number": 3,
+        "position": "GK",
+        "age": 30
+      },
+      {
+        "name": "Jesús Gallardo",
+        "number": 4,
+        "position": "DF",
+        "age": 31
+      },
+      {
+        "name": "César Montes",
+        "number": 5,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Jorge Sánchez",
+        "number": 6,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Johan Vásquez",
+        "number": 7,
+        "position": "DF",
+        "age": 27
+      },
+      {
+        "name": "Israel Reyes",
+        "number": 8,
+        "position": "DF",
+        "age": 26
+      },
+      {
+        "name": "Mateo Chávez",
+        "number": 9,
+        "position": "DF",
+        "age": 22
+      },
+      {
+        "name": "Edson Álvarez",
+        "number": 10,
+        "position": "MF",
+        "age": 28
+      },
+      {
+        "name": "Orbelín Pineda",
+        "number": 11,
+        "position": "MF",
+        "age": 30
+      },
+      {
+        "name": "Roberto Alvarado",
+        "number": 12,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Luis Romo",
+        "number": 13,
+        "position": "MF",
+        "age": 31
+      },
+      {
+        "name": "Luis Chávez",
+        "number": 14,
+        "position": "MF",
+        "age": 30
+      },
+      {
+        "name": "Érik Lira",
+        "number": 15,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Gilberto Mora",
+        "number": 16,
+        "position": "MF",
+        "age": 17
+      },
+      {
+        "name": "Brian Gutiérrez",
+        "number": 17,
+        "position": "MF",
+        "age": 22
+      },
+      {
+        "name": "Obed Vargas",
+        "number": 18,
+        "position": "MF",
+        "age": 20
+      },
+      {
+        "name": "Álvaro Fidalgo",
+        "number": 19,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Raúl Jiménez",
+        "number": 20,
+        "position": "FW",
+        "age": 35
+      },
+      {
+        "name": "Alexis Vega",
+        "number": 21,
+        "position": "FW",
+        "age": 28
+      },
+      {
+        "name": "Santiago Giménez",
+        "number": 22,
+        "position": "FW",
+        "age": 25
+      },
+      {
+        "name": "César Huerta",
+        "number": 23,
+        "position": "FW",
+        "age": 25
+      }
+    ],
+    "away": [
+      {
+        "name": "Ronwen Williams",
+        "number": 1,
+        "position": "GK",
+        "age": 34
+      },
+      {
+        "name": "Ricardo Goss",
+        "number": 2,
+        "position": "GK",
+        "age": 32
+      },
+      {
+        "name": "Sipho Chaine",
+        "number": 3,
+        "position": "GK",
+        "age": 29
+      },
+      {
+        "name": "Aubrey Modiba",
+        "number": 4,
+        "position": "DF",
+        "age": 30
+      },
+      {
+        "name": "Khuliso Mudau",
+        "number": 5,
+        "position": "DF",
+        "age": 31
+      },
+      {
+        "name": "Nkosinathi Sibisi",
+        "number": 6,
+        "position": "DF",
+        "age": 30
+      },
+      {
+        "name": "Mbekezeli Mbokazi",
+        "number": 7,
+        "position": "DF",
+        "age": 20
+      },
+      {
+        "name": "Ime Okon",
+        "number": 8,
+        "position": "DF",
+        "age": 22
+      },
+      {
+        "name": "Samukele Kabini",
+        "number": 9,
+        "position": "DF",
+        "age": 22
+      },
+      {
+        "name": "Khulumani Ndamane",
+        "number": 10,
+        "position": "DF",
+        "age": 22
+      },
+      {
+        "name": "Thabang Matuludi",
+        "number": 11,
+        "position": "DF",
+        "age": 27
+      },
+      {
+        "name": "Kamogelo Sebelebele",
+        "number": 12,
+        "position": "DF",
+        "age": 23
+      },
+      {
+        "name": "Bradley Cross",
+        "number": 13,
+        "position": "DF",
+        "age": 25
+      },
+      {
+        "name": "Olwethu Makhanya",
+        "number": 14,
+        "position": "DF",
+        "age": 22
+      },
+      {
+        "name": "Teboho Mokoena",
+        "number": 15,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Sphephelo Sithole",
+        "number": 16,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Thalente Mbatha",
+        "number": 17,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Jayden Adams",
+        "number": 18,
+        "position": "MF",
+        "age": 25
+      },
+      {
+        "name": "Themba Zwane",
+        "number": 19,
+        "position": "FW",
+        "age": 36
+      },
+      {
+        "name": "Lyle Foster",
+        "number": 20,
+        "position": "FW",
+        "age": 26
+      },
+      {
+        "name": "Evidence Makgopa",
+        "number": 21,
+        "position": "FW",
+        "age": 26
+      },
+      {
+        "name": "Oswin Appollis",
+        "number": 22,
+        "position": "FW",
+        "age": 24
+      },
+      {
+        "name": "Iqraam Rayners",
+        "number": 23,
+        "position": "FW",
+        "age": 30
+      }
+    ]
+  }
+}

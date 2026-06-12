@@ -1,5 +1,48 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 18,
+      "type": "yellow",
+      "player": "Nkosinathi Sibisi",
+      "detail": "Sibisi receives a yellow card for a two-footed lunge at Roberto Alvarado in midfield, earning an immediate caution from the referee.",
+      "teamSlug": "nam-phi"
+    },
+    {
+      "minute": 36,
+      "type": "goal",
+      "player": "Santiago Giménez",
+      "detail": "Giménez rises above the South African backline to meet Edson Álvarez's inch-perfect cross, powering a header from 8 yards out that leaves Ronwen Williams helpless.",
+      "teamSlug": "mexico"
+    },
+    {
+      "minute": 52,
+      "type": "yellow",
+      "player": "Teboho Mokoena",
+      "detail": "Mokoena is booked for vehemently protesting a foul decision, unable to contain his frustration with the referee's call near the technical area.",
+      "teamSlug": "nam-phi"
+    },
+    {
+      "minute": 73,
+      "type": "goal",
+      "player": "Raúl Jiménez",
+      "detail": "Jiménez latches onto Alexis Vega's through ball and finishes with a clinical left-footed strike from 12 yards, slotting past Williams to double Mexico's advantage.",
+      "teamSlug": "mexico"
+    },
+    {
+      "minute": 81,
+      "type": "yellow",
+      "player": "Mbekezeli Mbokazi",
+      "detail": "Mbokazi is cautioned for a heavy late challenge on Jesús Gallardo down the left flank, desperately trying to disrupt Mexico's relentless attacking play.",
+      "teamSlug": "nam-phi"
+    },
+    {
+      "minute": 87,
+      "type": "yellow",
+      "player": "Evidence Makgopa",
+      "detail": "Makgopa sees yellow for kicking the ball away in frustration after losing possession, his team's despair mounting as Mexico cruises toward a convincing victory.",
+      "teamSlug": "nam-phi"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "mexico",
     "teamName": "Mexico",
