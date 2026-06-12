@@ -1,4 +1,6 @@
 import { getTranslations } from 'next-intl/server';
+import { existsSync } from 'fs';
+import { join } from 'path';
 import { MOCK_MATCHES } from '../../lib/mock-data';
 import HomeSchedule from '../../components/HomeSchedule';
 
@@ -14,6 +16,10 @@ const STAGE_GROUPS = [
 
 export default async function HomePage({ params }: { params: { locale: string } }) {
   const t = await getTranslations({ locale: params.locale });
+
+  const upcomingMatches = MOCK_MATCHES.filter(
+    m => !existsSync(join(process.cwd(), 'content', 'scraped', `${m.match_id}-post.json`))
+  );
   const stageGroups = STAGE_GROUPS.map(group => ({
     key: group.key,
     label:
@@ -82,7 +88,7 @@ export default async function HomePage({ params }: { params: { locale: string } 
       </div>
 
       <HomeSchedule
-        matches={MOCK_MATCHES}
+        matches={upcomingMatches}
         stageGroups={stageGroups}
         favoritesTitle={t('filter.pinnedTeams')}
         favoritesEmpty={params.locale === 'vi'
