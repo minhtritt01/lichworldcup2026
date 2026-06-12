@@ -147,29 +147,27 @@ export default function MatchCard({
         </div>
 
         {/* Last event + CTA */}
-        {(lastEvent || !isFinished) && (
-          <div className="flex items-center justify-between mt-3 pt-2.5 border-t border-slate-100 dark:border-slate-800">
-            <span className={`text-[11px] truncate max-w-[60%] ${isLive ? 'text-red-500 dark:text-red-400' : 'text-slate-400 dark:text-slate-500'}`}>
-              {lastEvent ?? `📍 ${match.city}`}
-            </span>
-            <SmartLink
-              href={href}
-              className={`shrink-0 text-xs font-semibold px-3 py-1.5 rounded-lg transition ${
-                isLive
-                  ? 'bg-red-600 hover:bg-red-700 text-white'
-                  : isFinished
-                  ? 'border border-slate-300 dark:border-slate-700 text-slate-500 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-800'
-                  : 'border border-slate-300 dark:border-slate-700 text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-800'
-              }`}
-            >
-              {isLive
-                ? t('match.watchLive')
+        <div className="flex items-center justify-between mt-3 pt-2.5 border-t border-slate-100 dark:border-slate-800">
+          <span className={`text-[11px] truncate max-w-[60%] ${isLive ? 'text-red-500 dark:text-red-400' : 'text-slate-400 dark:text-slate-500'}`}>
+            {lastEvent ?? `📍 ${match.city}`}
+          </span>
+          <SmartLink
+            href={href}
+            className={`shrink-0 text-xs font-semibold px-3 py-1.5 rounded-lg transition ${
+              isLive
+                ? 'bg-red-600 hover:bg-red-700 text-white'
                 : isFinished
-                ? t('match.summary')
-                : t('match.details')}
-            </SmartLink>
-          </div>
-        )}
+                ? 'border border-slate-300 dark:border-slate-700 text-slate-500 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-800'
+                : 'border border-slate-300 dark:border-slate-700 text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-800'
+            }`}
+          >
+            {isLive
+              ? t('match.watchLive')
+              : isFinished
+              ? t('match.summary')
+              : t('match.details')}
+          </SmartLink>
+        </div>
       </div>
     </div>
   );

@@ -71,7 +71,7 @@ export async function generateMetadata({
 
   return {
     metadataBase: new URL('https://lichworldcup2026.vn'),
-    title: t('matchTitle', { home: homeName, away: awayName }),
+    title: t('matchTitle', { home: homeName, away: awayName, stage: stageLabel }),
     description: t('matchDesc', { home: homeName, away: awayName, stage: stageLabel, stadium: m.stadium, kickoff }),
     keywords,
     alternates: {
