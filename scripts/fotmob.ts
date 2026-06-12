@@ -5,15 +5,29 @@
  * Example: npx tsx scripts/fotmob.ts 2391728 wc26_001
  *
  * Data sources:
- *   - TheSportsDB (free, no key): match overview, score, venue, referee
+ *   - TheSportsDB (free, no key): match overview, score, venue, referee, timeline
  *   - Local TEAMS_DATA: squad/player info
  *
  * Output:
  *   content/scraped/<match_id>-pre.json   (match not yet started)
- *   content/scraped/<match_id>-post.json  (match finished)
+ *   content/scraped/<match_id>-post.json  (match finished — includes real events)
  *
  * Find TSDB event IDs:
  *   npx tsx scripts/fotmob.ts --list [YYYY-MM-DD]
+ *
+ * ── Full post-match workflow ──────────────────────────────────────────────────
+ *
+ *   # 1. Find the TSDB event ID for today's matches
+ *   npx tsx scripts/fotmob.ts --list
+ *
+ *   # 2. Fetch real match data (score + timeline events)
+ *   npx tsx scripts/fotmob.ts <tsdb_event_id> wc26_001
+ *
+ *   # 3. Generate match-details JSON (uses real events; AI fallback if TSDB has none)
+ *   npx tsx scripts/generate-match-details.ts wc26_001 --post
+ *
+ *   Output: content/match-details/wc26_001.json
+ * ─────────────────────────────────────────────────────────────────────────────
  */
 
 import { writeFileSync, mkdirSync } from 'fs';

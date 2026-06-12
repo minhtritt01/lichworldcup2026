@@ -1,18 +1,36 @@
 #!/usr/bin/env npx tsx
 /**
- * Match details generator — lineups (pre-match) + incidents (post-match)
+ * Step 2: Match details generator — lineups (pre-match) + incidents (post-match)
  *
  * PRE-MATCH — generates projected lineups, incidents stay empty:
  *   npx tsx scripts/generate-match-details.ts wc26_001
  *   npx tsx scripts/generate-match-details.ts --all [--skip-existing]
  *
- * POST-MATCH — generates real incidents from scraped result:
+ * POST-MATCH — writes real incidents from scraped result:
  *   npx tsx scripts/generate-match-details.ts wc26_001 --post
  *
- *   Requires content/scraped/wc26_001-post.json from fotmob.ts first:
- *   npx tsx scripts/fotmob.ts <event_id> wc26_001
+ *   Incident source priority:
+ *     1. Real events from TheSportsDB timeline (fetched by fotmob.ts step 1)
+ *     2. AI-generated fallback (used only when TSDB returns no timeline data)
+ *
+ *   Requires content/scraped/wc26_001-post.json — run fotmob.ts first:
+ *   npx tsx scripts/fotmob.ts <tsdb_event_id> wc26_001
  *
  * Writes: content/match-details/<match_id>.json
+ *
+ * ── Full post-match workflow ──────────────────────────────────────────────────
+ *
+ *   # 1. Find the TSDB event ID for today's matches
+ *   npx tsx scripts/fotmob.ts --list
+ *
+ *   # 2. Fetch real match data (score + timeline events)
+ *   npx tsx scripts/fotmob.ts <tsdb_event_id> wc26_001
+ *
+ *   # 3. Generate match-details JSON (uses real events; AI fallback if TSDB has none)
+ *   npx tsx scripts/generate-match-details.ts wc26_001 --post
+ *
+ *   Output: content/match-details/wc26_001.json
+ * ─────────────────────────────────────────────────────────────────────────────
  */
 
 import { writeFileSync, readFileSync, mkdirSync, existsSync } from 'fs';
