@@ -1,0 +1,217 @@
+{
+  "incidents": [],
+  "homeLineup": {
+    "teamSlug": "iraq",
+    "teamName": "Iraq",
+    "formation": "4-3-3",
+    "accent": "#ef4444",
+    "players": [
+      {
+        "name": "Jalal Hassan",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 12,
+        "teamSlug": "iraq",
+        "captain": true
+      },
+      {
+        "name": "Ali Adnan",
+        "number": 4,
+        "role": "RB",
+        "x": 14,
+        "y": 28,
+        "teamSlug": "iraq",
+        "captain": false
+      },
+      {
+        "name": "Saman Goran",
+        "number": 5,
+        "role": "CB",
+        "x": 36,
+        "y": 30,
+        "teamSlug": "iraq",
+        "captain": false
+      },
+      {
+        "name": "Rebin Sulaka",
+        "number": 6,
+        "role": "CB",
+        "x": 64,
+        "y": 30,
+        "teamSlug": "iraq",
+        "captain": false
+      },
+      {
+        "name": "Amjad Attwan",
+        "number": 7,
+        "role": "LB",
+        "x": 86,
+        "y": 28,
+        "teamSlug": "iraq",
+        "captain": false
+      },
+      {
+        "name": "Bashar Resan",
+        "number": 9,
+        "role": "DM",
+        "x": 22,
+        "y": 48,
+        "teamSlug": "iraq",
+        "captain": false
+      },
+      {
+        "name": "Nashat Akram",
+        "number": 10,
+        "role": "CM",
+        "x": 50,
+        "y": 56,
+        "teamSlug": "iraq",
+        "captain": false
+      },
+      {
+        "name": "Aymen Hussein",
+        "number": 11,
+        "role": "CM",
+        "x": 78,
+        "y": 48,
+        "teamSlug": "iraq",
+        "captain": false
+      },
+      {
+        "name": "Hammam Ibrahim",
+        "number": 17,
+        "role": "RW",
+        "x": 18,
+        "y": 76,
+        "teamSlug": "iraq",
+        "captain": false
+      },
+      {
+        "name": "Emad Mohammed",
+        "number": 18,
+        "role": "ST",
+        "x": 50,
+        "y": 84,
+        "teamSlug": "iraq",
+        "captain": false
+      },
+      {
+        "name": "Ameen Al-Dakhil",
+        "number": 19,
+        "role": "LW",
+        "x": 82,
+        "y": 76,
+        "teamSlug": "iraq",
+        "captain": false
+      }
+    ]
+  },
+  "awayLineup": {
+    "teamSlug": "na-uy",
+    "teamName": "Norway",
+    "formation": "4-3-3",
+    "accent": "#2563eb",
+    "players": [
+      {
+        "name": "Ørjan Nyland",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 88,
+        "teamSlug": "na-uy",
+        "captain": true
+      },
+      {
+        "name": "Omar Elabdellaoui",
+        "number": 4,
+        "role": "RB",
+        "x": 14,
+        "y": 72,
+        "teamSlug": "na-uy",
+        "captain": false
+      },
+      {
+        "name": "Leo Skiri Østigård",
+        "number": 5,
+        "role": "CB",
+        "x": 36,
+        "y": 70,
+        "teamSlug": "na-uy",
+        "captain": false
+      },
+      {
+        "name": "Andreas Hanche-Olsen",
+        "number": 6,
+        "role": "CB",
+        "x": 64,
+        "y": 70,
+        "teamSlug": "na-uy",
+        "captain": false
+      },
+      {
+        "name": "Birger Meling",
+        "number": 7,
+        "role": "LB",
+        "x": 86,
+        "y": 72,
+        "teamSlug": "na-uy",
+        "captain": false
+      },
+      {
+        "name": "Sander Berge",
+        "number": 9,
+        "role": "DM",
+        "x": 22,
+        "y": 52,
+        "teamSlug": "na-uy",
+        "captain": false
+      },
+      {
+        "name": "Morten Thorsby",
+        "number": 10,
+        "role": "CM",
+        "x": 50,
+        "y": 44,
+        "teamSlug": "na-uy",
+        "captain": false
+      },
+      {
+        "name": "Martin Ødegaard",
+        "number": 11,
+        "role": "CM",
+        "x": 78,
+        "y": 52,
+        "teamSlug": "na-uy",
+        "captain": false
+      },
+      {
+        "name": "Erling Haaland",
+        "number": 16,
+        "role": "RW",
+        "x": 18,
+        "y": 24,
+        "teamSlug": "na-uy",
+        "captain": false
+      },
+      {
+        "name": "Alexander Sørloth",
+        "number": 17,
+        "role": "ST",
+        "x": 50,
+        "y": 16,
+        "teamSlug": "na-uy",
+        "captain": false
+      },
+      {
+        "name": "Mohamed Elyounoussi",
+        "number": 18,
+        "role": "LW",
+        "x": 82,
+        "y": 24,
+        "teamSlug": "na-uy",
+        "captain": false
+      }
+    ]
+  }
+}

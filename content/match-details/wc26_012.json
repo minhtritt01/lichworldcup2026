@@ -1,0 +1,217 @@
+{
+  "incidents": [],
+  "homeLineup": {
+    "teamSlug": "thuy-dien",
+    "teamName": "Sweden",
+    "formation": "4-3-3",
+    "accent": "#ef4444",
+    "players": [
+      {
+        "name": "Robin Olsen",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 12,
+        "teamSlug": "thuy-dien",
+        "captain": true
+      },
+      {
+        "name": "Mikael Lustig",
+        "number": 4,
+        "role": "RB",
+        "x": 14,
+        "y": 28,
+        "teamSlug": "thuy-dien",
+        "captain": false
+      },
+      {
+        "name": "Victor Nilsson Lindelöf",
+        "number": 5,
+        "role": "CB",
+        "x": 36,
+        "y": 30,
+        "teamSlug": "thuy-dien",
+        "captain": false
+      },
+      {
+        "name": "Isak Hien",
+        "number": 6,
+        "role": "CB",
+        "x": 64,
+        "y": 30,
+        "teamSlug": "thuy-dien",
+        "captain": false
+      },
+      {
+        "name": "Emil Krafth",
+        "number": 7,
+        "role": "LB",
+        "x": 86,
+        "y": 28,
+        "teamSlug": "thuy-dien",
+        "captain": false
+      },
+      {
+        "name": "Albin Ekdal",
+        "number": 9,
+        "role": "DM",
+        "x": 22,
+        "y": 48,
+        "teamSlug": "thuy-dien",
+        "captain": false
+      },
+      {
+        "name": "Jens-Lys Cajuste",
+        "number": 10,
+        "role": "CM",
+        "x": 50,
+        "y": 56,
+        "teamSlug": "thuy-dien",
+        "captain": false
+      },
+      {
+        "name": "Mattias Svanberg",
+        "number": 11,
+        "role": "CM",
+        "x": 78,
+        "y": 48,
+        "teamSlug": "thuy-dien",
+        "captain": false
+      },
+      {
+        "name": "Alexander Isak",
+        "number": 16,
+        "role": "RW",
+        "x": 18,
+        "y": 76,
+        "teamSlug": "thuy-dien",
+        "captain": false
+      },
+      {
+        "name": "Viktor Gyökeres",
+        "number": 17,
+        "role": "ST",
+        "x": 50,
+        "y": 84,
+        "teamSlug": "thuy-dien",
+        "captain": false
+      },
+      {
+        "name": "Jordan Larsson",
+        "number": 18,
+        "role": "LW",
+        "x": 82,
+        "y": 76,
+        "teamSlug": "thuy-dien",
+        "captain": false
+      }
+    ]
+  },
+  "awayLineup": {
+    "teamSlug": "tunisia",
+    "teamName": "Tunisia",
+    "formation": "4-3-3",
+    "accent": "#2563eb",
+    "players": [
+      {
+        "name": "Aymen Dahmen",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 88,
+        "teamSlug": "tunisia",
+        "captain": true
+      },
+      {
+        "name": "Montassar Talbi",
+        "number": 4,
+        "role": "RB",
+        "x": 14,
+        "y": 72,
+        "teamSlug": "tunisia",
+        "captain": false
+      },
+      {
+        "name": "Nader Ghandri",
+        "number": 5,
+        "role": "CB",
+        "x": 36,
+        "y": 70,
+        "teamSlug": "tunisia",
+        "captain": false
+      },
+      {
+        "name": "Bilel Ifa",
+        "number": 6,
+        "role": "CB",
+        "x": 64,
+        "y": 70,
+        "teamSlug": "tunisia",
+        "captain": false
+      },
+      {
+        "name": "Mohamed Dräger",
+        "number": 7,
+        "role": "LB",
+        "x": 86,
+        "y": 72,
+        "teamSlug": "tunisia",
+        "captain": false
+      },
+      {
+        "name": "Hannibal Mejbri",
+        "number": 10,
+        "role": "DM",
+        "x": 22,
+        "y": 52,
+        "teamSlug": "tunisia",
+        "captain": false
+      },
+      {
+        "name": "Aïssa Laïdouni",
+        "number": 11,
+        "role": "CM",
+        "x": 50,
+        "y": 44,
+        "teamSlug": "tunisia",
+        "captain": false
+      },
+      {
+        "name": "Ellyes Skhiri",
+        "number": 12,
+        "role": "CM",
+        "x": 78,
+        "y": 52,
+        "teamSlug": "tunisia",
+        "captain": false
+      },
+      {
+        "name": "Naïm Sliti",
+        "number": 17,
+        "role": "RW",
+        "x": 18,
+        "y": 24,
+        "teamSlug": "tunisia",
+        "captain": false
+      },
+      {
+        "name": "Youssef Msakni",
+        "number": 18,
+        "role": "ST",
+        "x": 50,
+        "y": 16,
+        "teamSlug": "tunisia",
+        "captain": false
+      },
+      {
+        "name": "Wahbi Khazri",
+        "number": 19,
+        "role": "LW",
+        "x": 82,
+        "y": 24,
+        "teamSlug": "tunisia",
+        "captain": false
+      }
+    ]
+  }
+}

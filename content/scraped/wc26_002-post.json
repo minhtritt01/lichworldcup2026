@@ -1,0 +1,322 @@
+{
+  "matchId": "wc26_002",
+  "eventId": "2461103",
+  "status": "finished",
+  "scrapedAt": "2026-06-12T06:40:47.206Z",
+  "general": {
+    "homeTeam": "South Korea",
+    "homeSlug": "han-quoc",
+    "awayTeam": "Czech Republic",
+    "awaySlug": "sec",
+    "stage": "FIFA World Cup",
+    "group": "A",
+    "kickoffUTC": "2026-06-12T02:00:00",
+    "venue": "Estadio Akron",
+    "referee": ""
+  },
+  "score": {
+    "home": 2,
+    "away": 1
+  },
+  "events": [],
+  "form": {
+    "home": [
+      {
+        "opponent": "El Salvador",
+        "result": "W",
+        "score": "1-0",
+        "date": "2026-06-04"
+      }
+    ],
+    "away": [
+      {
+        "opponent": "Guatemala",
+        "result": "W",
+        "score": "3-1",
+        "date": "2026-06-05"
+      }
+    ]
+  },
+  "squads": {
+    "home": [
+      {
+        "name": "Kim Seung-gyu",
+        "number": 1,
+        "position": "GK",
+        "age": 35
+      },
+      {
+        "name": "Jo Hyeon-woo",
+        "number": 2,
+        "position": "GK",
+        "age": 34
+      },
+      {
+        "name": "Song Bum-keun",
+        "number": 3,
+        "position": "GK",
+        "age": 28
+      },
+      {
+        "name": "Kim Min-jae",
+        "number": 4,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Kim Moon-hwan",
+        "number": 5,
+        "position": "DF",
+        "age": 30
+      },
+      {
+        "name": "Seol Young-woo",
+        "number": 6,
+        "position": "DF",
+        "age": 27
+      },
+      {
+        "name": "Lee Tae-seok",
+        "number": 7,
+        "position": "DF",
+        "age": 23
+      },
+      {
+        "name": "Park Jin-seob",
+        "number": 8,
+        "position": "DF",
+        "age": 30
+      },
+      {
+        "name": "Kim Tae-hyeon",
+        "number": 9,
+        "position": "DF",
+        "age": 25
+      },
+      {
+        "name": "Lee Han-beom",
+        "number": 10,
+        "position": "DF",
+        "age": 23
+      },
+      {
+        "name": "Jens Castrop",
+        "number": 11,
+        "position": "DF",
+        "age": 22
+      },
+      {
+        "name": "Lee Ki-hyuk",
+        "number": 12,
+        "position": "DF",
+        "age": 25
+      },
+      {
+        "name": "Cho Wi-je",
+        "number": 13,
+        "position": "DF",
+        "age": 24
+      },
+      {
+        "name": "Lee Jae-sung",
+        "number": 14,
+        "position": "MF",
+        "age": 33
+      },
+      {
+        "name": "Hwang Hee-chan",
+        "number": 15,
+        "position": "MF",
+        "age": 30
+      },
+      {
+        "name": "Hwang In-beom",
+        "number": 16,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Lee Kang-in",
+        "number": 17,
+        "position": "MF",
+        "age": 25
+      },
+      {
+        "name": "Paik Seung-ho",
+        "number": 18,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Kim Jin-gyu",
+        "number": 19,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Lee Dong-gyeong",
+        "number": 20,
+        "position": "MF",
+        "age": 28
+      },
+      {
+        "name": "Bae Jun-ho",
+        "number": 21,
+        "position": "MF",
+        "age": 22
+      },
+      {
+        "name": "Eom Ji-sung",
+        "number": 22,
+        "position": "MF",
+        "age": 24
+      },
+      {
+        "name": "Yang Hyun-jun",
+        "number": 23,
+        "position": "MF",
+        "age": 24
+      }
+    ],
+    "away": [
+      {
+        "name": "Matěj Kovář",
+        "number": 1,
+        "position": "GK",
+        "age": 26
+      },
+      {
+        "name": "Jindřich Staněk",
+        "number": 2,
+        "position": "GK",
+        "age": 30
+      },
+      {
+        "name": "Lukáš Horníček",
+        "number": 3,
+        "position": "GK",
+        "age": 23
+      },
+      {
+        "name": "Vladimír Coufal",
+        "number": 4,
+        "position": "DF",
+        "age": 33
+      },
+      {
+        "name": "Tomáš Holeš",
+        "number": 5,
+        "position": "DF",
+        "age": 33
+      },
+      {
+        "name": "Ladislav Krejčí",
+        "number": 6,
+        "position": "DF",
+        "age": 27
+      },
+      {
+        "name": "David Zima",
+        "number": 7,
+        "position": "DF",
+        "age": 25
+      },
+      {
+        "name": "Jaroslav Zelený",
+        "number": 8,
+        "position": "DF",
+        "age": 33
+      },
+      {
+        "name": "David Jurásek",
+        "number": 9,
+        "position": "DF",
+        "age": 25
+      },
+      {
+        "name": "David Douděra",
+        "number": 10,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Robin Hranáč",
+        "number": 11,
+        "position": "DF",
+        "age": 26
+      },
+      {
+        "name": "Štěpán Chaloupek",
+        "number": 12,
+        "position": "DF",
+        "age": 23
+      },
+      {
+        "name": "Tomáš Souček",
+        "number": 13,
+        "position": "MF",
+        "age": 31
+      },
+      {
+        "name": "Vladimír Darida",
+        "number": 14,
+        "position": "MF",
+        "age": 35
+      },
+      {
+        "name": "Lukáš Provod",
+        "number": 15,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Michal Sadílek",
+        "number": 16,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Pavel Šulc",
+        "number": 17,
+        "position": "MF",
+        "age": 25
+      },
+      {
+        "name": "Lukáš Červ",
+        "number": 18,
+        "position": "MF",
+        "age": 25
+      },
+      {
+        "name": "Hugo Sochůrek",
+        "number": 19,
+        "position": "MF",
+        "age": 18
+      },
+      {
+        "name": "Alexandr Sojka",
+        "number": 20,
+        "position": "MF",
+        "age": 23
+      },
+      {
+        "name": "Denis Višinský",
+        "number": 21,
+        "position": "MF",
+        "age": 23
+      },
+      {
+        "name": "Patrik Schick",
+        "number": 22,
+        "position": "FW",
+        "age": 30
+      },
+      {
+        "name": "Adam Hložek",
+        "number": 23,
+        "position": "FW",
+        "age": 23
+      }
+    ]
+  }
+}

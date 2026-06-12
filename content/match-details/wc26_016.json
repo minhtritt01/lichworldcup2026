@@ -1,0 +1,217 @@
+{
+  "incidents": [],
+  "homeLineup": {
+    "teamSlug": "iran",
+    "teamName": "Iran",
+    "formation": "4-3-3",
+    "accent": "#ef4444",
+    "players": [
+      {
+        "name": "Alireza Beiranvand",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 12,
+        "teamSlug": "iran",
+        "captain": true
+      },
+      {
+        "name": "Milad Mohammadi",
+        "number": 4,
+        "role": "RB",
+        "x": 14,
+        "y": 28,
+        "teamSlug": "iran",
+        "captain": false
+      },
+      {
+        "name": "Morteza Pouraliganji",
+        "number": 5,
+        "role": "CB",
+        "x": 36,
+        "y": 30,
+        "teamSlug": "iran",
+        "captain": false
+      },
+      {
+        "name": "Majid Hosseini",
+        "number": 6,
+        "role": "CB",
+        "x": 64,
+        "y": 30,
+        "teamSlug": "iran",
+        "captain": false
+      },
+      {
+        "name": "Sadegh Moharrami",
+        "number": 7,
+        "role": "LB",
+        "x": 86,
+        "y": 28,
+        "teamSlug": "iran",
+        "captain": false
+      },
+      {
+        "name": "Saeid Ezatolahi",
+        "number": 9,
+        "role": "DM",
+        "x": 22,
+        "y": 48,
+        "teamSlug": "iran",
+        "captain": false
+      },
+      {
+        "name": "Ali Gholizadeh",
+        "number": 10,
+        "role": "CM",
+        "x": 50,
+        "y": 56,
+        "teamSlug": "iran",
+        "captain": false
+      },
+      {
+        "name": "Alireza Jahanbakhsh",
+        "number": 11,
+        "role": "CM",
+        "x": 78,
+        "y": 48,
+        "teamSlug": "iran",
+        "captain": false
+      },
+      {
+        "name": "Sardar Azmoun",
+        "number": 17,
+        "role": "RW",
+        "x": 18,
+        "y": 76,
+        "teamSlug": "iran",
+        "captain": false
+      },
+      {
+        "name": "Mehdi Taremi",
+        "number": 18,
+        "role": "ST",
+        "x": 50,
+        "y": 84,
+        "teamSlug": "iran",
+        "captain": false
+      },
+      {
+        "name": "Allahyar Sayyadmanesh",
+        "number": 19,
+        "role": "LW",
+        "x": 82,
+        "y": 76,
+        "teamSlug": "iran",
+        "captain": false
+      }
+    ]
+  },
+  "awayLineup": {
+    "teamSlug": "new-zealand",
+    "teamName": "New Zealand",
+    "formation": "4-3-3",
+    "accent": "#2563eb",
+    "players": [
+      {
+        "name": "Stefan Marinovic",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 88,
+        "teamSlug": "new-zealand",
+        "captain": true
+      },
+      {
+        "name": "Winston Reid",
+        "number": 4,
+        "role": "RB",
+        "x": 14,
+        "y": 72,
+        "teamSlug": "new-zealand",
+        "captain": false
+      },
+      {
+        "name": "Tommy Smith",
+        "number": 5,
+        "role": "CB",
+        "x": 36,
+        "y": 70,
+        "teamSlug": "new-zealand",
+        "captain": false
+      },
+      {
+        "name": "Liberato Cacace",
+        "number": 6,
+        "role": "CB",
+        "x": 64,
+        "y": 70,
+        "teamSlug": "new-zealand",
+        "captain": false
+      },
+      {
+        "name": "Nando Pijnaker",
+        "number": 7,
+        "role": "LB",
+        "x": 86,
+        "y": 72,
+        "teamSlug": "new-zealand",
+        "captain": false
+      },
+      {
+        "name": "Ryan Thomas",
+        "number": 9,
+        "role": "DM",
+        "x": 22,
+        "y": 52,
+        "teamSlug": "new-zealand",
+        "captain": false
+      },
+      {
+        "name": "Elijah Just",
+        "number": 10,
+        "role": "CM",
+        "x": 50,
+        "y": 44,
+        "teamSlug": "new-zealand",
+        "captain": false
+      },
+      {
+        "name": "Marko Stamenic",
+        "number": 11,
+        "role": "CM",
+        "x": 78,
+        "y": 52,
+        "teamSlug": "new-zealand",
+        "captain": false
+      },
+      {
+        "name": "Chris Wood",
+        "number": 17,
+        "role": "RW",
+        "x": 18,
+        "y": 24,
+        "teamSlug": "new-zealand",
+        "captain": false
+      },
+      {
+        "name": "Hamish Watson",
+        "number": 18,
+        "role": "ST",
+        "x": 50,
+        "y": 16,
+        "teamSlug": "new-zealand",
+        "captain": false
+      },
+      {
+        "name": "Dane Scarlett",
+        "number": 19,
+        "role": "LW",
+        "x": 82,
+        "y": 24,
+        "teamSlug": "new-zealand",
+        "captain": false
+      }
+    ]
+  }
+}

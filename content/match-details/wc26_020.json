@@ -1,0 +1,217 @@
+{
+  "incidents": [],
+  "homeLineup": {
+    "teamSlug": "ao",
+    "teamName": "Austria",
+    "formation": "4-3-3",
+    "accent": "#ef4444",
+    "players": [
+      {
+        "name": "Alexander Schlager",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 12,
+        "teamSlug": "ao",
+        "captain": true
+      },
+      {
+        "name": "David Affengruber",
+        "number": 2,
+        "role": "RB",
+        "x": 14,
+        "y": 28,
+        "teamSlug": "ao",
+        "captain": false
+      },
+      {
+        "name": "Kevin Danso",
+        "number": 3,
+        "role": "CB",
+        "x": 36,
+        "y": 30,
+        "teamSlug": "ao",
+        "captain": false
+      },
+      {
+        "name": "Stefan Posch",
+        "number": 5,
+        "role": "CB",
+        "x": 64,
+        "y": 30,
+        "teamSlug": "ao",
+        "captain": false
+      },
+      {
+        "name": "David Alaba",
+        "number": 8,
+        "role": "LB",
+        "x": 86,
+        "y": 28,
+        "teamSlug": "ao",
+        "captain": false
+      },
+      {
+        "name": "Xaver Schlager",
+        "number": 4,
+        "role": "DM",
+        "x": 22,
+        "y": 48,
+        "teamSlug": "ao",
+        "captain": false
+      },
+      {
+        "name": "Nicolas Seiwald",
+        "number": 6,
+        "role": "CM",
+        "x": 50,
+        "y": 56,
+        "teamSlug": "ao",
+        "captain": false
+      },
+      {
+        "name": "Marcel Sabitzer",
+        "number": 9,
+        "role": "CM",
+        "x": 78,
+        "y": 48,
+        "teamSlug": "ao",
+        "captain": false
+      },
+      {
+        "name": "Marko Arnautović",
+        "number": 7,
+        "role": "RW",
+        "x": 18,
+        "y": 76,
+        "teamSlug": "ao",
+        "captain": false
+      },
+      {
+        "name": "Michael Gregoritsch",
+        "number": 11,
+        "role": "ST",
+        "x": 50,
+        "y": 84,
+        "teamSlug": "ao",
+        "captain": false
+      },
+      {
+        "name": "Saša Kalajdžić",
+        "number": 14,
+        "role": "LW",
+        "x": 82,
+        "y": 76,
+        "teamSlug": "ao",
+        "captain": false
+      }
+    ]
+  },
+  "awayLineup": {
+    "teamSlug": "jordan",
+    "teamName": "Jordan",
+    "formation": "4-3-3",
+    "accent": "#2563eb",
+    "players": [
+      {
+        "name": "Yazeed Abulaila",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 88,
+        "teamSlug": "jordan",
+        "captain": true
+      },
+      {
+        "name": "Yazan Al-Naimat",
+        "number": 4,
+        "role": "RB",
+        "x": 14,
+        "y": 72,
+        "teamSlug": "jordan",
+        "captain": false
+      },
+      {
+        "name": "Osama Rashid",
+        "number": 5,
+        "role": "CB",
+        "x": 36,
+        "y": 70,
+        "teamSlug": "jordan",
+        "captain": false
+      },
+      {
+        "name": "Anas Bani Yaseen",
+        "number": 6,
+        "role": "CB",
+        "x": 64,
+        "y": 70,
+        "teamSlug": "jordan",
+        "captain": false
+      },
+      {
+        "name": "Iyad Haddad",
+        "number": 7,
+        "role": "LB",
+        "x": 86,
+        "y": 72,
+        "teamSlug": "jordan",
+        "captain": false
+      },
+      {
+        "name": "Noor Al-Rawabdeh",
+        "number": 9,
+        "role": "DM",
+        "x": 22,
+        "y": 52,
+        "teamSlug": "jordan",
+        "captain": false
+      },
+      {
+        "name": "Ahmad Hayel",
+        "number": 10,
+        "role": "CM",
+        "x": 50,
+        "y": 44,
+        "teamSlug": "jordan",
+        "captain": false
+      },
+      {
+        "name": "Musa Al-Taamari",
+        "number": 11,
+        "role": "CM",
+        "x": 78,
+        "y": 52,
+        "teamSlug": "jordan",
+        "captain": false
+      },
+      {
+        "name": "Ahmad Dababneh",
+        "number": 17,
+        "role": "RW",
+        "x": 18,
+        "y": 24,
+        "teamSlug": "jordan",
+        "captain": false
+      },
+      {
+        "name": "Khaled Al-Nobani",
+        "number": 18,
+        "role": "ST",
+        "x": 50,
+        "y": 16,
+        "teamSlug": "jordan",
+        "captain": false
+      },
+      {
+        "name": "Emad Lutfi",
+        "number": 19,
+        "role": "LW",
+        "x": 82,
+        "y": 24,
+        "teamSlug": "jordan",
+        "captain": false
+      }
+    ]
+  }
+}

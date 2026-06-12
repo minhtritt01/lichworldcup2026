@@ -1,0 +1,317 @@
+{
+  "matchId": "wc26_013",
+  "eventId": "2391739",
+  "status": "upcoming",
+  "scrapedAt": "2026-06-12T06:43:39.680Z",
+  "general": {
+    "homeTeam": "Spain",
+    "homeSlug": "tay-ban-nha",
+    "awayTeam": "Cape Verde",
+    "awaySlug": "cape-verde",
+    "stage": "FIFA World Cup",
+    "group": "H",
+    "kickoffUTC": "2026-06-15T16:00:00",
+    "venue": "Mercedes-Benz Stadium",
+    "referee": ""
+  },
+  "form": {
+    "home": [
+      {
+        "opponent": "Iraq",
+        "result": "D",
+        "score": "1-1",
+        "date": "2026-06-04"
+      }
+    ],
+    "away": [
+      {
+        "opponent": "Bermuda",
+        "result": "W",
+        "score": "3-0",
+        "date": "2026-06-06"
+      }
+    ]
+  },
+  "squads": {
+    "home": [
+      {
+        "name": "Unai Simón",
+        "number": 1,
+        "position": "GK",
+        "age": 29
+      },
+      {
+        "name": "David Raya",
+        "number": 2,
+        "position": "GK",
+        "age": 30
+      },
+      {
+        "name": "Alex Remiro",
+        "number": 3,
+        "position": "GK",
+        "age": 31
+      },
+      {
+        "name": "Dani Carvajal",
+        "number": 4,
+        "position": "DF",
+        "age": 34
+      },
+      {
+        "name": "Robin Le Normand",
+        "number": 5,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Aymeric Laporte",
+        "number": 6,
+        "position": "DF",
+        "age": 32
+      },
+      {
+        "name": "Alejandro Balde",
+        "number": 7,
+        "position": "DF",
+        "age": 22
+      },
+      {
+        "name": "Dani Vivian",
+        "number": 8,
+        "position": "DF",
+        "age": 26
+      },
+      {
+        "name": "Pau Cubarsí",
+        "number": 9,
+        "position": "DF",
+        "age": 19
+      },
+      {
+        "name": "Rodri",
+        "number": 10,
+        "position": "MF",
+        "age": 30
+      },
+      {
+        "name": "Pedri",
+        "number": 11,
+        "position": "MF",
+        "age": 23
+      },
+      {
+        "name": "Fabián Ruiz",
+        "number": 12,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Martín Zubimendi",
+        "number": 13,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Dani Olmo",
+        "number": 14,
+        "position": "MF",
+        "age": 28
+      },
+      {
+        "name": "Mikel Merino",
+        "number": 15,
+        "position": "MF",
+        "age": 30
+      },
+      {
+        "name": "Lamine Yamal",
+        "number": 16,
+        "position": "FW",
+        "age": 18
+      },
+      {
+        "name": "Nico Williams",
+        "number": 17,
+        "position": "FW",
+        "age": 23
+      },
+      {
+        "name": "Álvaro Morata",
+        "number": 18,
+        "position": "FW",
+        "age": 33
+      },
+      {
+        "name": "Ferran Torres",
+        "number": 19,
+        "position": "FW",
+        "age": 26
+      },
+      {
+        "name": "Mikel Oyarzabal",
+        "number": 20,
+        "position": "FW",
+        "age": 29
+      },
+      {
+        "name": "Yeremy Pino",
+        "number": 21,
+        "position": "FW",
+        "age": 23
+      },
+      {
+        "name": "Pedri González",
+        "number": 22,
+        "position": "MF",
+        "age": 23
+      },
+      {
+        "name": "Marc Pubill",
+        "number": 23,
+        "position": "DF",
+        "age": 23
+      }
+    ],
+    "away": [
+      {
+        "name": "Vozinha",
+        "number": 1,
+        "position": "GK",
+        "age": 40
+      },
+      {
+        "name": "Stopira",
+        "number": 2,
+        "position": "DF",
+        "age": 38
+      },
+      {
+        "name": "Diney Borges",
+        "number": 3,
+        "position": "DF",
+        "age": 31
+      },
+      {
+        "name": "Pico Lopes",
+        "number": 4,
+        "position": "DF",
+        "age": 33
+      },
+      {
+        "name": "Logan Costa",
+        "number": 5,
+        "position": "DF",
+        "age": 25
+      },
+      {
+        "name": "Kevin Pina",
+        "number": 6,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Jovane Cabral",
+        "number": 7,
+        "position": "MF",
+        "age": 28
+      },
+      {
+        "name": "João Paulo",
+        "number": 8,
+        "position": "MF",
+        "age": 28
+      },
+      {
+        "name": "Gilson Benchimol",
+        "number": 9,
+        "position": "FW",
+        "age": 24
+      },
+      {
+        "name": "Jamiro Monteiro",
+        "number": 10,
+        "position": "MF",
+        "age": 32
+      },
+      {
+        "name": "Garry Rodrigues",
+        "number": 11,
+        "position": "MF",
+        "age": 35
+      },
+      {
+        "name": "Márcio Rosa",
+        "number": 12,
+        "position": "GK",
+        "age": 29
+      },
+      {
+        "name": "Sidny Lopes Cabral",
+        "number": 13,
+        "position": "DF",
+        "age": 23
+      },
+      {
+        "name": "Deroy Duarte",
+        "number": 14,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Laros Duarte",
+        "number": 15,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Yannick Semedo",
+        "number": 16,
+        "position": "MF",
+        "age": 30
+      },
+      {
+        "name": "Willy Semedo",
+        "number": 17,
+        "position": "MF",
+        "age": 32
+      },
+      {
+        "name": "Telmo Arcanjo",
+        "number": 18,
+        "position": "MF",
+        "age": 25
+      },
+      {
+        "name": "Dailon Livramento",
+        "number": 19,
+        "position": "FW",
+        "age": 25
+      },
+      {
+        "name": "Ryan Mendes",
+        "number": 20,
+        "position": "FW",
+        "age": 36
+      },
+      {
+        "name": "Nuno da Costa",
+        "number": 21,
+        "position": "MF",
+        "age": 35
+      },
+      {
+        "name": "Steven Moreira",
+        "number": 22,
+        "position": "DF",
+        "age": 31
+      },
+      {
+        "name": "CJ Dos Santos",
+        "number": 23,
+        "position": "GK",
+        "age": 25
+      }
+    ]
+  }
+}

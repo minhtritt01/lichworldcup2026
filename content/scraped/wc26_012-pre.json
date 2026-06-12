@@ -1,0 +1,317 @@
+{
+  "matchId": "wc26_012",
+  "eventId": "2461106",
+  "status": "upcoming",
+  "scrapedAt": "2026-06-12T06:43:38.156Z",
+  "general": {
+    "homeTeam": "Sweden",
+    "homeSlug": "thuy-dien",
+    "awayTeam": "Tunisia",
+    "awaySlug": "tunisia",
+    "stage": "FIFA World Cup",
+    "group": "F",
+    "kickoffUTC": "2026-06-15T02:00:00",
+    "venue": "Estadio BBVA",
+    "referee": ""
+  },
+  "form": {
+    "home": [
+      {
+        "opponent": "Greece",
+        "result": "D",
+        "score": "2-2",
+        "date": "2026-06-04"
+      }
+    ],
+    "away": [
+      {
+        "opponent": "Uganda",
+        "result": "W",
+        "score": "3-1",
+        "date": "2025-12-23"
+      }
+    ]
+  },
+  "squads": {
+    "home": [
+      {
+        "name": "Robin Olsen",
+        "number": 1,
+        "position": "GK",
+        "age": 36
+      },
+      {
+        "name": "Kristoffer Nordfeldt",
+        "number": 2,
+        "position": "GK",
+        "age": 37
+      },
+      {
+        "name": "Oscar Linnér",
+        "number": 3,
+        "position": "GK",
+        "age": 28
+      },
+      {
+        "name": "Mikael Lustig",
+        "number": 4,
+        "position": "DF",
+        "age": 39
+      },
+      {
+        "name": "Victor Nilsson Lindelöf",
+        "number": 5,
+        "position": "DF",
+        "age": 31
+      },
+      {
+        "name": "Isak Hien",
+        "number": 6,
+        "position": "DF",
+        "age": 26
+      },
+      {
+        "name": "Emil Krafth",
+        "number": 7,
+        "position": "DF",
+        "age": 31
+      },
+      {
+        "name": "Carl Starfelt",
+        "number": 8,
+        "position": "DF",
+        "age": 31
+      },
+      {
+        "name": "Albin Ekdal",
+        "number": 9,
+        "position": "MF",
+        "age": 36
+      },
+      {
+        "name": "Jens-Lys Cajuste",
+        "number": 10,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Mattias Svanberg",
+        "number": 11,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Anthony Elanga",
+        "number": 12,
+        "position": "MF",
+        "age": 24
+      },
+      {
+        "name": "Jesper Karlsson",
+        "number": 13,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Dejan Kulusevski",
+        "number": 14,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Jesper Lindström",
+        "number": 15,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Alexander Isak",
+        "number": 16,
+        "position": "FW",
+        "age": 26
+      },
+      {
+        "name": "Viktor Gyökeres",
+        "number": 17,
+        "position": "FW",
+        "age": 28
+      },
+      {
+        "name": "Jordan Larsson",
+        "number": 18,
+        "position": "FW",
+        "age": 29
+      },
+      {
+        "name": "John Guidetti",
+        "number": 19,
+        "position": "FW",
+        "age": 34
+      },
+      {
+        "name": "Niclas Eliasson",
+        "number": 20,
+        "position": "FW",
+        "age": 30
+      },
+      {
+        "name": "Kristoffer Ajer",
+        "number": 21,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Pontus Jansson",
+        "number": 22,
+        "position": "MF",
+        "age": 35
+      },
+      {
+        "name": "Samuel Chukwueze",
+        "number": 23,
+        "position": "FW",
+        "age": 27
+      }
+    ],
+    "away": [
+      {
+        "name": "Aymen Dahmen",
+        "number": 1,
+        "position": "GK",
+        "age": 28
+      },
+      {
+        "name": "Bechir Ben Said",
+        "number": 2,
+        "position": "GK",
+        "age": 35
+      },
+      {
+        "name": "Mouez Hassen",
+        "number": 3,
+        "position": "GK",
+        "age": 31
+      },
+      {
+        "name": "Montassar Talbi",
+        "number": 4,
+        "position": "DF",
+        "age": 26
+      },
+      {
+        "name": "Nader Ghandri",
+        "number": 5,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Bilel Ifa",
+        "number": 6,
+        "position": "DF",
+        "age": 32
+      },
+      {
+        "name": "Mohamed Dräger",
+        "number": 7,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Wajdi Kechrida",
+        "number": 8,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Ali Abdi",
+        "number": 9,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Hannibal Mejbri",
+        "number": 10,
+        "position": "MF",
+        "age": 23
+      },
+      {
+        "name": "Aïssa Laïdouni",
+        "number": 11,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Ellyes Skhiri",
+        "number": 12,
+        "position": "MF",
+        "age": 31
+      },
+      {
+        "name": "Mohamed Ali Ben Romdhane",
+        "number": 13,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Ferjani Sassi",
+        "number": 14,
+        "position": "MF",
+        "age": 34
+      },
+      {
+        "name": "Elias Achouri",
+        "number": 15,
+        "position": "MF",
+        "age": 23
+      },
+      {
+        "name": "Khalil Ayari",
+        "number": 16,
+        "position": "MF",
+        "age": 21
+      },
+      {
+        "name": "Naïm Sliti",
+        "number": 17,
+        "position": "FW",
+        "age": 34
+      },
+      {
+        "name": "Youssef Msakni",
+        "number": 18,
+        "position": "FW",
+        "age": 35
+      },
+      {
+        "name": "Wahbi Khazri",
+        "number": 19,
+        "position": "FW",
+        "age": 35
+      },
+      {
+        "name": "Sayfallah Ltaief",
+        "number": 20,
+        "position": "FW",
+        "age": 29
+      },
+      {
+        "name": "Hamza Rafia",
+        "number": 21,
+        "position": "FW",
+        "age": 27
+      },
+      {
+        "name": "Firas Chaouat",
+        "number": 22,
+        "position": "FW",
+        "age": 29
+      },
+      {
+        "name": "Hazem Mastouri",
+        "number": 23,
+        "position": "FW",
+        "age": 27
+      }
+    ]
+  }
+}

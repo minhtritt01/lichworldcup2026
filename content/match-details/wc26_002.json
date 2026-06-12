@@ -1,5 +1,55 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 12,
+      "type": "yellow",
+      "player": "Lee Jae-sung",
+      "detail": "Lee Jae-sung slides in recklessly from behind, catching his opponent high on the shin. Yellow card for dangerous play.",
+      "teamSlug": "han-quoc"
+    },
+    {
+      "minute": 28,
+      "type": "goal",
+      "player": "Son Heung-min",
+      "detail": "Son Heung-min receives the ball on the left flank, cuts inside past two defenders, and fires a curling shot from 20 yards that beats Kovář at the near post.",
+      "teamSlug": "han-quoc"
+    },
+    {
+      "minute": 43,
+      "type": "yellow",
+      "player": "Adam Hložek",
+      "detail": "Hložek brings down a South Korean defender with a two-footed challenge in frustration. Yellow card for unsporting conduct.",
+      "teamSlug": "sec"
+    },
+    {
+      "minute": 56,
+      "type": "goal",
+      "player": "Jan Kuchta",
+      "detail": "Kuchta pounces on a loose ball in the penalty area following a goalmouth scramble, striking a low drive past Kim Seung-gyu from 6 yards out.",
+      "teamSlug": "sec"
+    },
+    {
+      "minute": 68,
+      "type": "goal",
+      "player": "Hwang Hee-chan",
+      "detail": "Hwang Hee-chan peels away from his marker and meets a low cross from the right wing with a precise first-time finish at the near post.",
+      "teamSlug": "han-quoc"
+    },
+    {
+      "minute": 76,
+      "type": "yellow",
+      "player": "David Zima",
+      "detail": "Zima makes a late lunge at an attacking midfielder; referee shows yellow for excessive force in a 50-50 challenge.",
+      "teamSlug": "sec"
+    },
+    {
+      "minute": 84,
+      "type": "yellow",
+      "player": "Hwang In-beom",
+      "detail": "Hwang In-beom receives a yellow card for a tactical foul, bringing down a Czechia player who had broken free.",
+      "teamSlug": "han-quoc"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "han-quoc",
     "teamName": "South Korea",

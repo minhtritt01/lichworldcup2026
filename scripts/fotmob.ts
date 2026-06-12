@@ -305,21 +305,58 @@ function detectStatus(event: TsdbEvent): MatchStatus {
 
 // ─── List today's WC matches ──────────────────────────────
 
-async function listMatches(dateStr?: string): Promise<void> {
+// TSDB league ID 4429 = FIFA World Cup
+const WC_LEAGUE_ID = '4429';
+
+function isWorldCupEvent(e: TsdbEvent): boolean {
+  const league = (e.strLeague ?? '').toLowerCase();
+  return (
+    league.includes('world cup') ||
+    league.includes('fifa wc') ||
+    (e as unknown as Record<string, string>).idLeague === WC_LEAGUE_ID
+  );
+}
+
+async function listMatches(dateStr?: string, showAll = false): Promise<void> {
   const date = dateStr ?? new Date().toISOString().slice(0, 10);
-  console.log(`\n📅 World Cup 2026 matches on ${date}:\n`);
 
-  const data = await tsdbGet<{ events: TsdbEvent[] | null }>(
-    `/eventsday.php?d=${date}&s=Soccer`
-  );
-  const events = (data.events ?? []).filter(e =>
-    e.strLeague.toLowerCase().includes('world cup')
-  );
+  // Strategy 1: fetch by league ID directly (most reliable)
+  let events: TsdbEvent[] = [];
+  try {
+    const leagueData = await tsdbGet<{ events: TsdbEvent[] | null }>(
+      `/eventsseason.php?id=${WC_LEAGUE_ID}&s=2026-2027`
+    );
+    const leagueEvents = (leagueData.events ?? []).filter(e => e.dateEvent === date);
+    events = leagueEvents;
+  } catch { /* fall through to strategy 2 */ }
 
+  // Strategy 2: eventsday.php fallback
   if (!events.length) {
-    console.log('  No World Cup matches found for this date.');
-    return;
+    try {
+      const dayData = await tsdbGet<{ events: TsdbEvent[] | null }>(
+        `/eventsday.php?d=${date}&s=Soccer`
+      );
+      const all = dayData.events ?? [];
+      events = showAll ? all : all.filter(isWorldCupEvent);
+
+      if (showAll && !events.length) {
+        console.log(`\n📅 All soccer matches on ${date} (--all mode):\n`);
+      } else if (!events.length && !showAll) {
+        // Show all leagues found so user can debug
+        const leagues = [...new Set(all.map(e => e.strLeague))].sort();
+        console.log(`\n📅 World Cup 2026 matches on ${date}:\n`);
+        console.log('  No World Cup matches found. Leagues returned by TSDB today:');
+        leagues.forEach(l => console.log(`    · ${l}`));
+        console.log('\n  Tip: run --list-all to see all soccer events for this date.');
+        return;
+      }
+    } catch (err) {
+      console.error(`  TSDB error: ${(err as Error).message}`);
+      return;
+    }
   }
+
+  console.log(`\n📅 ${showAll ? 'All soccer' : 'World Cup 2026'} matches on ${date}:\n`);
 
   events.forEach(e => {
     const status = detectStatus(e);
@@ -341,6 +378,10 @@ async function main(): Promise<void> {
 
   if (args[0] === '--list') {
     await listMatches(args[1]);
+    return;
+  }
+  if (args[0] === '--list-all') {
+    await listMatches(args[1], true);
     return;
   }
 

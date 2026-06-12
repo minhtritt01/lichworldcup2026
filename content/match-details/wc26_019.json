@@ -1,0 +1,217 @@
+{
+  "incidents": [],
+  "homeLineup": {
+    "teamSlug": "argentina",
+    "teamName": "Argentina",
+    "formation": "4-3-3",
+    "accent": "#ef4444",
+    "players": [
+      {
+        "name": "Juan Musso",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 12,
+        "teamSlug": "argentina",
+        "captain": false
+      },
+      {
+        "name": "Leonardo Balerdi",
+        "number": 2,
+        "role": "RB",
+        "x": 14,
+        "y": 28,
+        "teamSlug": "argentina",
+        "captain": false
+      },
+      {
+        "name": "Nicolás Tagliafico",
+        "number": 3,
+        "role": "CB",
+        "x": 36,
+        "y": 30,
+        "teamSlug": "argentina",
+        "captain": false
+      },
+      {
+        "name": "Gonzalo Montiel",
+        "number": 4,
+        "role": "CB",
+        "x": 64,
+        "y": 30,
+        "teamSlug": "argentina",
+        "captain": false
+      },
+      {
+        "name": "Lisandro Martínez",
+        "number": 6,
+        "role": "LB",
+        "x": 86,
+        "y": 28,
+        "teamSlug": "argentina",
+        "captain": false
+      },
+      {
+        "name": "Leandro Paredes",
+        "number": 5,
+        "role": "DM",
+        "x": 22,
+        "y": 48,
+        "teamSlug": "argentina",
+        "captain": false
+      },
+      {
+        "name": "Rodrigo De Paul",
+        "number": 7,
+        "role": "CM",
+        "x": 50,
+        "y": 56,
+        "teamSlug": "argentina",
+        "captain": false
+      },
+      {
+        "name": "Valentín Barco",
+        "number": 8,
+        "role": "CM",
+        "x": 78,
+        "y": 48,
+        "teamSlug": "argentina",
+        "captain": false
+      },
+      {
+        "name": "Julián Álvarez",
+        "number": 9,
+        "role": "RW",
+        "x": 18,
+        "y": 76,
+        "teamSlug": "argentina",
+        "captain": false
+      },
+      {
+        "name": "Lionel Messi",
+        "number": 10,
+        "role": "ST",
+        "x": 50,
+        "y": 84,
+        "teamSlug": "argentina",
+        "captain": true
+      },
+      {
+        "name": "Thiago Almada",
+        "number": 16,
+        "role": "LW",
+        "x": 82,
+        "y": 76,
+        "teamSlug": "argentina",
+        "captain": false
+      }
+    ]
+  },
+  "awayLineup": {
+    "teamSlug": "algeria",
+    "teamName": "Algeria",
+    "formation": "4-3-3",
+    "accent": "#2563eb",
+    "players": [
+      {
+        "name": "Melvin Mastil",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 88,
+        "teamSlug": "algeria",
+        "captain": false
+      },
+      {
+        "name": "Aïssa Mandi",
+        "number": 2,
+        "role": "RB",
+        "x": 14,
+        "y": 72,
+        "teamSlug": "algeria",
+        "captain": false
+      },
+      {
+        "name": "Achref Abada",
+        "number": 3,
+        "role": "CB",
+        "x": 36,
+        "y": 70,
+        "teamSlug": "algeria",
+        "captain": false
+      },
+      {
+        "name": "Mohamed Amine Tougai",
+        "number": 4,
+        "role": "CB",
+        "x": 64,
+        "y": 70,
+        "teamSlug": "algeria",
+        "captain": false
+      },
+      {
+        "name": "Zinedine Belaïd",
+        "number": 5,
+        "role": "LB",
+        "x": 86,
+        "y": 72,
+        "teamSlug": "algeria",
+        "captain": false
+      },
+      {
+        "name": "Ramiz Zerrouki",
+        "number": 6,
+        "role": "DM",
+        "x": 22,
+        "y": 52,
+        "teamSlug": "algeria",
+        "captain": false
+      },
+      {
+        "name": "Houssem Aouar",
+        "number": 8,
+        "role": "CM",
+        "x": 50,
+        "y": 44,
+        "teamSlug": "algeria",
+        "captain": false
+      },
+      {
+        "name": "Fares Chaibi",
+        "number": 10,
+        "role": "CM",
+        "x": 78,
+        "y": 52,
+        "teamSlug": "algeria",
+        "captain": false
+      },
+      {
+        "name": "Riyad Mahrez",
+        "number": 7,
+        "role": "RW",
+        "x": 18,
+        "y": 24,
+        "teamSlug": "algeria",
+        "captain": true
+      },
+      {
+        "name": "Amine Gouiri",
+        "number": 9,
+        "role": "ST",
+        "x": 50,
+        "y": 16,
+        "teamSlug": "algeria",
+        "captain": false
+      },
+      {
+        "name": "Anis Hadj Moussa",
+        "number": 11,
+        "role": "LW",
+        "x": 82,
+        "y": 24,
+        "teamSlug": "algeria",
+        "captain": false
+      }
+    ]
+  }
+}

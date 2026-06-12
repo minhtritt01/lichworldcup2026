@@ -1,0 +1,317 @@
+{
+  "matchId": "wc26_020",
+  "eventId": "2391741",
+  "status": "upcoming",
+  "scrapedAt": "2026-06-12T06:43:56.320Z",
+  "general": {
+    "homeTeam": "Austria",
+    "homeSlug": "ao",
+    "awayTeam": "Jordan",
+    "awaySlug": "jordan",
+    "stage": "FIFA World Cup",
+    "group": "J",
+    "kickoffUTC": "2026-06-17T04:00:00",
+    "venue": "Levi's Stadium",
+    "referee": ""
+  },
+  "form": {
+    "home": [
+      {
+        "opponent": "Guatemala",
+        "result": "D",
+        "score": "0-0",
+        "date": "2026-06-11"
+      }
+    ],
+    "away": [
+      {
+        "opponent": "Nigeria",
+        "result": "D",
+        "score": "2-2",
+        "date": "2026-03-31"
+      }
+    ]
+  },
+  "squads": {
+    "home": [
+      {
+        "name": "Alexander Schlager",
+        "number": 1,
+        "position": "GK",
+        "age": 30
+      },
+      {
+        "name": "David Affengruber",
+        "number": 2,
+        "position": "DF",
+        "age": 25
+      },
+      {
+        "name": "Kevin Danso",
+        "number": 3,
+        "position": "DF",
+        "age": 27
+      },
+      {
+        "name": "Xaver Schlager",
+        "number": 4,
+        "position": "MF",
+        "age": 28
+      },
+      {
+        "name": "Stefan Posch",
+        "number": 5,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Nicolas Seiwald",
+        "number": 6,
+        "position": "MF",
+        "age": 25
+      },
+      {
+        "name": "Marko Arnautović",
+        "number": 7,
+        "position": "FW",
+        "age": 37
+      },
+      {
+        "name": "David Alaba",
+        "number": 8,
+        "position": "DF",
+        "age": 34
+      },
+      {
+        "name": "Marcel Sabitzer",
+        "number": 9,
+        "position": "MF",
+        "age": 32
+      },
+      {
+        "name": "Florian Grillitsch",
+        "number": 10,
+        "position": "MF",
+        "age": 30
+      },
+      {
+        "name": "Michael Gregoritsch",
+        "number": 11,
+        "position": "FW",
+        "age": 32
+      },
+      {
+        "name": "Florian Wiegele",
+        "number": 12,
+        "position": "GK",
+        "age": 25
+      },
+      {
+        "name": "Patrick Pentz",
+        "number": 13,
+        "position": "GK",
+        "age": 29
+      },
+      {
+        "name": "Saša Kalajdžić",
+        "number": 14,
+        "position": "FW",
+        "age": 28
+      },
+      {
+        "name": "Philipp Lienhart",
+        "number": 15,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Phillip Mwene",
+        "number": 16,
+        "position": "DF",
+        "age": 32
+      },
+      {
+        "name": "Carney Chukwuemeka",
+        "number": 17,
+        "position": "MF",
+        "age": 22
+      },
+      {
+        "name": "Romano Schmid",
+        "number": 18,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Christoph Baumgartner",
+        "number": 19,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Konrad Laimer",
+        "number": 20,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Patrick Wimmer",
+        "number": 21,
+        "position": "FW",
+        "age": 25
+      },
+      {
+        "name": "Alexander Prass",
+        "number": 22,
+        "position": "MF",
+        "age": 25
+      },
+      {
+        "name": "Marco Friedl",
+        "number": 23,
+        "position": "DF",
+        "age": 28
+      }
+    ],
+    "away": [
+      {
+        "name": "Yazeed Abulaila",
+        "number": 1,
+        "position": "GK",
+        "age": 34
+      },
+      {
+        "name": "Mohammad Abu Zuhri",
+        "number": 2,
+        "position": "GK",
+        "age": 28
+      },
+      {
+        "name": "Mohammad Al-Shalabi",
+        "number": 3,
+        "position": "GK",
+        "age": 25
+      },
+      {
+        "name": "Yazan Al-Naimat",
+        "number": 4,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Osama Rashid",
+        "number": 5,
+        "position": "DF",
+        "age": 32
+      },
+      {
+        "name": "Anas Bani Yaseen",
+        "number": 6,
+        "position": "DF",
+        "age": 26
+      },
+      {
+        "name": "Iyad Haddad",
+        "number": 7,
+        "position": "DF",
+        "age": 30
+      },
+      {
+        "name": "Bara Naimat",
+        "number": 8,
+        "position": "DF",
+        "age": 25
+      },
+      {
+        "name": "Noor Al-Rawabdeh",
+        "number": 9,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Ahmad Hayel",
+        "number": 10,
+        "position": "MF",
+        "age": 30
+      },
+      {
+        "name": "Musa Al-Taamari",
+        "number": 11,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Yazan Khraisat",
+        "number": 12,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Oday Dabbagh",
+        "number": 13,
+        "position": "MF",
+        "age": 28
+      },
+      {
+        "name": "Baha Faisal",
+        "number": 14,
+        "position": "MF",
+        "age": 25
+      },
+      {
+        "name": "Hassan Abdul-Fattah",
+        "number": 15,
+        "position": "MF",
+        "age": 22
+      },
+      {
+        "name": "Zaid Sabra",
+        "number": 16,
+        "position": "MF",
+        "age": 25
+      },
+      {
+        "name": "Ahmad Dababneh",
+        "number": 17,
+        "position": "FW",
+        "age": 28
+      },
+      {
+        "name": "Khaled Al-Nobani",
+        "number": 18,
+        "position": "FW",
+        "age": 29
+      },
+      {
+        "name": "Emad Lutfi",
+        "number": 19,
+        "position": "FW",
+        "age": 24
+      },
+      {
+        "name": "Ibrahim Khraisat",
+        "number": 20,
+        "position": "FW",
+        "age": 27
+      },
+      {
+        "name": "Ahmad Saleh",
+        "number": 21,
+        "position": "FW",
+        "age": 25
+      },
+      {
+        "name": "Mahmoud Aburezeq",
+        "number": 22,
+        "position": "DF",
+        "age": 32
+      },
+      {
+        "name": "Wael Qasim",
+        "number": 23,
+        "position": "DF",
+        "age": 27
+      }
+    ]
+  }
+}

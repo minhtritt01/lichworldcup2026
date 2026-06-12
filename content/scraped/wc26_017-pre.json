@@ -1,0 +1,317 @@
+{
+  "matchId": "wc26_017",
+  "eventId": "2391742",
+  "status": "upcoming",
+  "scrapedAt": "2026-06-12T06:43:45.758Z",
+  "general": {
+    "homeTeam": "France",
+    "homeSlug": "phap",
+    "awayTeam": "Senegal",
+    "awaySlug": "senegal",
+    "stage": "FIFA World Cup",
+    "group": "I",
+    "kickoffUTC": "2026-06-16T19:00:00",
+    "venue": "MetLife Stadium",
+    "referee": ""
+  },
+  "form": {
+    "home": [
+      {
+        "opponent": "N.Ireland",
+        "result": "W",
+        "score": "3-1",
+        "date": "2026-06-08"
+      }
+    ],
+    "away": [
+      {
+        "opponent": "Gambia",
+        "result": "W",
+        "score": "3-1",
+        "date": "2026-03-31"
+      }
+    ]
+  },
+  "squads": {
+    "home": [
+      {
+        "name": "Mike Maignan",
+        "number": 1,
+        "position": "GK",
+        "age": 30
+      },
+      {
+        "name": "Brice Samba",
+        "number": 2,
+        "position": "GK",
+        "age": 32
+      },
+      {
+        "name": "Illan Meslier",
+        "number": 3,
+        "position": "GK",
+        "age": 26
+      },
+      {
+        "name": "Jules Koundé",
+        "number": 4,
+        "position": "DF",
+        "age": 27
+      },
+      {
+        "name": "Dayot Upamecano",
+        "number": 5,
+        "position": "DF",
+        "age": 27
+      },
+      {
+        "name": "William Saliba",
+        "number": 6,
+        "position": "DF",
+        "age": 25
+      },
+      {
+        "name": "Théo Hernández",
+        "number": 7,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Benjamin Pavard",
+        "number": 8,
+        "position": "DF",
+        "age": 30
+      },
+      {
+        "name": "N'Golo Kanté",
+        "number": 9,
+        "position": "MF",
+        "age": 35
+      },
+      {
+        "name": "Aurélien Tchouaméni",
+        "number": 10,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Adrien Rabiot",
+        "number": 11,
+        "position": "MF",
+        "age": 31
+      },
+      {
+        "name": "Eduardo Camavinga",
+        "number": 12,
+        "position": "MF",
+        "age": 23
+      },
+      {
+        "name": "Youssouf Fofana",
+        "number": 13,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Warren Zaïre-Emery",
+        "number": 14,
+        "position": "MF",
+        "age": 20
+      },
+      {
+        "name": "Kylian Mbappé",
+        "number": 15,
+        "position": "FW",
+        "age": 27
+      },
+      {
+        "name": "Antoine Griezmann",
+        "number": 16,
+        "position": "FW",
+        "age": 35
+      },
+      {
+        "name": "Ousmane Dembélé",
+        "number": 17,
+        "position": "FW",
+        "age": 29
+      },
+      {
+        "name": "Marcus Thuram",
+        "number": 18,
+        "position": "FW",
+        "age": 28
+      },
+      {
+        "name": "Randal Kolo Muani",
+        "number": 19,
+        "position": "FW",
+        "age": 27
+      },
+      {
+        "name": "Bradley Barcola",
+        "number": 20,
+        "position": "FW",
+        "age": 23
+      },
+      {
+        "name": "Michael Olise",
+        "number": 21,
+        "position": "FW",
+        "age": 24
+      },
+      {
+        "name": "Ibrahima Konaté",
+        "number": 22,
+        "position": "DF",
+        "age": 27
+      },
+      {
+        "name": "Lucas Hernández",
+        "number": 23,
+        "position": "DF",
+        "age": 30
+      }
+    ],
+    "away": [
+      {
+        "name": "Édouard Mendy",
+        "number": 1,
+        "position": "GK",
+        "age": 34
+      },
+      {
+        "name": "Alfred Gomis",
+        "number": 2,
+        "position": "GK",
+        "age": 32
+      },
+      {
+        "name": "Seny Dieng",
+        "number": 3,
+        "position": "GK",
+        "age": 31
+      },
+      {
+        "name": "Kalidou Koulibaly",
+        "number": 4,
+        "position": "DF",
+        "age": 35
+      },
+      {
+        "name": "Abdou Diallo",
+        "number": 5,
+        "position": "DF",
+        "age": 30
+      },
+      {
+        "name": "Formose Mendy",
+        "number": 6,
+        "position": "DF",
+        "age": 27
+      },
+      {
+        "name": "Moussa Niakhaté",
+        "number": 7,
+        "position": "DF",
+        "age": 30
+      },
+      {
+        "name": "Fodé Ballo-Touré",
+        "number": 8,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Cheikhou Kouyaté",
+        "number": 9,
+        "position": "MF",
+        "age": 36
+      },
+      {
+        "name": "Idrissa Gueye",
+        "number": 10,
+        "position": "MF",
+        "age": 36
+      },
+      {
+        "name": "Nampalys Mendy",
+        "number": 11,
+        "position": "MF",
+        "age": 34
+      },
+      {
+        "name": "Pape Matar Sarr",
+        "number": 12,
+        "position": "MF",
+        "age": 23
+      },
+      {
+        "name": "Pathé Ciss",
+        "number": 13,
+        "position": "MF",
+        "age": 32
+      },
+      {
+        "name": "Lamine Camara",
+        "number": 14,
+        "position": "MF",
+        "age": 22
+      },
+      {
+        "name": "Habib Diallo",
+        "number": 15,
+        "position": "MF",
+        "age": 31
+      },
+      {
+        "name": "Sadio Mané",
+        "number": 16,
+        "position": "FW",
+        "age": 34
+      },
+      {
+        "name": "Ismaïla Sarr",
+        "number": 17,
+        "position": "FW",
+        "age": 28
+      },
+      {
+        "name": "Nicolas Jackson",
+        "number": 18,
+        "position": "FW",
+        "age": 25
+      },
+      {
+        "name": "Iliman Ndiaye",
+        "number": 19,
+        "position": "FW",
+        "age": 26
+      },
+      {
+        "name": "Boulaye Dia",
+        "number": 20,
+        "position": "FW",
+        "age": 29
+      },
+      {
+        "name": "Krepin Diatta",
+        "number": 21,
+        "position": "FW",
+        "age": 27
+      },
+      {
+        "name": "Youssouf Sabaly",
+        "number": 22,
+        "position": "DF",
+        "age": 33
+      },
+      {
+        "name": "Saliou Ciss",
+        "number": 23,
+        "position": "DF",
+        "age": 36
+      }
+    ]
+  }
+}

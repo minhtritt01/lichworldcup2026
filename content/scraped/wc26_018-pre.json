@@ -1,0 +1,317 @@
+{
+  "matchId": "wc26_018",
+  "eventId": "2461107",
+  "status": "upcoming",
+  "scrapedAt": "2026-06-12T06:43:47.221Z",
+  "general": {
+    "homeTeam": "Iraq",
+    "homeSlug": "iraq",
+    "awayTeam": "Norway",
+    "awaySlug": "na-uy",
+    "stage": "FIFA World Cup",
+    "group": "I",
+    "kickoffUTC": "2026-06-16T22:00:00",
+    "venue": "Gillette Stadium",
+    "referee": ""
+  },
+  "form": {
+    "home": [
+      {
+        "opponent": "Venezuela",
+        "result": "L",
+        "score": "0-2",
+        "date": "2026-06-10"
+      }
+    ],
+    "away": [
+      {
+        "opponent": "Sweden",
+        "result": "W",
+        "score": "3-1",
+        "date": "2026-06-01"
+      }
+    ]
+  },
+  "squads": {
+    "home": [
+      {
+        "name": "Jalal Hassan",
+        "number": 1,
+        "position": "GK",
+        "age": 38
+      },
+      {
+        "name": "Dhurgham Ismail",
+        "number": 2,
+        "position": "GK",
+        "age": 30
+      },
+      {
+        "name": "Mohammed Hameed",
+        "number": 3,
+        "position": "GK",
+        "age": 26
+      },
+      {
+        "name": "Ali Adnan",
+        "number": 4,
+        "position": "DF",
+        "age": 32
+      },
+      {
+        "name": "Saman Goran",
+        "number": 5,
+        "position": "DF",
+        "age": 37
+      },
+      {
+        "name": "Rebin Sulaka",
+        "number": 6,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Amjad Attwan",
+        "number": 7,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Saad Abdul Amir",
+        "number": 8,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Bashar Resan",
+        "number": 9,
+        "position": "MF",
+        "age": 28
+      },
+      {
+        "name": "Nashat Akram",
+        "number": 10,
+        "position": "MF",
+        "age": 39
+      },
+      {
+        "name": "Aymen Hussein",
+        "number": 11,
+        "position": "MF",
+        "age": 28
+      },
+      {
+        "name": "Aziz Karim",
+        "number": 12,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Alaa Abdul-Zahra",
+        "number": 13,
+        "position": "MF",
+        "age": 33
+      },
+      {
+        "name": "Karrar Mohammed",
+        "number": 14,
+        "position": "MF",
+        "age": 28
+      },
+      {
+        "name": "Hudhayfah Al-Nazawi",
+        "number": 15,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Mohammed Dawood",
+        "number": 16,
+        "position": "MF",
+        "age": 24
+      },
+      {
+        "name": "Hammam Ibrahim",
+        "number": 17,
+        "position": "FW",
+        "age": 27
+      },
+      {
+        "name": "Emad Mohammed",
+        "number": 18,
+        "position": "FW",
+        "age": 28
+      },
+      {
+        "name": "Ameen Al-Dakhil",
+        "number": 19,
+        "position": "FW",
+        "age": 23
+      },
+      {
+        "name": "Ahmad Yasin",
+        "number": 20,
+        "position": "FW",
+        "age": 28
+      },
+      {
+        "name": "Osama Rashid",
+        "number": 21,
+        "position": "FW",
+        "age": 26
+      },
+      {
+        "name": "Ahmed Yasin",
+        "number": 22,
+        "position": "DF",
+        "age": 33
+      },
+      {
+        "name": "Hussein Ali",
+        "number": 23,
+        "position": "DF",
+        "age": 29
+      }
+    ],
+    "away": [
+      {
+        "name": "Ørjan Nyland",
+        "number": 1,
+        "position": "GK",
+        "age": 35
+      },
+      {
+        "name": "Rune Jarstein",
+        "number": 2,
+        "position": "GK",
+        "age": 41
+      },
+      {
+        "name": "Kristoffer Klaesson",
+        "number": 3,
+        "position": "GK",
+        "age": 25
+      },
+      {
+        "name": "Omar Elabdellaoui",
+        "number": 4,
+        "position": "DF",
+        "age": 34
+      },
+      {
+        "name": "Leo Skiri Østigård",
+        "number": 5,
+        "position": "DF",
+        "age": 26
+      },
+      {
+        "name": "Andreas Hanche-Olsen",
+        "number": 6,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Birger Meling",
+        "number": 7,
+        "position": "DF",
+        "age": 31
+      },
+      {
+        "name": "Julian Ryerson",
+        "number": 8,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Sander Berge",
+        "number": 9,
+        "position": "MF",
+        "age": 28
+      },
+      {
+        "name": "Morten Thorsby",
+        "number": 10,
+        "position": "MF",
+        "age": 30
+      },
+      {
+        "name": "Martin Ødegaard",
+        "number": 11,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Fredrik Aursnes",
+        "number": 12,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Patrick Berg",
+        "number": 13,
+        "position": "MF",
+        "age": 28
+      },
+      {
+        "name": "Andreas Løvik Holm",
+        "number": 14,
+        "position": "MF",
+        "age": 24
+      },
+      {
+        "name": "Mathias Normann",
+        "number": 15,
+        "position": "MF",
+        "age": 30
+      },
+      {
+        "name": "Erling Haaland",
+        "number": 16,
+        "position": "FW",
+        "age": 25
+      },
+      {
+        "name": "Alexander Sørloth",
+        "number": 17,
+        "position": "FW",
+        "age": 30
+      },
+      {
+        "name": "Mohamed Elyounoussi",
+        "number": 18,
+        "position": "FW",
+        "age": 31
+      },
+      {
+        "name": "Ola Solbakken",
+        "number": 19,
+        "position": "FW",
+        "age": 26
+      },
+      {
+        "name": "Jørgen Strand Larsen",
+        "number": 20,
+        "position": "FW",
+        "age": 27
+      },
+      {
+        "name": "Tobias Svendsen",
+        "number": 21,
+        "position": "FW",
+        "age": 24
+      },
+      {
+        "name": "Kristian Thorstvedt",
+        "number": 22,
+        "position": "DF",
+        "age": 27
+      },
+      {
+        "name": "Stian Gregersen",
+        "number": 23,
+        "position": "DF",
+        "age": 29
+      }
+    ]
+  }
+}
