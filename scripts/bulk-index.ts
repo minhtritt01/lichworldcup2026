@@ -92,21 +92,23 @@ function writeLog(log: IndexLog) {
 
 // ─── Google Auth ────────────────────────────────────────
 
-async function getAuthClient() {
-  const credentials = JSON.parse(readFileSync(SERVICE_ACCOUNT_PATH, "utf-8"));
+async function getAuthClient(): Promise<InstanceType<typeof google.auth.JWT>> {
+  const key = JSON.parse(readFileSync(SERVICE_ACCOUNT_PATH, "utf-8"));
 
-  const auth = new google.auth.GoogleAuth({
-    credentials,
+  const auth = new google.auth.JWT({
+    email: key.client_email,
+    key: key.private_key,
     scopes: ["https://www.googleapis.com/auth/indexing"],
   });
 
-  return auth.getClient();
+  await auth.authorize();
+  return auth;
 }
 
 // ─── Submit single URL ──────────────────────────────────
 
 async function submitUrl(
-  auth: Awaited<ReturnType<typeof getAuthClient>>,
+  auth: InstanceType<typeof google.auth.JWT>,
   url: string,
   type: "URL_UPDATED" | "URL_DELETED" = "URL_UPDATED",
 ): Promise<{ url: string; status: string; error?: string }> {
