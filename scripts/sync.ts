@@ -173,16 +173,11 @@ async function main() {
 
   // ── Commit + push ────────────────────────────────────
   console.log('\n');
-  if (changed === 0) {
-    console.log('✅ Everything up to date — nothing to commit.');
-    return;
-  }
-
   const result = spawnSync('git', ['status', '--porcelain', 'content/'], {
     cwd: ROOT, encoding: 'utf8',
   });
   if (!result.stdout.trim()) {
-    console.log('✅ No file changes detected — nothing to commit.');
+    console.log('✅ Everything up to date — nothing to commit.');
     return;
   }
 
