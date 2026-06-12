@@ -1,0 +1,217 @@
+{
+  "incidents": [],
+  "homeLineup": {
+    "teamSlug": "uc",
+    "teamName": "Australia",
+    "formation": "4-3-3",
+    "accent": "#ef4444",
+    "players": [
+      {
+        "name": "Mathew Ryan",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 12,
+        "teamSlug": "uc",
+        "captain": true
+      },
+      {
+        "name": "Milos Degenek",
+        "number": 2,
+        "role": "RB",
+        "x": 14,
+        "y": 28,
+        "teamSlug": "uc",
+        "captain": false
+      },
+      {
+        "name": "Alessandro Circati",
+        "number": 3,
+        "role": "CB",
+        "x": 36,
+        "y": 30,
+        "teamSlug": "uc",
+        "captain": false
+      },
+      {
+        "name": "Jacob Italiano",
+        "number": 4,
+        "role": "CB",
+        "x": 64,
+        "y": 30,
+        "teamSlug": "uc",
+        "captain": false
+      },
+      {
+        "name": "Jordan Bos",
+        "number": 5,
+        "role": "LB",
+        "x": 86,
+        "y": 28,
+        "teamSlug": "uc",
+        "captain": false
+      },
+      {
+        "name": "Connor Metcalfe",
+        "number": 8,
+        "role": "DM",
+        "x": 22,
+        "y": 48,
+        "teamSlug": "uc",
+        "captain": false
+      },
+      {
+        "name": "Aiden O'Neill",
+        "number": 13,
+        "role": "CM",
+        "x": 50,
+        "y": 56,
+        "teamSlug": "uc",
+        "captain": false
+      },
+      {
+        "name": "Cameron Devlin",
+        "number": 14,
+        "role": "CM",
+        "x": 78,
+        "y": 48,
+        "teamSlug": "uc",
+        "captain": false
+      },
+      {
+        "name": "Mathew Leckie",
+        "number": 7,
+        "role": "RW",
+        "x": 18,
+        "y": 76,
+        "teamSlug": "uc",
+        "captain": false
+      },
+      {
+        "name": "Mohamed Toure",
+        "number": 9,
+        "role": "ST",
+        "x": 50,
+        "y": 84,
+        "teamSlug": "uc",
+        "captain": false
+      },
+      {
+        "name": "Ajdin Hrustic",
+        "number": 10,
+        "role": "LW",
+        "x": 82,
+        "y": 76,
+        "teamSlug": "uc",
+        "captain": false
+      }
+    ]
+  },
+  "awayLineup": {
+    "teamSlug": "tho-nhi-ky",
+    "teamName": "Türkiye",
+    "formation": "4-3-3",
+    "accent": "#2563eb",
+    "players": [
+      {
+        "name": "Mert Günok",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 88,
+        "teamSlug": "tho-nhi-ky",
+        "captain": false
+      },
+      {
+        "name": "Zeki Çelik",
+        "number": 4,
+        "role": "RB",
+        "x": 14,
+        "y": 72,
+        "teamSlug": "tho-nhi-ky",
+        "captain": false
+      },
+      {
+        "name": "Merih Demiral",
+        "number": 5,
+        "role": "CB",
+        "x": 36,
+        "y": 70,
+        "teamSlug": "tho-nhi-ky",
+        "captain": false
+      },
+      {
+        "name": "Samet Akaydın",
+        "number": 6,
+        "role": "CB",
+        "x": 64,
+        "y": 70,
+        "teamSlug": "tho-nhi-ky",
+        "captain": false
+      },
+      {
+        "name": "Abdülkadir Ömür",
+        "number": 7,
+        "role": "LB",
+        "x": 86,
+        "y": 72,
+        "teamSlug": "tho-nhi-ky",
+        "captain": false
+      },
+      {
+        "name": "Hakan Çalhanoğlu",
+        "number": 9,
+        "role": "DM",
+        "x": 22,
+        "y": 52,
+        "teamSlug": "tho-nhi-ky",
+        "captain": true
+      },
+      {
+        "name": "Arda Güler",
+        "number": 10,
+        "role": "CM",
+        "x": 50,
+        "y": 44,
+        "teamSlug": "tho-nhi-ky",
+        "captain": false
+      },
+      {
+        "name": "Salih Özcan",
+        "number": 11,
+        "role": "CM",
+        "x": 78,
+        "y": 52,
+        "teamSlug": "tho-nhi-ky",
+        "captain": false
+      },
+      {
+        "name": "Baris Alper Yılmaz",
+        "number": 17,
+        "role": "RW",
+        "x": 18,
+        "y": 24,
+        "teamSlug": "tho-nhi-ky",
+        "captain": false
+      },
+      {
+        "name": "Cenk Tosun",
+        "number": 18,
+        "role": "ST",
+        "x": 50,
+        "y": 16,
+        "teamSlug": "tho-nhi-ky",
+        "captain": false
+      },
+      {
+        "name": "Irfan Can Kahveci",
+        "number": 19,
+        "role": "LW",
+        "x": 82,
+        "y": 24,
+        "teamSlug": "tho-nhi-ky",
+        "captain": false
+      }
+    ]
+  }
+}
