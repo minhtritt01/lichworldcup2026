@@ -1,6 +1,8 @@
 import { getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
+import { existsSync, readFileSync } from 'fs';
+import { join } from 'path';
 import { MOCK_MATCHES } from '../../../../lib/mock-data';
 import { getTeamName } from '../../../../lib/team-names';
 import { getStageLabel } from '../../../../lib/stage-labels';
@@ -128,29 +130,48 @@ export default async function MatchDetailPage({
 
   const stageLabel = getStageLabel(m.stage, locale);
 
+  // Load real score/status from scraped files
+  const root = process.cwd();
+  const postPath = join(root, 'content', 'scraped', `${m.match_id}-post.json`);
+  const prePath  = join(root, 'content', 'scraped', `${m.match_id}-pre.json`);
+  const detailsPath = join(root, 'content', 'match-details', `${m.match_id}.json`);
+
+  let liveScore = { home: 0, away: 0 };
+  let liveStatus = 'Scheduled';
+
+  if (existsSync(postPath)) {
+    const post = JSON.parse(readFileSync(postPath, 'utf-8'));
+    liveScore = post.score;
+    liveStatus = 'Finished';
+  } else if (existsSync(prePath)) {
+    const pre = JSON.parse(readFileSync(prePath, 'utf-8'));
+    if (pre.status === 'live') liveStatus = 'In_Play';
+  }
+
+  let liveIncidents: unknown[] = [];
+  if (existsSync(detailsPath)) {
+    const details = JSON.parse(readFileSync(detailsPath, 'utf-8'));
+    liveIncidents = (details.incidents ?? []).map(
+      (inc: { type: string; player: string; minute: number; teamSlug: string }, i: number) => ({
+        incident_id: i + 1,
+        type: inc.type === 'goal' ? 'Goal' : inc.type === 'yellow' ? 'YellowCard' : inc.type === 'red' ? 'RedCard' : 'Sub',
+        player_name: inc.player,
+        time_minute: inc.minute,
+        team_slug: inc.teamSlug,
+      })
+    );
+  }
+
   const initialStaticData = {
     match_id: m.match_id,
-    match_number: m.match_number,
     stage: stageLabel,
     kickoff_time: m.kickoff_utc,
     stadium: m.stadium,
-    status: 'Scheduled',
-    current_minute: 0,
-    home_team: {
-      team_id: m.home_slug.substring(0, 3).toUpperCase(),
-      name: m.home_team,
-      name_vi: m.home_team_vi,
-      slug: m.home_slug,
-      score: 0,
-    },
-    away_team: {
-      team_id: m.away_slug.substring(0, 3).toUpperCase(),
-      name: m.away_team,
-      name_vi: m.away_team_vi,
-      slug: m.away_slug,
-      score: 0,
-    },
-    incidents: [],
+    status: liveStatus,
+    current_minute: liveStatus === 'Finished' ? 90 : 0,
+    home_team: { slug: m.home_slug, name: m.home_team, name_vi: m.home_team_vi, score: liveScore.home },
+    away_team: { slug: m.away_slug, name: m.away_team, name_vi: m.away_team_vi, score: liveScore.away },
+    incidents: liveIncidents,
   };
 
   const probs = { home: 52, draw: 23, away: 25 };

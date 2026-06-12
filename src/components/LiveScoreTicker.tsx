@@ -6,11 +6,11 @@ import { Timer, Wifi, WifiOff } from 'lucide-react';
 import { getTeamName } from '../lib/team-names';
 import { getFlag } from '../lib/flag-map';
 
-const CDN_BASE = process.env.NEXT_PUBLIC_CDN_BASE ?? 'https://cdn.worldcup2026live.vn';
+const CDN_BASE = process.env.NEXT_PUBLIC_CDN_BASE ?? '';
 
 const fetcher = (url: string) =>
   fetch(url).then(r => {
-    if (!r.ok) throw new Error('CDN miss');
+    if (!r.ok) throw new Error('fetch failed');
     return r.json();
   });
 
@@ -23,10 +23,14 @@ export default function LiveScoreTicker({ matchId, initialStaticData }: Props) {
   const t = useTranslations();
   const locale = useLocale() as 'vi' | 'en';
 
+  const apiUrl = CDN_BASE
+    ? `${CDN_BASE}/live/${matchId}.json`
+    : `/api/live/${matchId}`;
+
   const { data, error, isValidating } = useSWR(
-    `${CDN_BASE}/live/${matchId}.json`,
+    apiUrl,
     fetcher,
-    { fallbackData: initialStaticData, refreshInterval: 15000, dedupingInterval: 5000 }
+    { fallbackData: initialStaticData, refreshInterval: 30000, dedupingInterval: 10000 }
   );
 
   if (!data) {
