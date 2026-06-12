@@ -100,6 +100,7 @@ export default async function HomePage({ params }: { params: { locale: string } 
       <HomeSchedule
         matches={MOCK_MATCHES}
         matchStatuses={matchStatuses}
+        resultsTitle={params.locale === 'vi' ? 'Kết quả gần đây' : 'Recent Results'}
         stageGroups={stageGroups}
         favoritesTitle={t('filter.pinnedTeams')}
         favoritesEmpty={params.locale === 'vi'

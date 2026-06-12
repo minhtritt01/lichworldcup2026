@@ -22,6 +22,7 @@ interface Props {
   favoritesTitle: string;
   favoritesEmpty: string;
   scheduleTitle: string;
+  resultsTitle: string;
   matchStatuses?: Record<string, MatchStatus>;
 }
 
@@ -30,8 +31,13 @@ function getStageGroup(stage: string, stageOrder: string[]): string {
   return stageOrder.find(item => stage.startsWith(item)) ?? stage;
 }
 
-export default function HomeSchedule({ matches, stageGroups, favoritesTitle, favoritesEmpty, scheduleTitle, matchStatuses = {} }: Props) {
+export default function HomeSchedule({ matches, stageGroups, favoritesTitle, favoritesEmpty, scheduleTitle, resultsTitle, matchStatuses = {} }: Props) {
   const { favorites } = useFavorites();
+
+  const finishedMatches = useMemo(
+    () => matches.filter(m => matchStatuses[m.match_id]?.status === 'finished'),
+    [matches, matchStatuses]
+  );
 
   const { favoriteMatches, regularMatches } = useMemo(() => {
     const favoritesSet = new Set(favorites);
@@ -55,6 +61,25 @@ export default function HomeSchedule({ matches, stageGroups, favoritesTitle, fav
 
   return (
     <div className="space-y-10">
+      {finishedMatches.length > 0 && (
+        <section className="space-y-4">
+          <div className="flex items-center gap-3">
+            <h2 className="text-base font-semibold text-slate-900 dark:text-slate-100">
+              {resultsTitle}
+            </h2>
+            <div className="flex-1 h-px bg-slate-200 dark:bg-slate-800" />
+            <span className="text-xs text-slate-500 dark:text-slate-400">{finishedMatches.length}</span>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            {finishedMatches.map(match => (
+              <MatchCard key={match.match_id} match={match}
+                status="finished"
+                score={matchStatuses[match.match_id]?.score} />
+            ))}
+          </div>
+        </section>
+      )}
+
       {favoriteMatches.length > 0 && (
         <section className="space-y-4">
           <div className="flex items-center gap-3">
