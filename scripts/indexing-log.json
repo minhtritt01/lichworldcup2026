@@ -1,0 +1,1245 @@
+{
+  "lastRun": "2026-06-12T16:58:46.633Z",
+  "submitted": {
+    "https://lichworldcup2026.vn": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:12.820Z"
+    },
+    "https://lichworldcup2026.vn/en": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:13.266Z"
+    },
+    "https://lichworldcup2026.vn/teams": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:14.143Z"
+    },
+    "https://lichworldcup2026.vn/en/teams": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:14.641Z"
+    },
+    "https://lichworldcup2026.vn/reports": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:15.068Z"
+    },
+    "https://lichworldcup2026.vn/en/reports": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:15.535Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_001": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:15.970Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_001": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:16.390Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_002": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:16.823Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_002": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:17.246Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_003": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:17.674Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_003": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:18.112Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_004": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:18.536Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_004": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:18.965Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_005": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:19.388Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_005": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:19.814Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_006": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:20.249Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_006": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:20.671Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_007": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:21.105Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_007": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:21.529Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_008": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:21.954Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_008": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:22.386Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_009": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:22.810Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_009": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:23.241Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_010": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:23.669Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_010": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:24.095Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_011": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:24.527Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_011": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:24.949Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_012": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:25.379Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_012": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:25.801Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_013": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:26.232Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_013": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:26.667Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_014": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:27.099Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_014": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:27.530Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_015": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:27.961Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_015": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:28.393Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_016": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:28.825Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_016": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:29.254Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_017": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:29.689Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_017": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:30.121Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_018": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:30.556Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_018": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:30.990Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_019": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:31.420Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_019": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:31.851Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_020": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:32.281Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_020": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:32.711Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_021": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:33.143Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_021": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:33.575Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_022": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:34.004Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_022": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:34.439Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_023": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:34.872Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_023": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:35.303Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_024": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:35.736Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_024": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:36.167Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_025": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:36.598Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_025": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:37.033Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_026": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:37.469Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_026": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:37.904Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_027": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:38.336Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_027": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:38.765Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_028": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:39.196Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_028": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:39.628Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_029": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:40.061Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_029": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:40.494Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_030": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:40.925Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_030": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:41.358Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_031": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:41.790Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_031": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:42.221Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_032": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:42.654Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_032": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:43.086Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_033": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:43.520Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_033": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:43.951Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_034": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:44.386Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_034": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:44.817Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_035": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:45.246Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_035": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:45.681Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_036": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:46.114Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_036": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:46.545Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_037": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:46.977Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_037": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:47.410Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_038": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:47.844Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_038": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:48.279Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_039": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:48.713Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_039": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:49.143Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_040": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:49.573Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_040": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:50.010Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_041": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:50.442Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_041": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:50.874Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_042": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:51.307Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_042": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:51.742Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_043": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:52.178Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_043": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:52.612Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_044": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:53.045Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_044": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:53.474Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_045": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:53.905Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_045": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:54.345Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_046": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:54.778Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_046": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:55.211Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_047": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:55.644Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_047": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:56.078Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_048": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:56.513Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_048": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:56.948Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_049": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:57.380Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_049": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:57.810Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_050": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:58.243Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_050": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:58.678Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_051": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:59.112Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_051": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:59.543Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_052": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:54:59.974Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_052": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:00.403Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_053": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:00.839Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_053": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:01.272Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_054": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:01.702Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_054": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:02.133Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_055": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:02.564Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_055": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:02.999Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_056": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:03.431Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_056": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:03.864Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_057": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:04.294Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_057": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:04.772Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_058": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:05.207Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_058": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:05.638Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_059": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:06.068Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_059": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:06.503Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_060": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:06.935Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_060": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:07.370Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_061": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:07.802Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_061": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:08.237Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_062": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:08.667Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_062": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:09.096Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_063": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:09.530Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_063": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:09.962Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_064": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:10.394Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_064": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:10.825Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_065": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:11.257Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_065": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:11.689Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_066": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:12.126Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_066": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:12.556Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_067": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:12.991Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_067": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:13.424Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_068": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:13.858Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_068": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:14.291Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_069": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:14.722Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_069": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:15.153Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_070": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:15.586Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_070": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:16.022Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_071": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:16.457Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_071": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:16.889Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_072": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:17.319Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_072": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:17.795Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_073": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:18.228Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_073": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:18.658Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_074": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:19.089Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_074": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:19.523Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_075": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:19.959Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_075": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:20.395Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_076": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:20.871Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_076": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:21.304Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_077": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:21.739Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_077": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:22.175Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_078": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:22.606Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_078": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:23.040Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_079": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:23.474Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_079": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:23.905Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_080": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:24.333Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_080": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:24.770Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_081": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:25.205Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_081": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:25.642Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_082": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:26.072Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_082": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:26.504Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_083": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:26.935Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_083": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:27.368Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_084": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:27.800Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_084": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:28.234Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_085": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:28.667Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_085": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:29.099Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_086": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:29.536Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_086": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:29.970Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_087": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:30.434Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_087": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:30.864Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_088": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:31.304Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_088": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:31.738Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_089": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:32.174Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_089": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:32.605Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_090": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:33.039Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_090": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:33.506Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_091": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:33.938Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_091": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:34.370Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_092": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:34.800Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_092": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:35.232Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_093": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:35.747Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_093": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:36.181Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_094": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:36.615Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_094": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:37.047Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_095": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:37.480Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_095": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:37.913Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_096": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:38.345Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_096": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:38.778Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_097": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:39.210Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_097": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:55:39.639Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_098": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:57:59.910Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_098": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:00.348Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_099": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:01.193Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_099": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:01.647Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_100": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:02.080Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_100": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:02.557Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_101": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:02.992Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_101": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:03.413Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_102": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:03.835Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_102": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:04.263Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_103": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:04.693Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_103": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:05.123Z"
+    },
+    "https://lichworldcup2026.vn/live/wc26_104": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:05.541Z"
+    },
+    "https://lichworldcup2026.vn/en/live/wc26_104": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:05.962Z"
+    },
+    "https://lichworldcup2026.vn/teams/mexico": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:06.384Z"
+    },
+    "https://lichworldcup2026.vn/en/teams/mexico": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:06.817Z"
+    },
+    "https://lichworldcup2026.vn/teams/south-africa": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:07.246Z"
+    },
+    "https://lichworldcup2026.vn/en/teams/south-africa": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:07.663Z"
+    },
+    "https://lichworldcup2026.vn/teams/south-korea": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:08.091Z"
+    },
+    "https://lichworldcup2026.vn/en/teams/south-korea": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:08.511Z"
+    },
+    "https://lichworldcup2026.vn/teams/czechia": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:08.944Z"
+    },
+    "https://lichworldcup2026.vn/en/teams/czechia": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:09.378Z"
+    },
+    "https://lichworldcup2026.vn/teams/canada": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:09.797Z"
+    },
+    "https://lichworldcup2026.vn/en/teams/canada": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:10.219Z"
+    },
+    "https://lichworldcup2026.vn/teams/bosnia": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:10.645Z"
+    },
+    "https://lichworldcup2026.vn/en/teams/bosnia": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:11.072Z"
+    },
+    "https://lichworldcup2026.vn/teams/qatar": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:11.504Z"
+    },
+    "https://lichworldcup2026.vn/en/teams/qatar": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:11.919Z"
+    },
+    "https://lichworldcup2026.vn/teams/switzerland": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:12.341Z"
+    },
+    "https://lichworldcup2026.vn/en/teams/switzerland": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:12.760Z"
+    },
+    "https://lichworldcup2026.vn/teams/brazil": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:13.191Z"
+    },
+    "https://lichworldcup2026.vn/en/teams/brazil": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:13.621Z"
+    },
+    "https://lichworldcup2026.vn/teams/morocco": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:14.040Z"
+    },
+    "https://lichworldcup2026.vn/en/teams/morocco": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:14.461Z"
+    },
+    "https://lichworldcup2026.vn/teams/haiti": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:14.883Z"
+    },
+    "https://lichworldcup2026.vn/en/teams/haiti": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:15.316Z"
+    },
+    "https://lichworldcup2026.vn/teams/scotland": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:15.744Z"
+    },
+    "https://lichworldcup2026.vn/en/teams/scotland": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:16.161Z"
+    },
+    "https://lichworldcup2026.vn/teams/usa": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:16.580Z"
+    },
+    "https://lichworldcup2026.vn/en/teams/usa": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:17.000Z"
+    },
+    "https://lichworldcup2026.vn/teams/paraguay": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:17.431Z"
+    },
+    "https://lichworldcup2026.vn/en/teams/paraguay": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:17.859Z"
+    },
+    "https://lichworldcup2026.vn/teams/australia": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:18.277Z"
+    },
+    "https://lichworldcup2026.vn/en/teams/australia": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:18.698Z"
+    },
+    "https://lichworldcup2026.vn/teams/turkiye": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:19.119Z"
+    },
+    "https://lichworldcup2026.vn/en/teams/turkiye": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:19.548Z"
+    },
+    "https://lichworldcup2026.vn/teams/germany": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:19.974Z"
+    },
+    "https://lichworldcup2026.vn/en/teams/germany": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:20.391Z"
+    },
+    "https://lichworldcup2026.vn/teams/curacao": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:20.809Z"
+    },
+    "https://lichworldcup2026.vn/en/teams/curacao": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:21.229Z"
+    },
+    "https://lichworldcup2026.vn/teams/ivory-coast": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:21.657Z"
+    },
+    "https://lichworldcup2026.vn/en/teams/ivory-coast": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:22.086Z"
+    },
+    "https://lichworldcup2026.vn/teams/ecuador": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:22.508Z"
+    },
+    "https://lichworldcup2026.vn/en/teams/ecuador": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:22.929Z"
+    },
+    "https://lichworldcup2026.vn/teams/netherlands": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:23.350Z"
+    },
+    "https://lichworldcup2026.vn/en/teams/netherlands": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:23.779Z"
+    },
+    "https://lichworldcup2026.vn/teams/japan": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:24.208Z"
+    },
+    "https://lichworldcup2026.vn/en/teams/japan": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:24.625Z"
+    },
+    "https://lichworldcup2026.vn/teams/sweden": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:25.041Z"
+    },
+    "https://lichworldcup2026.vn/en/teams/sweden": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:25.463Z"
+    },
+    "https://lichworldcup2026.vn/teams/tunisia": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:25.891Z"
+    },
+    "https://lichworldcup2026.vn/en/teams/tunisia": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:26.319Z"
+    },
+    "https://lichworldcup2026.vn/teams/spain": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:26.737Z"
+    },
+    "https://lichworldcup2026.vn/en/teams/spain": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:27.156Z"
+    },
+    "https://lichworldcup2026.vn/teams/cape-verde": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:27.575Z"
+    },
+    "https://lichworldcup2026.vn/en/teams/cape-verde": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:28.000Z"
+    },
+    "https://lichworldcup2026.vn/teams/saudi-arabia": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:28.425Z"
+    },
+    "https://lichworldcup2026.vn/en/teams/saudi-arabia": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:28.842Z"
+    },
+    "https://lichworldcup2026.vn/teams/uruguay": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:29.259Z"
+    },
+    "https://lichworldcup2026.vn/en/teams/uruguay": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:29.678Z"
+    },
+    "https://lichworldcup2026.vn/teams/belgium": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:30.107Z"
+    },
+    "https://lichworldcup2026.vn/en/teams/belgium": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:30.533Z"
+    },
+    "https://lichworldcup2026.vn/teams/egypt": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:30.947Z"
+    },
+    "https://lichworldcup2026.vn/en/teams/egypt": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:31.367Z"
+    },
+    "https://lichworldcup2026.vn/teams/iran": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:31.787Z"
+    },
+    "https://lichworldcup2026.vn/en/teams/iran": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:32.214Z"
+    },
+    "https://lichworldcup2026.vn/teams/new-zealand": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:32.641Z"
+    },
+    "https://lichworldcup2026.vn/en/teams/new-zealand": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:33.057Z"
+    },
+    "https://lichworldcup2026.vn/teams/france": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:33.481Z"
+    },
+    "https://lichworldcup2026.vn/en/teams/france": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:33.904Z"
+    },
+    "https://lichworldcup2026.vn/teams/senegal": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:34.335Z"
+    },
+    "https://lichworldcup2026.vn/en/teams/senegal": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:34.765Z"
+    },
+    "https://lichworldcup2026.vn/teams/iraq": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:35.185Z"
+    },
+    "https://lichworldcup2026.vn/en/teams/iraq": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:35.607Z"
+    },
+    "https://lichworldcup2026.vn/teams/norway": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:36.026Z"
+    },
+    "https://lichworldcup2026.vn/en/teams/norway": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:36.458Z"
+    },
+    "https://lichworldcup2026.vn/teams/argentina": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:36.885Z"
+    },
+    "https://lichworldcup2026.vn/en/teams/argentina": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:37.303Z"
+    },
+    "https://lichworldcup2026.vn/teams/algeria": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:37.726Z"
+    },
+    "https://lichworldcup2026.vn/en/teams/algeria": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:38.148Z"
+    },
+    "https://lichworldcup2026.vn/teams/austria": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:38.580Z"
+    },
+    "https://lichworldcup2026.vn/en/teams/austria": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:39.009Z"
+    },
+    "https://lichworldcup2026.vn/teams/jordan": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:39.427Z"
+    },
+    "https://lichworldcup2026.vn/en/teams/jordan": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:39.847Z"
+    },
+    "https://lichworldcup2026.vn/teams/portugal": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:40.269Z"
+    },
+    "https://lichworldcup2026.vn/en/teams/portugal": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:40.696Z"
+    },
+    "https://lichworldcup2026.vn/teams/dr-congo": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:41.126Z"
+    },
+    "https://lichworldcup2026.vn/en/teams/dr-congo": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:41.544Z"
+    },
+    "https://lichworldcup2026.vn/teams/uzbekistan": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:41.966Z"
+    },
+    "https://lichworldcup2026.vn/en/teams/uzbekistan": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:42.390Z"
+    },
+    "https://lichworldcup2026.vn/teams/colombia": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:42.819Z"
+    },
+    "https://lichworldcup2026.vn/en/teams/colombia": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:43.246Z"
+    },
+    "https://lichworldcup2026.vn/teams/england": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:43.666Z"
+    },
+    "https://lichworldcup2026.vn/en/teams/england": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:44.093Z"
+    },
+    "https://lichworldcup2026.vn/teams/croatia": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:44.512Z"
+    },
+    "https://lichworldcup2026.vn/en/teams/croatia": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:44.938Z"
+    },
+    "https://lichworldcup2026.vn/teams/ghana": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:45.368Z"
+    },
+    "https://lichworldcup2026.vn/en/teams/ghana": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:45.785Z"
+    },
+    "https://lichworldcup2026.vn/teams/panama": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:46.205Z"
+    },
+    "https://lichworldcup2026.vn/en/teams/panama": {
+      "status": "ERROR",
+      "time": "2026-06-12T16:58:46.633Z"
+    }
+  }
+}
