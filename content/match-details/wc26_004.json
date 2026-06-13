@@ -1,53 +1,53 @@
 {
   "incidents": [
     {
-      "minute": 12,
-      "type": "yellow",
-      "player": "Miguel Almirón",
-      "detail": "Miguel Almirón receives a yellow card for a late, reckless challenge on Weston McKennie in midfield, drawing the referee's attention.",
-      "teamSlug": "paraguay"
-    },
-    {
-      "minute": 23,
+      "minute": 18,
       "type": "goal",
       "player": "Christian Pulisic",
-      "detail": "Christian Pulisic cuts inside from the right wing and curls a left-footed shot into the far corner past Antony Silva's outstretched hand.",
+      "detail": "Pulisic cuts inside from the left wing and unleashes a powerful curling shot from 20 yards that finds the top corner of the net.",
       "teamSlug": "my"
     },
     {
-      "minute": 38,
-      "type": "goal",
-      "player": "Óscar Romero",
-      "detail": "Óscar Romero pounces on a loose ball following a scramble in the USA box and drives a low volley past Matt Turner to equalize.",
+      "minute": 32,
+      "type": "yellow",
+      "player": "Mathías Villasanti",
+      "detail": "Villasanti receives a yellow card for a reckless slide tackle on Cristian Roldan in the center of midfield.",
       "teamSlug": "paraguay"
     },
     {
-      "minute": 51,
+      "minute": 41,
+      "type": "goal",
+      "player": "Antonio Sanabria",
+      "detail": "Sanabria rises unmarked above Tim Ream at the far post and heads in a pinpoint cross from the right wing to pull Paraguay level.",
+      "teamSlug": "paraguay"
+    },
+    {
+      "minute": 55,
       "type": "goal",
       "player": "Brenden Aaronson",
-      "detail": "Brenden Aaronson finishes clinically from close range after Sergiño Dest cuts the ball back across the penalty area for an easy tap-in.",
+      "detail": "Aaronson finishes from 6 yards with a first-time tap-in after a perfectly weighted low cross from Sergiño Dest down the left flank.",
       "teamSlug": "my"
     },
     {
       "minute": 67,
       "type": "goal",
       "player": "Ricardo Pepi",
-      "detail": "Ricardo Pepi rises highest at the far post to powerfully head home a pinpoint cross from Cristian Roldan on the right wing.",
+      "detail": "Pepi reacts fastest to a loose ball in the Paraguay six-yard box following a scramble from a McKennie corner kick.",
       "teamSlug": "my"
     },
     {
-      "minute": 78,
+      "minute": 77,
+      "type": "yellow",
+      "player": "Omar Alderete",
+      "detail": "Alderete receives a yellow card for pulling down Pulisic from behind as he breaks toward goal.",
+      "teamSlug": "paraguay"
+    },
+    {
+      "minute": 84,
       "type": "goal",
       "player": "Weston McKennie",
-      "detail": "Weston McKennie unleashes a thunderous 25-yard strike from the edge of the box that rockets into the top corner, leaving Antony Silva with no chance.",
+      "detail": "McKennie strikes a venomous long-range effort from 25 yards that rockets past Antony Silva into the upper right corner.",
       "teamSlug": "my"
-    },
-    {
-      "minute": 85,
-      "type": "yellow",
-      "player": "Gustavo Velázquez",
-      "detail": "Gustavo Velázquez is shown a yellow card for persistent fouling and time-wasting in the closing stages as Paraguay desperately chases the match.",
-      "teamSlug": "paraguay"
     }
   ],
   "homeLineup": {
