@@ -1,5 +1,48 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 16,
+      "type": "yellow",
+      "player": "Remo Freuler",
+      "detail": "Remo Freuler is cautioned for a cynical challenge on Ahmed Alaaeldin in the middle of the pitch.",
+      "teamSlug": "thuy-si"
+    },
+    {
+      "minute": 32,
+      "type": "goal",
+      "player": "Mohammed Muntari",
+      "detail": "Mohammed Muntari finishes from close range after Edmilson Junior delivers a low, hard cross from the right flank.",
+      "teamSlug": "qatar"
+    },
+    {
+      "minute": 41,
+      "type": "yellow",
+      "player": "Karim Boudiaf",
+      "detail": "Karim Boudiaf is booked for dissent after protesting a referee's decision on a contested free kick.",
+      "teamSlug": "qatar"
+    },
+    {
+      "minute": 58,
+      "type": "goal",
+      "player": "Dan Ndoye",
+      "detail": "Dan Ndoye cuts inside from the left wing and curls a low drive past Mahmud Abunada into the far corner.",
+      "teamSlug": "thuy-si"
+    },
+    {
+      "minute": 72,
+      "type": "yellow",
+      "player": "Manuel Akanji",
+      "detail": "Manuel Akanji receives a yellow card for a tactical foul to halt a dangerous Qatar counterattack down the wing.",
+      "teamSlug": "thuy-si"
+    },
+    {
+      "minute": 84,
+      "type": "yellow",
+      "player": "Issa Laye",
+      "detail": "Issa Laye is cautioned for a heavy challenge on Breel Embolo as Switzerland pushes for a winner.",
+      "teamSlug": "qatar"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "qatar",
     "teamName": "Qatar",

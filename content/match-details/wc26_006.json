@@ -1,5 +1,55 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 18,
+      "type": "goal",
+      "player": "Vinícius Júnior",
+      "detail": "Received the ball on the left flank from Bruno Guimarães, cut inside with explosive pace, and curled a left-footed shot from 20 yards that found the top corner past Yassine Bounou's reach.",
+      "teamSlug": "brazil"
+    },
+    {
+      "minute": 34,
+      "type": "yellow",
+      "player": "Sofyan Amrabat",
+      "detail": "Caught Neymar with an elbow in midfield while disputing possession, drawing an immediate yellow from the referee.",
+      "teamSlug": "maroc"
+    },
+    {
+      "minute": 41,
+      "type": "yellow",
+      "player": "Casemiro",
+      "detail": "Committed a hard two-footed challenge on Bilal El Khannouss near the center circle, earning a caution for excessive force.",
+      "teamSlug": "brazil"
+    },
+    {
+      "minute": 56,
+      "type": "goal",
+      "player": "Soufiane Rahimi",
+      "detail": "Pounced on a loose ball in the Brazil six-yard box following a chaotic goalmouth scramble from a Moroccan corner, and fired low across Alisson to equalize.",
+      "teamSlug": "maroc"
+    },
+    {
+      "minute": 68,
+      "type": "sub",
+      "player": "Matheus Cunha",
+      "detail": "Substituted off as Brazil chased a winner.",
+      "teamSlug": "brazil"
+    },
+    {
+      "minute": 76,
+      "type": "yellow",
+      "player": "Nayef Aguerd",
+      "detail": "Tripped Alex Sandro down the right flank in a desperate attempt to cut off a dangerous cross, earning a yellow card.",
+      "teamSlug": "maroc"
+    },
+    {
+      "minute": 82,
+      "type": "yellow",
+      "player": "Fabinho",
+      "detail": "Late tackle on Abde Ezzalzouli near the touchline, receiving a caution for reckless play.",
+      "teamSlug": "brazil"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "brazil",
     "teamName": "Brazil",

@@ -1,5 +1,55 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 15,
+      "type": "yellow",
+      "player": "Jean-Kévin Duverne",
+      "detail": "Haiti's left-back receives a yellow card for a heavy tackle on Ryan Christie as Scotland looks to break down the flank.",
+      "teamSlug": "haiti"
+    },
+    {
+      "minute": 31,
+      "type": "yellow",
+      "player": "Scott McTominay",
+      "detail": "Scotland's midfielder cautioned for a cynical foul on Duckens Nazon in midfield.",
+      "teamSlug": "scotland"
+    },
+    {
+      "minute": 43,
+      "type": "goal",
+      "player": "Lawrence Shankland",
+      "detail": "Shankland converts from 8 yards with his right foot, latching onto Che Adams' back-heel flick after a swift Scotland counter-attack down the right wing.",
+      "teamSlug": "scotland"
+    },
+    {
+      "minute": 57,
+      "type": "substitution",
+      "player": "Carl Sainté",
+      "detail": "Haiti replaces their striker with fresh attacking options as they pursue an equalizer.",
+      "teamSlug": "haiti"
+    },
+    {
+      "minute": 69,
+      "type": "yellow",
+      "player": "Martin Expérience",
+      "detail": "Haiti's central defender shown yellow for a reckless challenge on Lyndon Dykes inside the penalty area.",
+      "teamSlug": "haiti"
+    },
+    {
+      "minute": 74,
+      "type": "substitution",
+      "player": "Derrick Etienne Jr.",
+      "detail": "Haiti makes another change in midfield seeking greater attacking impetus.",
+      "teamSlug": "haiti"
+    },
+    {
+      "minute": 86,
+      "type": "yellow",
+      "player": "Grant Hanley",
+      "detail": "Scotland's defender cautioned for deliberate time-wasting in the closing stages.",
+      "teamSlug": "scotland"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "haiti",
     "teamName": "Haiti",
