@@ -11,6 +11,7 @@
  */
 
 import { google } from "googleapis";
+import type { JWT, GoogleAuth } from "googleapis-common";
 import { readFileSync, writeFileSync, existsSync } from "fs";
 import { join } from "path";
 
@@ -92,7 +93,7 @@ function writeLog(log: IndexLog) {
 
 // ─── Google Auth ────────────────────────────────────────
 
-async function getAuthClient(useOAuth = false): Promise<google.auth.JWT | google.auth.GoogleAuth> {
+async function getAuthClient(useOAuth = false): Promise<JWT | GoogleAuth> {
   if (!useOAuth && existsSync(SERVICE_ACCOUNT_PATH)) {
     const key = JSON.parse(readFileSync(SERVICE_ACCOUNT_PATH, "utf-8"));
     const auth = new google.auth.JWT({
@@ -114,7 +115,7 @@ async function getAuthClient(useOAuth = false): Promise<google.auth.JWT | google
 // ─── Submit single URL ──────────────────────────────────
 
 async function submitUrl(
-  auth: google.auth.JWT | google.auth.GoogleAuth,
+  auth: JWT | GoogleAuth,
   url: string,
   type: "URL_UPDATED" | "URL_DELETED" = "URL_UPDATED",
 ): Promise<{ url: string; status: string; error?: string }> {
