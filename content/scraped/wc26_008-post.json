@@ -1,0 +1,183 @@
+{
+  "matchId": "wc26_008",
+  "eventId": "2461105",
+  "status": "finished",
+  "scrapedAt": "2026-06-15T16:51:41.134Z",
+  "general": {
+    "homeTeam": "Australia",
+    "homeSlug": "uc",
+    "awayTeam": "Turkey",
+    "awaySlug": "turkey",
+    "stage": "FIFA World Cup",
+    "group": "D",
+    "kickoffUTC": "2026-06-14T04:00:00",
+    "venue": "BC Place",
+    "referee": ""
+  },
+  "score": {
+    "home": 2,
+    "away": 0
+  },
+  "events": [],
+  "form": {
+    "home": [
+      {
+        "opponent": "Turkey",
+        "result": "W",
+        "score": "2-0",
+        "date": "2026-06-14"
+      }
+    ],
+    "away": [
+      {
+        "opponent": "North Macedonia",
+        "result": "W",
+        "score": "4-0",
+        "date": "2026-06-01"
+      }
+    ]
+  },
+  "squads": {
+    "home": [
+      {
+        "name": "Mathew Ryan",
+        "number": 1,
+        "position": "GK",
+        "age": 34
+      },
+      {
+        "name": "Milos Degenek",
+        "number": 2,
+        "position": "DF",
+        "age": 32
+      },
+      {
+        "name": "Alessandro Circati",
+        "number": 3,
+        "position": "DF",
+        "age": 22
+      },
+      {
+        "name": "Jacob Italiano",
+        "number": 4,
+        "position": "DF",
+        "age": 24
+      },
+      {
+        "name": "Jordan Bos",
+        "number": 5,
+        "position": "DF",
+        "age": 23
+      },
+      {
+        "name": "Jason Geria",
+        "number": 6,
+        "position": "DF",
+        "age": 33
+      },
+      {
+        "name": "Mathew Leckie",
+        "number": 7,
+        "position": "FW",
+        "age": 35
+      },
+      {
+        "name": "Connor Metcalfe",
+        "number": 8,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Mohamed Toure",
+        "number": 9,
+        "position": "FW",
+        "age": 22
+      },
+      {
+        "name": "Ajdin Hrustic",
+        "number": 10,
+        "position": "FW",
+        "age": 29
+      },
+      {
+        "name": "Awer Mabil",
+        "number": 11,
+        "position": "FW",
+        "age": 30
+      },
+      {
+        "name": "Paul Izzo",
+        "number": 12,
+        "position": "GK",
+        "age": 31
+      },
+      {
+        "name": "Aiden O'Neill",
+        "number": 13,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Cameron Devlin",
+        "number": 14,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Kai Trewin",
+        "number": 15,
+        "position": "DF",
+        "age": 25
+      },
+      {
+        "name": "Aziz Behich",
+        "number": 16,
+        "position": "DF",
+        "age": 35
+      },
+      {
+        "name": "Nestory Irankunda",
+        "number": 17,
+        "position": "FW",
+        "age": 20
+      },
+      {
+        "name": "Patrick Beach",
+        "number": 18,
+        "position": "GK",
+        "age": 22
+      },
+      {
+        "name": "Harry Souttar",
+        "number": 19,
+        "position": "DF",
+        "age": 27
+      },
+      {
+        "name": "Cristian Volpato",
+        "number": 20,
+        "position": "FW",
+        "age": 22
+      },
+      {
+        "name": "Cameron Burgess",
+        "number": 21,
+        "position": "DF",
+        "age": 30
+      },
+      {
+        "name": "Jackson Irvine",
+        "number": 22,
+        "position": "MF",
+        "age": 33
+      },
+      {
+        "name": "Nishan Velupillay",
+        "number": 23,
+        "position": "FW",
+        "age": 25
+      }
+    ],
+    "away": []
+  }
+}
