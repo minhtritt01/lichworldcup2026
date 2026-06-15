@@ -92,23 +92,29 @@ function writeLog(log: IndexLog) {
 
 // ─── Google Auth ────────────────────────────────────────
 
-async function getAuthClient(): Promise<InstanceType<typeof google.auth.JWT>> {
-  const key = JSON.parse(readFileSync(SERVICE_ACCOUNT_PATH, "utf-8"));
+async function getAuthClient(useOAuth = false): Promise<google.auth.JWT | google.auth.GoogleAuth> {
+  if (!useOAuth && existsSync(SERVICE_ACCOUNT_PATH)) {
+    const key = JSON.parse(readFileSync(SERVICE_ACCOUNT_PATH, "utf-8"));
+    const auth = new google.auth.JWT({
+      email: key.client_email,
+      key: key.private_key,
+      scopes: ["https://www.googleapis.com/auth/indexing"],
+    });
+    await auth.authorize();
+    return auth;
+  }
 
-  const auth = new google.auth.JWT({
-    email: key.client_email,
-    key: key.private_key,
+  // Application Default Credentials — run: gcloud auth application-default login
+  const auth = new google.auth.GoogleAuth({
     scopes: ["https://www.googleapis.com/auth/indexing"],
   });
-
-  await auth.authorize();
   return auth;
 }
 
 // ─── Submit single URL ──────────────────────────────────
 
 async function submitUrl(
-  auth: InstanceType<typeof google.auth.JWT>,
+  auth: google.auth.JWT | google.auth.GoogleAuth,
   url: string,
   type: "URL_UPDATED" | "URL_DELETED" = "URL_UPDATED",
 ): Promise<{ url: string; status: string; error?: string }> {
@@ -138,6 +144,7 @@ async function submitUrl(
 async function main() {
   const args = process.argv.slice(2);
   const isDryRun = args.includes("--dry-run");
+  const useOAuth = args.includes("--oauth");
   const limitIdx = args.indexOf("--limit");
   const limit =
     limitIdx !== -1 ? parseInt(args[limitIdx + 1], 10) : DAILY_QUOTA;
@@ -162,7 +169,7 @@ async function main() {
   const log = readLog();
   const today = new Date().toISOString().split("T")[0];
   const todaySubmitted = Object.entries(log.submitted)
-    .filter(([, v]) => v.time.startsWith(today))
+    .filter(([, v]) => v.time.startsWith(today) && v.status === "OK")
     .map(([k]) => k);
 
   const pending = allUrls.filter((u) => !todaySubmitted.includes(u));
@@ -192,8 +199,9 @@ async function main() {
     return;
   }
 
-  console.log("🔐 Authenticating with Google...");
-  const auth = await getAuthClient();
+  const useServiceAccount = !useOAuth && existsSync(SERVICE_ACCOUNT_PATH);
+  console.log(`🔐 Authenticating with Google (${useServiceAccount ? "service account" : "application default credentials"})...`);
+  const auth = await getAuthClient(useOAuth);
   console.log("✅ Authenticated");
   console.log("");
 
