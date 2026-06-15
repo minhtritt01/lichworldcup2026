@@ -1,5 +1,55 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 12,
+      "type": "yellow",
+      "player": "Mats Wieffer",
+      "detail": "Receives a yellow card for a hard sliding challenge on Reo Hatate in midfield.",
+      "teamSlug": "ha-lan"
+    },
+    {
+      "minute": 18,
+      "type": "goal",
+      "player": "Memphis Depay",
+      "detail": "Netherlands takes the lead. Cody Gakpo picks out Depay with a precise left-wing cross; Depay cuts inside and bends a low left-footed finish into the far corner from 18 yards.",
+      "teamSlug": "ha-lan"
+    },
+    {
+      "minute": 38,
+      "type": "goal",
+      "player": "Takumi Minamino",
+      "detail": "Japan equalizes instantly. Reo Hatate whips a dangerous right-wing cross that Minamino rises to meet with a powerful header, glancing past Verbruggen at the near post.",
+      "teamSlug": "nhat-ban"
+    },
+    {
+      "minute": 56,
+      "type": "goal",
+      "player": "Yuya Osako",
+      "detail": "Japan takes the lead from a set-piece. Hiroki Sakai's corner finds Yuya Osako at the back post, who powers a downward header into the net ahead of Van Dijk.",
+      "teamSlug": "nhat-ban"
+    },
+    {
+      "minute": 68,
+      "type": "goal",
+      "player": "Cody Gakpo",
+      "detail": "Netherlands restores parity on the counter. Gakpo receives the ball at 20 yards and strikes a curling right-footed shot that bends beyond Gonda into the top corner.",
+      "teamSlug": "ha-lan"
+    },
+    {
+      "minute": 77,
+      "type": "yellow",
+      "player": "Ko Itakura",
+      "detail": "Ko Itakura shown a yellow card for a late challenge on Xavi Simons.",
+      "teamSlug": "nhat-ban"
+    },
+    {
+      "minute": 84,
+      "type": "substitution",
+      "player": "Frenkie de Jong",
+      "detail": "Frenkie de Jong is replaced by a fresh midfielder to shore up the midfield in the closing stages.",
+      "teamSlug": "ha-lan"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "ha-lan",
     "teamName": "Netherlands",

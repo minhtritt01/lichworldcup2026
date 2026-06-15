@@ -1,5 +1,55 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 15,
+      "type": "yellow",
+      "player": "Salih Özcan",
+      "detail": "Slides in aggressively on Cameron Devlin in midfield with a cynical challenge, earning an early caution.",
+      "teamSlug": "tho-nhi-ky"
+    },
+    {
+      "minute": 28,
+      "type": "goal",
+      "player": "Mathew Leckie",
+      "detail": "Receives a through ball from Aiden O'Neill down the right flank, cuts inside, and fires a low left-footed drive past Mert Günok's near post from 12 yards.",
+      "teamSlug": "uc"
+    },
+    {
+      "minute": 42,
+      "type": "yellow",
+      "player": "Jordan Bos",
+      "detail": "Lunges recklessly at Irfan Can Kahveci's ankles attempting to block a dangerous cross, earning a caution for dangerous play.",
+      "teamSlug": "uc"
+    },
+    {
+      "minute": 55,
+      "type": "goal",
+      "player": "Mohamed Toure",
+      "detail": "Rises powerfully above Zeki Çelik and heads a cross from Mathew Leckie into the far corner from 8 yards, doubling Australia's lead.",
+      "teamSlug": "uc"
+    },
+    {
+      "minute": 68,
+      "type": "yellow",
+      "player": "Merih Demiral",
+      "detail": "Protests vigorously to the referee after a denied penalty appeal, earning a yellow card for dissent.",
+      "teamSlug": "tho-nhi-ky"
+    },
+    {
+      "minute": 76,
+      "type": "substitution",
+      "player": "Hakan Çalhanoğlu",
+      "detail": "Hakan Çalhanoğlu comes off in a tactical change as Türkiye seeks to inject fresh attacking impetus.",
+      "teamSlug": "tho-nhi-ky"
+    },
+    {
+      "minute": 86,
+      "type": "substitution",
+      "player": "Ajdin Hrustic",
+      "detail": "Ajdin Hrustic is substituted off as Australia manages their 2-0 advantage in the closing stages.",
+      "teamSlug": "uc"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "uc",
     "teamName": "Australia",

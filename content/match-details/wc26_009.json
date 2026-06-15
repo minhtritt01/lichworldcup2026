@@ -1,5 +1,62 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 12,
+      "type": "goal",
+      "player": "Leroy Sané",
+      "detail": "Sané cuts inside from the left wing and fires a low drive past Eloy Room into the far corner after a swift German counter-attack.",
+      "teamSlug": "duc"
+    },
+    {
+      "minute": 18,
+      "type": "goal",
+      "player": "Kai Havertz",
+      "detail": "Havertz latches onto a Toni Kroos through ball and tucks a composed finish inside the near post.",
+      "teamSlug": "duc"
+    },
+    {
+      "minute": 32,
+      "type": "goal",
+      "player": "Jamal Musiala",
+      "detail": "Musiala receives the ball on the wing, cuts inside with trademark trickery, and slots a precise left-footed strike into the bottom corner.",
+      "teamSlug": "duc"
+    },
+    {
+      "minute": 41,
+      "type": "goal",
+      "player": "Jürgen Locadia",
+      "detail": "Locadia capitalizes on a rare Curaçao counter-attack, receiving a pass in the box and finishing clinically past Manuel Neuer for a consolation goal.",
+      "teamSlug": "curacao"
+    },
+    {
+      "minute": 51,
+      "type": "goal",
+      "player": "Florian Wirtz",
+      "detail": "Wirtz receives a pass on the right flank, cuts infield with pace, and curls a beautiful effort into the top corner.",
+      "teamSlug": "duc"
+    },
+    {
+      "minute": 68,
+      "type": "goal",
+      "player": "Toni Kroos",
+      "detail": "Kroos picks up the ball outside the box and strikes a powerful, curling shot that finds the net off the crossbar.",
+      "teamSlug": "duc"
+    },
+    {
+      "minute": 77,
+      "type": "goal",
+      "player": "Joshua Kimmich",
+      "detail": "Kimmich overlaps down the right flank, receives a cutback, and hammers a finish past Room from close range.",
+      "teamSlug": "duc"
+    },
+    {
+      "minute": 85,
+      "type": "goal",
+      "player": "Maximilian Beier",
+      "detail": "Beier capitalizes on loose Curaçao defending in the box, receiving the ball and striking clinically to seal Germany's dominant display.",
+      "teamSlug": "duc"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "duc",
     "teamName": "Germany",

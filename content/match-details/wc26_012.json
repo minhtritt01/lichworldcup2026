@@ -1,5 +1,55 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 18,
+      "type": "goal",
+      "player": "Alexander Isak",
+      "detail": "Isak rises above the defense to power home a header from Emil Krafth's pinpoint cross from the right wing.",
+      "teamSlug": "thuy-dien"
+    },
+    {
+      "minute": 27,
+      "type": "goal",
+      "player": "Viktor Gyökeres",
+      "detail": "Gyökeres capitalizes on a loose ball in the box after Mattias Svanberg's shot deflects off a defender.",
+      "teamSlug": "thuy-dien"
+    },
+    {
+      "minute": 34,
+      "type": "yellow",
+      "player": "Ellyes Skhiri",
+      "detail": "The Tunisian midfielder receives a yellow card for a hard sliding tackle on Albin Ekdal.",
+      "teamSlug": "tunisia"
+    },
+    {
+      "minute": 42,
+      "type": "goal",
+      "player": "Jordan Larsson",
+      "detail": "Larsson finishes with a composed left-footed strike after being picked out by a through ball from Jens-Lys Cajuste.",
+      "teamSlug": "thuy-dien"
+    },
+    {
+      "minute": 58,
+      "type": "goal",
+      "player": "Wahbi Khazri",
+      "detail": "Khazri cuts inside from the left and curls a beautiful shot past Robin Olsen into the far corner.",
+      "teamSlug": "tunisia"
+    },
+    {
+      "minute": 67,
+      "type": "goal",
+      "player": "Alexander Isak",
+      "detail": "Isak nets his second of the match with a clinical finish after Viktor Gyökeres plays him through on goal.",
+      "teamSlug": "thuy-dien"
+    },
+    {
+      "minute": 78,
+      "type": "goal",
+      "player": "Viktor Gyökeres",
+      "detail": "Gyökeres completes his brace with a powerful header from close range after a pinned cross from the right.",
+      "teamSlug": "thuy-dien"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "thuy-dien",
     "teamName": "Sweden",

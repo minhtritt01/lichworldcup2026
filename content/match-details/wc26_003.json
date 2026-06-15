@@ -1,5 +1,48 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 12,
+      "type": "yellow",
+      "player": "Sead Kolašinac",
+      "detail": "Slides in dangerously high on Cyle Larin's shin with a reckless challenge from behind, earning an early caution.",
+      "teamSlug": "bosnia"
+    },
+    {
+      "minute": 29,
+      "type": "goal",
+      "player": "Jonathan David",
+      "detail": "Taps in at the near post after Alistair Johnston whips a teasing cross from the right wing that Bosnia's defense fails to clear.",
+      "teamSlug": "canada"
+    },
+    {
+      "minute": 38,
+      "type": "yellow",
+      "player": "Benjamin Tahirović",
+      "detail": "Catches Stephen Eustáquio late with a studs-up challenge in midfield, drawing the referee's card for a dangerous tackle.",
+      "teamSlug": "bosnia"
+    },
+    {
+      "minute": 61,
+      "type": "goal",
+      "player": "Edin Džeko",
+      "detail": "Rises majestically above the Canada defense to power home a header from a Benjamin Tahirović floated cross into the box, leveling the match.",
+      "teamSlug": "bosnia"
+    },
+    {
+      "minute": 73,
+      "type": "yellow",
+      "player": "Mathieu Choinière",
+      "detail": "Tugs down Ermedin Demirović when he breaks through on goal, receiving yellow for denying a clear scoring opportunity.",
+      "teamSlug": "canada"
+    },
+    {
+      "minute": 84,
+      "type": "yellow",
+      "player": "Nikola Katić",
+      "detail": "Cynically brings down Jonathan David with a professional foul to snuff out a dangerous Canadian counter-attack in the final stretch.",
+      "teamSlug": "bosnia"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "canada",
     "teamName": "Canada",

@@ -1,5 +1,55 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 8,
+      "type": "yellow",
+      "player": "Willian Pacho",
+      "detail": "Pulls back Ange-Yoan Bonny on the flank with an overly aggressive challenge, drawing the referee's first caution.",
+      "teamSlug": "ecuador"
+    },
+    {
+      "minute": 23,
+      "type": "goal",
+      "player": "Simon Adingra",
+      "detail": "Rises unmarked to meet Franck Kessié's whipped cross with a firm header from the penalty spot, sending the ball past Hernán Galíndez into the far corner.",
+      "teamSlug": "bo-bien-nga"
+    },
+    {
+      "minute": 31,
+      "type": "yellow",
+      "player": "Anthony Valencia",
+      "detail": "Booked for dissent after protesting a refereeing decision on a hard tackle in midfield.",
+      "teamSlug": "ecuador"
+    },
+    {
+      "minute": 52,
+      "type": "yellow",
+      "player": "Seko Fofana",
+      "detail": "Receives a caution for a sliding tackle on John Yeboah, cynically stopping a promising Ecuador counterattack.",
+      "teamSlug": "bo-bien-nga"
+    },
+    {
+      "minute": 68,
+      "type": "yellow",
+      "player": "Joel Ordóñez",
+      "detail": "Yellow card for a desperate foul on Yan Diomandé as Ecuador's backline grows increasingly frayed under pressure.",
+      "teamSlug": "ecuador"
+    },
+    {
+      "minute": 76,
+      "type": "substitution",
+      "player": "Franck Kessié",
+      "detail": "Franck Kessié is withdrawn after a commanding display; defensive midfielder replaces him to shield the lead.",
+      "teamSlug": "bo-bien-nga"
+    },
+    {
+      "minute": 86,
+      "type": "substitution",
+      "player": "Enner Valencia",
+      "detail": "Ecuador's captain is replaced in a desperate late tactical shift aimed at salvaging a point in the final moments.",
+      "teamSlug": "ecuador"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "bo-bien-nga",
     "teamName": "Ivory Coast",
