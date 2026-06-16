@@ -1,5 +1,55 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 14,
+      "type": "yellow",
+      "player": "Dailon Livramento",
+      "detail": "Clipped Nico Williams' heels from behind on the left wing, earning a caution for the Cape Verde defender.",
+      "teamSlug": "cape-verde"
+    },
+    {
+      "minute": 31,
+      "type": "yellow",
+      "player": "Pedri",
+      "detail": "Committed a reckless tackle on João Paulo in the center of midfield after losing possession.",
+      "teamSlug": "tay-ban-nha"
+    },
+    {
+      "minute": 44,
+      "type": "substitution",
+      "player": "Stopira",
+      "detail": "Forced off with a muscle strain sustained during an aerial duel, Cape Verde making an early defensive change.",
+      "teamSlug": "cape-verde"
+    },
+    {
+      "minute": 58,
+      "type": "yellow",
+      "player": "Aymeric Laporte",
+      "detail": "Brought down Jovane Cabral with an ill-timed slide tackle near the Spanish penalty area.",
+      "teamSlug": "tay-ban-nha"
+    },
+    {
+      "minute": 72,
+      "type": "substitution",
+      "player": "Lamine Yamal",
+      "detail": "Substituted off by Spain to add defensive support and control the tempo in midfield.",
+      "teamSlug": "tay-ban-nha"
+    },
+    {
+      "minute": 81,
+      "type": "yellow",
+      "player": "Kevin Pina",
+      "detail": "Professional foul to stop a dangerous Spanish counterattack down the right flank, earning a caution.",
+      "teamSlug": "cape-verde"
+    },
+    {
+      "minute": 87,
+      "type": "substitution",
+      "player": "Álvaro Morata",
+      "detail": "Taken off as Spain shifted to a defensive formation to secure the draw in the closing stages.",
+      "teamSlug": "tay-ban-nha"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "tay-ban-nha",
     "teamName": "Spain",

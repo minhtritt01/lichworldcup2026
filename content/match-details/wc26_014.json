@@ -1,5 +1,48 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 14,
+      "type": "yellow_card",
+      "player": "Brandon Mechele",
+      "detail": "Mechele slides in late on Marmoush down the left flank, earning a caution for reckless play.",
+      "teamSlug": "bi"
+    },
+    {
+      "minute": 26,
+      "type": "goal",
+      "player": "Romelu Lukaku",
+      "detail": "De Bruyne delivers a pinpoint cross from the right wing; Lukaku rises above his marker and powers a header past El-Shenawy's outstretched hands from 8 yards.",
+      "teamSlug": "bi"
+    },
+    {
+      "minute": 38,
+      "type": "yellow_card",
+      "player": "Ahmed Hegazy",
+      "detail": "Hegazy body-checks De Bruyne as the midfielder turns with the ball, drawing a card for excessive force.",
+      "teamSlug": "ai-cap"
+    },
+    {
+      "minute": 57,
+      "type": "goal",
+      "player": "Mohamed Salah",
+      "detail": "Egypt breaks rapidly up the left; Marmoush's cutback finds Salah in the box, who steadies himself and slots a clinical left-footed finish into the far corner.",
+      "teamSlug": "ai-cap"
+    },
+    {
+      "minute": 71,
+      "type": "yellow_card",
+      "player": "Axel Witsel",
+      "detail": "Witsel cynically fouls Trezeguet to break up a dangerous Egypt counterattack, picking up a tactical yellow.",
+      "teamSlug": "bi"
+    },
+    {
+      "minute": 84,
+      "type": "yellow_card",
+      "player": "Ali Gabr",
+      "detail": "Gabr's late sliding challenge catches Doku's ankle; the referee issues a yellow for the mistimed intervention.",
+      "teamSlug": "ai-cap"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "bi",
     "teamName": "Belgium",

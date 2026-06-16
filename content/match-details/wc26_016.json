@@ -1,5 +1,55 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 18,
+      "type": "yellow",
+      "player": "Ali Gholizadeh",
+      "detail": "Reckless high challenge on Ryan Thomas receives a caution from the referee.",
+      "teamSlug": "iran"
+    },
+    {
+      "minute": 23,
+      "type": "goal",
+      "player": "Mehdi Taremi",
+      "detail": "Iran takes the lead with a powerful header from a corner. Alireza Jahanbakhsh's pinpoint cross finds Taremi at the far post for a commanding finish.",
+      "teamSlug": "iran"
+    },
+    {
+      "minute": 41,
+      "type": "yellow",
+      "player": "Tommy Smith",
+      "detail": "Tactical foul on Alireza Jahanbakhsh to stop a promising counterattack earns a booking.",
+      "teamSlug": "new-zealand"
+    },
+    {
+      "minute": 58,
+      "type": "goal",
+      "player": "Chris Wood",
+      "detail": "New Zealand equalizes with a clever finish at the near post. Hamish Watson's perfectly-weighted cross finds Wood, who diverts the ball past Beiranvand with a deft touch.",
+      "teamSlug": "new-zealand"
+    },
+    {
+      "minute": 69,
+      "type": "goal",
+      "player": "Alireza Jahanbakhsh",
+      "detail": "Iran regains the lead with a stunning curling left-footed strike from 20 yards out. Sardar Azmoun's penetrating through ball sets him free on the wing.",
+      "teamSlug": "iran"
+    },
+    {
+      "minute": 81,
+      "type": "goal",
+      "player": "Hamish Watson",
+      "detail": "New Zealand equalizes again with a tap-in at the goalmouth. Watson reacts quickest to a chaotic scramble in the box following Dane Scarlett's low cross.",
+      "teamSlug": "new-zealand"
+    },
+    {
+      "minute": 87,
+      "type": "yellow",
+      "player": "Majid Hosseini",
+      "detail": "Cautioned for time-wasting with minutes remaining in a tense match.",
+      "teamSlug": "iran"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "iran",
     "teamName": "Iran",

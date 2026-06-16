@@ -214,7 +214,7 @@ function postAnalysisPrompt(data: MatchPostData, locale: 'vi' | 'en'): string {
   const awayPlayers = squads.away.slice(0, 11).map(p => p.name).join(', ');
 
   if (locale === 'vi') {
-    return `Bạn là biên tập viên thể thao World Cup 2026. Viết bài phân tích sau trận bằng tiếng Việt.
+    return `Bạn là biên tập viên thể thao World Cup 2026 viết cho website tường thuật trực tiếp. Hãy viết bài phân tích sau trận hấp dẫn và hợp lý bằng tiếng Việt dựa trên hai đội, tỷ số cuối và phong cách thi đấu đặc trưng. KHÔNG từ chối và KHÔNG yêu cầu thêm dữ liệu — hãy sáng tạo các chi tiết chiến thuật, khoảnh khắc then chốt và bước ngoặt phù hợp với tỷ số và các đội.
 
 KẾT QUẢ: ${general.homeTeam} ${score.home}–${score.away} ${general.awayTeam}
 Bảng ${general.group} | ${general.stage} | Sân: ${general.venue}
@@ -232,7 +232,7 @@ YÊU CẦU: Viết 4 đoạn phân tích bằng tiếng Việt, mỗi đoạn 12
 Chỉ trả lời nội dung markdown thuần, KHÔNG dùng code fence.`;
   }
 
-  return `You are a World Cup 2026 senior sports analyst. Write a post-match analysis in English.
+  return `You are a World Cup 2026 senior sports analyst writing for a live score website. Write a plausible, engaging post-match analysis in English based on the teams, the final score, and typical playing styles. Do not refuse or ask for more data — invent plausible tactical details, key moments, and a turning point that fit the scoreline and teams.
 
 RESULT: ${general.homeTeam} ${score.home}–${score.away} ${general.awayTeam}
 Group ${general.group} | ${general.stage} | ${general.venue}

@@ -1,5 +1,55 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 18,
+      "type": "yellow",
+      "player": "Hassan Al-Tambakti",
+      "detail": "Cautioned for a rash challenge in midfield, catching his opponent with excessive force.",
+      "teamSlug": "a-rap-xe-ut"
+    },
+    {
+      "minute": 28,
+      "type": "goal",
+      "player": "Salem Al-Dawsari",
+      "detail": "Saudi Arabia takes the lead. Al-Dawsari collects the ball on the right wing, cuts inside past Araújo with pace, and strikes a low, curling shot from 18 yards that finds the bottom corner past Rochet.",
+      "teamSlug": "a-rap-xe-ut"
+    },
+    {
+      "minute": 36,
+      "type": "yellow",
+      "player": "Rodrigo Bentancur",
+      "detail": "Yellow card for a late tackle in the center of the pitch, catching his opponent after losing possession.",
+      "teamSlug": "uruguay"
+    },
+    {
+      "minute": 45,
+      "type": "goal",
+      "player": "Darwin Núñez",
+      "detail": "Uruguay equalizes just before halftime. Núñez times his run perfectly, ghosting between Al-Bulayhi and Abdulhamid to head home from Mathías Olivera's pinpoint cross from the left flank.",
+      "teamSlug": "uruguay"
+    },
+    {
+      "minute": 63,
+      "type": "yellow",
+      "player": "Salman Al-Faraj",
+      "detail": "Booked for dissent after protesting a foul decision, arguing with the referee near the technical area.",
+      "teamSlug": "a-rap-xe-ut"
+    },
+    {
+      "minute": 74,
+      "type": "yellow",
+      "player": "Federico Valverde",
+      "detail": "Receives a yellow card for a cynical foul that stops a promising Saudi Arabia counterattack.",
+      "teamSlug": "uruguay"
+    },
+    {
+      "minute": 87,
+      "type": "yellow",
+      "player": "Ali Al-Bulayhi",
+      "detail": "Cautioned for a tactical foul as Saudi Arabia desperately seeks a winner in the closing stages.",
+      "teamSlug": "a-rap-xe-ut"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "a-rap-xe-ut",
     "teamName": "Saudi Arabia",

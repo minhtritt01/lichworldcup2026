@@ -1,0 +1,322 @@
+{
+  "matchId": "wc26_event_2391737",
+  "eventId": "2391737",
+  "status": "finished",
+  "scrapedAt": "2026-06-16T05:01:33.215Z",
+  "general": {
+    "homeTeam": "Iran",
+    "homeSlug": "iran",
+    "awayTeam": "New Zealand",
+    "awaySlug": "new-zealand",
+    "stage": "FIFA World Cup",
+    "group": "G",
+    "kickoffUTC": "2026-06-16T01:00:00",
+    "venue": "SoFi Stadium",
+    "referee": ""
+  },
+  "score": {
+    "home": 2,
+    "away": 2
+  },
+  "events": [],
+  "form": {
+    "home": [
+      {
+        "opponent": "Grenada",
+        "result": "D",
+        "score": "0-0",
+        "date": "2026-06-11"
+      }
+    ],
+    "away": [
+      {
+        "opponent": "Chile",
+        "result": "W",
+        "score": "4-1",
+        "date": "2026-03-30"
+      }
+    ]
+  },
+  "squads": {
+    "home": [
+      {
+        "name": "Alireza Beiranvand",
+        "number": 1,
+        "position": "GK",
+        "age": 33
+      },
+      {
+        "name": "Payam Niazmand",
+        "number": 2,
+        "position": "GK",
+        "age": 36
+      },
+      {
+        "name": "Hossein Hosseini",
+        "number": 3,
+        "position": "GK",
+        "age": 27
+      },
+      {
+        "name": "Milad Mohammadi",
+        "number": 4,
+        "position": "DF",
+        "age": 32
+      },
+      {
+        "name": "Morteza Pouraliganji",
+        "number": 5,
+        "position": "DF",
+        "age": 33
+      },
+      {
+        "name": "Majid Hosseini",
+        "number": 6,
+        "position": "DF",
+        "age": 26
+      },
+      {
+        "name": "Sadegh Moharrami",
+        "number": 7,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Shahab Zahedi",
+        "number": 8,
+        "position": "DF",
+        "age": 30
+      },
+      {
+        "name": "Saeid Ezatolahi",
+        "number": 9,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Ali Gholizadeh",
+        "number": 10,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Alireza Jahanbakhsh",
+        "number": 11,
+        "position": "MF",
+        "age": 32
+      },
+      {
+        "name": "Ahmad Nourollahi",
+        "number": 12,
+        "position": "MF",
+        "age": 32
+      },
+      {
+        "name": "Mehdi Torabi",
+        "number": 13,
+        "position": "MF",
+        "age": 31
+      },
+      {
+        "name": "Vahid Amiri",
+        "number": 14,
+        "position": "MF",
+        "age": 35
+      },
+      {
+        "name": "Saman Ghoddos",
+        "number": 15,
+        "position": "MF",
+        "age": 32
+      },
+      {
+        "name": "Omid Noorafkan",
+        "number": 16,
+        "position": "MF",
+        "age": 23
+      },
+      {
+        "name": "Sardar Azmoun",
+        "number": 17,
+        "position": "FW",
+        "age": 31
+      },
+      {
+        "name": "Mehdi Taremi",
+        "number": 18,
+        "position": "FW",
+        "age": 33
+      },
+      {
+        "name": "Allahyar Sayyadmanesh",
+        "number": 19,
+        "position": "FW",
+        "age": 26
+      },
+      {
+        "name": "Karim Ansarifard",
+        "number": 20,
+        "position": "FW",
+        "age": 36
+      },
+      {
+        "name": "Shahin Augoustart",
+        "number": 21,
+        "position": "FW",
+        "age": 22
+      },
+      {
+        "name": "Hossein Kanaani",
+        "number": 22,
+        "position": "DF",
+        "age": 38
+      },
+      {
+        "name": "Roozbeh Cheshmi",
+        "number": 23,
+        "position": "DF",
+        "age": 30
+      }
+    ],
+    "away": [
+      {
+        "name": "Stefan Marinovic",
+        "number": 1,
+        "position": "GK",
+        "age": 35
+      },
+      {
+        "name": "Michael Woud",
+        "number": 2,
+        "position": "GK",
+        "age": 28
+      },
+      {
+        "name": "Oliver Sail",
+        "number": 3,
+        "position": "GK",
+        "age": 33
+      },
+      {
+        "name": "Winston Reid",
+        "number": 4,
+        "position": "DF",
+        "age": 37
+      },
+      {
+        "name": "Tommy Smith",
+        "number": 5,
+        "position": "DF",
+        "age": 36
+      },
+      {
+        "name": "Liberato Cacace",
+        "number": 6,
+        "position": "DF",
+        "age": 26
+      },
+      {
+        "name": "Nando Pijnaker",
+        "number": 7,
+        "position": "DF",
+        "age": 27
+      },
+      {
+        "name": "Finn Surman",
+        "number": 8,
+        "position": "DF",
+        "age": 24
+      },
+      {
+        "name": "Ryan Thomas",
+        "number": 9,
+        "position": "MF",
+        "age": 31
+      },
+      {
+        "name": "Elijah Just",
+        "number": 10,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Marko Stamenic",
+        "number": 11,
+        "position": "MF",
+        "age": 24
+      },
+      {
+        "name": "Callan Elliot",
+        "number": 12,
+        "position": "MF",
+        "age": 24
+      },
+      {
+        "name": "Joe Bell",
+        "number": 13,
+        "position": "MF",
+        "age": 28
+      },
+      {
+        "name": "Callum McCowatt",
+        "number": 14,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Tim Payne",
+        "number": 15,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Matthew Garbett",
+        "number": 16,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Chris Wood",
+        "number": 17,
+        "position": "FW",
+        "age": 34
+      },
+      {
+        "name": "Hamish Watson",
+        "number": 18,
+        "position": "FW",
+        "age": 23
+      },
+      {
+        "name": "Dane Scarlett",
+        "number": 19,
+        "position": "FW",
+        "age": 22
+      },
+      {
+        "name": "Ben Old",
+        "number": 20,
+        "position": "FW",
+        "age": 23
+      },
+      {
+        "name": "Matt Sheridan",
+        "number": 21,
+        "position": "FW",
+        "age": 21
+      },
+      {
+        "name": "Liam McGing",
+        "number": 22,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Kosta Barbarouses",
+        "number": 23,
+        "position": "DF",
+        "age": 36
+      }
+    ]
+  }
+}
