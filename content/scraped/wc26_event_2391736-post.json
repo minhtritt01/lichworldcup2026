@@ -1,0 +1,322 @@
+{
+  "matchId": "wc26_event_2391736",
+  "eventId": "2391736",
+  "status": "finished",
+  "scrapedAt": "2026-06-16T05:05:42.114Z",
+  "general": {
+    "homeTeam": "Belgium",
+    "homeSlug": "bi",
+    "awayTeam": "Egypt",
+    "awaySlug": "ai-cap",
+    "stage": "FIFA World Cup",
+    "group": "G",
+    "kickoffUTC": "2026-06-15T19:00:00",
+    "venue": "Lumen Field",
+    "referee": ""
+  },
+  "score": {
+    "home": 1,
+    "away": 1
+  },
+  "events": [],
+  "form": {
+    "home": [
+      {
+        "opponent": "Egypt",
+        "result": "D",
+        "score": "1-1",
+        "date": "2026-06-15"
+      }
+    ],
+    "away": [
+      {
+        "opponent": "Russia",
+        "result": "W",
+        "score": "1-0",
+        "date": "2026-05-28"
+      }
+    ]
+  },
+  "squads": {
+    "home": [
+      {
+        "name": "Thibaut Courtois",
+        "number": 1,
+        "position": "GK",
+        "age": 34
+      },
+      {
+        "name": "Zeno Debast",
+        "number": 2,
+        "position": "DF",
+        "age": 22
+      },
+      {
+        "name": "Arthur Theate",
+        "number": 3,
+        "position": "DF",
+        "age": 26
+      },
+      {
+        "name": "Brandon Mechele",
+        "number": 4,
+        "position": "DF",
+        "age": 33
+      },
+      {
+        "name": "Maxim De Cuyper",
+        "number": 5,
+        "position": "DF",
+        "age": 25
+      },
+      {
+        "name": "Axel Witsel",
+        "number": 6,
+        "position": "MF",
+        "age": 37
+      },
+      {
+        "name": "Kevin De Bruyne",
+        "number": 7,
+        "position": "MF",
+        "age": 35
+      },
+      {
+        "name": "Youri Tielemans",
+        "number": 8,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Romelu Lukaku",
+        "number": 9,
+        "position": "FW",
+        "age": 33
+      },
+      {
+        "name": "Leandro Trossard",
+        "number": 10,
+        "position": "FW",
+        "age": 31
+      },
+      {
+        "name": "Jeremy Doku",
+        "number": 11,
+        "position": "FW",
+        "age": 24
+      },
+      {
+        "name": "Senne Lammens",
+        "number": 12,
+        "position": "GK",
+        "age": 23
+      },
+      {
+        "name": "Mike Penders",
+        "number": 13,
+        "position": "GK",
+        "age": 20
+      },
+      {
+        "name": "Dodi Lukebakio",
+        "number": 14,
+        "position": "FW",
+        "age": 28
+      },
+      {
+        "name": "Thomas Meunier",
+        "number": 15,
+        "position": "DF",
+        "age": 34
+      },
+      {
+        "name": "Koni De Winter",
+        "number": 16,
+        "position": "DF",
+        "age": 24
+      },
+      {
+        "name": "Charles De Ketelaere",
+        "number": 17,
+        "position": "FW",
+        "age": 25
+      },
+      {
+        "name": "Joaquin Seys",
+        "number": 18,
+        "position": "DF",
+        "age": 21
+      },
+      {
+        "name": "Diego Moreira",
+        "number": 19,
+        "position": "MF",
+        "age": 21
+      },
+      {
+        "name": "Hans Vanaken",
+        "number": 20,
+        "position": "MF",
+        "age": 33
+      },
+      {
+        "name": "Timothy Castagne",
+        "number": 21,
+        "position": "DF",
+        "age": 30
+      },
+      {
+        "name": "Alexis Saelemaekers",
+        "number": 22,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Nicolas Raskin",
+        "number": 23,
+        "position": "MF",
+        "age": 25
+      }
+    ],
+    "away": [
+      {
+        "name": "Mohamed El-Shenawy",
+        "number": 1,
+        "position": "GK",
+        "age": 37
+      },
+      {
+        "name": "Gabaski",
+        "number": 2,
+        "position": "GK",
+        "age": 33
+      },
+      {
+        "name": "Mohamed Sobhi",
+        "number": 3,
+        "position": "GK",
+        "age": 27
+      },
+      {
+        "name": "Ahmed Hegazy",
+        "number": 4,
+        "position": "DF",
+        "age": 35
+      },
+      {
+        "name": "Ali Gabr",
+        "number": 5,
+        "position": "DF",
+        "age": 37
+      },
+      {
+        "name": "Omar Kamal",
+        "number": 6,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Akram Tawfik",
+        "number": 7,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Ayman Ashraf",
+        "number": 8,
+        "position": "DF",
+        "age": 32
+      },
+      {
+        "name": "Tarek Hamed",
+        "number": 9,
+        "position": "MF",
+        "age": 37
+      },
+      {
+        "name": "Mahmoud Trezeguet",
+        "number": 10,
+        "position": "MF",
+        "age": 31
+      },
+      {
+        "name": "Mohamed Salah",
+        "number": 11,
+        "position": "FW",
+        "age": 34
+      },
+      {
+        "name": "Amr El Sulaya",
+        "number": 12,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Mohamed Elneny",
+        "number": 13,
+        "position": "MF",
+        "age": 33
+      },
+      {
+        "name": "Ramadan Sobhi",
+        "number": 14,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Amr El Sulaya",
+        "number": 15,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Nasser Maher",
+        "number": 16,
+        "position": "MF",
+        "age": 31
+      },
+      {
+        "name": "Emam Ashour",
+        "number": 17,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Mostafa Mohamed",
+        "number": 18,
+        "position": "FW",
+        "age": 26
+      },
+      {
+        "name": "Omar Marmoush",
+        "number": 19,
+        "position": "FW",
+        "age": 27
+      },
+      {
+        "name": "Mahmoud Hassan Trezeguet",
+        "number": 20,
+        "position": "FW",
+        "age": 31
+      },
+      {
+        "name": "Zizo",
+        "number": 21,
+        "position": "FW",
+        "age": 34
+      },
+      {
+        "name": "Mohamed Abdel-Moneim",
+        "number": 22,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Ahmed El Fotouh",
+        "number": 23,
+        "position": "DF",
+        "age": 26
+      }
+    ]
+  }
+}
