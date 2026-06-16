@@ -43,11 +43,13 @@ export default function HomeSchedule({ matches, stageGroups, favoritesTitle, fav
     const favoritesSet = new Set(favorites);
     const isFavoriteMatch = (match: MockMatch) => favoritesSet.has(match.home_slug) || favoritesSet.has(match.away_slug);
 
+    const isFinished = (match: MockMatch) => matchStatuses[match.match_id]?.status === 'finished';
+
     return {
       favoriteMatches: matches.filter(isFavoriteMatch),
-      regularMatches: matches.filter(match => !isFavoriteMatch(match)),
+      regularMatches: matches.filter(match => !isFavoriteMatch(match) && !isFinished(match)),
     };
-  }, [favorites, matches]);
+  }, [favorites, matches, matchStatuses]);
 
   const groupedMatches = useMemo(() => {
     const stageOrder = stageGroups.map(group => group.key);
