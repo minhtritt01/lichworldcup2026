@@ -1,5 +1,48 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 27,
+      "type": "goal",
+      "player": "Inaki Williams",
+      "detail": "Williams collects Partey's incisive pass in behind Panama's backline, cuts inside Escobar and fires a low right-foot strike past Mosquera into the far corner.",
+      "teamSlug": "ghana"
+    },
+    {
+      "minute": 44,
+      "type": "yellow",
+      "player": "Aníbal Godoy",
+      "detail": "Godoy clips Partey's heels from behind as Ghana attempt to build from the back, receiving a caution for persistent fouling in the first half.",
+      "teamSlug": "panama"
+    },
+    {
+      "minute": 58,
+      "type": "yellow",
+      "player": "Thomas Partey",
+      "detail": "Partey slides in late on Cristian Martínez as Panama try to spring a counter-attack, catching him on the ankle and earning a booking.",
+      "teamSlug": "ghana"
+    },
+    {
+      "minute": 65,
+      "type": "goal",
+      "player": "André Ayew",
+      "detail": "André Ayew ghosts in at the far post from a Ghana corner, rising above two defenders to plant a powerful header across Mosquera and into the net.",
+      "teamSlug": "ghana"
+    },
+    {
+      "minute": 79,
+      "type": "goal",
+      "player": "Cecilio Waterman",
+      "detail": "Waterman is fouled inside the area by Djiku and steps up to take the penalty himself, sending Zigi the wrong way to set up a tense finish.",
+      "teamSlug": "panama"
+    },
+    {
+      "minute": 85,
+      "type": "substitution",
+      "player": "Jordan Ayew",
+      "detail": "Ghana replace Jordan Ayew with a midfielder as they look to shore up their midfield and protect the slender lead in the final minutes.",
+      "teamSlug": "ghana"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "ghana",
     "teamName": "Ghana",

@@ -1,5 +1,41 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 19,
+      "type": "goal",
+      "player": "Harry Kane",
+      "detail": "Kane drifts to the back post from an England corner, meets Bellingham's delivery with a precise glancing header that clips the inside of the post and crosses the line.",
+      "teamSlug": "anh"
+    },
+    {
+      "minute": 35,
+      "type": "yellow",
+      "player": "Nikola Moro",
+      "detail": "Moro brings down Bellingham cynically in the centre circle as England look to break quickly, earning a booking for the professional foul.",
+      "teamSlug": "croatia"
+    },
+    {
+      "minute": 51,
+      "type": "goal",
+      "player": "Andrej Kramarić",
+      "detail": "Modrić plays a through ball in behind the England high line and Kramarić peels away from Stones, composing himself before slotting clinically past Pickford.",
+      "teamSlug": "croatia"
+    },
+    {
+      "minute": 62,
+      "type": "yellow",
+      "player": "Luke Shaw",
+      "detail": "Shaw pulls back Perišić on the left flank as Croatia threaten to build another counter, sacrificing a yellow card to prevent a dangerous situation.",
+      "teamSlug": "anh"
+    },
+    {
+      "minute": 73,
+      "type": "goal",
+      "player": "Jude Bellingham",
+      "detail": "Bellingham receives a lay-off from Foden 25 yards out, shifts onto his right foot and bends an unstoppable effort around Livaković into the top right corner.",
+      "teamSlug": "anh"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "anh",
     "teamName": "England",

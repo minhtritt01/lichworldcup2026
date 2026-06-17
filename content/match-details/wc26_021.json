@@ -1,5 +1,48 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 11,
+      "type": "goal",
+      "player": "Cristiano Ronaldo",
+      "detail": "Ronaldo times his run perfectly to attack Cancelo's whipped right-wing cross, rising above Kapuadi to plant a firm header into the bottom-left corner.",
+      "teamSlug": "bo-dao-nha"
+    },
+    {
+      "minute": 29,
+      "type": "yellow",
+      "player": "Ngal'ayel Mukau",
+      "detail": "Mukau lunges in on Vitinha in midfield with a dangerous sliding tackle, halting a Portuguese counter-attack and drawing an inevitable caution.",
+      "teamSlug": "congo-dr"
+    },
+    {
+      "minute": 38,
+      "type": "goal",
+      "player": "Bernardo Silva",
+      "detail": "Silva receives from Neves on the edge of the area, opens his body and curls an exquisite finish into the far corner beyond Mpasi's reach.",
+      "teamSlug": "bo-dao-nha"
+    },
+    {
+      "minute": 55,
+      "type": "yellow",
+      "player": "Samuel Moutoussamy",
+      "detail": "Moutoussamy pulls back Palhinha as Portugal break with numbers, accumulating a booking for persistent fouling throughout the first hour.",
+      "teamSlug": "congo-dr"
+    },
+    {
+      "minute": 71,
+      "type": "goal",
+      "player": "Rafael Leão",
+      "detail": "Leão bursts in behind Wan-Bissaka after Neves threads a perfectly weighted through ball, rounds Mpasi and rolls into an empty net to seal the win.",
+      "teamSlug": "bo-dao-nha"
+    },
+    {
+      "minute": 80,
+      "type": "substitution",
+      "player": "Meschack Elia",
+      "detail": "DR Congo withdraw Kakuta in favour of Elia as they look for a consolation goal in the closing stages.",
+      "teamSlug": "congo-dr"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "bo-dao-nha",
     "teamName": "Portugal",

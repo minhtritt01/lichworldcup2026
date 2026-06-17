@@ -1,5 +1,48 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 22,
+      "type": "goal",
+      "player": "Michael Gregoritsch",
+      "detail": "Gregoritsch peels off his marker at the near post and meets Alaba's pinpoint left-wing delivery with a powerful header, giving Abulaila no chance.",
+      "teamSlug": "ao"
+    },
+    {
+      "minute": 45,
+      "type": "yellow",
+      "player": "Iyad Haddad",
+      "detail": "Haddad slides in recklessly on Sabitzer just before the break, catching him late and receiving a caution from the referee.",
+      "teamSlug": "jordan"
+    },
+    {
+      "minute": 57,
+      "type": "goal",
+      "player": "Marcel Sabitzer",
+      "detail": "Sabitzer picks up a loose ball 25 yards out after Jordan fail to clear a corner and unleashes a dipping right-foot drive into the top corner.",
+      "teamSlug": "ao"
+    },
+    {
+      "minute": 65,
+      "type": "yellow",
+      "player": "Nicolas Seiwald",
+      "detail": "Seiwald is booked for dissent after arguing with the referee following a foul given against Austria in midfield.",
+      "teamSlug": "ao"
+    },
+    {
+      "minute": 82,
+      "type": "goal",
+      "player": "Musa Al-Taamari",
+      "detail": "Al-Taamari latches onto a through ball in behind Austria's high line and curls a composed left-foot finish inside the far post for a deserved consolation.",
+      "teamSlug": "jordan"
+    },
+    {
+      "minute": 88,
+      "type": "substitution",
+      "player": "Saša Kalajdžić",
+      "detail": "Kalajdžić comes on for Gregoritsch as Austria see out the final minutes with fresh legs up front.",
+      "teamSlug": "ao"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "ao",
     "teamName": "Austria",
