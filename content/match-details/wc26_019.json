@@ -1,5 +1,48 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 18,
+      "type": "goal",
+      "player": "Julián Álvarez",
+      "detail": "Álvarez rises unmarked at the far post and heads in cleanly from 6 yards after Nicolás Tagliafico's pinpoint left-wing cross finds him.",
+      "teamSlug": "argentina"
+    },
+    {
+      "minute": 32,
+      "type": "yellow",
+      "player": "Ramiz Zerrouki",
+      "detail": "Zerrouki slides in dangerously late on Leandro Paredes in midfield, catching his ankle and earning a caution.",
+      "teamSlug": "algeria"
+    },
+    {
+      "minute": 51,
+      "type": "yellow",
+      "player": "Aïssa Mandi",
+      "detail": "Mandi hauls down Álvarez from behind as Argentina breaks forward down the right flank, receiving a yellow card.",
+      "teamSlug": "algeria"
+    },
+    {
+      "minute": 61,
+      "type": "goal",
+      "player": "Lionel Messi",
+      "detail": "Messi collects the ball 22 yards out following a De Paul turnover, shifts onto his left foot, and curls an unstoppable finish into the top corner.",
+      "teamSlug": "argentina"
+    },
+    {
+      "minute": 74,
+      "type": "goal",
+      "player": "Thiago Almada",
+      "detail": "Almada bursts onto a through ball from De Paul on the counter-attack and slots a right-footed finish past the advancing Mastil.",
+      "teamSlug": "argentina"
+    },
+    {
+      "minute": 87,
+      "type": "substitution",
+      "player": "Amine Gouiri",
+      "detail": "Algeria withdraws Gouiri to see out the final minutes with a more defensive shape as the match winds down.",
+      "teamSlug": "algeria"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "argentina",
     "teamName": "Argentina",
