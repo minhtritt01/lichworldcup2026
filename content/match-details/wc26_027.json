@@ -1,5 +1,55 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 11,
+      "type": "goal",
+      "player": "Jonathan David",
+      "detail": "Jonathan David picks up a loose ball after Qatar's backline loses possession, cuts inside from the left wing and curls a left-footed finish into the far corner past Mahmud Abunada.",
+      "teamSlug": "canada"
+    },
+    {
+      "minute": 25,
+      "type": "goal",
+      "player": "Cyle Larin",
+      "detail": "Cyle Larin accelerates down the right flank, cuts inside his marker and strikes a powerful left-footed shot that bends past the goalkeeper's hands into the net.",
+      "teamSlug": "canada"
+    },
+    {
+      "minute": 38,
+      "type": "yellow",
+      "player": "Karim Boudiaf",
+      "detail": "Karim Boudiaf receives a yellow card for a frustrated foul on Ismaël Koné, his desperation growing as Canada dominates the midfield.",
+      "teamSlug": "qatar"
+    },
+    {
+      "minute": 45,
+      "type": "goal",
+      "player": "Tani Oluwaseyi",
+      "detail": "Tani Oluwaseyi rises above the Qatar defense to power home a header from six yards after Stephen Eustáquio's pinpoint cross from the left wing.",
+      "teamSlug": "canada"
+    },
+    {
+      "minute": 52,
+      "type": "goal",
+      "player": "Ismaël Koné",
+      "detail": "Ismaël Koné receives space in midfield to advance, striking a curling left-footed shot from 20 yards that bends into the bottom corner.",
+      "teamSlug": "canada"
+    },
+    {
+      "minute": 67,
+      "type": "goal",
+      "player": "Mathieu Choinière",
+      "detail": "Mathieu Choinière converts from inside the six-yard box, pouncing on a loose ball after a scramble following a Canadian corner kick.",
+      "teamSlug": "canada"
+    },
+    {
+      "minute": 82,
+      "type": "goal",
+      "player": "Alistair Johnston",
+      "detail": "Alistair Johnston rises highest at the far post to power home a header from Joel Waterman's delivery on a set piece, sealing a dominant display.",
+      "teamSlug": "canada"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "canada",
     "teamName": "Canada",

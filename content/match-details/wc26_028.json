@@ -1,5 +1,48 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 14,
+      "type": "yellow",
+      "player": "Lee Tae-seok",
+      "detail": "Crude tackle on Roberto Alvarado down the left wing earns a caution from the referee.",
+      "teamSlug": "han-quoc"
+    },
+    {
+      "minute": 27,
+      "type": "goal",
+      "player": "Santiago Giménez",
+      "detail": "Pounces on a loose ball at the back post after Raúl Jiménez's header is parried by Kim Seung-gyu, tapping home from close range to break the deadlock.",
+      "teamSlug": "mexico"
+    },
+    {
+      "minute": 45,
+      "type": "yellow",
+      "player": "Kim Moon-hwan",
+      "detail": "Catches Alexis Vega with an elbow in a dangerous shoulder challenge moments before half-time.",
+      "teamSlug": "han-quoc"
+    },
+    {
+      "minute": 52,
+      "type": "yellow",
+      "player": "Edson Álvarez",
+      "detail": "Cynical foul to break up a South Korean counter-attack, sliding into Lee Jae-sung's path in midfield.",
+      "teamSlug": "mexico"
+    },
+    {
+      "minute": 69,
+      "type": "yellow",
+      "player": "Hwang In-beom",
+      "detail": "Reckless challenge on Orbelín Pineda in the center circle, earning a booking for excessive force.",
+      "teamSlug": "han-quoc"
+    },
+    {
+      "minute": 84,
+      "type": "yellow",
+      "player": "Orbelín Pineda",
+      "detail": "Lashes out in frustration at Hwang In-beom during a late stoppage, drawing a caution from the referee.",
+      "teamSlug": "mexico"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "mexico",
     "teamName": "Mexico",

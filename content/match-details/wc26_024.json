@@ -1,5 +1,55 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 18,
+      "type": "yellow",
+      "player": "Eldor Shomurodov",
+      "detail": "Booked for a reckless sliding tackle on Daniel Muñoz down the right wing, catching the Colombian defender high.",
+      "teamSlug": "uzbekistan"
+    },
+    {
+      "minute": 25,
+      "type": "goal",
+      "player": "Luis Díaz",
+      "detail": "Colombia takes the lead. Díaz cuts inside from the left wing, evading Jamshid Iskanderov, and fires a low drive into the far corner past Nematov from 16 yards.",
+      "teamSlug": "colombia"
+    },
+    {
+      "minute": 40,
+      "type": "goal",
+      "player": "Eldor Shomurodov",
+      "detail": "Uzbekistan equalizes with a powerful header. Shomurodov rises above Jhon Lucumí at the far post to meet a whipped cross from Azizbek Ganiev on the right, sending it past Ospina.",
+      "teamSlug": "uzbekistan"
+    },
+    {
+      "minute": 58,
+      "type": "yellow",
+      "player": "Doniyor Akhmedov",
+      "detail": "Booked for dissent and remonstration after a foul is called against him in midfield.",
+      "teamSlug": "uzbekistan"
+    },
+    {
+      "minute": 67,
+      "type": "goal",
+      "player": "Cucho Hernández",
+      "detail": "Colombia retakes the lead with a clinical finish. After Jorge Carrascal's smart pass, Hernández controls the ball at the edge of the box and drives a low volley into the net from 18 yards.",
+      "teamSlug": "colombia"
+    },
+    {
+      "minute": 79,
+      "type": "goal",
+      "player": "Jhon Córdoba",
+      "detail": "Colombia seals victory. Córdoba pounces on a loose ball following a scramble in the box and finishes confidently past the advancing Nematov to make it 3-1.",
+      "teamSlug": "colombia"
+    },
+    {
+      "minute": 87,
+      "type": "yellow",
+      "player": "Jamshid Iskanderov",
+      "detail": "Booked for a late challenge on Luis Díaz as Uzbekistan desperately pursues an unlikely comeback in the dying stages.",
+      "teamSlug": "uzbekistan"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "uzbekistan",
     "teamName": "Uzbekistan",
