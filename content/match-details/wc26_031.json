@@ -1,5 +1,55 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 23,
+      "type": "goal",
+      "player": "Neymar",
+      "detail": "Neymar collects a short pass from Bruno Guimarães on the left wing and cuts inside, his low left-footed drive beating Johny Placide at the near post from 18 yards out.",
+      "teamSlug": "brazil"
+    },
+    {
+      "minute": 28,
+      "type": "yellow",
+      "player": "Carl Sainté",
+      "detail": "Sainté receives a yellow card for a reckless sliding challenge on Vinícius Júnior near the halfway line.",
+      "teamSlug": "haiti"
+    },
+    {
+      "minute": 42,
+      "type": "goal",
+      "player": "Vinícius Júnior",
+      "detail": "Vinícius Júnior runs onto a precise through ball from Casemiro down the left flank and strikes a powerful left-footed shot into the top corner from 20 yards, leaving Placide with no chance.",
+      "teamSlug": "brazil"
+    },
+    {
+      "minute": 61,
+      "type": "substitution",
+      "player": "Fabinho",
+      "detail": "Brazil makes a tactical change, bringing off Fabinho and introducing fresh legs in midfield.",
+      "teamSlug": "brazil"
+    },
+    {
+      "minute": 67,
+      "type": "yellow",
+      "player": "Jean-Kévin Duverne",
+      "detail": "Duverne is shown a yellow card for a late challenge on Neymar on the wing.",
+      "teamSlug": "haiti"
+    },
+    {
+      "minute": 78,
+      "type": "goal",
+      "player": "Matheus Cunha",
+      "detail": "After receiving a cutback from Alex Sandro on the left side of the box, Matheus Cunha finishes clinically with a side-footed volley past the outstretched Placide.",
+      "teamSlug": "brazil"
+    },
+    {
+      "minute": 84,
+      "type": "substitution",
+      "player": "Derrick Etienne Jr.",
+      "detail": "Haiti makes a substitution late in the match, bringing off Derrick Etienne Jr. as they seek to salvage something from the contest.",
+      "teamSlug": "haiti"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "brazil",
     "teamName": "Brazil",

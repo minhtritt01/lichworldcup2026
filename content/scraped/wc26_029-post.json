@@ -1,0 +1,322 @@
+{
+  "matchId": "wc26_029",
+  "eventId": "2391750",
+  "status": "finished",
+  "scrapedAt": "2026-06-22T03:04:45.224Z",
+  "general": {
+    "homeTeam": "USA",
+    "homeSlug": "my",
+    "awayTeam": "Australia",
+    "awaySlug": "uc",
+    "stage": "FIFA World Cup",
+    "group": "D",
+    "kickoffUTC": "2026-06-19T19:00:00",
+    "venue": "Lumen Field",
+    "referee": ""
+  },
+  "score": {
+    "home": 2,
+    "away": 0
+  },
+  "events": [],
+  "form": {
+    "home": [
+      {
+        "opponent": "Australia",
+        "result": "W",
+        "score": "2-0",
+        "date": "2026-06-19"
+      }
+    ],
+    "away": [
+      {
+        "opponent": "Turkey",
+        "result": "W",
+        "score": "2-0",
+        "date": "2026-06-14"
+      }
+    ]
+  },
+  "squads": {
+    "home": [
+      {
+        "name": "Matt Turner",
+        "number": 1,
+        "position": "GK",
+        "age": 31
+      },
+      {
+        "name": "Sergiño Dest",
+        "number": 2,
+        "position": "DF",
+        "age": 25
+      },
+      {
+        "name": "Antonee Robinson",
+        "number": 3,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Chris Richards",
+        "number": 4,
+        "position": "DF",
+        "age": 26
+      },
+      {
+        "name": "Tim Ream",
+        "number": 5,
+        "position": "DF",
+        "age": 38
+      },
+      {
+        "name": "Mark McKenzie",
+        "number": 6,
+        "position": "DF",
+        "age": 26
+      },
+      {
+        "name": "Weston McKennie",
+        "number": 7,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Tyler Adams",
+        "number": 8,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Ricardo Pepi",
+        "number": 9,
+        "position": "FW",
+        "age": 23
+      },
+      {
+        "name": "Christian Pulisic",
+        "number": 10,
+        "position": "FW",
+        "age": 27
+      },
+      {
+        "name": "Brenden Aaronson",
+        "number": 11,
+        "position": "FW",
+        "age": 25
+      },
+      {
+        "name": "Matt Freese",
+        "number": 12,
+        "position": "GK",
+        "age": 27
+      },
+      {
+        "name": "Joe Scally",
+        "number": 13,
+        "position": "DF",
+        "age": 23
+      },
+      {
+        "name": "Auston Trusty",
+        "number": 14,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Miles Robinson",
+        "number": 15,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Max Arfsten",
+        "number": 16,
+        "position": "DF",
+        "age": 24
+      },
+      {
+        "name": "Cristian Roldan",
+        "number": 17,
+        "position": "MF",
+        "age": 30
+      },
+      {
+        "name": "Gio Reyna",
+        "number": 18,
+        "position": "MF",
+        "age": 23
+      },
+      {
+        "name": "Haji Wright",
+        "number": 19,
+        "position": "FW",
+        "age": 28
+      },
+      {
+        "name": "Folarin Balogun",
+        "number": 20,
+        "position": "FW",
+        "age": 24
+      },
+      {
+        "name": "Tim Weah",
+        "number": 21,
+        "position": "FW",
+        "age": 26
+      },
+      {
+        "name": "Malik Tillman",
+        "number": 22,
+        "position": "MF",
+        "age": 24
+      },
+      {
+        "name": "Alex Freeman",
+        "number": 23,
+        "position": "DF",
+        "age": 23
+      }
+    ],
+    "away": [
+      {
+        "name": "Mathew Ryan",
+        "number": 1,
+        "position": "GK",
+        "age": 34
+      },
+      {
+        "name": "Milos Degenek",
+        "number": 2,
+        "position": "DF",
+        "age": 32
+      },
+      {
+        "name": "Alessandro Circati",
+        "number": 3,
+        "position": "DF",
+        "age": 22
+      },
+      {
+        "name": "Jacob Italiano",
+        "number": 4,
+        "position": "DF",
+        "age": 24
+      },
+      {
+        "name": "Jordan Bos",
+        "number": 5,
+        "position": "DF",
+        "age": 23
+      },
+      {
+        "name": "Jason Geria",
+        "number": 6,
+        "position": "DF",
+        "age": 33
+      },
+      {
+        "name": "Mathew Leckie",
+        "number": 7,
+        "position": "FW",
+        "age": 35
+      },
+      {
+        "name": "Connor Metcalfe",
+        "number": 8,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Mohamed Toure",
+        "number": 9,
+        "position": "FW",
+        "age": 22
+      },
+      {
+        "name": "Ajdin Hrustic",
+        "number": 10,
+        "position": "FW",
+        "age": 29
+      },
+      {
+        "name": "Awer Mabil",
+        "number": 11,
+        "position": "FW",
+        "age": 30
+      },
+      {
+        "name": "Paul Izzo",
+        "number": 12,
+        "position": "GK",
+        "age": 31
+      },
+      {
+        "name": "Aiden O'Neill",
+        "number": 13,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Cameron Devlin",
+        "number": 14,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Kai Trewin",
+        "number": 15,
+        "position": "DF",
+        "age": 25
+      },
+      {
+        "name": "Aziz Behich",
+        "number": 16,
+        "position": "DF",
+        "age": 35
+      },
+      {
+        "name": "Nestory Irankunda",
+        "number": 17,
+        "position": "FW",
+        "age": 20
+      },
+      {
+        "name": "Patrick Beach",
+        "number": 18,
+        "position": "GK",
+        "age": 22
+      },
+      {
+        "name": "Harry Souttar",
+        "number": 19,
+        "position": "DF",
+        "age": 27
+      },
+      {
+        "name": "Cristian Volpato",
+        "number": 20,
+        "position": "FW",
+        "age": 22
+      },
+      {
+        "name": "Cameron Burgess",
+        "number": 21,
+        "position": "DF",
+        "age": 30
+      },
+      {
+        "name": "Jackson Irvine",
+        "number": 22,
+        "position": "MF",
+        "age": 33
+      },
+      {
+        "name": "Nishan Velupillay",
+        "number": 23,
+        "position": "FW",
+        "age": 25
+      }
+    ]
+  }
+}

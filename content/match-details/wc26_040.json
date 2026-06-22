@@ -1,5 +1,55 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 15,
+      "type": "yellow",
+      "player": "Liberato Cacace",
+      "detail": "Reckless challenge on Omar Marmoush on the left wing, referee shows yellow for excessive force.",
+      "teamSlug": "new-zealand"
+    },
+    {
+      "minute": 22,
+      "type": "goal",
+      "player": "Mohamed Salah",
+      "detail": "Cuts inside from the right flank and curls a brilliant left-footed shot into the top corner, beating Marinovic's outstretched hands.",
+      "teamSlug": "ai-cap"
+    },
+    {
+      "minute": 38,
+      "type": "goal",
+      "player": "Omar Marmoush",
+      "detail": "Receives a cutback from Trezeguet across the six-yard box and finishes with a low strike past Marinovic.",
+      "teamSlug": "ai-cap"
+    },
+    {
+      "minute": 52,
+      "type": "yellow",
+      "player": "Ryan Thomas",
+      "detail": "Cynical foul to halt a dangerous Egyptian counterattack, receives a yellow for denying an obvious scoring opportunity.",
+      "teamSlug": "new-zealand"
+    },
+    {
+      "minute": 67,
+      "type": "goal",
+      "player": "Mostafa Mohamed",
+      "detail": "Powers a towering header past Marinovic at the near post from Amr El Sulaya's dangerous corner kick.",
+      "teamSlug": "ai-cap"
+    },
+    {
+      "minute": 75,
+      "type": "goal",
+      "player": "Chris Wood",
+      "detail": "Reacts quickest to a loose ball in the box after Salah's long-range effort deflects off Tommy Smith, tapping in to give New Zealand a consolation goal.",
+      "teamSlug": "new-zealand"
+    },
+    {
+      "minute": 86,
+      "type": "yellow",
+      "player": "Ahmed Hegazy",
+      "detail": "Deliberate time-wasting near the touchline, referee shows yellow as Egypt protects their lead in the closing stages.",
+      "teamSlug": "ai-cap"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "new-zealand",
     "teamName": "New Zealand",

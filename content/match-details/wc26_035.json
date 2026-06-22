@@ -1,5 +1,55 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 14,
+      "type": "yellow",
+      "player": "Kendry Páez",
+      "detail": "Ecuador midfielder receives yellow card for a reckless sliding tackle on Godfried Roemeratoe.",
+      "teamSlug": "ecuador"
+    },
+    {
+      "minute": 29,
+      "type": "yellow",
+      "player": "Sherel Floranus",
+      "detail": "Curaçao defender booked for a dangerous challenge on Enner Valencia in the penalty area.",
+      "teamSlug": "curacao"
+    },
+    {
+      "minute": 37,
+      "type": "chance",
+      "player": "John Yeboah",
+      "detail": "Ecuador forward connects with a free header from 8 yards following a long throw-in, but sends it over the crossbar.",
+      "teamSlug": "ecuador"
+    },
+    {
+      "minute": 58,
+      "type": "yellow",
+      "player": "Juninho Bacuna",
+      "detail": "Curaçao midfielder receives yellow card for a cynical foul to halt Ecuador's dangerous counterattack.",
+      "teamSlug": "curacao"
+    },
+    {
+      "minute": 68,
+      "type": "substitution",
+      "player": "Jordy Alcívar",
+      "detail": "Jordy Alcívar replaced after appearing to suffer a groin strain.",
+      "teamSlug": "ecuador"
+    },
+    {
+      "minute": 74,
+      "type": "substitution",
+      "player": "Livano Comenencia",
+      "detail": "Curaçao midfielder Livano Comenencia substituted off for tactical reinforcement.",
+      "teamSlug": "curacao"
+    },
+    {
+      "minute": 84,
+      "type": "chance",
+      "player": "Sontje Hansen",
+      "detail": "Curaçao winger cuts inside and fires from 16 yards, but Hernán Galíndez pushes the effort behind for a corner.",
+      "teamSlug": "curacao"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "ecuador",
     "teamName": "Ecuador",

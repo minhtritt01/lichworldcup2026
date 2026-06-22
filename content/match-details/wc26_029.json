@@ -1,5 +1,48 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 15,
+      "type": "yellow",
+      "player": "Aiden O'Neill",
+      "detail": "O'Neill commits a cynical foul on Weston McKennie in midfield, breaking up a dangerous USA counter-attack.",
+      "teamSlug": "uc"
+    },
+    {
+      "minute": 27,
+      "type": "goal",
+      "player": "Christian Pulisic",
+      "detail": "Pulisic receives the ball 22 yards out and curls a stunning left-footed strike into the far corner past Mathew Ryan, giving USA a 1-0 lead.",
+      "teamSlug": "my"
+    },
+    {
+      "minute": 39,
+      "type": "yellow",
+      "player": "Jordan Bos",
+      "detail": "Bos makes a rash lunging challenge on Brenden Aaronson as the winger cuts inside; referee shows yellow for the dangerous, two-footed tackle.",
+      "teamSlug": "uc"
+    },
+    {
+      "minute": 54,
+      "type": "goal",
+      "player": "Brenden Aaronson",
+      "detail": "After Cristian Roldan whips in a dangerous low cross from the right wing, Aaronson pounces on the loose ball in the six-yard box and slots home to make it 2-0 USA.",
+      "teamSlug": "my"
+    },
+    {
+      "minute": 67,
+      "type": "yellow",
+      "player": "Mohamed Toure",
+      "detail": "Toure receives yellow for dissent after complaining loudly to the referee about an offside decision.",
+      "teamSlug": "uc"
+    },
+    {
+      "minute": 81,
+      "type": "yellow",
+      "player": "Tyler Adams",
+      "detail": "Adams gets booked for a firm shoulder charge on Mathew Leckie as USA manages the closing stages of the match.",
+      "teamSlug": "my"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "my",
     "teamName": "USA",

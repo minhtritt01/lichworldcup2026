@@ -1,5 +1,55 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 11,
+      "type": "yellow",
+      "player": "John McGinn",
+      "detail": "Late challenge on Sofyan Amrabat in midfield, referee shows the yellow card.",
+      "teamSlug": "scotland"
+    },
+    {
+      "minute": 35,
+      "type": "yellow",
+      "player": "Achraf Hakimi",
+      "detail": "Cautioned for time-wasting tactics near the sideline.",
+      "teamSlug": "maroc"
+    },
+    {
+      "minute": 38,
+      "type": "goal",
+      "player": "Soufiane Rahimi",
+      "detail": "Cuts inside from the left, strikes a low drive with his right foot from 18 yards, finding the bottom corner to give Morocco the lead.",
+      "teamSlug": "maroc"
+    },
+    {
+      "minute": 56,
+      "type": "yellow",
+      "player": "Ryan Christie",
+      "detail": "Booked for a foul on Youssef Belammari while attempting to break up a Morocco counter-attack.",
+      "teamSlug": "scotland"
+    },
+    {
+      "minute": 68,
+      "type": "yellow",
+      "player": "Sofyan Amrabat",
+      "detail": "Receives a yellow card for a tactical foul in midfield to stifle Scotland's momentum.",
+      "teamSlug": "maroc"
+    },
+    {
+      "minute": 79,
+      "type": "yellow",
+      "player": "Scott McTominay",
+      "detail": "Cynically fouls Bilal El Khannouss to prevent a dangerous Moroccan break, earning a caution.",
+      "teamSlug": "scotland"
+    },
+    {
+      "minute": 85,
+      "type": "yellow",
+      "player": "Ayoub El Kaabi",
+      "detail": "Challenges defensively and is shown yellow for excessive force in a tense final period.",
+      "teamSlug": "maroc"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "scotland",
     "teamName": "Scotland",

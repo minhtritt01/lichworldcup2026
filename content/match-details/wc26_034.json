@@ -1,5 +1,48 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 19,
+      "type": "yellow",
+      "player": "Seko Fofana",
+      "detail": "Receives a yellow card for a hard tackle on Jamal Musiala in midfield, attempting to break up a German possession sequence.",
+      "teamSlug": "bo-bien-nga"
+    },
+    {
+      "minute": 31,
+      "type": "goal",
+      "player": "Florian Wirtz",
+      "detail": "Receives a perfectly weighted through ball from Toni Kroos and finishes with a composed left-footed strike from 16 yards, placing it into the bottom corner past Yahia Fofana.",
+      "teamSlug": "duc"
+    },
+    {
+      "minute": 43,
+      "type": "yellow",
+      "player": "Franck Kessié",
+      "detail": "Receives a yellow card for a cynical foul on Musiala, deliberately halting a promising German counter-attack in the final third.",
+      "teamSlug": "bo-bien-nga"
+    },
+    {
+      "minute": 52,
+      "type": "goal",
+      "player": "Simon Adingra",
+      "detail": "Cuts inside from the left wing onto his right foot and curls a delicate shot into the far corner, leaving Manuel Neuer stranded. Ivory Coast pulls one back.",
+      "teamSlug": "bo-bien-nga"
+    },
+    {
+      "minute": 66,
+      "type": "goal",
+      "player": "Kai Havertz",
+      "detail": "Rises above the Ivory Coast defense to powerfully head home a perfectly delivered cross from Leroy Sané's right flank, restoring Germany's two-goal advantage.",
+      "teamSlug": "duc"
+    },
+    {
+      "minute": 81,
+      "type": "yellow",
+      "player": "Odilon Kossounou",
+      "detail": "Receives a yellow card for a professional foul, cynically bringing down Leroy Sané to prevent a clear goal-scoring opportunity on the wing.",
+      "teamSlug": "bo-bien-nga"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "duc",
     "teamName": "Germany",

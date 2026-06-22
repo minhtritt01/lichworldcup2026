@@ -1,5 +1,48 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 18,
+      "type": "goal",
+      "player": "Lamine Yamal",
+      "detail": "After collecting a pass from Pedri, Yamal cuts inside from the right wing and curls a beautiful left-footed shot into the top-left corner, giving Spain an early lead.",
+      "teamSlug": "tay-ban-nha"
+    },
+    {
+      "minute": 31,
+      "type": "yellow",
+      "player": "Ali Al-Bulayhi",
+      "detail": "Saudi Arabia's center-back receives a yellow card for a reckless challenge on Nico Williams near the touchline.",
+      "teamSlug": "a-rap-xe-ut"
+    },
+    {
+      "minute": 38,
+      "type": "goal",
+      "player": "Nico Williams",
+      "detail": "Williams receives the ball on the left flank, bursts past Saud Abdulhamid with explosive pace, and fires a low drive across goal into the far corner.",
+      "teamSlug": "tay-ban-nha"
+    },
+    {
+      "minute": 55,
+      "type": "yellow",
+      "player": "Salman Al-Faraj",
+      "detail": "The Saudi Arabia midfielder is shown a yellow card for excessive fouling, his third challenge on Rodri in the opening 55 minutes.",
+      "teamSlug": "a-rap-xe-ut"
+    },
+    {
+      "minute": 64,
+      "type": "goal",
+      "player": "Pedri",
+      "detail": "Pedri receives a clever through ball from Rodri in the box, adjusts his body quickly, and slots past Al-Owais with a composed finish.",
+      "teamSlug": "tay-ban-nha"
+    },
+    {
+      "minute": 78,
+      "type": "goal",
+      "player": "Álvaro Morata",
+      "detail": "Morata powers a header past Al-Owais from close range after Fabián Ruiz sends in a pinpoint cross from the right side.",
+      "teamSlug": "tay-ban-nha"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "tay-ban-nha",
     "teamName": "Spain",

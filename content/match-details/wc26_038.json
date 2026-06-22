@@ -1,5 +1,55 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 11,
+      "type": "chance",
+      "player": "Kevin De Bruyne",
+      "detail": "De Bruyne strikes from 28 yards with his right foot, but the effort curls just past the right post.",
+      "teamSlug": "bi"
+    },
+    {
+      "minute": 18,
+      "type": "yellow",
+      "player": "Brandon Mechele",
+      "detail": "Mechele receives a yellow card for a reckless challenge on Sardar Azmoun near the touchline.",
+      "teamSlug": "bi"
+    },
+    {
+      "minute": 33,
+      "type": "chance",
+      "player": "Romelu Lukaku",
+      "detail": "Lukaku rises above the Iran defense to meet Leandro Trossard's cross, but heads over the crossbar.",
+      "teamSlug": "bi"
+    },
+    {
+      "minute": 45,
+      "type": "yellow",
+      "player": "Sadegh Moharrami",
+      "detail": "Moharrami is cautioned for a tactical foul to halt Youri Tielemans' dangerous forward advance.",
+      "teamSlug": "iran"
+    },
+    {
+      "minute": 62,
+      "type": "chance",
+      "player": "Jeremy Doku",
+      "detail": "Doku weaves through the Iran defense down the left but his curled shot is blocked by Milad Mohammadi's deflection.",
+      "teamSlug": "bi"
+    },
+    {
+      "minute": 75,
+      "type": "substitution",
+      "player": "Axel Witsel",
+      "detail": "Belgium makes a midfield substitution, with Witsel being withdrawn to adjust tactics in the second half.",
+      "teamSlug": "bi"
+    },
+    {
+      "minute": 87,
+      "type": "chance",
+      "player": "Mehdi Taremi",
+      "detail": "Taremi meets an Iran set piece with a glancing header that sails just wide of Thibaut Courtois' far post.",
+      "teamSlug": "iran"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "bi",
     "teamName": "Belgium",

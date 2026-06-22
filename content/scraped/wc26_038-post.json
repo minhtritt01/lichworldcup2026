@@ -1,0 +1,322 @@
+{
+  "matchId": "wc26_038",
+  "eventId": "2391754",
+  "status": "finished",
+  "scrapedAt": "2026-06-22T03:04:54.813Z",
+  "general": {
+    "homeTeam": "Belgium",
+    "homeSlug": "bi",
+    "awayTeam": "Iran",
+    "awaySlug": "iran",
+    "stage": "FIFA World Cup",
+    "group": "G",
+    "kickoffUTC": "2026-06-21T19:00:00",
+    "venue": "SoFi Stadium",
+    "referee": ""
+  },
+  "score": {
+    "home": 0,
+    "away": 0
+  },
+  "events": [],
+  "form": {
+    "home": [
+      {
+        "opponent": "Iran",
+        "result": "D",
+        "score": "0-0",
+        "date": "2026-06-21"
+      }
+    ],
+    "away": [
+      {
+        "opponent": "New Zealand",
+        "result": "D",
+        "score": "2-2",
+        "date": "2026-06-16"
+      }
+    ]
+  },
+  "squads": {
+    "home": [
+      {
+        "name": "Thibaut Courtois",
+        "number": 1,
+        "position": "GK",
+        "age": 34
+      },
+      {
+        "name": "Zeno Debast",
+        "number": 2,
+        "position": "DF",
+        "age": 22
+      },
+      {
+        "name": "Arthur Theate",
+        "number": 3,
+        "position": "DF",
+        "age": 26
+      },
+      {
+        "name": "Brandon Mechele",
+        "number": 4,
+        "position": "DF",
+        "age": 33
+      },
+      {
+        "name": "Maxim De Cuyper",
+        "number": 5,
+        "position": "DF",
+        "age": 25
+      },
+      {
+        "name": "Axel Witsel",
+        "number": 6,
+        "position": "MF",
+        "age": 37
+      },
+      {
+        "name": "Kevin De Bruyne",
+        "number": 7,
+        "position": "MF",
+        "age": 35
+      },
+      {
+        "name": "Youri Tielemans",
+        "number": 8,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Romelu Lukaku",
+        "number": 9,
+        "position": "FW",
+        "age": 33
+      },
+      {
+        "name": "Leandro Trossard",
+        "number": 10,
+        "position": "FW",
+        "age": 31
+      },
+      {
+        "name": "Jeremy Doku",
+        "number": 11,
+        "position": "FW",
+        "age": 24
+      },
+      {
+        "name": "Senne Lammens",
+        "number": 12,
+        "position": "GK",
+        "age": 23
+      },
+      {
+        "name": "Mike Penders",
+        "number": 13,
+        "position": "GK",
+        "age": 20
+      },
+      {
+        "name": "Dodi Lukebakio",
+        "number": 14,
+        "position": "FW",
+        "age": 28
+      },
+      {
+        "name": "Thomas Meunier",
+        "number": 15,
+        "position": "DF",
+        "age": 34
+      },
+      {
+        "name": "Koni De Winter",
+        "number": 16,
+        "position": "DF",
+        "age": 24
+      },
+      {
+        "name": "Charles De Ketelaere",
+        "number": 17,
+        "position": "FW",
+        "age": 25
+      },
+      {
+        "name": "Joaquin Seys",
+        "number": 18,
+        "position": "DF",
+        "age": 21
+      },
+      {
+        "name": "Diego Moreira",
+        "number": 19,
+        "position": "MF",
+        "age": 21
+      },
+      {
+        "name": "Hans Vanaken",
+        "number": 20,
+        "position": "MF",
+        "age": 33
+      },
+      {
+        "name": "Timothy Castagne",
+        "number": 21,
+        "position": "DF",
+        "age": 30
+      },
+      {
+        "name": "Alexis Saelemaekers",
+        "number": 22,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Nicolas Raskin",
+        "number": 23,
+        "position": "MF",
+        "age": 25
+      }
+    ],
+    "away": [
+      {
+        "name": "Alireza Beiranvand",
+        "number": 1,
+        "position": "GK",
+        "age": 33
+      },
+      {
+        "name": "Payam Niazmand",
+        "number": 2,
+        "position": "GK",
+        "age": 36
+      },
+      {
+        "name": "Hossein Hosseini",
+        "number": 3,
+        "position": "GK",
+        "age": 27
+      },
+      {
+        "name": "Milad Mohammadi",
+        "number": 4,
+        "position": "DF",
+        "age": 32
+      },
+      {
+        "name": "Morteza Pouraliganji",
+        "number": 5,
+        "position": "DF",
+        "age": 33
+      },
+      {
+        "name": "Majid Hosseini",
+        "number": 6,
+        "position": "DF",
+        "age": 26
+      },
+      {
+        "name": "Sadegh Moharrami",
+        "number": 7,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Shahab Zahedi",
+        "number": 8,
+        "position": "DF",
+        "age": 30
+      },
+      {
+        "name": "Saeid Ezatolahi",
+        "number": 9,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Ali Gholizadeh",
+        "number": 10,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Alireza Jahanbakhsh",
+        "number": 11,
+        "position": "MF",
+        "age": 32
+      },
+      {
+        "name": "Ahmad Nourollahi",
+        "number": 12,
+        "position": "MF",
+        "age": 32
+      },
+      {
+        "name": "Mehdi Torabi",
+        "number": 13,
+        "position": "MF",
+        "age": 31
+      },
+      {
+        "name": "Vahid Amiri",
+        "number": 14,
+        "position": "MF",
+        "age": 35
+      },
+      {
+        "name": "Saman Ghoddos",
+        "number": 15,
+        "position": "MF",
+        "age": 32
+      },
+      {
+        "name": "Omid Noorafkan",
+        "number": 16,
+        "position": "MF",
+        "age": 23
+      },
+      {
+        "name": "Sardar Azmoun",
+        "number": 17,
+        "position": "FW",
+        "age": 31
+      },
+      {
+        "name": "Mehdi Taremi",
+        "number": 18,
+        "position": "FW",
+        "age": 33
+      },
+      {
+        "name": "Allahyar Sayyadmanesh",
+        "number": 19,
+        "position": "FW",
+        "age": 26
+      },
+      {
+        "name": "Karim Ansarifard",
+        "number": 20,
+        "position": "FW",
+        "age": 36
+      },
+      {
+        "name": "Shahin Augoustart",
+        "number": 21,
+        "position": "FW",
+        "age": 22
+      },
+      {
+        "name": "Hossein Kanaani",
+        "number": 22,
+        "position": "DF",
+        "age": 38
+      },
+      {
+        "name": "Roozbeh Cheshmi",
+        "number": 23,
+        "position": "DF",
+        "age": 30
+      }
+    ]
+  }
+}

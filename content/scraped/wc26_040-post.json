@@ -1,8 +1,8 @@
 {
   "matchId": "wc26_040",
   "eventId": "2391755",
-  "status": "live",
-  "scrapedAt": "2026-06-22T03:04:57.810Z",
+  "status": "finished",
+  "scrapedAt": "2026-06-22T03:14:18.504Z",
   "general": {
     "homeTeam": "New Zealand",
     "homeSlug": "new-zealand",
@@ -14,6 +14,11 @@
     "venue": "BC Place",
     "referee": ""
   },
+  "score": {
+    "home": 1,
+    "away": 3
+  },
+  "events": [],
   "form": {
     "home": [
       {

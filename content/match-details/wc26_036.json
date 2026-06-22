@@ -1,5 +1,48 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 12,
+      "type": "goal",
+      "player": "Takumi Minamino",
+      "detail": "Minamino latches onto a through ball from Reo Hatate and slots it past Dahmen with a composed finish into the far corner.",
+      "teamSlug": "nhat-ban"
+    },
+    {
+      "minute": 28,
+      "type": "yellow",
+      "player": "Ellyes Skhiri",
+      "detail": "Skhiri receives a yellow card for a dangerous two-footed challenge on Wataru Endo in midfield.",
+      "teamSlug": "tunisia"
+    },
+    {
+      "minute": 38,
+      "type": "goal",
+      "player": "Yuya Osako",
+      "detail": "Osako rises above Montassar Talbi to powerfully head in Hiroki Sakai's pinpoint cross from the right flank.",
+      "teamSlug": "nhat-ban"
+    },
+    {
+      "minute": 62,
+      "type": "goal",
+      "player": "Reo Hatate",
+      "detail": "After a swift Japan passing sequence, Hatate cuts inside and curls a left-footed shot into the top-right corner from 18 yards.",
+      "teamSlug": "nhat-ban"
+    },
+    {
+      "minute": 75,
+      "type": "goal",
+      "player": "Daichi Kamada",
+      "detail": "Kamada receives the ball on the edge of the box and drives a low, firm strike underneath Dahmen's hands into the bottom corner.",
+      "teamSlug": "nhat-ban"
+    },
+    {
+      "minute": 84,
+      "type": "yellow",
+      "player": "Wahbi Khazri",
+      "detail": "Khazri is shown yellow for animated protests and gesturing toward the referee after a contested offsides decision.",
+      "teamSlug": "tunisia"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "tunisia",
     "teamName": "Tunisia",

@@ -1,5 +1,55 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 14,
+      "type": "yellow",
+      "player": "Manuel Ugarte",
+      "detail": "Receives a caution for a studs-up challenge on João Paulo in the midfield, denying a promising Cape Verde transition.",
+      "teamSlug": "uruguay"
+    },
+    {
+      "minute": 23,
+      "type": "goal",
+      "player": "Darwin Núñez",
+      "detail": "Rises above Stopira at the far post and heads home a pinpoint Federico Valverde cross from the right flank into the top corner.",
+      "teamSlug": "uruguay"
+    },
+    {
+      "minute": 37,
+      "type": "goal",
+      "player": "Ryan Mendes",
+      "detail": "Breaks free on the left wing after a quick Jovane Cabral through-ball and slots a low finish across Sergio Rochet into the near post.",
+      "teamSlug": "cape-verde"
+    },
+    {
+      "minute": 51,
+      "type": "goal",
+      "player": "Luis Suárez",
+      "detail": "Converts a penalty kick with a composed right-footed strike to the goalkeeper's left after Logan Costa handballs in the box.",
+      "teamSlug": "uruguay"
+    },
+    {
+      "minute": 66,
+      "type": "yellow",
+      "player": "Diney Borges",
+      "detail": "Booked for a late tackle on Rodrigo Bentancur as Uruguay attempts to build from the back.",
+      "teamSlug": "cape-verde"
+    },
+    {
+      "minute": 78,
+      "type": "goal",
+      "player": "Gilson Benchimol",
+      "detail": "Capitalizes on a defensive lapse and cuts inside from the left wing, firing a low drive past the diving Rochet to equalize at 2-2.",
+      "teamSlug": "cape-verde"
+    },
+    {
+      "minute": 87,
+      "type": "yellow",
+      "player": "Diego Godín",
+      "detail": "Receives a caution for a cynical foul on Dailon Livramento to prevent a dangerous Cape Verde counter-attack.",
+      "teamSlug": "uruguay"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "uruguay",
     "teamName": "Uruguay",

@@ -1,0 +1,322 @@
+{
+  "matchId": "wc26_034",
+  "eventId": "2391752",
+  "status": "finished",
+  "scrapedAt": "2026-06-22T03:04:49.628Z",
+  "general": {
+    "homeTeam": "Germany",
+    "homeSlug": "duc",
+    "awayTeam": "Ivory Coast",
+    "awaySlug": "bo-bien-nga",
+    "stage": "FIFA World Cup",
+    "group": "E",
+    "kickoffUTC": "2026-06-20T20:00:00",
+    "venue": "BMO Field",
+    "referee": ""
+  },
+  "score": {
+    "home": 2,
+    "away": 1
+  },
+  "events": [],
+  "form": {
+    "home": [
+      {
+        "opponent": "Ivory Coast",
+        "result": "W",
+        "score": "2-1",
+        "date": "2026-06-20"
+      }
+    ],
+    "away": [
+      {
+        "opponent": "Ecuador",
+        "result": "W",
+        "score": "1-0",
+        "date": "2026-06-14"
+      }
+    ]
+  },
+  "squads": {
+    "home": [
+      {
+        "name": "Manuel Neuer",
+        "number": 1,
+        "position": "GK",
+        "age": 40
+      },
+      {
+        "name": "Marc-André ter Stegen",
+        "number": 2,
+        "position": "GK",
+        "age": 34
+      },
+      {
+        "name": "Oliver Baumann",
+        "number": 3,
+        "position": "GK",
+        "age": 36
+      },
+      {
+        "name": "Joshua Kimmich",
+        "number": 4,
+        "position": "DF",
+        "age": 31
+      },
+      {
+        "name": "Antonio Rüdiger",
+        "number": 5,
+        "position": "DF",
+        "age": 33
+      },
+      {
+        "name": "Jonathan Tah",
+        "number": 6,
+        "position": "DF",
+        "age": 30
+      },
+      {
+        "name": "Robin Koch",
+        "number": 7,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "David Raum",
+        "number": 8,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Maximilian Mittelstädt",
+        "number": 9,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Jamal Musiala",
+        "number": 10,
+        "position": "MF",
+        "age": 23
+      },
+      {
+        "name": "Florian Wirtz",
+        "number": 11,
+        "position": "MF",
+        "age": 23
+      },
+      {
+        "name": "Toni Kroos",
+        "number": 12,
+        "position": "MF",
+        "age": 36
+      },
+      {
+        "name": "Leon Goretzka",
+        "number": 13,
+        "position": "MF",
+        "age": 31
+      },
+      {
+        "name": "Emre Can",
+        "number": 14,
+        "position": "MF",
+        "age": 32
+      },
+      {
+        "name": "Ilkay Gündogan",
+        "number": 15,
+        "position": "MF",
+        "age": 35
+      },
+      {
+        "name": "Aleksandar Pavlović",
+        "number": 16,
+        "position": "MF",
+        "age": 21
+      },
+      {
+        "name": "Kai Havertz",
+        "number": 17,
+        "position": "FW",
+        "age": 27
+      },
+      {
+        "name": "Leroy Sané",
+        "number": 18,
+        "position": "FW",
+        "age": 30
+      },
+      {
+        "name": "Maximilian Beier",
+        "number": 19,
+        "position": "FW",
+        "age": 23
+      },
+      {
+        "name": "Niclas Füllkrug",
+        "number": 20,
+        "position": "FW",
+        "age": 33
+      },
+      {
+        "name": "Denis Undav",
+        "number": 21,
+        "position": "FW",
+        "age": 29
+      },
+      {
+        "name": "Nick Woltemade",
+        "number": 22,
+        "position": "FW",
+        "age": 24
+      },
+      {
+        "name": "Assan Ouédraogo",
+        "number": 23,
+        "position": "FW",
+        "age": 19
+      }
+    ],
+    "away": [
+      {
+        "name": "Yahia Fofana",
+        "number": 1,
+        "position": "GK",
+        "age": 25
+      },
+      {
+        "name": "Ousmane Diomandé",
+        "number": 2,
+        "position": "DF",
+        "age": 22
+      },
+      {
+        "name": "Ghislain Konan",
+        "number": 3,
+        "position": "DF",
+        "age": 30
+      },
+      {
+        "name": "Jean Michaël Seri",
+        "number": 4,
+        "position": "MF",
+        "age": 34
+      },
+      {
+        "name": "Wilfried Singo",
+        "number": 5,
+        "position": "DF",
+        "age": 25
+      },
+      {
+        "name": "Seko Fofana",
+        "number": 6,
+        "position": "MF",
+        "age": 31
+      },
+      {
+        "name": "Odilon Kossounou",
+        "number": 7,
+        "position": "DF",
+        "age": 25
+      },
+      {
+        "name": "Franck Kessié",
+        "number": 8,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Ange-Yoan Bonny",
+        "number": 9,
+        "position": "FW",
+        "age": 22
+      },
+      {
+        "name": "Simon Adingra",
+        "number": 10,
+        "position": "FW",
+        "age": 24
+      },
+      {
+        "name": "Yan Diomandé",
+        "number": 11,
+        "position": "FW",
+        "age": 19
+      },
+      {
+        "name": "Elye Wahi",
+        "number": 12,
+        "position": "FW",
+        "age": 23
+      },
+      {
+        "name": "Christopher Operi",
+        "number": 13,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Oumar Diakité",
+        "number": 14,
+        "position": "FW",
+        "age": 22
+      },
+      {
+        "name": "Amad Diallo",
+        "number": 15,
+        "position": "FW",
+        "age": 23
+      },
+      {
+        "name": "Mohamed Koné",
+        "number": 16,
+        "position": "GK",
+        "age": 24
+      },
+      {
+        "name": "Guela Doué",
+        "number": 17,
+        "position": "DF",
+        "age": 23
+      },
+      {
+        "name": "Ibrahim Sangaré",
+        "number": 18,
+        "position": "MF",
+        "age": 28
+      },
+      {
+        "name": "Nicolas Pépé",
+        "number": 19,
+        "position": "FW",
+        "age": 31
+      },
+      {
+        "name": "Emmanuel Agbadou",
+        "number": 20,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Evan Ndicka",
+        "number": 21,
+        "position": "DF",
+        "age": 26
+      },
+      {
+        "name": "Evann Guessand",
+        "number": 22,
+        "position": "FW",
+        "age": 24
+      },
+      {
+        "name": "Alban Lafont",
+        "number": 23,
+        "position": "GK",
+        "age": 27
+      }
+    ]
+  }
+}

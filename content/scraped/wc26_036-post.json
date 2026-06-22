@@ -1,316 +1,321 @@
 {
-  "matchId": "wc26_040",
-  "eventId": "2391755",
-  "status": "live",
-  "scrapedAt": "2026-06-22T03:04:57.810Z",
+  "matchId": "wc26_036",
+  "eventId": "2391753",
+  "status": "finished",
+  "scrapedAt": "2026-06-22T03:04:52.159Z",
   "general": {
-    "homeTeam": "New Zealand",
-    "homeSlug": "new-zealand",
-    "awayTeam": "Egypt",
-    "awaySlug": "ai-cap",
+    "homeTeam": "Tunisia",
+    "homeSlug": "tunisia",
+    "awayTeam": "Japan",
+    "awaySlug": "nhat-ban",
     "stage": "FIFA World Cup",
-    "group": "G",
-    "kickoffUTC": "2026-06-22T01:00:00",
-    "venue": "BC Place",
+    "group": "F",
+    "kickoffUTC": "2026-06-21T04:00:00",
+    "venue": "Estadio BBVA",
     "referee": ""
   },
+  "score": {
+    "home": 0,
+    "away": 4
+  },
+  "events": [],
   "form": {
     "home": [
       {
-        "opponent": "Chile",
-        "result": "W",
-        "score": "4-1",
-        "date": "2026-03-30"
+        "opponent": "Japan",
+        "result": "L",
+        "score": "0-4",
+        "date": "2026-06-21"
       }
     ],
     "away": [
       {
-        "opponent": "Russia",
+        "opponent": "Iceland",
         "result": "W",
         "score": "1-0",
-        "date": "2026-05-28"
+        "date": "2026-05-31"
       }
     ]
   },
   "squads": {
     "home": [
       {
-        "name": "Stefan Marinovic",
+        "name": "Aymen Dahmen",
         "number": 1,
+        "position": "GK",
+        "age": 28
+      },
+      {
+        "name": "Bechir Ben Said",
+        "number": 2,
         "position": "GK",
         "age": 35
       },
       {
-        "name": "Michael Woud",
-        "number": 2,
-        "position": "GK",
-        "age": 28
-      },
-      {
-        "name": "Oliver Sail",
+        "name": "Mouez Hassen",
         "number": 3,
         "position": "GK",
-        "age": 33
+        "age": 31
       },
       {
-        "name": "Winston Reid",
+        "name": "Montassar Talbi",
         "number": 4,
-        "position": "DF",
-        "age": 37
-      },
-      {
-        "name": "Tommy Smith",
-        "number": 5,
-        "position": "DF",
-        "age": 36
-      },
-      {
-        "name": "Liberato Cacace",
-        "number": 6,
         "position": "DF",
         "age": 26
       },
       {
-        "name": "Nando Pijnaker",
+        "name": "Nader Ghandri",
+        "number": 5,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Bilel Ifa",
+        "number": 6,
+        "position": "DF",
+        "age": 32
+      },
+      {
+        "name": "Mohamed Dräger",
         "number": 7,
         "position": "DF",
-        "age": 27
+        "age": 29
       },
       {
-        "name": "Finn Surman",
+        "name": "Wajdi Kechrida",
         "number": 8,
         "position": "DF",
-        "age": 24
+        "age": 29
       },
       {
-        "name": "Ryan Thomas",
+        "name": "Ali Abdi",
         "number": 9,
-        "position": "MF",
-        "age": 31
+        "position": "DF",
+        "age": 29
       },
       {
-        "name": "Elijah Just",
+        "name": "Hannibal Mejbri",
         "number": 10,
+        "position": "MF",
+        "age": 23
+      },
+      {
+        "name": "Aïssa Laïdouni",
+        "number": 11,
         "position": "MF",
         "age": 29
       },
       {
-        "name": "Marko Stamenic",
-        "number": 11,
-        "position": "MF",
-        "age": 24
-      },
-      {
-        "name": "Callan Elliot",
+        "name": "Ellyes Skhiri",
         "number": 12,
         "position": "MF",
-        "age": 24
+        "age": 31
       },
       {
-        "name": "Joe Bell",
+        "name": "Mohamed Ali Ben Romdhane",
         "number": 13,
         "position": "MF",
-        "age": 28
+        "age": 27
       },
       {
-        "name": "Callum McCowatt",
+        "name": "Ferjani Sassi",
         "number": 14,
         "position": "MF",
-        "age": 26
+        "age": 34
       },
       {
-        "name": "Tim Payne",
+        "name": "Elias Achouri",
         "number": 15,
         "position": "MF",
-        "age": 26
+        "age": 23
       },
       {
-        "name": "Matthew Garbett",
+        "name": "Khalil Ayari",
         "number": 16,
         "position": "MF",
-        "age": 26
+        "age": 21
       },
       {
-        "name": "Chris Wood",
+        "name": "Naïm Sliti",
         "number": 17,
         "position": "FW",
         "age": 34
       },
       {
-        "name": "Hamish Watson",
+        "name": "Youssef Msakni",
         "number": 18,
         "position": "FW",
-        "age": 23
+        "age": 35
       },
       {
-        "name": "Dane Scarlett",
+        "name": "Wahbi Khazri",
         "number": 19,
         "position": "FW",
-        "age": 22
+        "age": 35
       },
       {
-        "name": "Ben Old",
+        "name": "Sayfallah Ltaief",
         "number": 20,
         "position": "FW",
-        "age": 23
+        "age": 29
       },
       {
-        "name": "Matt Sheridan",
+        "name": "Hamza Rafia",
         "number": 21,
         "position": "FW",
-        "age": 21
+        "age": 27
       },
       {
-        "name": "Liam McGing",
+        "name": "Firas Chaouat",
         "number": 22,
-        "position": "DF",
-        "age": 28
+        "position": "FW",
+        "age": 29
       },
       {
-        "name": "Kosta Barbarouses",
+        "name": "Hazem Mastouri",
         "number": 23,
-        "position": "DF",
-        "age": 36
+        "position": "FW",
+        "age": 27
       }
     ],
     "away": [
       {
-        "name": "Mohamed El-Shenawy",
+        "name": "Shuichi Gonda",
         "number": 1,
         "position": "GK",
-        "age": 37
+        "age": 36
       },
       {
-        "name": "Gabaski",
+        "name": "Zion Suzuki",
         "number": 2,
         "position": "GK",
-        "age": 33
+        "age": 24
       },
       {
-        "name": "Mohamed Sobhi",
+        "name": "Kosei Tani",
         "number": 3,
         "position": "GK",
-        "age": 27
+        "age": 25
       },
       {
-        "name": "Ahmed Hegazy",
+        "name": "Hiroki Sakai",
         "number": 4,
         "position": "DF",
-        "age": 35
+        "age": 36
       },
       {
-        "name": "Ali Gabr",
+        "name": "Yuto Nagatomo",
         "number": 5,
         "position": "DF",
-        "age": 37
+        "age": 39
       },
       {
-        "name": "Omar Kamal",
+        "name": "Ko Itakura",
         "number": 6,
         "position": "DF",
-        "age": 28
+        "age": 29
       },
       {
-        "name": "Akram Tawfik",
+        "name": "Shogo Taniguchi",
         "number": 7,
         "position": "DF",
-        "age": 28
+        "age": 34
       },
       {
-        "name": "Ayman Ashraf",
+        "name": "Miki Yamane",
         "number": 8,
         "position": "DF",
         "age": 32
       },
       {
-        "name": "Tarek Hamed",
+        "name": "Shunta Nakagawa",
         "number": 9,
-        "position": "MF",
-        "age": 37
+        "position": "DF",
+        "age": 29
       },
       {
-        "name": "Mahmoud Trezeguet",
+        "name": "Wataru Endo",
         "number": 10,
+        "position": "MF",
+        "age": 33
+      },
+      {
+        "name": "Hidemasa Morita",
+        "number": 11,
         "position": "MF",
         "age": 31
       },
       {
-        "name": "Mohamed Salah",
-        "number": 11,
-        "position": "FW",
-        "age": 34
-      },
-      {
-        "name": "Amr El Sulaya",
+        "name": "Daichi Kamada",
         "number": 12,
         "position": "MF",
         "age": 29
       },
       {
-        "name": "Mohamed Elneny",
+        "name": "Gaku Shibasaki",
         "number": 13,
+        "position": "MF",
+        "age": 34
+      },
+      {
+        "name": "Ao Tanaka",
+        "number": 14,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Junya Ito",
+        "number": 15,
         "position": "MF",
         "age": 33
       },
       {
-        "name": "Ramadan Sobhi",
-        "number": 14,
-        "position": "MF",
-        "age": 29
-      },
-      {
-        "name": "Amr El Sulaya",
-        "number": 15,
-        "position": "MF",
-        "age": 27
-      },
-      {
-        "name": "Nasser Maher",
+        "name": "Kaoru Mitoma",
         "number": 16,
         "position": "MF",
-        "age": 31
-      },
-      {
-        "name": "Emam Ashour",
-        "number": 17,
-        "position": "MF",
         "age": 29
       },
       {
-        "name": "Mostafa Mohamed",
-        "number": 18,
-        "position": "FW",
-        "age": 26
-      },
-      {
-        "name": "Omar Marmoush",
-        "number": 19,
-        "position": "FW",
-        "age": 27
-      },
-      {
-        "name": "Mahmoud Hassan Trezeguet",
-        "number": 20,
-        "position": "FW",
-        "age": 31
-      },
-      {
-        "name": "Zizo",
-        "number": 21,
-        "position": "FW",
-        "age": 34
-      },
-      {
-        "name": "Mohamed Abdel-Moneim",
-        "number": 22,
-        "position": "DF",
+        "name": "Ritsu Doan",
+        "number": 17,
+        "position": "MF",
         "age": 28
       },
       {
-        "name": "Ahmed El Fotouh",
+        "name": "Takumi Minamino",
+        "number": 18,
+        "position": "FW",
+        "age": 31
+      },
+      {
+        "name": "Yuya Osako",
+        "number": 19,
+        "position": "FW",
+        "age": 36
+      },
+      {
+        "name": "Reo Hatate",
+        "number": 20,
+        "position": "FW",
+        "age": 28
+      },
+      {
+        "name": "Kyogo Furuhashi",
+        "number": 21,
+        "position": "FW",
+        "age": 31
+      },
+      {
+        "name": "Shota Fujii",
+        "number": 22,
+        "position": "FW",
+        "age": 24
+      },
+      {
+        "name": "Ayase Ueda",
         "number": 23,
-        "position": "DF",
-        "age": 26
+        "position": "FW",
+        "age": 27
       }
     ]
   }
