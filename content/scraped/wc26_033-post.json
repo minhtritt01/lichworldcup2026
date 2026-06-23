@@ -1,0 +1,29 @@
+{
+  "matchId": "wc26_033",
+  "eventId": "",
+  "status": "finished",
+  "scrapedAt": "2026-06-23T16:53:47.000Z",
+  "general": {
+    "homeTeam": "Netherlands",
+    "homeSlug": "ha-lan",
+    "awayTeam": "Sweden",
+    "awaySlug": "thuy-dien",
+    "stage": "FIFA World Cup",
+    "group": "F",
+    "kickoffUTC": "2026-06-20T17:00:00",
+    "venue": "NRG Stadium",
+    "referee": ""
+  },
+  "score": {
+    "home": 5,
+    "away": 1
+  },
+  "form": {
+    "home": [],
+    "away": []
+  },
+  "squads": {
+    "home": [],
+    "away": []
+  }
+}

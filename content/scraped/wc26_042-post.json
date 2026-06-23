@@ -1,0 +1,29 @@
+{
+  "matchId": "wc26_042",
+  "eventId": "",
+  "status": "finished",
+  "scrapedAt": "2026-06-23T16:53:47.000Z",
+  "general": {
+    "homeTeam": "France",
+    "homeSlug": "phap",
+    "awayTeam": "Iraq",
+    "awaySlug": "iraq",
+    "stage": "FIFA World Cup",
+    "group": "I",
+    "kickoffUTC": "2026-06-22T21:00:00",
+    "venue": "Lincoln Financial Field",
+    "referee": ""
+  },
+  "score": {
+    "home": 3,
+    "away": 0
+  },
+  "form": {
+    "home": [],
+    "away": []
+  },
+  "squads": {
+    "home": [],
+    "away": []
+  }
+}

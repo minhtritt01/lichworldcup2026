@@ -1,0 +1,29 @@
+{
+  "matchId": "wc26_020",
+  "eventId": "",
+  "status": "finished",
+  "scrapedAt": "2026-06-23T16:49:37.000Z",
+  "general": {
+    "homeTeam": "Austria",
+    "homeSlug": "ao",
+    "awayTeam": "Jordan",
+    "awaySlug": "jordan",
+    "stage": "FIFA World Cup",
+    "group": "J",
+    "kickoffUTC": "2026-06-17T04:00:00",
+    "venue": "Levi",
+    "referee": ""
+  },
+  "score": {
+    "home": 2,
+    "away": 1
+  },
+  "form": {
+    "home": [],
+    "away": []
+  },
+  "squads": {
+    "home": [],
+    "away": []
+  }
+}

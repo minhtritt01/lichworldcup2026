@@ -1,5 +1,13 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 1,
+      "type": "goal",
+      "player": "Matías Galarza",
+      "detail": "Cubas intercepts a Türkiye pass and releases Enciso, who slides it first-time into Galarza's run; Galarza drills a left-foot rocket through Demiral's legs and past the keeper after just 64 seconds.",
+      "teamSlug": "paraguay"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "tho-nhi-ky",
     "teamName": "Türkiye",

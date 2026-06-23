@@ -1,5 +1,20 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 6,
+      "type": "goal",
+      "player": "Michal Sadílek",
+      "detail": "Sadílek gets on the end of Sojka's deft cutback at the top of the box and rifles a low first-time finish into the far corner within six minutes.",
+      "teamSlug": "sec"
+    },
+    {
+      "minute": 83,
+      "type": "goal",
+      "player": "Teboho Mokoena",
+      "detail": "Mokoena steps up and sends the goalkeeper the wrong way with a calm, well-placed penalty after Thapelo Maseko's shot struck the arm of Pavel Šulc.",
+      "teamSlug": "nam-phi"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "sec",
     "teamName": "Czechia",

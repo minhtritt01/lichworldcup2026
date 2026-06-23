@@ -1,5 +1,34 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 66,
+      "type": "goal",
+      "player": "Kylian Mbappé",
+      "detail": "Mbappé latches onto Olise's incisive through ball, takes a touch to steady himself and places a precise low finish into the bottom-right corner past Mendy.",
+      "teamSlug": "phap"
+    },
+    {
+      "minute": 82,
+      "type": "goal",
+      "player": "Bradley Barcola",
+      "detail": "Barcola bursts in behind the Senegal high line on Rabiot's threaded pass, rounds the keeper and clips a composed finish into an empty net.",
+      "teamSlug": "phap"
+    },
+    {
+      "minute": 90,
+      "type": "goal",
+      "player": "Ibrahim Mbaye",
+      "detail": "Mbaye gets on the end of a low cross from the right, twisting away from his marker to poke a consolation goal past Maignan from close range.",
+      "teamSlug": "senegal"
+    },
+    {
+      "minute": 96,
+      "type": "goal",
+      "player": "Kylian Mbappé",
+      "detail": "Mbappé picks up the ball 30 yards out, shifts onto his right foot and unleashes a dipping long-range drive that catches the goalkeeper completely off guard to seal the win.",
+      "teamSlug": "phap"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "phap",
     "teamName": "France",

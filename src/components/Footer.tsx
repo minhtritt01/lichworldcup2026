@@ -12,6 +12,7 @@ export default function Footer({ locale }: Props) {
     ? [
         { label: "Schedule", href: "/" },
         { label: "Live Scores", href: "/live" },
+        { label: "Standings", href: "/standings" },
         { label: "Teams", href: "/teams" },
         { label: "About", href: "#about" },
         { label: "Privacy", href: "#privacy" },
@@ -20,6 +21,7 @@ export default function Footer({ locale }: Props) {
     : [
         { label: "Lịch thi đấu", href: "/" },
         { label: "Trực tiếp", href: "/live" },
+        { label: "Bảng xếp hạng", href: "/standings" },
         { label: "Đội tuyển", href: "/teams" },
         { label: "Giới thiệu", href: "#about" },
         { label: "Chính sách", href: "#privacy" },

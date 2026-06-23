@@ -1,0 +1,29 @@
+{
+  "matchId": "wc26_026",
+  "eventId": "",
+  "status": "finished",
+  "scrapedAt": "2026-06-23T16:53:47.000Z",
+  "general": {
+    "homeTeam": "Switzerland",
+    "homeSlug": "thuy-si",
+    "awayTeam": "Bosnia & Herzegovina",
+    "awaySlug": "bosnia",
+    "stage": "FIFA World Cup",
+    "group": "B",
+    "kickoffUTC": "2026-06-18T19:00:00",
+    "venue": "SoFi Stadium",
+    "referee": ""
+  },
+  "score": {
+    "home": 4,
+    "away": 1
+  },
+  "form": {
+    "home": [],
+    "away": []
+  },
+  "squads": {
+    "home": [],
+    "away": []
+  }
+}

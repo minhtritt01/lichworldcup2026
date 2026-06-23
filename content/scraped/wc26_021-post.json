@@ -1,0 +1,29 @@
+{
+  "matchId": "wc26_021",
+  "eventId": "",
+  "status": "finished",
+  "scrapedAt": "2026-06-23T16:49:37.000Z",
+  "general": {
+    "homeTeam": "Portugal",
+    "homeSlug": "bo-dao-nha",
+    "awayTeam": "DR Congo",
+    "awaySlug": "congo-dr",
+    "stage": "FIFA World Cup",
+    "group": "K",
+    "kickoffUTC": "2026-06-17T17:00:00",
+    "venue": "NRG Stadium",
+    "referee": ""
+  },
+  "score": {
+    "home": 3,
+    "away": 0
+  },
+  "form": {
+    "home": [],
+    "away": []
+  },
+  "squads": {
+    "home": [],
+    "away": []
+  }
+}

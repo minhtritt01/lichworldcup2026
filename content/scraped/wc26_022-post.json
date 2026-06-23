@@ -1,0 +1,29 @@
+{
+  "matchId": "wc26_022",
+  "eventId": "",
+  "status": "finished",
+  "scrapedAt": "2026-06-23T16:49:37.000Z",
+  "general": {
+    "homeTeam": "England",
+    "homeSlug": "anh",
+    "awayTeam": "Croatia",
+    "awaySlug": "croatia",
+    "stage": "FIFA World Cup",
+    "group": "L",
+    "kickoffUTC": "2026-06-17T20:00:00",
+    "venue": "AT&T Stadium",
+    "referee": ""
+  },
+  "score": {
+    "home": 2,
+    "away": 1
+  },
+  "form": {
+    "home": [],
+    "away": []
+  },
+  "squads": {
+    "home": [],
+    "away": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "matchId": "wc26_017",
+  "eventId": "",
+  "status": "finished",
+  "scrapedAt": "2026-06-23T16:53:47.000Z",
+  "general": {
+    "homeTeam": "France",
+    "homeSlug": "phap",
+    "awayTeam": "Senegal",
+    "awaySlug": "senegal",
+    "stage": "FIFA World Cup",
+    "group": "I",
+    "kickoffUTC": "2026-06-16T19:00:00",
+    "venue": "MetLife Stadium",
+    "referee": ""
+  },
+  "score": {
+    "home": 3,
+    "away": 1
+  },
+  "form": {
+    "home": [],
+    "away": []
+  },
+  "squads": {
+    "home": [],
+    "away": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "matchId": "wc26_041",
+  "eventId": "",
+  "status": "finished",
+  "scrapedAt": "2026-06-23T16:53:47.000Z",
+  "general": {
+    "homeTeam": "Argentina",
+    "homeSlug": "argentina",
+    "awayTeam": "Austria",
+    "awaySlug": "ao",
+    "stage": "FIFA World Cup",
+    "group": "J",
+    "kickoffUTC": "2026-06-22T17:00:00",
+    "venue": "AT&T Stadium",
+    "referee": ""
+  },
+  "score": {
+    "home": 2,
+    "away": 0
+  },
+  "form": {
+    "home": [],
+    "away": []
+  },
+  "squads": {
+    "home": [],
+    "away": []
+  }
+}

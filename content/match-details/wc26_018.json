@@ -1,5 +1,41 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 29,
+      "type": "goal",
+      "player": "Erling Haaland",
+      "detail": "Haaland peels off his marker at the far post, meeting Ødegaard's whipped cross with a powerful header that gives the Iraqi keeper no chance.",
+      "teamSlug": "na-uy"
+    },
+    {
+      "minute": 39,
+      "type": "goal",
+      "player": "Aymen Hussein",
+      "detail": "Hussein picks up a loose ball on the edge of the area after Norway fail to clear and arrows a driven shot into the bottom-left corner to equalize.",
+      "teamSlug": "iraq"
+    },
+    {
+      "minute": 43,
+      "type": "goal",
+      "player": "Erling Haaland",
+      "detail": "Haaland collects a return pass from Sørloth, holds off the defender and rolls a cool finish under the diving keeper to restore Norway's lead before half-time.",
+      "teamSlug": "na-uy"
+    },
+    {
+      "minute": 76,
+      "type": "goal",
+      "player": "Leo Østigård",
+      "detail": "Østigård attacks Ødegaard's perfectly delivered corner at the near post, meeting it with a firm downward header that bounces into the net.",
+      "teamSlug": "na-uy"
+    },
+    {
+      "minute": 96,
+      "type": "goal",
+      "player": "Aymen Hussein",
+      "detail": "Hussein attempts a desperate clearance from Haaland's looping header but can only divert the ball into his own net, sealing a comprehensive Norway win. (OG)",
+      "teamSlug": "na-uy"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "iraq",
     "teamName": "Iraq",

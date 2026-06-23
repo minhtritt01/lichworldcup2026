@@ -1,0 +1,29 @@
+{
+  "matchId": "wc26_023",
+  "eventId": "",
+  "status": "finished",
+  "scrapedAt": "2026-06-23T16:49:37.000Z",
+  "general": {
+    "homeTeam": "Ghana",
+    "homeSlug": "ghana",
+    "awayTeam": "Panama",
+    "awaySlug": "panama",
+    "stage": "FIFA World Cup",
+    "group": "L",
+    "kickoffUTC": "2026-06-17T23:00:00",
+    "venue": "BMO Field",
+    "referee": ""
+  },
+  "score": {
+    "home": 2,
+    "away": 1
+  },
+  "form": {
+    "home": [],
+    "away": []
+  },
+  "squads": {
+    "home": [],
+    "away": []
+  }
+}

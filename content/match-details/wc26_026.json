@@ -1,5 +1,41 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 74,
+      "type": "goal",
+      "player": "Joël Manzambi",
+      "detail": "Manzambi latches onto Embolo's flick-on inside the area, takes one touch to compose himself and drives a clinical finish low into the bottom-left corner.",
+      "teamSlug": "thuy-si"
+    },
+    {
+      "minute": 84,
+      "type": "goal",
+      "player": "Ruben Vargas",
+      "detail": "Vargas runs onto Embolo's precise through ball, beats the offside trap and slots a confident finish past the onrushing Sehic to double Switzerland's lead.",
+      "teamSlug": "thuy-si"
+    },
+    {
+      "minute": 90,
+      "type": "goal",
+      "player": "Joël Manzambi",
+      "detail": "Manzambi caps a stunning cameo, latching onto Vargas's reverse pass inside the area and firing a powerful left-foot drive into the roof of the net.",
+      "teamSlug": "thuy-si"
+    },
+    {
+      "minute": 93,
+      "type": "goal",
+      "player": "Ervin Mahmić",
+      "detail": "Mahmić meets a corner with a glancing header at the near post to pull one back for Bosnia, but it proves only a consolation in stoppage time.",
+      "teamSlug": "bosnia"
+    },
+    {
+      "minute": 97,
+      "type": "goal",
+      "player": "Granit Xhaka",
+      "detail": "Xhaka steps up coolly and sends the keeper diving the wrong way from the penalty spot to complete a remarkable Switzerland comeback and seal four goals in injury time.",
+      "teamSlug": "thuy-si"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "thuy-si",
     "teamName": "Switzerland",

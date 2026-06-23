@@ -1,5 +1,20 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 38,
+      "type": "goal",
+      "player": "Lionel Messi",
+      "detail": "Messi receives from Medina on the left edge of the box, takes one touch to set his feet and bends a sublime curling finish into the far top corner — his 17th World Cup goal and a new all-time record.",
+      "teamSlug": "argentina"
+    },
+    {
+      "minute": 94,
+      "type": "goal",
+      "player": "Lionel Messi",
+      "detail": "Messi collects a cut-back from Lautaro in deep stoppage time, steadies himself and slots a precise low finish into the bottom-right corner to seal the win with his 18th World Cup goal.",
+      "teamSlug": "argentina"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "argentina",
     "teamName": "Argentina",

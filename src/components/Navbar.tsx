@@ -40,6 +40,7 @@ export default function Navbar() {
           <SmartLink href="/" className="text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white text-sm transition">
             {t('schedule')}
           </SmartLink>
+          <SmartLink href="/standings" className="text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white text-sm transition">{t('table')}</SmartLink>
           <SmartLink href="/teams" className="text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white text-sm transition">{t('teams')}</SmartLink>
           <SmartLink href="/reports" className="text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white text-sm transition">{t('reports')}</SmartLink>
           <SmartLink href="/live" className="text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white text-sm transition">{t('standings')}</SmartLink>
@@ -97,6 +98,7 @@ export default function Navbar() {
       {menuOpen && (
         <div className="md:hidden border-t border-slate-200 bg-white px-4 py-3 flex flex-col gap-3 dark:border-slate-700 dark:bg-slate-800">
           <SmartLink href="/" className="text-slate-600 text-sm dark:text-slate-300">{t('schedule')}</SmartLink>
+          <SmartLink href="/standings" className="text-slate-600 text-sm dark:text-slate-300">{t('table')}</SmartLink>
           <SmartLink href="/teams" className="text-slate-600 text-sm dark:text-slate-300">{t('teams')}</SmartLink>
           <SmartLink href="/reports" className="text-slate-600 text-sm dark:text-slate-300">{t('reports')}</SmartLink>
           <SmartLink href="/live" className="text-slate-600 text-sm dark:text-slate-300">{t('standings')}</SmartLink>

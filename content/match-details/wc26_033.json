@@ -1,5 +1,48 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 5,
+      "type": "goal",
+      "player": "Brian Brobbey",
+      "detail": "Brobbey latches onto Dumfries's early right-wing cross, stealing a march on the Swedish centre-back to nod a clinical near-post header past Olsen inside five minutes.",
+      "teamSlug": "ha-lan"
+    },
+    {
+      "minute": 17,
+      "type": "goal",
+      "player": "Brian Brobbey",
+      "detail": "Brobbey turns provider into scorer, spinning away from Hien inside the box and drilling a composed low finish into the far corner to double the Dutch lead.",
+      "teamSlug": "ha-lan"
+    },
+    {
+      "minute": 47,
+      "type": "goal",
+      "player": "Cody Gakpo",
+      "detail": "Gakpo glides into the box on Summerville's precise cutback from the left byline and taps in at the far post with the first touch of the second half.",
+      "teamSlug": "ha-lan"
+    },
+    {
+      "minute": 54,
+      "type": "goal",
+      "player": "Cody Gakpo",
+      "detail": "Gakpo drives into the box after neat link-up with Summerville, shifts onto his left foot and drills a low finish inside the near post to make it four.",
+      "teamSlug": "ha-lan"
+    },
+    {
+      "minute": 59,
+      "type": "goal",
+      "player": "Anthony Elanga",
+      "detail": "Elanga pounces on a rare Swedish counter-attack, surging clear of the Dutch defence and poking a cool finish past Flekken to give Sweden a consolation goal.",
+      "teamSlug": "thuy-dien"
+    },
+    {
+      "minute": 89,
+      "type": "goal",
+      "player": "Crysencio Summerville",
+      "detail": "Summerville completes a fine individual performance by collecting Gakpo's pass on the left, cutting inside and bending an unstoppable effort into the top-right corner.",
+      "teamSlug": "ha-lan"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "ha-lan",
     "teamName": "Netherlands",

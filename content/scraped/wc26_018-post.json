@@ -1,0 +1,29 @@
+{
+  "matchId": "wc26_018",
+  "eventId": "",
+  "status": "finished",
+  "scrapedAt": "2026-06-23T16:53:47.000Z",
+  "general": {
+    "homeTeam": "Iraq",
+    "homeSlug": "iraq",
+    "awayTeam": "Norway",
+    "awaySlug": "na-uy",
+    "stage": "FIFA World Cup",
+    "group": "I",
+    "kickoffUTC": "2026-06-16T22:00:00",
+    "venue": "Gillette Stadium",
+    "referee": ""
+  },
+  "score": {
+    "home": 1,
+    "away": 4
+  },
+  "form": {
+    "home": [],
+    "away": []
+  },
+  "squads": {
+    "home": [],
+    "away": []
+  }
+}

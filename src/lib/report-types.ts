@@ -80,6 +80,7 @@ export interface StandingRow {
   gd: number;
   points: number;
   highlight?: boolean;
+  qualify?: 'direct' | 'third';
 }
 
 export interface NextMatch {

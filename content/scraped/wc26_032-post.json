@@ -1,0 +1,29 @@
+{
+  "matchId": "wc26_032",
+  "eventId": "",
+  "status": "finished",
+  "scrapedAt": "2026-06-23T16:53:47.000Z",
+  "general": {
+    "homeTeam": "Türkiye",
+    "homeSlug": "tho-nhi-ky",
+    "awayTeam": "Paraguay",
+    "awaySlug": "paraguay",
+    "stage": "FIFA World Cup",
+    "group": "D",
+    "kickoffUTC": "2026-06-20T03:00:00",
+    "venue": "Levi",
+    "referee": ""
+  },
+  "score": {
+    "home": 0,
+    "away": 1
+  },
+  "form": {
+    "home": [],
+    "away": []
+  },
+  "squads": {
+    "home": [],
+    "away": []
+  }
+}

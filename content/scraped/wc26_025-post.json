@@ -1,0 +1,29 @@
+{
+  "matchId": "wc26_025",
+  "eventId": "",
+  "status": "finished",
+  "scrapedAt": "2026-06-23T16:53:47.000Z",
+  "general": {
+    "homeTeam": "Czechia",
+    "homeSlug": "sec",
+    "awayTeam": "South Africa",
+    "awaySlug": "nam-phi",
+    "stage": "FIFA World Cup",
+    "group": "A",
+    "kickoffUTC": "2026-06-18T16:00:00",
+    "venue": "Mercedes-Benz Stadium",
+    "referee": ""
+  },
+  "score": {
+    "home": 1,
+    "away": 1
+  },
+  "form": {
+    "home": [],
+    "away": []
+  },
+  "squads": {
+    "home": [],
+    "away": []
+  }
+}

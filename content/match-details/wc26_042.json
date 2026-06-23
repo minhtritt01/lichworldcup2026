@@ -1,5 +1,27 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 14,
+      "type": "goal",
+      "player": "Kylian Mbappé",
+      "detail": "Mbappé receives on the edge of the area, dummies the Iraqi midfielder and fires a swerving weak-foot strike with his right foot into the far corner past the helpless Bashar Resan.",
+      "teamSlug": "phap"
+    },
+    {
+      "minute": 35,
+      "type": "goal",
+      "player": "Ousmane Dembélé",
+      "detail": "Dembélé picks up Tchouaméni's pass on the right, skips past two defenders and cuts inside to curl a composed left-foot finish into the near post.",
+      "teamSlug": "phap"
+    },
+    {
+      "minute": 54,
+      "type": "goal",
+      "player": "Kylian Mbappé",
+      "detail": "Mbappé meets Griezmann's threaded pass in behind the Iraqi defence, takes a touch to control and chips the advancing goalkeeper with a delicate finish on his 100th international appearance.",
+      "teamSlug": "phap"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "phap",
     "teamName": "France",
