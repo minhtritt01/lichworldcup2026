@@ -1,5 +1,34 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 22,
+      "type": "goal",
+      "player": "Harry Kane",
+      "detail": "Kane spins away from Djiku on the left of the box after receiving from Alexander-Arnold, takes one touch and drills a precise low finish across the keeper into the far corner.",
+      "teamSlug": "anh"
+    },
+    {
+      "minute": 38,
+      "type": "goal",
+      "player": "Mohammed Kudus",
+      "detail": "Kudus receives 25 yards from goal, cuts past Walker on his right and unleashes a swerving strike that bends away from Pickford into the top-right corner — a stunning equaliser.",
+      "teamSlug": "ghana"
+    },
+    {
+      "minute": 58,
+      "type": "goal",
+      "player": "Jude Bellingham",
+      "detail": "Bellingham runs from deep, exchanges passes with Foden in the box and slides a precise left-foot finish along the ground past Ati Zigi to restore England's lead.",
+      "teamSlug": "anh"
+    },
+    {
+      "minute": 84,
+      "type": "goal",
+      "player": "Bukayo Saka",
+      "detail": "Saka breaks clear down the right on the counter, skips past his marker and wraps his foot around a curling finish that goes in off the near post to seal the result.",
+      "teamSlug": "anh"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "anh",
     "teamName": "England",

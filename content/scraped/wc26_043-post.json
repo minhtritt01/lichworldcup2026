@@ -1,0 +1,54 @@
+{
+  "matchId": "wc26_043",
+  "eventId": "",
+  "status": "finished",
+  "scrapedAt": "2026-06-23T08:30:00.000Z",
+  "general": {
+    "homeTeam": "Norway",
+    "homeSlug": "na-uy",
+    "awayTeam": "Senegal",
+    "awaySlug": "senegal",
+    "stage": "Vòng Bảng - Bảng I",
+    "group": "I",
+    "kickoffUTC": "2026-06-23T00:00:00Z",
+    "venue": "MetLife Stadium",
+    "referee": ""
+  },
+  "score": {
+    "home": 2,
+    "away": 1
+  },
+  "events": [],
+  "form": {
+    "home": [],
+    "away": []
+  },
+  "squads": {
+    "home": [
+      { "name": "Ørjan Nyland", "number": 1, "position": "GK", "age": 35 },
+      { "name": "Omar Elabdellaoui", "number": 4, "position": "DF", "age": 34 },
+      { "name": "Leo Skiri Østigård", "number": 5, "position": "DF", "age": 26 },
+      { "name": "Andreas Hanche-Olsen", "number": 6, "position": "DF", "age": 28 },
+      { "name": "Birger Meling", "number": 7, "position": "DF", "age": 31 },
+      { "name": "Sander Berge", "number": 9, "position": "MF", "age": 28 },
+      { "name": "Martin Ødegaard", "number": 11, "position": "MF", "age": 27 },
+      { "name": "Fredrik Aursnes", "number": 12, "position": "MF", "age": 29 },
+      { "name": "Erling Haaland", "number": 16, "position": "FW", "age": 25 },
+      { "name": "Alexander Sørloth", "number": 17, "position": "FW", "age": 30 },
+      { "name": "Mohamed Elyounoussi", "number": 18, "position": "FW", "age": 31 }
+    ],
+    "away": [
+      { "name": "Édouard Mendy", "number": 1, "position": "GK", "age": 34 },
+      { "name": "Kalidou Koulibaly", "number": 4, "position": "DF", "age": 35 },
+      { "name": "Abdou Diallo", "number": 5, "position": "DF", "age": 30 },
+      { "name": "Moussa Niakhaté", "number": 7, "position": "DF", "age": 30 },
+      { "name": "Fodé Ballo-Touré", "number": 8, "position": "DF", "age": 29 },
+      { "name": "Idrissa Gueye", "number": 10, "position": "MF", "age": 36 },
+      { "name": "Pape Matar Sarr", "number": 12, "position": "MF", "age": 23 },
+      { "name": "Lamine Camara", "number": 14, "position": "MF", "age": 22 },
+      { "name": "Sadio Mané", "number": 16, "position": "FW", "age": 34 },
+      { "name": "Ismaïla Sarr", "number": 17, "position": "FW", "age": 28 },
+      { "name": "Nicolas Jackson", "number": 18, "position": "FW", "age": 25 }
+    ]
+  }
+}

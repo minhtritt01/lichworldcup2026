@@ -1,0 +1,54 @@
+{
+  "matchId": "wc26_046",
+  "eventId": "",
+  "status": "finished",
+  "scrapedAt": "2026-06-24T04:30:00.000Z",
+  "general": {
+    "homeTeam": "England",
+    "homeSlug": "anh",
+    "awayTeam": "Ghana",
+    "awaySlug": "ghana",
+    "stage": "Vòng Bảng - Bảng L",
+    "group": "L",
+    "kickoffUTC": "2026-06-23T20:00:00Z",
+    "venue": "Gillette Stadium",
+    "referee": ""
+  },
+  "score": {
+    "home": 3,
+    "away": 1
+  },
+  "events": [],
+  "form": {
+    "home": [],
+    "away": []
+  },
+  "squads": {
+    "home": [
+      { "name": "Jordan Pickford", "number": 1, "position": "GK", "age": 32 },
+      { "name": "Kyle Walker", "number": 4, "position": "DF", "age": 36 },
+      { "name": "Harry Maguire", "number": 5, "position": "DF", "age": 33 },
+      { "name": "John Stones", "number": 6, "position": "DF", "age": 32 },
+      { "name": "Luke Shaw", "number": 7, "position": "DF", "age": 30 },
+      { "name": "Declan Rice", "number": 11, "position": "MF", "age": 27 },
+      { "name": "Jude Bellingham", "number": 10, "position": "MF", "age": 22 },
+      { "name": "Trent Alexander-Arnold", "number": 14, "position": "MF", "age": 27 },
+      { "name": "Harry Kane", "number": 16, "position": "FW", "age": 32 },
+      { "name": "Bukayo Saka", "number": 17, "position": "FW", "age": 24 },
+      { "name": "Phil Foden", "number": 12, "position": "FW", "age": 26 }
+    ],
+    "away": [
+      { "name": "Lawrence Ati Zigi", "number": 1, "position": "GK", "age": 29 },
+      { "name": "Daniel Amartey", "number": 4, "position": "DF", "age": 31 },
+      { "name": "Alexander Djiku", "number": 5, "position": "DF", "age": 31 },
+      { "name": "Tariq Lamptey", "number": 6, "position": "DF", "age": 25 },
+      { "name": "Baba Rahman", "number": 7, "position": "DF", "age": 31 },
+      { "name": "Thomas Partey", "number": 9, "position": "MF", "age": 33 },
+      { "name": "Iddrisu Baba", "number": 10, "position": "MF", "age": 30 },
+      { "name": "Mohammed Kudus", "number": 13, "position": "MF", "age": 25 },
+      { "name": "Jordan Ayew", "number": 16, "position": "FW", "age": 34 },
+      { "name": "Inaki Williams", "number": 18, "position": "FW", "age": 32 },
+      { "name": "Ernest Nuamah", "number": 21, "position": "FW", "age": 22 }
+    ]
+  }
+}

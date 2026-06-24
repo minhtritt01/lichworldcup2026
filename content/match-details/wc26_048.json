@@ -1,5 +1,20 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 34,
+      "type": "goal",
+      "player": "Luis Díaz",
+      "detail": "Díaz receives James Rodríguez's incisive through ball on the left channel, takes one touch to steady himself and buries a low drive into the far corner past the helpless Mpasi.",
+      "teamSlug": "colombia"
+    },
+    {
+      "minute": 73,
+      "type": "goal",
+      "player": "Cucho Hernández",
+      "detail": "Cucho Hernández drives at the DR Congo defence, rides a challenge from Batubinsika and finishes powerfully with his right foot from just inside the box to seal Colombia's victory.",
+      "teamSlug": "colombia"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "colombia",
     "teamName": "Colombia",

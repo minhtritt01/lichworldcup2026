@@ -1,0 +1,54 @@
+{
+  "matchId": "wc26_048",
+  "eventId": "",
+  "status": "finished",
+  "scrapedAt": "2026-06-24T10:30:00.000Z",
+  "general": {
+    "homeTeam": "Colombia",
+    "homeSlug": "colombia",
+    "awayTeam": "DR Congo",
+    "awaySlug": "congo-dr",
+    "stage": "Vòng Bảng - Bảng K",
+    "group": "K",
+    "kickoffUTC": "2026-06-24T02:00:00Z",
+    "venue": "Estadio Akron",
+    "referee": ""
+  },
+  "score": {
+    "home": 2,
+    "away": 0
+  },
+  "events": [],
+  "form": {
+    "home": [],
+    "away": []
+  },
+  "squads": {
+    "home": [
+      { "name": "David Ospina", "number": 1, "position": "GK", "age": 37 },
+      { "name": "Daniel Muñoz", "number": 2, "position": "DF", "age": 30 },
+      { "name": "Jhon Lucumí", "number": 3, "position": "DF", "age": 28 },
+      { "name": "Yerry Mina", "number": 13, "position": "DF", "age": 31 },
+      { "name": "Johan Mojica", "number": 17, "position": "DF", "age": 33 },
+      { "name": "Jefferson Lerma", "number": 16, "position": "MF", "age": 31 },
+      { "name": "Richard Ríos", "number": 6, "position": "MF", "age": 26 },
+      { "name": "James Rodríguez", "number": 10, "position": "MF", "age": 34 },
+      { "name": "Luis Díaz", "number": 7, "position": "FW", "age": 29 },
+      { "name": "Jhon Córdoba", "number": 9, "position": "FW", "age": 33 },
+      { "name": "Cucho Hernández", "number": 19, "position": "FW", "age": 27 }
+    ],
+    "away": [
+      { "name": "Lionel Mpasi", "number": 1, "position": "GK", "age": 31 },
+      { "name": "Aaron Wan-Bissaka", "number": 2, "position": "DF", "age": 28 },
+      { "name": "Steve Kapuadi", "number": 3, "position": "DF", "age": 28 },
+      { "name": "Dylan Batubinsika", "number": 5, "position": "DF", "age": 30 },
+      { "name": "Chancel Mbemba", "number": 22, "position": "DF", "age": 31 },
+      { "name": "Ngal'ayel Mukau", "number": 6, "position": "MF", "age": 21 },
+      { "name": "Samuel Moutoussamy", "number": 8, "position": "MF", "age": 29 },
+      { "name": "Théo Bongonda", "number": 10, "position": "MF", "age": 30 },
+      { "name": "Yoane Wissa", "number": 20, "position": "FW", "age": 29 },
+      { "name": "Fiston Mayele", "number": 19, "position": "FW", "age": 31 },
+      { "name": "Simon Banza", "number": 23, "position": "FW", "age": 29 }
+    ]
+  }
+}

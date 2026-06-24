@@ -1,5 +1,27 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 23,
+      "type": "goal",
+      "player": "Erling Haaland",
+      "detail": "Haaland meets Ødegaard's perfectly weighted through ball, holds off Koulibaly's challenge with sheer strength and slots a composed finish past Mendy into the bottom-left corner.",
+      "teamSlug": "na-uy"
+    },
+    {
+      "minute": 67,
+      "type": "goal",
+      "player": "Erling Haaland",
+      "detail": "Haaland collects a long diagonal from Berge, controls on his chest, spins away from his marker and fires a devastating left-foot strike into the top corner from twelve yards.",
+      "teamSlug": "na-uy"
+    },
+    {
+      "minute": 82,
+      "type": "goal",
+      "player": "Sadio Mané",
+      "detail": "Mané wins a penalty after being brought down by Hanche-Olsen inside the box and calmly converts from the spot, sending Nyland the wrong way to give Senegal a lifeline.",
+      "teamSlug": "senegal"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "na-uy",
     "teamName": "Norway",

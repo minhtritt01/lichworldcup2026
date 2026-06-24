@@ -1,0 +1,54 @@
+{
+  "matchId": "wc26_047",
+  "eventId": "",
+  "status": "finished",
+  "scrapedAt": "2026-06-24T07:30:00.000Z",
+  "general": {
+    "homeTeam": "Panama",
+    "homeSlug": "panama",
+    "awayTeam": "Croatia",
+    "awaySlug": "croatia",
+    "stage": "Vòng Bảng - Bảng L",
+    "group": "L",
+    "kickoffUTC": "2026-06-23T23:00:00Z",
+    "venue": "BMO Field",
+    "referee": ""
+  },
+  "score": {
+    "home": 0,
+    "away": 2
+  },
+  "events": [],
+  "form": {
+    "home": [],
+    "away": []
+  },
+  "squads": {
+    "home": [
+      { "name": "Orlando Mosquera", "number": 1, "position": "GK", "age": 34 },
+      { "name": "César Blackman", "number": 4, "position": "DF", "age": 35 },
+      { "name": "Jorge Gutiérrez", "number": 5, "position": "DF", "age": 29 },
+      { "name": "Amir Murillo", "number": 6, "position": "DF", "age": 31 },
+      { "name": "Fidel Escobar", "number": 7, "position": "DF", "age": 32 },
+      { "name": "Aníbal Godoy", "number": 9, "position": "MF", "age": 36 },
+      { "name": "Carlos Harvey", "number": 10, "position": "MF", "age": 33 },
+      { "name": "Adalberto Carrasquilla", "number": 16, "position": "MF", "age": 27 },
+      { "name": "Ismael Díaz", "number": 18, "position": "FW", "age": 27 },
+      { "name": "José Fajardo", "number": 20, "position": "FW", "age": 29 },
+      { "name": "Cecilio Waterman", "number": 19, "position": "FW", "age": 34 }
+    ],
+    "away": [
+      { "name": "Dominik Livaković", "number": 1, "position": "GK", "age": 31 },
+      { "name": "Josip Stanišić", "number": 2, "position": "DF", "age": 26 },
+      { "name": "Joško Gvardiol", "number": 4, "position": "DF", "age": 24 },
+      { "name": "Duje Ćaleta-Car", "number": 5, "position": "DF", "age": 29 },
+      { "name": "Josip Šutalo", "number": 6, "position": "DF", "age": 26 },
+      { "name": "Mateo Kovačić", "number": 8, "position": "MF", "age": 32 },
+      { "name": "Luka Modrić", "number": 10, "position": "MF", "age": 40 },
+      { "name": "Nikola Vlašić", "number": 13, "position": "MF", "age": 28 },
+      { "name": "Andrej Kramarić", "number": 9, "position": "FW", "age": 35 },
+      { "name": "Ivan Perišić", "number": 14, "position": "FW", "age": 37 },
+      { "name": "Ante Budimir", "number": 11, "position": "FW", "age": 34 }
+    ]
+  }
+}

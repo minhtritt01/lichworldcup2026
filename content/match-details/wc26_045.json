@@ -1,5 +1,27 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 15,
+      "type": "goal",
+      "player": "Cristiano Ronaldo",
+      "detail": "Ronaldo converts from the spot with ice-cold precision after Rúben Dias was fouled in the area, sending the keeper left while placing it to the right — his 138th international goal.",
+      "teamSlug": "bo-dao-nha"
+    },
+    {
+      "minute": 44,
+      "type": "goal",
+      "player": "Gonçalo Ramos",
+      "detail": "Ramos ghosts between two Uzbek defenders to meet Leão's whipped cross from the left, arriving perfectly to nod a powerful header past Nematov just before halftime.",
+      "teamSlug": "bo-dao-nha"
+    },
+    {
+      "minute": 77,
+      "type": "goal",
+      "player": "Bruno Fernandes",
+      "detail": "Bruno Fernandes drives forward from midfield, exchanges a one-two with Ronaldo on the edge of the area and strikes a thunderous first-time shot into the top corner.",
+      "teamSlug": "bo-dao-nha"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "bo-dao-nha",
     "teamName": "Portugal",

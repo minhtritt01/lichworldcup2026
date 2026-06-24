@@ -1,0 +1,54 @@
+{
+  "matchId": "wc26_044",
+  "eventId": "",
+  "status": "finished",
+  "scrapedAt": "2026-06-23T11:30:00.000Z",
+  "general": {
+    "homeTeam": "Jordan",
+    "homeSlug": "jordan",
+    "awayTeam": "Algeria",
+    "awaySlug": "algeria",
+    "stage": "Vòng Bảng - Bảng J",
+    "group": "J",
+    "kickoffUTC": "2026-06-23T03:00:00Z",
+    "venue": "Levi's Stadium",
+    "referee": ""
+  },
+  "score": {
+    "home": 1,
+    "away": 2
+  },
+  "events": [],
+  "form": {
+    "home": [],
+    "away": []
+  },
+  "squads": {
+    "home": [
+      { "name": "Yazeed Abulaila", "number": 1, "position": "GK", "age": 34 },
+      { "name": "Yazan Al-Naimat", "number": 4, "position": "DF", "age": 28 },
+      { "name": "Osama Rashid", "number": 5, "position": "DF", "age": 32 },
+      { "name": "Anas Bani Yaseen", "number": 6, "position": "DF", "age": 26 },
+      { "name": "Iyad Haddad", "number": 7, "position": "DF", "age": 30 },
+      { "name": "Noor Al-Rawabdeh", "number": 9, "position": "MF", "age": 26 },
+      { "name": "Ahmad Hayel", "number": 10, "position": "MF", "age": 30 },
+      { "name": "Musa Al-Taamari", "number": 11, "position": "MF", "age": 27 },
+      { "name": "Yazan Khraisat", "number": 12, "position": "MF", "age": 29 },
+      { "name": "Ahmad Dababneh", "number": 17, "position": "FW", "age": 28 },
+      { "name": "Ibrahim Khraisat", "number": 20, "position": "FW", "age": 27 }
+    ],
+    "away": [
+      { "name": "Melvin Mastil", "number": 1, "position": "GK", "age": 26 },
+      { "name": "Aïssa Mandi", "number": 2, "position": "DF", "age": 34 },
+      { "name": "Mohamed Amine Tougai", "number": 4, "position": "DF", "age": 26 },
+      { "name": "Rayan Aït-Nouri", "number": 15, "position": "DF", "age": 25 },
+      { "name": "Ramy Bensebaini", "number": 21, "position": "DF", "age": 31 },
+      { "name": "Ramiz Zerrouki", "number": 6, "position": "MF", "age": 28 },
+      { "name": "Houssem Aouar", "number": 8, "position": "MF", "age": 28 },
+      { "name": "Fares Chaibi", "number": 10, "position": "MF", "age": 23 },
+      { "name": "Riyad Mahrez", "number": 7, "position": "FW", "age": 35 },
+      { "name": "Mohamed Amoura", "number": 18, "position": "FW", "age": 26 },
+      { "name": "Amine Gouiri", "number": 9, "position": "FW", "age": 26 }
+    ]
+  }
+}

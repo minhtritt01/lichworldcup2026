@@ -1,5 +1,20 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 27,
+      "type": "goal",
+      "player": "Luka Modrić",
+      "detail": "Modrić steps up to convert a penalty after Kovačić was brought down in the area by Godoy, placing the ball low to the keeper's left with characteristic composure.",
+      "teamSlug": "croatia"
+    },
+    {
+      "minute": 79,
+      "type": "goal",
+      "player": "Andrej Kramarić",
+      "detail": "Kramarić latches onto Perišić's cross from the left, holds off the defender with his back to goal, spins and fires a half-volley finish past Mosquera to double Croatia's lead.",
+      "teamSlug": "croatia"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "panama",
     "teamName": "Panama",

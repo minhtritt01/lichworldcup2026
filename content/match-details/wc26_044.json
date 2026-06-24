@@ -1,5 +1,27 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 19,
+      "type": "goal",
+      "player": "Riyad Mahrez",
+      "detail": "Mahrez cuts inside from the right flank and curls a precise left-foot finish around the keeper from the edge of the area, opening the scoring with his trademark moved.",
+      "teamSlug": "algeria"
+    },
+    {
+      "minute": 55,
+      "type": "goal",
+      "player": "Musa Al-Taamari",
+      "detail": "Al-Taamari dribbles past two Algerian defenders at the edge of the box, shifts onto his left foot and drives a low finish into the far corner to level the match.",
+      "teamSlug": "jordan"
+    },
+    {
+      "minute": 78,
+      "type": "goal",
+      "player": "Mohamed Amoura",
+      "detail": "Amoura races onto Aouar's dinked through ball behind the Jordanian defensive line, controls superbly on the run and finishes with a clinical side-foot past Abulaila.",
+      "teamSlug": "algeria"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "jordan",
     "teamName": "Jordan",
