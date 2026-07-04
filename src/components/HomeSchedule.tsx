@@ -1,6 +1,6 @@
 'use client';
 
-import { useMemo } from 'react';
+import { useMemo, useState } from 'react';
 import { Star } from 'lucide-react';
 import { useFavorites } from '../lib/hooks/useFavorites';
 import MatchCard from './MatchCard';
@@ -16,6 +16,8 @@ interface MatchStatus {
   score?: { home: number; away: number };
 }
 
+type FilterKey = 'today' | 'all' | 'group' | 'knockout';
+
 interface Props {
   matches: MockMatch[];
   stageGroups: StageGroup[];
@@ -24,6 +26,8 @@ interface Props {
   scheduleTitle: string;
   resultsTitle: string;
   matchStatuses?: Record<string, MatchStatus>;
+  filterLabels: Record<FilterKey, string>;
+  filterEmptyLabel: string;
 }
 
 function getStageGroup(stage: string, stageOrder: string[]): string {
@@ -31,12 +35,27 @@ function getStageGroup(stage: string, stageOrder: string[]): string {
   return stageOrder.find(item => stage.startsWith(item)) ?? stage;
 }
 
-export default function HomeSchedule({ matches, stageGroups, favoritesTitle, favoritesEmpty, scheduleTitle, resultsTitle, matchStatuses = {} }: Props) {
+export default function HomeSchedule({ matches, stageGroups, favoritesTitle, favoritesEmpty, scheduleTitle, resultsTitle, matchStatuses = {}, filterLabels, filterEmptyLabel }: Props) {
   const { favorites } = useFavorites();
+  const [activeFilter, setActiveFilter] = useState<FilterKey>('today');
+
+  const filteredMatches = useMemo(() => {
+    if (activeFilter === 'today') {
+      const todayStr = new Date().toISOString().slice(0, 10);
+      return matches.filter(m => m.kickoff_utc.slice(0, 10) === todayStr);
+    }
+    if (activeFilter === 'group') {
+      return matches.filter(m => m.stage.startsWith('Vòng Bảng'));
+    }
+    if (activeFilter === 'knockout') {
+      return matches.filter(m => !m.stage.startsWith('Vòng Bảng'));
+    }
+    return matches;
+  }, [matches, activeFilter]);
 
   const finishedMatches = useMemo(
-    () => matches.filter(m => matchStatuses[m.match_id]?.status === 'finished'),
-    [matches, matchStatuses]
+    () => filteredMatches.filter(m => matchStatuses[m.match_id]?.status === 'finished'),
+    [filteredMatches, matchStatuses]
   );
 
   const { favoriteMatches, regularMatches } = useMemo(() => {
@@ -46,10 +65,10 @@ export default function HomeSchedule({ matches, stageGroups, favoritesTitle, fav
     const isFinished = (match: MockMatch) => matchStatuses[match.match_id]?.status === 'finished';
 
     return {
-      favoriteMatches: matches.filter(isFavoriteMatch),
-      regularMatches: matches.filter(match => !isFavoriteMatch(match) && !isFinished(match)),
+      favoriteMatches: filteredMatches.filter(isFavoriteMatch),
+      regularMatches: filteredMatches.filter(match => !isFavoriteMatch(match) && !isFinished(match)),
     };
-  }, [favorites, matches, matchStatuses]);
+  }, [favorites, filteredMatches, matchStatuses]);
 
   const groupedMatches = useMemo(() => {
     const stageOrder = stageGroups.map(group => group.key);
@@ -61,8 +80,37 @@ export default function HomeSchedule({ matches, stageGroups, favoritesTitle, fav
     }, {});
   }, [regularMatches, stageGroups]);
 
+  const filters: [FilterKey, string][] = [
+    ['today', filterLabels.today],
+    ['all', filterLabels.all],
+    ['group', filterLabels.group],
+    ['knockout', filterLabels.knockout],
+  ];
+
   return (
     <div className="space-y-10">
+      <div className="flex gap-2 overflow-x-auto pb-1 scrollbar-none">
+        {filters.map(([key, label]) => (
+          <button
+            key={key}
+            type="button"
+            onClick={() => setActiveFilter(key)}
+            className={`shrink-0 px-4 py-2 rounded-xl text-sm font-medium transition ${
+              activeFilter === key
+                ? 'bg-red-600 text-white'
+                : 'bg-white border border-slate-200 text-slate-600 hover:bg-slate-50 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-300 dark:hover:bg-slate-800'
+            }`}
+          >
+            {label}
+          </button>
+        ))}
+      </div>
+
+      {filteredMatches.length === 0 && (
+        <p className="text-sm text-slate-500 dark:text-slate-400">
+          {filterEmptyLabel}
+        </p>
+      )}
       {finishedMatches.length > 0 && (
         <section className="space-y-4">
           <div className="flex items-center gap-3">

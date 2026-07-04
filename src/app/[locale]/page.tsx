@@ -77,26 +77,6 @@ export default async function HomePage({ params }: { params: { locale: string } 
         </div>
       </section>
 
-      <div className="flex gap-2 mb-6 overflow-x-auto pb-1 scrollbar-none">
-        {([
-          ['today', t('filter.today')],
-          ['all', t('filter.all')],
-          ['group', t('filter.groupStage')],
-          ['knockout', t('filter.knockout')],
-        ] as [string, string][]).map(([key, label], i) => (
-          <button
-            key={key}
-            className={`shrink-0 px-4 py-2 rounded-xl text-sm font-medium transition ${
-              i === 0
-                ? 'bg-red-600 text-white'
-                : 'bg-white border border-slate-200 text-slate-600 hover:bg-slate-50 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-300 dark:hover:bg-slate-800'
-            }`}
-          >
-            {label}
-          </button>
-        ))}
-      </div>
-
       <HomeSchedule
         matches={MOCK_MATCHES}
         matchStatuses={matchStatuses}
@@ -107,6 +87,15 @@ export default async function HomePage({ params }: { params: { locale: string } 
           ? 'Ghim các đội bạn theo dõi để đẩy các trận liên quan lên đầu.'
           : 'Pin the teams you follow and their matches will rise to the top.'}
         scheduleTitle={params.locale === 'vi' ? 'Toàn bộ lịch thi đấu' : 'Full schedule'}
+        filterLabels={{
+          today: t('filter.today'),
+          all: t('filter.all'),
+          group: t('filter.groupStage'),
+          knockout: t('filter.knockout'),
+        }}
+        filterEmptyLabel={params.locale === 'vi'
+          ? 'Không có trận đấu nào phù hợp với bộ lọc này.'
+          : 'No matches found for this filter.'}
       />
     </main>
   );
