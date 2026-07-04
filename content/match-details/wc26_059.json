@@ -1,5 +1,55 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 18,
+      "type": "yellow",
+      "player": "Antonee Robinson",
+      "detail": "Receives a yellow card for a reckless sliding challenge on Arda Güler near the touchline.",
+      "teamSlug": "my"
+    },
+    {
+      "minute": 24,
+      "type": "goal",
+      "player": "Arda Güler",
+      "detail": "Türkiye takes the lead with a superb left-footed strike from 20 yards, curling the ball past Turner's outstretched hands into the top corner.",
+      "teamSlug": "tho-nhi-ky"
+    },
+    {
+      "minute": 37,
+      "type": "goal",
+      "player": "Christian Pulisic",
+      "detail": "USA equalizes when Pulisic pounces on a loose ball in the Türkiye penalty area after Günok's initial save, tapping in from close range.",
+      "teamSlug": "my"
+    },
+    {
+      "minute": 52,
+      "type": "goal",
+      "player": "Cenk Tosun",
+      "detail": "Türkiye retakes the lead with a powerful header from 8 yards, directing Hakan Çalhanoğlu's pinpoint cross down past Turner.",
+      "teamSlug": "tho-nhi-ky"
+    },
+    {
+      "minute": 64,
+      "type": "goal",
+      "player": "Ricardo Pepi",
+      "detail": "USA levels the score again as Pepi finishes clinically from 6 yards after Brenden Aaronson's cross finds him at the far post.",
+      "teamSlug": "my"
+    },
+    {
+      "minute": 71,
+      "type": "yellow",
+      "player": "Merih Demiral",
+      "detail": "Receives a yellow card for a tactical foul to stop a dangerous USA counterattack.",
+      "teamSlug": "tho-nhi-ky"
+    },
+    {
+      "minute": 83,
+      "type": "goal",
+      "player": "Irfan Can Kahveci",
+      "detail": "Türkiye wins it with a stunning curled finish from 22 yards, bending the ball beautifully into the top-right corner beyond Turner's reach.",
+      "teamSlug": "tho-nhi-ky"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "tho-nhi-ky",
     "teamName": "Türkiye",

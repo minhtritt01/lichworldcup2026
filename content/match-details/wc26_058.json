@@ -1,5 +1,48 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 12,
+      "type": "goal",
+      "player": "Memphis Depay",
+      "detail": "Depay taps in from close range after Frenkie de Jong slides a low pass across the box, giving Netherlands an early lead.",
+      "teamSlug": "ha-lan"
+    },
+    {
+      "minute": 28,
+      "type": "yellow",
+      "player": "Ellyes Skhiri",
+      "detail": "Skhiri receives a yellow card for a cynical foul on Tijjani Reijnders in midfield.",
+      "teamSlug": "tunisia"
+    },
+    {
+      "minute": 38,
+      "type": "goal",
+      "player": "Cody Gakpo",
+      "detail": "Gakpo capitalizes on a defensive miscommunication between Talbi and Ghandri to finish clinically into the far corner.",
+      "teamSlug": "ha-lan"
+    },
+    {
+      "minute": 62,
+      "type": "goal",
+      "player": "Wahbi Khazri",
+      "detail": "Khazri curls a left-footed shot from 22 yards out that dips just inside the post, giving Tunisia a crucial goal.",
+      "teamSlug": "tunisia"
+    },
+    {
+      "minute": 74,
+      "type": "goal",
+      "player": "Xavi Simons",
+      "detail": "Simons slots home on the counter-attack after receiving a long pass from van Dijk, confirming Netherlands' dominance.",
+      "teamSlug": "ha-lan"
+    },
+    {
+      "minute": 86,
+      "type": "yellow",
+      "player": "Hannibal Mejbri",
+      "detail": "Mejbri picks up a yellow for a frustrated late challenge as Tunisia struggles to contain the Dutch attack.",
+      "teamSlug": "tunisia"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "tunisia",
     "teamName": "Tunisia",

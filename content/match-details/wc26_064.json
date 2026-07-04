@@ -1,5 +1,55 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 15,
+      "type": "yellow",
+      "player": "Mathías Olivera",
+      "detail": "Caught in possession on the left flank and brought down Lamine Yamal with a tactical foul, receiving a caution.",
+      "teamSlug": "uruguay"
+    },
+    {
+      "minute": 34,
+      "type": "goal",
+      "player": "Lamine Yamal",
+      "detail": "Nico Williams surged down the left wing and drilled a low cross to the near post; Lamine Yamal met it with a sharp first-time finish that slipped past Rochet's outstretched hands.",
+      "teamSlug": "tay-ban-nha"
+    },
+    {
+      "minute": 42,
+      "type": "yellow",
+      "player": "Rodrigo Bentancur",
+      "detail": "Yellow for a mistimed challenge on Pedri in the center of the pitch, disrupting Spain's rhythm.",
+      "teamSlug": "uruguay"
+    },
+    {
+      "minute": 61,
+      "type": "sub",
+      "player": "Rodrigo Aguirre",
+      "detail": "Substituted off as Uruguay looked to add more attacking support in pursuit of an equalizer.",
+      "teamSlug": "uruguay"
+    },
+    {
+      "minute": 68,
+      "type": "yellow",
+      "player": "Fabián Ruiz",
+      "detail": "Booked for a hard tackle from behind on Manuel Ugarte as Spain controlled the midfield.",
+      "teamSlug": "tay-ban-nha"
+    },
+    {
+      "minute": 76,
+      "type": "sub",
+      "player": "Pedri",
+      "detail": "Withdrawn by Spain for a fresh tactical approach as they sought to seal the match.",
+      "teamSlug": "tay-ban-nha"
+    },
+    {
+      "minute": 85,
+      "type": "yellow",
+      "player": "José María Giménez",
+      "detail": "Cautioned for a high challenge on Álvaro Morata as Uruguay desperately tried to prevent Spain from extending their lead.",
+      "teamSlug": "uruguay"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "uruguay",
     "teamName": "Uruguay",

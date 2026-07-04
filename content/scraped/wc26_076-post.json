@@ -1,0 +1,322 @@
+{
+  "matchId": "wc26_076",
+  "eventId": "2499835",
+  "status": "finished",
+  "scrapedAt": "2026-07-04T04:43:07.314Z",
+  "general": {
+    "homeTeam": "Brazil",
+    "homeSlug": "brazil",
+    "awayTeam": "Japan",
+    "awaySlug": "nhat-ban",
+    "stage": "FIFA World Cup",
+    "group": "",
+    "kickoffUTC": "2026-06-29T17:00:00",
+    "venue": "NRG Stadium",
+    "referee": ""
+  },
+  "score": {
+    "home": 2,
+    "away": 1
+  },
+  "events": [],
+  "form": {
+    "home": [
+      {
+        "opponent": "Japan",
+        "result": "W",
+        "score": "2-1",
+        "date": "2026-06-29"
+      }
+    ],
+    "away": [
+      {
+        "opponent": "Sweden",
+        "result": "D",
+        "score": "1-1",
+        "date": "2026-06-25"
+      }
+    ]
+  },
+  "squads": {
+    "home": [
+      {
+        "name": "Alisson",
+        "number": 1,
+        "position": "GK",
+        "age": 33
+      },
+      {
+        "name": "Wesley",
+        "number": 2,
+        "position": "DF",
+        "age": 22
+      },
+      {
+        "name": "Gabriel Magalhães",
+        "number": 3,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Marquinhos",
+        "number": 4,
+        "position": "DF",
+        "age": 32
+      },
+      {
+        "name": "Casemiro",
+        "number": 5,
+        "position": "MF",
+        "age": 34
+      },
+      {
+        "name": "Alex Sandro",
+        "number": 6,
+        "position": "DF",
+        "age": 35
+      },
+      {
+        "name": "Vinícius Júnior",
+        "number": 7,
+        "position": "FW",
+        "age": 25
+      },
+      {
+        "name": "Bruno Guimarães",
+        "number": 8,
+        "position": "MF",
+        "age": 28
+      },
+      {
+        "name": "Matheus Cunha",
+        "number": 9,
+        "position": "FW",
+        "age": 27
+      },
+      {
+        "name": "Neymar",
+        "number": 10,
+        "position": "FW",
+        "age": 34
+      },
+      {
+        "name": "Raphinha",
+        "number": 11,
+        "position": "FW",
+        "age": 29
+      },
+      {
+        "name": "Weverton",
+        "number": 12,
+        "position": "GK",
+        "age": 38
+      },
+      {
+        "name": "Danilo Luiz",
+        "number": 13,
+        "position": "DF",
+        "age": 34
+      },
+      {
+        "name": "Bremer",
+        "number": 14,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Léo Pereira",
+        "number": 15,
+        "position": "DF",
+        "age": 30
+      },
+      {
+        "name": "Douglas Santos",
+        "number": 16,
+        "position": "DF",
+        "age": 32
+      },
+      {
+        "name": "Fabinho",
+        "number": 17,
+        "position": "MF",
+        "age": 32
+      },
+      {
+        "name": "Danilo Santos",
+        "number": 18,
+        "position": "MF",
+        "age": 25
+      },
+      {
+        "name": "Endrick",
+        "number": 19,
+        "position": "FW",
+        "age": 19
+      },
+      {
+        "name": "Lucas Paquetá",
+        "number": 20,
+        "position": "MF",
+        "age": 28
+      },
+      {
+        "name": "Luiz Henrique",
+        "number": 21,
+        "position": "FW",
+        "age": 25
+      },
+      {
+        "name": "Gabriel Martinelli",
+        "number": 22,
+        "position": "FW",
+        "age": 24
+      },
+      {
+        "name": "Ederson",
+        "number": 23,
+        "position": "GK",
+        "age": 32
+      }
+    ],
+    "away": [
+      {
+        "name": "Shuichi Gonda",
+        "number": 1,
+        "position": "GK",
+        "age": 36
+      },
+      {
+        "name": "Zion Suzuki",
+        "number": 2,
+        "position": "GK",
+        "age": 24
+      },
+      {
+        "name": "Kosei Tani",
+        "number": 3,
+        "position": "GK",
+        "age": 25
+      },
+      {
+        "name": "Hiroki Sakai",
+        "number": 4,
+        "position": "DF",
+        "age": 36
+      },
+      {
+        "name": "Yuto Nagatomo",
+        "number": 5,
+        "position": "DF",
+        "age": 39
+      },
+      {
+        "name": "Ko Itakura",
+        "number": 6,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Shogo Taniguchi",
+        "number": 7,
+        "position": "DF",
+        "age": 34
+      },
+      {
+        "name": "Miki Yamane",
+        "number": 8,
+        "position": "DF",
+        "age": 32
+      },
+      {
+        "name": "Shunta Nakagawa",
+        "number": 9,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Wataru Endo",
+        "number": 10,
+        "position": "MF",
+        "age": 33
+      },
+      {
+        "name": "Hidemasa Morita",
+        "number": 11,
+        "position": "MF",
+        "age": 31
+      },
+      {
+        "name": "Daichi Kamada",
+        "number": 12,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Gaku Shibasaki",
+        "number": 13,
+        "position": "MF",
+        "age": 34
+      },
+      {
+        "name": "Ao Tanaka",
+        "number": 14,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Junya Ito",
+        "number": 15,
+        "position": "MF",
+        "age": 33
+      },
+      {
+        "name": "Kaoru Mitoma",
+        "number": 16,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Ritsu Doan",
+        "number": 17,
+        "position": "MF",
+        "age": 28
+      },
+      {
+        "name": "Takumi Minamino",
+        "number": 18,
+        "position": "FW",
+        "age": 31
+      },
+      {
+        "name": "Yuya Osako",
+        "number": 19,
+        "position": "FW",
+        "age": 36
+      },
+      {
+        "name": "Reo Hatate",
+        "number": 20,
+        "position": "FW",
+        "age": 28
+      },
+      {
+        "name": "Kyogo Furuhashi",
+        "number": 21,
+        "position": "FW",
+        "age": 31
+      },
+      {
+        "name": "Shota Fujii",
+        "number": 22,
+        "position": "FW",
+        "age": 24
+      },
+      {
+        "name": "Ayase Ueda",
+        "number": 23,
+        "position": "FW",
+        "age": 27
+      }
+    ]
+  }
+}

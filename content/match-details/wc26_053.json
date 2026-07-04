@@ -1,5 +1,48 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 16,
+      "type": "yellow",
+      "player": "David Zima",
+      "detail": "Cynically clipped the heels of Alexis Vega while the winger attempted to race down the left flank.",
+      "teamSlug": "mexico"
+    },
+    {
+      "minute": 27,
+      "type": "goal",
+      "player": "Roberto Alvarado",
+      "detail": "Cut inside past Vladimír Coufal from the right wing with a sharp touch and curled a left-footed shot from 18 yards into the far corner.",
+      "teamSlug": "sec"
+    },
+    {
+      "minute": 41,
+      "type": "yellow",
+      "player": "Tomáš Souček",
+      "detail": "Slid in recklessly on Edson Álvarez in midfield to disrupt Mexico's possession-building rhythm.",
+      "teamSlug": "mexico"
+    },
+    {
+      "minute": 53,
+      "type": "goal",
+      "player": "Raúl Jiménez",
+      "detail": "Outjumped Ladislav Krejčí at the near post to power a firm header past Matěj Kovář from Jesús Gallardo's floating cross from the left.",
+      "teamSlug": "sec"
+    },
+    {
+      "minute": 68,
+      "type": "goal",
+      "player": "Santiago Giménez",
+      "detail": "Sprinted onto Orbelín Pineda's weighted through ball behind the Czechia defense, rounded the advancing Matěj Kovář, and slotted a low finish from six yards.",
+      "teamSlug": "sec"
+    },
+    {
+      "minute": 80,
+      "type": "yellow",
+      "player": "Vladimír Darida",
+      "detail": "Committed a frustrated foul on Roberto Alvarado to halt a dangerous Mexico counter-attack down the right flank.",
+      "teamSlug": "mexico"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "sec",
     "teamName": "Czechia",

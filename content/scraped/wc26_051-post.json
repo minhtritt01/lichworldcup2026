@@ -1,0 +1,322 @@
+{
+  "matchId": "wc26_051",
+  "eventId": "2391765",
+  "status": "finished",
+  "scrapedAt": "2026-07-01T10:32:38.067Z",
+  "general": {
+    "homeTeam": "Scotland",
+    "homeSlug": "scotland",
+    "awayTeam": "Brazil",
+    "awaySlug": "brazil",
+    "stage": "FIFA World Cup",
+    "group": "C",
+    "kickoffUTC": "2026-06-24T22:00:00",
+    "venue": "Hard Rock Stadium",
+    "referee": ""
+  },
+  "score": {
+    "home": 0,
+    "away": 3
+  },
+  "events": [],
+  "form": {
+    "home": [
+      {
+        "opponent": "Brazil",
+        "result": "L",
+        "score": "0-3",
+        "date": "2026-06-24"
+      }
+    ],
+    "away": [
+      {
+        "opponent": "Japan",
+        "result": "W",
+        "score": "2-1",
+        "date": "2026-06-29"
+      }
+    ]
+  },
+  "squads": {
+    "home": [
+      {
+        "name": "Craig Gordon",
+        "number": 1,
+        "position": "GK",
+        "age": 43
+      },
+      {
+        "name": "Angus Gunn",
+        "number": 2,
+        "position": "GK",
+        "age": 30
+      },
+      {
+        "name": "Liam Kelly",
+        "number": 3,
+        "position": "GK",
+        "age": 30
+      },
+      {
+        "name": "Andy Robertson",
+        "number": 4,
+        "position": "DF",
+        "age": 32
+      },
+      {
+        "name": "Grant Hanley",
+        "number": 5,
+        "position": "DF",
+        "age": 34
+      },
+      {
+        "name": "Kieran Tierney",
+        "number": 6,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Scott McKenna",
+        "number": 7,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Jack Hendry",
+        "number": 8,
+        "position": "DF",
+        "age": 31
+      },
+      {
+        "name": "Nathan Patterson",
+        "number": 9,
+        "position": "DF",
+        "age": 24
+      },
+      {
+        "name": "Anthony Ralston",
+        "number": 10,
+        "position": "DF",
+        "age": 27
+      },
+      {
+        "name": "John Souttar",
+        "number": 11,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Aaron Hickey",
+        "number": 12,
+        "position": "DF",
+        "age": 24
+      },
+      {
+        "name": "Dominic Hyam",
+        "number": 13,
+        "position": "DF",
+        "age": 30
+      },
+      {
+        "name": "John McGinn",
+        "number": 14,
+        "position": "MF",
+        "age": 31
+      },
+      {
+        "name": "Scott McTominay",
+        "number": 15,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Ryan Christie",
+        "number": 16,
+        "position": "MF",
+        "age": 31
+      },
+      {
+        "name": "Kenny McLean",
+        "number": 17,
+        "position": "MF",
+        "age": 34
+      },
+      {
+        "name": "Lewis Ferguson",
+        "number": 18,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Ben Gannon-Doak",
+        "number": 19,
+        "position": "MF",
+        "age": 20
+      },
+      {
+        "name": "Findlay Curtis",
+        "number": 20,
+        "position": "MF",
+        "age": 20
+      },
+      {
+        "name": "Tyler Fletcher",
+        "number": 21,
+        "position": "MF",
+        "age": 21
+      },
+      {
+        "name": "Lyndon Dykes",
+        "number": 22,
+        "position": "FW",
+        "age": 30
+      },
+      {
+        "name": "Lawrence Shankland",
+        "number": 23,
+        "position": "FW",
+        "age": 30
+      }
+    ],
+    "away": [
+      {
+        "name": "Alisson",
+        "number": 1,
+        "position": "GK",
+        "age": 33
+      },
+      {
+        "name": "Wesley",
+        "number": 2,
+        "position": "DF",
+        "age": 22
+      },
+      {
+        "name": "Gabriel Magalhães",
+        "number": 3,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Marquinhos",
+        "number": 4,
+        "position": "DF",
+        "age": 32
+      },
+      {
+        "name": "Casemiro",
+        "number": 5,
+        "position": "MF",
+        "age": 34
+      },
+      {
+        "name": "Alex Sandro",
+        "number": 6,
+        "position": "DF",
+        "age": 35
+      },
+      {
+        "name": "Vinícius Júnior",
+        "number": 7,
+        "position": "FW",
+        "age": 25
+      },
+      {
+        "name": "Bruno Guimarães",
+        "number": 8,
+        "position": "MF",
+        "age": 28
+      },
+      {
+        "name": "Matheus Cunha",
+        "number": 9,
+        "position": "FW",
+        "age": 27
+      },
+      {
+        "name": "Neymar",
+        "number": 10,
+        "position": "FW",
+        "age": 34
+      },
+      {
+        "name": "Raphinha",
+        "number": 11,
+        "position": "FW",
+        "age": 29
+      },
+      {
+        "name": "Weverton",
+        "number": 12,
+        "position": "GK",
+        "age": 38
+      },
+      {
+        "name": "Danilo Luiz",
+        "number": 13,
+        "position": "DF",
+        "age": 34
+      },
+      {
+        "name": "Bremer",
+        "number": 14,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Léo Pereira",
+        "number": 15,
+        "position": "DF",
+        "age": 30
+      },
+      {
+        "name": "Douglas Santos",
+        "number": 16,
+        "position": "DF",
+        "age": 32
+      },
+      {
+        "name": "Fabinho",
+        "number": 17,
+        "position": "MF",
+        "age": 32
+      },
+      {
+        "name": "Danilo Santos",
+        "number": 18,
+        "position": "MF",
+        "age": 25
+      },
+      {
+        "name": "Endrick",
+        "number": 19,
+        "position": "FW",
+        "age": 19
+      },
+      {
+        "name": "Lucas Paquetá",
+        "number": 20,
+        "position": "MF",
+        "age": 28
+      },
+      {
+        "name": "Luiz Henrique",
+        "number": 21,
+        "position": "FW",
+        "age": 25
+      },
+      {
+        "name": "Gabriel Martinelli",
+        "number": 22,
+        "position": "FW",
+        "age": 24
+      },
+      {
+        "name": "Ederson",
+        "number": 23,
+        "position": "GK",
+        "age": 32
+      }
+    ]
+  }
+}

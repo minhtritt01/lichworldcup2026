@@ -1,0 +1,322 @@
+{
+  "matchId": "wc26_062",
+  "eventId": "2461119",
+  "status": "finished",
+  "scrapedAt": "2026-07-04T04:04:05.925Z",
+  "general": {
+    "homeTeam": "Senegal",
+    "homeSlug": "senegal",
+    "awayTeam": "Iraq",
+    "awaySlug": "iraq",
+    "stage": "FIFA World Cup",
+    "group": "I",
+    "kickoffUTC": "2026-06-26T19:00:00",
+    "venue": "BMO Field",
+    "referee": ""
+  },
+  "score": {
+    "home": 5,
+    "away": 0
+  },
+  "events": [],
+  "form": {
+    "home": [
+      {
+        "opponent": "Iraq",
+        "result": "W",
+        "score": "5-0",
+        "date": "2026-06-26"
+      }
+    ],
+    "away": [
+      {
+        "opponent": "Norway",
+        "result": "L",
+        "score": "1-4",
+        "date": "2026-06-16"
+      }
+    ]
+  },
+  "squads": {
+    "home": [
+      {
+        "name": "Édouard Mendy",
+        "number": 1,
+        "position": "GK",
+        "age": 34
+      },
+      {
+        "name": "Alfred Gomis",
+        "number": 2,
+        "position": "GK",
+        "age": 32
+      },
+      {
+        "name": "Seny Dieng",
+        "number": 3,
+        "position": "GK",
+        "age": 31
+      },
+      {
+        "name": "Kalidou Koulibaly",
+        "number": 4,
+        "position": "DF",
+        "age": 35
+      },
+      {
+        "name": "Abdou Diallo",
+        "number": 5,
+        "position": "DF",
+        "age": 30
+      },
+      {
+        "name": "Formose Mendy",
+        "number": 6,
+        "position": "DF",
+        "age": 27
+      },
+      {
+        "name": "Moussa Niakhaté",
+        "number": 7,
+        "position": "DF",
+        "age": 30
+      },
+      {
+        "name": "Fodé Ballo-Touré",
+        "number": 8,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Cheikhou Kouyaté",
+        "number": 9,
+        "position": "MF",
+        "age": 36
+      },
+      {
+        "name": "Idrissa Gueye",
+        "number": 10,
+        "position": "MF",
+        "age": 36
+      },
+      {
+        "name": "Nampalys Mendy",
+        "number": 11,
+        "position": "MF",
+        "age": 34
+      },
+      {
+        "name": "Pape Matar Sarr",
+        "number": 12,
+        "position": "MF",
+        "age": 23
+      },
+      {
+        "name": "Pathé Ciss",
+        "number": 13,
+        "position": "MF",
+        "age": 32
+      },
+      {
+        "name": "Lamine Camara",
+        "number": 14,
+        "position": "MF",
+        "age": 22
+      },
+      {
+        "name": "Habib Diallo",
+        "number": 15,
+        "position": "MF",
+        "age": 31
+      },
+      {
+        "name": "Sadio Mané",
+        "number": 16,
+        "position": "FW",
+        "age": 34
+      },
+      {
+        "name": "Ismaïla Sarr",
+        "number": 17,
+        "position": "FW",
+        "age": 28
+      },
+      {
+        "name": "Nicolas Jackson",
+        "number": 18,
+        "position": "FW",
+        "age": 25
+      },
+      {
+        "name": "Iliman Ndiaye",
+        "number": 19,
+        "position": "FW",
+        "age": 26
+      },
+      {
+        "name": "Boulaye Dia",
+        "number": 20,
+        "position": "FW",
+        "age": 29
+      },
+      {
+        "name": "Krepin Diatta",
+        "number": 21,
+        "position": "FW",
+        "age": 27
+      },
+      {
+        "name": "Youssouf Sabaly",
+        "number": 22,
+        "position": "DF",
+        "age": 33
+      },
+      {
+        "name": "Saliou Ciss",
+        "number": 23,
+        "position": "DF",
+        "age": 36
+      }
+    ],
+    "away": [
+      {
+        "name": "Jalal Hassan",
+        "number": 1,
+        "position": "GK",
+        "age": 38
+      },
+      {
+        "name": "Dhurgham Ismail",
+        "number": 2,
+        "position": "GK",
+        "age": 30
+      },
+      {
+        "name": "Mohammed Hameed",
+        "number": 3,
+        "position": "GK",
+        "age": 26
+      },
+      {
+        "name": "Ali Adnan",
+        "number": 4,
+        "position": "DF",
+        "age": 32
+      },
+      {
+        "name": "Saman Goran",
+        "number": 5,
+        "position": "DF",
+        "age": 37
+      },
+      {
+        "name": "Rebin Sulaka",
+        "number": 6,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Amjad Attwan",
+        "number": 7,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Saad Abdul Amir",
+        "number": 8,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Bashar Resan",
+        "number": 9,
+        "position": "MF",
+        "age": 28
+      },
+      {
+        "name": "Nashat Akram",
+        "number": 10,
+        "position": "MF",
+        "age": 39
+      },
+      {
+        "name": "Aymen Hussein",
+        "number": 11,
+        "position": "MF",
+        "age": 28
+      },
+      {
+        "name": "Aziz Karim",
+        "number": 12,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Alaa Abdul-Zahra",
+        "number": 13,
+        "position": "MF",
+        "age": 33
+      },
+      {
+        "name": "Karrar Mohammed",
+        "number": 14,
+        "position": "MF",
+        "age": 28
+      },
+      {
+        "name": "Hudhayfah Al-Nazawi",
+        "number": 15,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Mohammed Dawood",
+        "number": 16,
+        "position": "MF",
+        "age": 24
+      },
+      {
+        "name": "Hammam Ibrahim",
+        "number": 17,
+        "position": "FW",
+        "age": 27
+      },
+      {
+        "name": "Emad Mohammed",
+        "number": 18,
+        "position": "FW",
+        "age": 28
+      },
+      {
+        "name": "Ameen Al-Dakhil",
+        "number": 19,
+        "position": "FW",
+        "age": 23
+      },
+      {
+        "name": "Ahmad Yasin",
+        "number": 20,
+        "position": "FW",
+        "age": 28
+      },
+      {
+        "name": "Osama Rashid",
+        "number": 21,
+        "position": "FW",
+        "age": 26
+      },
+      {
+        "name": "Ahmed Yasin",
+        "number": 22,
+        "position": "DF",
+        "age": 33
+      },
+      {
+        "name": "Hussein Ali",
+        "number": 23,
+        "position": "DF",
+        "age": 29
+      }
+    ]
+  }
+}

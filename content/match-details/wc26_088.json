@@ -1,17 +1,217 @@
 {
   "incidents": [],
   "homeLineup": {
-    "teamSlug": "a-quan-bang-d",
-    "teamName": "Runner-up D",
+    "teamSlug": "uc",
+    "teamName": "Australia",
     "formation": "4-3-3",
     "accent": "#ef4444",
-    "players": []
+    "players": [
+      {
+        "name": "Mathew Ryan",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 12,
+        "teamSlug": "uc",
+        "captain": true
+      },
+      {
+        "name": "Milos Degenek",
+        "number": 2,
+        "role": "RB",
+        "x": 14,
+        "y": 28,
+        "teamSlug": "uc",
+        "captain": false
+      },
+      {
+        "name": "Alessandro Circati",
+        "number": 3,
+        "role": "CB",
+        "x": 36,
+        "y": 30,
+        "teamSlug": "uc",
+        "captain": false
+      },
+      {
+        "name": "Jacob Italiano",
+        "number": 4,
+        "role": "CB",
+        "x": 64,
+        "y": 30,
+        "teamSlug": "uc",
+        "captain": false
+      },
+      {
+        "name": "Jordan Bos",
+        "number": 5,
+        "role": "LB",
+        "x": 86,
+        "y": 28,
+        "teamSlug": "uc",
+        "captain": false
+      },
+      {
+        "name": "Connor Metcalfe",
+        "number": 8,
+        "role": "DM",
+        "x": 22,
+        "y": 48,
+        "teamSlug": "uc",
+        "captain": false
+      },
+      {
+        "name": "Aiden O'Neill",
+        "number": 13,
+        "role": "CM",
+        "x": 50,
+        "y": 56,
+        "teamSlug": "uc",
+        "captain": false
+      },
+      {
+        "name": "Cameron Devlin",
+        "number": 14,
+        "role": "CM",
+        "x": 78,
+        "y": 48,
+        "teamSlug": "uc",
+        "captain": false
+      },
+      {
+        "name": "Mathew Leckie",
+        "number": 7,
+        "role": "RW",
+        "x": 18,
+        "y": 76,
+        "teamSlug": "uc",
+        "captain": false
+      },
+      {
+        "name": "Mohamed Toure",
+        "number": 9,
+        "role": "ST",
+        "x": 50,
+        "y": 84,
+        "teamSlug": "uc",
+        "captain": false
+      },
+      {
+        "name": "Ajdin Hrustic",
+        "number": 10,
+        "role": "LW",
+        "x": 82,
+        "y": 76,
+        "teamSlug": "uc",
+        "captain": false
+      }
+    ]
   },
   "awayLineup": {
-    "teamSlug": "a-quan-bang-g",
-    "teamName": "Runner-up G",
+    "teamSlug": "ai-cap",
+    "teamName": "Egypt",
     "formation": "4-3-3",
     "accent": "#2563eb",
-    "players": []
+    "players": [
+      {
+        "name": "Mohamed El-Shenawy",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 88,
+        "teamSlug": "ai-cap",
+        "captain": false
+      },
+      {
+        "name": "Ahmed Hegazy",
+        "number": 4,
+        "role": "RB",
+        "x": 14,
+        "y": 72,
+        "teamSlug": "ai-cap",
+        "captain": true
+      },
+      {
+        "name": "Ali Gabr",
+        "number": 5,
+        "role": "CB",
+        "x": 36,
+        "y": 70,
+        "teamSlug": "ai-cap",
+        "captain": false
+      },
+      {
+        "name": "Omar Kamal",
+        "number": 6,
+        "role": "CB",
+        "x": 64,
+        "y": 70,
+        "teamSlug": "ai-cap",
+        "captain": false
+      },
+      {
+        "name": "Akram Tawfik",
+        "number": 7,
+        "role": "LB",
+        "x": 86,
+        "y": 72,
+        "teamSlug": "ai-cap",
+        "captain": false
+      },
+      {
+        "name": "Tarek Hamed",
+        "number": 9,
+        "role": "DM",
+        "x": 22,
+        "y": 52,
+        "teamSlug": "ai-cap",
+        "captain": false
+      },
+      {
+        "name": "Mahmoud Trezeguet",
+        "number": 10,
+        "role": "CM",
+        "x": 50,
+        "y": 44,
+        "teamSlug": "ai-cap",
+        "captain": false
+      },
+      {
+        "name": "Amr El Sulaya",
+        "number": 12,
+        "role": "CM",
+        "x": 78,
+        "y": 52,
+        "teamSlug": "ai-cap",
+        "captain": false
+      },
+      {
+        "name": "Mohamed Salah",
+        "number": 11,
+        "role": "RW",
+        "x": 18,
+        "y": 24,
+        "teamSlug": "ai-cap",
+        "captain": false
+      },
+      {
+        "name": "Mostafa Mohamed",
+        "number": 18,
+        "role": "ST",
+        "x": 50,
+        "y": 16,
+        "teamSlug": "ai-cap",
+        "captain": false
+      },
+      {
+        "name": "Omar Marmoush",
+        "number": 19,
+        "role": "LW",
+        "x": 82,
+        "y": 24,
+        "teamSlug": "ai-cap",
+        "captain": false
+      }
+    ]
   }
 }

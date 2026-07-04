@@ -1,5 +1,48 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 14,
+      "type": "yellow",
+      "player": "Emil Krafth",
+      "detail": "Sweden's right-back received a caution for a reckless challenge on Takumi Minamino down the right flank.",
+      "teamSlug": "thuy-dien"
+    },
+    {
+      "minute": 27,
+      "type": "yellow",
+      "player": "Hidemasa Morita",
+      "detail": "Japan's midfielder was booked for a harsh tackle on Albin Ekdal in the center of the park after a loose touch.",
+      "teamSlug": "nhat-ban"
+    },
+    {
+      "minute": 36,
+      "type": "goal",
+      "player": "Reo Hatate",
+      "detail": "Hatate unleashed a powerful left-footed strike from 17 yards after Daichi Kamada's incisive through ball caught Sweden's defense caught square and exposed.",
+      "teamSlug": "nhat-ban"
+    },
+    {
+      "minute": 61,
+      "type": "yellow",
+      "player": "Mattias Svanberg",
+      "detail": "The Swedish midfielder received a yellow card for animated dissent following a contentious offside decision against his team.",
+      "teamSlug": "thuy-dien"
+    },
+    {
+      "minute": 71,
+      "type": "goal",
+      "player": "Alexander Isak",
+      "detail": "Isak showed clinical composure by converting with his left foot from 10 yards at the near post after Viktor Gyökeres won possession high and released him down the left flank for a swift counter-attack.",
+      "teamSlug": "thuy-dien"
+    },
+    {
+      "minute": 84,
+      "type": "yellow",
+      "player": "Ko Itakura",
+      "detail": "Japan's center-back received a caution for a professional foul, tactically fouling Alexander Isak to halt a dangerous Swedish counter-attack.",
+      "teamSlug": "nhat-ban"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "nhat-ban",
     "teamName": "Japan",

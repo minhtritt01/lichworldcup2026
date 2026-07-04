@@ -1,5 +1,55 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 14,
+      "type": "goal",
+      "player": "Ayoub El Kaabi",
+      "detail": "Morocco strikes early as El Kaabi latches onto a loose ball in the box and fires a low drive past Johny Placide from 10 yards.",
+      "teamSlug": "maroc"
+    },
+    {
+      "minute": 31,
+      "type": "goal",
+      "player": "Soufiane Rahimi",
+      "detail": "Rahimi doubles the lead with a clinical right-footed finish after Bilal El Khannouss cuts the defense open with a perfectly weighted through ball.",
+      "teamSlug": "maroc"
+    },
+    {
+      "minute": 44,
+      "type": "yellow",
+      "player": "Danley Jean Jacques",
+      "detail": "The Haiti midfielder receives a booking for a cynical foul on Sofyan Amrabat as Morocco dominate possession heading into the break.",
+      "teamSlug": "haiti"
+    },
+    {
+      "minute": 51,
+      "type": "goal",
+      "player": "Duckens Nazon",
+      "detail": "Haiti pull one back as Nazon pounces on a rebound from close range after Bounou can only parry Frantzdy Pierrot's header into the box.",
+      "teamSlug": "haiti"
+    },
+    {
+      "minute": 66,
+      "type": "goal",
+      "player": "Abde Ezzalzouli",
+      "detail": "Ezzalzouli restores Morocco's three-goal advantage with a drilled 18-yard strike into the bottom corner off Azzedine Ounahi's incisive pass.",
+      "teamSlug": "maroc"
+    },
+    {
+      "minute": 77,
+      "type": "goal",
+      "player": "Frantzdy Pierrot",
+      "detail": "Pierrot nets a second for Haiti with a powerful header from the penalty area, connecting with a cross from Jean-Kévin Duverne on the right flank.",
+      "teamSlug": "haiti"
+    },
+    {
+      "minute": 84,
+      "type": "goal",
+      "player": "Ayoub El Kaabi",
+      "detail": "El Kaabi seals Morocco's commanding win with a poacher's finish, tapping in from 3 yards after Noussair Mazraoui's low cross finds him unmarked at the far post.",
+      "teamSlug": "maroc"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "maroc",
     "teamName": "Morocco",

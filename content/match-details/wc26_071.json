@@ -1,5 +1,62 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 18,
+      "type": "yellow",
+      "player": "Stefan Posch",
+      "detail": "Posch caught Chaibi with a high boot as he sprinted down the left wing, earning an early caution for reckless play.",
+      "teamSlug": "ao"
+    },
+    {
+      "minute": 23,
+      "type": "goal",
+      "player": "Riyad Mahrez",
+      "detail": "Mahrez cut inside from the right flank past Affengruber, and curled a magnificent left-footed shot into the far corner, leaving Schlager helpless.",
+      "teamSlug": "algeria"
+    },
+    {
+      "minute": 35,
+      "type": "goal",
+      "player": "Saša Kalajdžić",
+      "detail": "After a period of Austrian pressure, Kalajdžić rose majestically above Mandi at the back post and powered a header past Mastil from a Seiwald cross.",
+      "teamSlug": "ao"
+    },
+    {
+      "minute": 43,
+      "type": "yellow",
+      "player": "Xaver Schlager",
+      "detail": "Xaver Schlager went in hard on Aouar after the midfielder had turned him twice, earning a deserved yellow card for the mistimed tackle.",
+      "teamSlug": "ao"
+    },
+    {
+      "minute": 52,
+      "type": "goal",
+      "player": "Amine Gouiri",
+      "detail": "Aouar released Gouiri with a perfectly weighted through-ball, and the striker showed composure to finish clinically past Schlager's near post.",
+      "teamSlug": "algeria"
+    },
+    {
+      "minute": 64,
+      "type": "goal",
+      "player": "Marko Arnautović",
+      "detail": "Arnautović latched onto a loose ball after Abada's wayward clearance and smashed a powerful right-footed drive into the top corner from 16 yards.",
+      "teamSlug": "ao"
+    },
+    {
+      "minute": 76,
+      "type": "goal",
+      "player": "Fares Chaibi",
+      "detail": "Chaibi struck a venomous left-footed volley from Mahrez's low cross at the back post, with Schlager only able to watch as it flew past him.",
+      "teamSlug": "algeria"
+    },
+    {
+      "minute": 87,
+      "type": "goal",
+      "player": "Michael Gregoritsch",
+      "detail": "Gregoritsch capitalized on a shocking error from Zerrouki in midfield, raced clear one-on-one and calmly slotted the ball past Mastil to snatch a 3-3 draw.",
+      "teamSlug": "ao"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "algeria",
     "teamName": "Algeria",

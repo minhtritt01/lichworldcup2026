@@ -1,15 +1,58 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 32,
+      "type": "goal",
+      "player": "Memphis Depay",
+      "detail": "A rapid counter-attack down the left sees Depay receive possession from Frenkie de Jong. He shifts the ball onto his right foot and strikes a curling drive from 20 yards that beats Yassine Bounou at the far post.",
+      "teamSlug": "ha-lan"
+    },
+    {
+      "minute": 41,
+      "type": "yellow",
+      "player": "Achraf Hakimi",
+      "detail": "Hakimi picks up a yellow card for a tactical foul on Xavi Simons, sliding in recklessly as the winger accelerates down the right flank.",
+      "teamSlug": "maroc"
+    },
+    {
+      "minute": 58,
+      "type": "yellow",
+      "player": "Tijjani Reijnders",
+      "detail": "Reijnders is cautioned for an aggressive challenge on Youssef Belammari in midfield, catching the Morocco midfielder high.",
+      "teamSlug": "ha-lan"
+    },
+    {
+      "minute": 68,
+      "type": "goal",
+      "player": "Zakaria El Ouahdi",
+      "detail": "El Ouahdi exploits a gap on the left flank after a Netherlands defensive breakdown. He cuts inside and strikes a low left-footed shot from 17 yards that rolls past Bart Verbruggen into the bottom corner.",
+      "teamSlug": "maroc"
+    },
+    {
+      "minute": 76,
+      "type": "yellow",
+      "player": "Nayef Aguerd",
+      "detail": "Aguerd receives a yellow for a cynical foul, pulling back Frenkie de Jong as he breaks forward into Morocco's half.",
+      "teamSlug": "maroc"
+    },
+    {
+      "minute": 87,
+      "type": "yellow",
+      "player": "Denzel Dumfries",
+      "detail": "Dumfries is cautioned for a robust challenge on Noussair Mazraoui as tensions rise in the closing stages.",
+      "teamSlug": "ha-lan"
+    }
+  ],
   "homeLineup": {
-    "teamSlug": "nhat-bang-f",
-    "teamName": "Winner F",
+    "teamSlug": "ha-lan",
+    "teamName": "Netherlands",
     "formation": "4-3-3",
     "accent": "#ef4444",
     "players": []
   },
   "awayLineup": {
-    "teamSlug": "a-quan-bang-c",
-    "teamName": "Runner-up C",
+    "teamSlug": "maroc",
+    "teamName": "Morocco",
     "formation": "4-3-3",
     "accent": "#2563eb",
     "players": []

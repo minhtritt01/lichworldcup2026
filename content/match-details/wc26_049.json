@@ -1,5 +1,55 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 12,
+      "type": "yellow",
+      "player": "Mathieu Choinière",
+      "detail": "Cynical foul to stop a dangerous Swiss counter-attack down the right flank.",
+      "teamSlug": "canada"
+    },
+    {
+      "minute": 24,
+      "type": "goal",
+      "player": "Breel Embolo",
+      "detail": "Powerful header from 6 yards after a perfectly whipped cross from Dan Ndoye on the right wing.",
+      "teamSlug": "thuy-si"
+    },
+    {
+      "minute": 38,
+      "type": "goal",
+      "player": "Jonathan David",
+      "detail": "Clinical finish from 12 yards after receiving a through-ball from Stephen Eustáquio following a swift counter-attack.",
+      "teamSlug": "canada"
+    },
+    {
+      "minute": 56,
+      "type": "yellow",
+      "player": "Denis Zakaria",
+      "detail": "Aggressive sliding tackle from behind catches Ismaël Koné, referee shows yellow.",
+      "teamSlug": "thuy-si"
+    },
+    {
+      "minute": 68,
+      "type": "goal",
+      "player": "Rubén Vargas",
+      "detail": "Stunning left-footed curler from 22 yards that bends past Dayne St. Clair into the top corner.",
+      "teamSlug": "thuy-si"
+    },
+    {
+      "minute": 80,
+      "type": "yellow",
+      "player": "Alistair Johnston",
+      "detail": "Late challenge on Breel Embolo in the box, defender lunges recklessly and catches the forward.",
+      "teamSlug": "canada"
+    },
+    {
+      "minute": 87,
+      "type": "yellow",
+      "player": "Ismaël Koné",
+      "detail": "Dissent toward the referee after a decision goes against Canada, vocal protests earn a caution.",
+      "teamSlug": "canada"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "thuy-si",
     "teamName": "Switzerland",

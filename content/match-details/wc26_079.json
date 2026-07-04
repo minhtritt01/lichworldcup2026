@@ -1,15 +1,58 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 12,
+      "type": "yellow",
+      "player": "Willian Pacho",
+      "detail": "Reckless challenge from behind on Israel Reyes; referee immediately shows yellow for dangerous play.",
+      "teamSlug": "ecuador"
+    },
+    {
+      "minute": 23,
+      "type": "goal",
+      "player": "Edson Álvarez",
+      "detail": "Powerful header from 8 yards out after Orbelín Pineda whips a corner kick to the near post, leaving Hernán Galíndez no chance.",
+      "teamSlug": "mexico"
+    },
+    {
+      "minute": 35,
+      "type": "yellow",
+      "player": "Pervis Estupiñán",
+      "detail": "Tactical foul to halt a dangerous Mexico counter-attack down the right wing.",
+      "teamSlug": "ecuador"
+    },
+    {
+      "minute": 58,
+      "type": "goal",
+      "player": "Orbelín Pineda",
+      "detail": "Left-footed curler from 24 yards after intercepting a loose pass in midfield; the ball arcs beautifully past a helpless Galíndez into the top corner.",
+      "teamSlug": "mexico"
+    },
+    {
+      "minute": 71,
+      "type": "yellow",
+      "player": "Anthony Valencia",
+      "detail": "Booked for dissent after complaining loudly about a referee's decision on the sideline.",
+      "teamSlug": "ecuador"
+    },
+    {
+      "minute": 84,
+      "type": "yellow",
+      "player": "César Montes",
+      "detail": "Cynical foul to break up Ecuador's rare counterattack attempt in Mexico's defensive third.",
+      "teamSlug": "mexico"
+    }
+  ],
   "homeLineup": {
-    "teamSlug": "nhat-bang-a",
-    "teamName": "Winner A",
+    "teamSlug": "mexico",
+    "teamName": "Mexico",
     "formation": "4-3-3",
     "accent": "#ef4444",
     "players": []
   },
   "awayLineup": {
-    "teamSlug": "best-3rd-3",
-    "teamName": "Best 3rd",
+    "teamSlug": "ecuador",
+    "teamName": "Ecuador",
     "formation": "4-3-3",
     "accent": "#2563eb",
     "players": []

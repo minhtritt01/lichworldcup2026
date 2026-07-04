@@ -1,15 +1,58 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 14,
+      "type": "yellow",
+      "player": "Khulumani Ndamane",
+      "detail": "Late sliding challenge on Jonathan David down the right flank; the referee deems it excessive and shows yellow.",
+      "teamSlug": "nam-phi"
+    },
+    {
+      "minute": 31,
+      "type": "yellow",
+      "player": "Mathieu Choinière",
+      "detail": "Strong two-footed engagement with Mbekezeli Mbokazi in the center of the pitch forces a turnover and earns a caution.",
+      "teamSlug": "canada"
+    },
+    {
+      "minute": 39,
+      "type": "goal",
+      "player": "Jonathan David",
+      "detail": "Rising unmarked above Sipho Chaine to meet Liam Millar's pinpoint cross from the right wing, David glances a firm header past Ronwen Williams into the far corner.",
+      "teamSlug": "canada"
+    },
+    {
+      "minute": 54,
+      "type": "yellow",
+      "player": "Aubrey Modiba",
+      "detail": "Cynical foul on Cyle Larin to halt a dangerous Canadian counter-attack; tactical yellow card prevents a potential scoring chance.",
+      "teamSlug": "nam-phi"
+    },
+    {
+      "minute": 68,
+      "type": "yellow",
+      "player": "Stephen Eustáquio",
+      "detail": "Dissent after questioning the referee's decision on a contested midfield challenge; caution issued for protesting the call.",
+      "teamSlug": "canada"
+    },
+    {
+      "minute": 82,
+      "type": "yellow",
+      "player": "Samukele Kabini",
+      "detail": "Frustrated tackle on Joel Waterman as South Africa desperately searches for an equalizer in the dying moments of the match.",
+      "teamSlug": "nam-phi"
+    }
+  ],
   "homeLineup": {
-    "teamSlug": "a-quan-bang-a",
-    "teamName": "Runner-up A",
+    "teamSlug": "nam-phi",
+    "teamName": "South Africa",
     "formation": "4-3-3",
     "accent": "#ef4444",
     "players": []
   },
   "awayLineup": {
-    "teamSlug": "a-quan-bang-b",
-    "teamName": "Runner-up B",
+    "teamSlug": "canada",
+    "teamName": "Canada",
     "formation": "4-3-3",
     "accent": "#2563eb",
     "players": []

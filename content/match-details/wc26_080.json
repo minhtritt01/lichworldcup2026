@@ -1,17 +1,217 @@
 {
   "incidents": [],
   "homeLineup": {
-    "teamSlug": "nhat-bang-l",
-    "teamName": "Winner L",
+    "teamSlug": "anh",
+    "teamName": "England",
     "formation": "4-3-3",
     "accent": "#ef4444",
-    "players": []
+    "players": [
+      {
+        "name": "Jordan Pickford",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 12,
+        "teamSlug": "anh",
+        "captain": true
+      },
+      {
+        "name": "Kyle Walker",
+        "number": 4,
+        "role": "RB",
+        "x": 14,
+        "y": 28,
+        "teamSlug": "anh",
+        "captain": false
+      },
+      {
+        "name": "Harry Maguire",
+        "number": 5,
+        "role": "CB",
+        "x": 36,
+        "y": 30,
+        "teamSlug": "anh",
+        "captain": false
+      },
+      {
+        "name": "John Stones",
+        "number": 6,
+        "role": "CB",
+        "x": 64,
+        "y": 30,
+        "teamSlug": "anh",
+        "captain": false
+      },
+      {
+        "name": "Luke Shaw",
+        "number": 7,
+        "role": "LB",
+        "x": 86,
+        "y": 28,
+        "teamSlug": "anh",
+        "captain": false
+      },
+      {
+        "name": "Jude Bellingham",
+        "number": 10,
+        "role": "DM",
+        "x": 22,
+        "y": 48,
+        "teamSlug": "anh",
+        "captain": false
+      },
+      {
+        "name": "Declan Rice",
+        "number": 11,
+        "role": "CM",
+        "x": 50,
+        "y": 56,
+        "teamSlug": "anh",
+        "captain": false
+      },
+      {
+        "name": "Phil Foden",
+        "number": 12,
+        "role": "CM",
+        "x": 78,
+        "y": 48,
+        "teamSlug": "anh",
+        "captain": false
+      },
+      {
+        "name": "Harry Kane",
+        "number": 16,
+        "role": "RW",
+        "x": 18,
+        "y": 76,
+        "teamSlug": "anh",
+        "captain": false
+      },
+      {
+        "name": "Bukayo Saka",
+        "number": 17,
+        "role": "ST",
+        "x": 50,
+        "y": 84,
+        "teamSlug": "anh",
+        "captain": false
+      },
+      {
+        "name": "Marcus Rashford",
+        "number": 18,
+        "role": "LW",
+        "x": 82,
+        "y": 76,
+        "teamSlug": "anh",
+        "captain": false
+      }
+    ]
   },
   "awayLineup": {
-    "teamSlug": "best-3rd-4",
-    "teamName": "Best 3rd",
+    "teamSlug": "congo-dr",
+    "teamName": "DR Congo",
     "formation": "4-3-3",
     "accent": "#2563eb",
-    "players": []
+    "players": [
+      {
+        "name": "Lionel Mpasi",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 88,
+        "teamSlug": "congo-dr",
+        "captain": false
+      },
+      {
+        "name": "Aaron Wan-Bissaka",
+        "number": 2,
+        "role": "RB",
+        "x": 14,
+        "y": 72,
+        "teamSlug": "congo-dr",
+        "captain": false
+      },
+      {
+        "name": "Steve Kapuadi",
+        "number": 3,
+        "role": "CB",
+        "x": 36,
+        "y": 70,
+        "teamSlug": "congo-dr",
+        "captain": false
+      },
+      {
+        "name": "Axel Tuanzebe",
+        "number": 4,
+        "role": "CB",
+        "x": 64,
+        "y": 70,
+        "teamSlug": "congo-dr",
+        "captain": false
+      },
+      {
+        "name": "Dylan Batubinsika",
+        "number": 5,
+        "role": "LB",
+        "x": 86,
+        "y": 72,
+        "teamSlug": "congo-dr",
+        "captain": false
+      },
+      {
+        "name": "Ngal'ayel Mukau",
+        "number": 6,
+        "role": "DM",
+        "x": 22,
+        "y": 52,
+        "teamSlug": "congo-dr",
+        "captain": false
+      },
+      {
+        "name": "Nathanaël Mbuku",
+        "number": 7,
+        "role": "CM",
+        "x": 50,
+        "y": 44,
+        "teamSlug": "congo-dr",
+        "captain": false
+      },
+      {
+        "name": "Samuel Moutoussamy",
+        "number": 8,
+        "role": "CM",
+        "x": 78,
+        "y": 52,
+        "teamSlug": "congo-dr",
+        "captain": false
+      },
+      {
+        "name": "Brian Cipenga",
+        "number": 9,
+        "role": "RW",
+        "x": 18,
+        "y": 24,
+        "teamSlug": "congo-dr",
+        "captain": false
+      },
+      {
+        "name": "Gaël Kakuta",
+        "number": 11,
+        "role": "ST",
+        "x": 50,
+        "y": 16,
+        "teamSlug": "congo-dr",
+        "captain": false
+      },
+      {
+        "name": "Meschack Elia",
+        "number": 13,
+        "role": "LW",
+        "x": 82,
+        "y": 24,
+        "teamSlug": "congo-dr",
+        "captain": false
+      }
+    ]
   }
 }

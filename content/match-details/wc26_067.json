@@ -1,5 +1,55 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 7,
+      "type": "yellow",
+      "player": "Aníbal Godoy",
+      "detail": "Godoy receives a caution for a reckless challenge on Jude Bellingham in central midfield, arriving with studs raised.",
+      "teamSlug": "panama"
+    },
+    {
+      "minute": 23,
+      "type": "goal",
+      "player": "Phil Foden",
+      "detail": "Foden cuts inside from the left wing and strikes a first-time left-footed finish from 18 yards that nestles into the far corner past Mosquera.",
+      "teamSlug": "anh"
+    },
+    {
+      "minute": 34,
+      "type": "yellow",
+      "player": "Ismael Díaz",
+      "detail": "Díaz is booked for dissent after protesting an offside decision, gesturing angrily toward the assistant referee.",
+      "teamSlug": "panama"
+    },
+    {
+      "minute": 45,
+      "type": "yellow",
+      "player": "Kyle Walker",
+      "detail": "Walker picks up a caution for a cynical foul on Ismael Díaz as Panama threaten an attack down the right flank.",
+      "teamSlug": "anh"
+    },
+    {
+      "minute": 63,
+      "type": "goal",
+      "player": "Harry Kane",
+      "detail": "Kane powers a towering header from a Bellingham cross into the top corner, rising decisively above Murillo's challenge.",
+      "teamSlug": "anh"
+    },
+    {
+      "minute": 74,
+      "type": "yellow",
+      "player": "Carlos Harvey",
+      "detail": "Harvey is booked for an elbow strike on John Stones during a contested aerial challenge in midfield.",
+      "teamSlug": "panama"
+    },
+    {
+      "minute": 87,
+      "type": "sub",
+      "player": "Marcus Rashford",
+      "detail": "Rashford replaces Phil Foden as England bring on fresh legs to see out their dominant performance against Panama.",
+      "teamSlug": "anh"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "panama",
     "teamName": "Panama",

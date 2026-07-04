@@ -298,7 +298,7 @@ type MatchStatus = 'upcoming' | 'live' | 'finished';
 
 function detectStatus(event: TsdbEvent): MatchStatus {
   const s = (event.strStatus ?? '').toUpperCase();
-  if (s === 'FT' || s === 'AET' || s === 'PEN' || s === 'FINISHED') return 'finished';
+  if (s === 'FT' || s === 'AET' || s === 'PEN' || s === 'AP' || s === 'FINISHED') return 'finished';
   if (s === 'HT' || s === '1H' || s === '2H' || s === 'LIVE') return 'live';
   return 'upcoming';
 }

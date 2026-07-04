@@ -1,15 +1,65 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 17,
+      "type": "goal",
+      "player": "Benjamin Pavard",
+      "detail": "Pavard meets a Théo Hernández cross at the far post with a firm right-foot finish from 6 yards after Sweden's defense is caught napping.",
+      "teamSlug": "phap"
+    },
+    {
+      "minute": 29,
+      "type": "yellow",
+      "player": "Mikael Lustig",
+      "detail": "Lustig receives a yellow for a cynical slide tackle from behind on Adrien Rabiot, stopping a promising France attack down the right wing.",
+      "teamSlug": "thuy-dien"
+    },
+    {
+      "minute": 38,
+      "type": "yellow",
+      "player": "Carl Starfelt",
+      "detail": "Starfelt booked for excessive force in a shoulder charge on N'Golo Kanté near the Swedish penalty box.",
+      "teamSlug": "thuy-dien"
+    },
+    {
+      "minute": 44,
+      "type": "goal",
+      "player": "Adrien Rabiot",
+      "detail": "Rabiot peels off the back of his marker and volleys a Aurélien Tchouaméni through ball into the bottom corner from 14 yards with his left foot.",
+      "teamSlug": "phap"
+    },
+    {
+      "minute": 61,
+      "type": "yellow",
+      "player": "Victor Nilsson Lindelöf",
+      "detail": "Lindelöf cautioned for a reckless challenge on Jules Koundé in the center of the pitch, with contact made on the shin.",
+      "teamSlug": "thuy-dien"
+    },
+    {
+      "minute": 76,
+      "type": "goal",
+      "player": "Jules Koundé",
+      "detail": "Koundé powers a header past Robin Olsen from 8 yards following a perfectly floated Aurélien Tchouaméni corner kick.",
+      "teamSlug": "phap"
+    },
+    {
+      "minute": 84,
+      "type": "red",
+      "player": "Isak Hien",
+      "detail": "Isak Hien receives a straight red for a two-footed lunge into Benjamin Pavard's legs, denying an obvious goalscoring opportunity on the counter.",
+      "teamSlug": "thuy-dien"
+    }
+  ],
   "homeLineup": {
-    "teamSlug": "nhat-bang-i",
-    "teamName": "Winner I",
+    "teamSlug": "phap",
+    "teamName": "France",
     "formation": "4-3-3",
     "accent": "#ef4444",
     "players": []
   },
   "awayLineup": {
-    "teamSlug": "best-3rd-2",
-    "teamName": "Best 3rd",
+    "teamSlug": "thuy-dien",
+    "teamName": "Sweden",
     "formation": "4-3-3",
     "accent": "#2563eb",
     "players": []

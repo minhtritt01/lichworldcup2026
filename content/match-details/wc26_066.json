@@ -1,5 +1,62 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 9,
+      "type": "goal",
+      "player": "Kevin De Bruyne",
+      "detail": "Axel Witsel threads a perfectly weighted through ball, and De Bruyne strikes a low, placed finish across Stefan Marinovic into the far corner.",
+      "teamSlug": "bi"
+    },
+    {
+      "minute": 18,
+      "type": "yellow",
+      "player": "Winston Reid",
+      "detail": "Reid lunges desperately into a challenge on Jeremy Doku after losing possession in midfield, catching the winger late and earning a booking.",
+      "teamSlug": "new-zealand"
+    },
+    {
+      "minute": 34,
+      "type": "goal",
+      "player": "Romelu Lukaku",
+      "detail": "Jeremy Doku whips in a dangerous cross from the right wing, and Lukaku rises highest to power a header past Marinovic's reach into the net.",
+      "teamSlug": "bi"
+    },
+    {
+      "minute": 45,
+      "type": "goal",
+      "player": "Chris Wood",
+      "detail": "From a free kick taken by Liberato Cacace on the left wing, Wood rises majestically at the far post and directs a powerful header beyond Courtois.",
+      "teamSlug": "new-zealand"
+    },
+    {
+      "minute": 56,
+      "type": "goal",
+      "player": "Leandro Trossard",
+      "detail": "Trossard cuts inside from the left flank, takes one touch to open his body, and curls a sublime shot into the top corner beyond Marinovic's scramble.",
+      "teamSlug": "bi"
+    },
+    {
+      "minute": 68,
+      "type": "goal",
+      "player": "Jeremy Doku",
+      "detail": "Doku exploits space down the right with explosive pace, skips inside Tommy Smith with a sharp dribble, and slots a low finish across the keeper into the far corner.",
+      "teamSlug": "bi"
+    },
+    {
+      "minute": 79,
+      "type": "yellow",
+      "player": "Elijah Just",
+      "detail": "Just slides in desperately to block Kevin De Bruyne's run into the box, making contact with the ball but the follow-through catches De Bruyne; referee issues a caution.",
+      "teamSlug": "new-zealand"
+    },
+    {
+      "minute": 87,
+      "type": "goal",
+      "player": "Axel Witsel",
+      "detail": "Witsel strikes a fierce long-range effort from 28 yards that takes a deflection off a New Zealand defender and loops past Marinovic into the top corner.",
+      "teamSlug": "bi"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "new-zealand",
     "teamName": "New Zealand",

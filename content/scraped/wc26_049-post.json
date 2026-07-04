@@ -1,0 +1,322 @@
+{
+  "matchId": "wc26_049",
+  "eventId": "2391767",
+  "status": "finished",
+  "scrapedAt": "2026-07-01T10:31:29.446Z",
+  "general": {
+    "homeTeam": "Switzerland",
+    "homeSlug": "thuy-si",
+    "awayTeam": "Canada",
+    "awaySlug": "canada",
+    "stage": "FIFA World Cup",
+    "group": "B",
+    "kickoffUTC": "2026-06-24T19:00:00",
+    "venue": "BC Place",
+    "referee": ""
+  },
+  "score": {
+    "home": 2,
+    "away": 1
+  },
+  "events": [],
+  "form": {
+    "home": [
+      {
+        "opponent": "Canada",
+        "result": "W",
+        "score": "2-1",
+        "date": "2026-06-24"
+      }
+    ],
+    "away": [
+      {
+        "opponent": "Qatar",
+        "result": "W",
+        "score": "6-0",
+        "date": "2026-06-18"
+      }
+    ]
+  },
+  "squads": {
+    "home": [
+      {
+        "name": "Gregor Kobel",
+        "number": 1,
+        "position": "GK",
+        "age": 28
+      },
+      {
+        "name": "Miro Muheim",
+        "number": 2,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Silvan Widmer",
+        "number": 3,
+        "position": "DF",
+        "age": 33
+      },
+      {
+        "name": "Nico Elvedi",
+        "number": 4,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Manuel Akanji",
+        "number": 5,
+        "position": "DF",
+        "age": 30
+      },
+      {
+        "name": "Denis Zakaria",
+        "number": 6,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Breel Embolo",
+        "number": 7,
+        "position": "FW",
+        "age": 29
+      },
+      {
+        "name": "Remo Freuler",
+        "number": 8,
+        "position": "MF",
+        "age": 34
+      },
+      {
+        "name": "Johan Manzambi",
+        "number": 9,
+        "position": "MF",
+        "age": 20
+      },
+      {
+        "name": "Granit Xhaka",
+        "number": 10,
+        "position": "MF",
+        "age": 33
+      },
+      {
+        "name": "Dan Ndoye",
+        "number": 11,
+        "position": "FW",
+        "age": 25
+      },
+      {
+        "name": "Yvon Mvogo",
+        "number": 12,
+        "position": "GK",
+        "age": 32
+      },
+      {
+        "name": "Ricardo Rodriguez",
+        "number": 13,
+        "position": "DF",
+        "age": 33
+      },
+      {
+        "name": "Ardon Jashari",
+        "number": 14,
+        "position": "MF",
+        "age": 23
+      },
+      {
+        "name": "Djibril Sow",
+        "number": 15,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Christian Fassnacht",
+        "number": 16,
+        "position": "MF",
+        "age": 32
+      },
+      {
+        "name": "Rubén Vargas",
+        "number": 17,
+        "position": "FW",
+        "age": 27
+      },
+      {
+        "name": "Eray Cömert",
+        "number": 18,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Noah Okafor",
+        "number": 19,
+        "position": "FW",
+        "age": 26
+      },
+      {
+        "name": "Michel Aebischer",
+        "number": 20,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Marvin Keller",
+        "number": 21,
+        "position": "GK",
+        "age": 23
+      },
+      {
+        "name": "Fabian Rieder",
+        "number": 22,
+        "position": "MF",
+        "age": 24
+      },
+      {
+        "name": "Zeki Amdouni",
+        "number": 23,
+        "position": "FW",
+        "age": 25
+      }
+    ],
+    "away": [
+      {
+        "name": "Dayne St. Clair",
+        "number": 1,
+        "position": "GK",
+        "age": 29
+      },
+      {
+        "name": "Alistair Johnston",
+        "number": 2,
+        "position": "DF",
+        "age": 27
+      },
+      {
+        "name": "Luc de Fougerolles",
+        "number": 3,
+        "position": "DF",
+        "age": 20
+      },
+      {
+        "name": "Alfie Jones",
+        "number": 4,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Joel Waterman",
+        "number": 5,
+        "position": "DF",
+        "age": 30
+      },
+      {
+        "name": "Mathieu Choinière",
+        "number": 6,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Stephen Eustáquio",
+        "number": 7,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Ismaël Koné",
+        "number": 8,
+        "position": "MF",
+        "age": 23
+      },
+      {
+        "name": "Cyle Larin",
+        "number": 9,
+        "position": "FW",
+        "age": 31
+      },
+      {
+        "name": "Jonathan David",
+        "number": 10,
+        "position": "FW",
+        "age": 26
+      },
+      {
+        "name": "Liam Millar",
+        "number": 11,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Tani Oluwaseyi",
+        "number": 12,
+        "position": "FW",
+        "age": 26
+      },
+      {
+        "name": "Derek Cornelius",
+        "number": 13,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Jacob Shaffelburg",
+        "number": 14,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Moïse Bombito",
+        "number": 15,
+        "position": "DF",
+        "age": 26
+      },
+      {
+        "name": "Maxime Crépeau",
+        "number": 16,
+        "position": "GK",
+        "age": 32
+      },
+      {
+        "name": "Tajon Buchanan",
+        "number": 17,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Owen Goodman",
+        "number": 18,
+        "position": "GK",
+        "age": 22
+      },
+      {
+        "name": "Alphonso Davies",
+        "number": 19,
+        "position": "DF",
+        "age": 25
+      },
+      {
+        "name": "Ali Ahmed",
+        "number": 20,
+        "position": "MF",
+        "age": 25
+      },
+      {
+        "name": "Jonathan Osorio",
+        "number": 21,
+        "position": "MF",
+        "age": 33
+      },
+      {
+        "name": "Richie Laryea",
+        "number": 22,
+        "position": "DF",
+        "age": 31
+      },
+      {
+        "name": "Niko Sigur",
+        "number": 23,
+        "position": "DF",
+        "age": 22
+      }
+    ]
+  }
+}

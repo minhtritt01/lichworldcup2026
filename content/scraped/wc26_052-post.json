@@ -1,0 +1,322 @@
+{
+  "matchId": "wc26_052",
+  "eventId": "2391764",
+  "status": "finished",
+  "scrapedAt": "2026-07-01T10:33:55.636Z",
+  "general": {
+    "homeTeam": "Morocco",
+    "homeSlug": "maroc",
+    "awayTeam": "Haiti",
+    "awaySlug": "haiti",
+    "stage": "FIFA World Cup",
+    "group": "C",
+    "kickoffUTC": "2026-06-24T22:00:00",
+    "venue": "Mercedes-Benz Stadium",
+    "referee": ""
+  },
+  "score": {
+    "home": 4,
+    "away": 2
+  },
+  "events": [],
+  "form": {
+    "home": [
+      {
+        "opponent": "Haiti",
+        "result": "W",
+        "score": "4-2",
+        "date": "2026-06-24"
+      }
+    ],
+    "away": [
+      {
+        "opponent": "Scotland",
+        "result": "L",
+        "score": "0-1",
+        "date": "2026-06-14"
+      }
+    ]
+  },
+  "squads": {
+    "home": [
+      {
+        "name": "Yassine Bounou",
+        "number": 1,
+        "position": "GK",
+        "age": 35
+      },
+      {
+        "name": "Munir Mohamedi",
+        "number": 2,
+        "position": "GK",
+        "age": 37
+      },
+      {
+        "name": "Ahmed Tagnaouti",
+        "number": 3,
+        "position": "GK",
+        "age": 30
+      },
+      {
+        "name": "Achraf Hakimi",
+        "number": 4,
+        "position": "DF",
+        "age": 27
+      },
+      {
+        "name": "Nayef Aguerd",
+        "number": 5,
+        "position": "DF",
+        "age": 30
+      },
+      {
+        "name": "Noussair Mazraoui",
+        "number": 6,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Youssef Belammari",
+        "number": 7,
+        "position": "DF",
+        "age": 27
+      },
+      {
+        "name": "Anass Salah-Eddine",
+        "number": 8,
+        "position": "DF",
+        "age": 24
+      },
+      {
+        "name": "Chadi Riad",
+        "number": 9,
+        "position": "DF",
+        "age": 22
+      },
+      {
+        "name": "Issa Diop",
+        "number": 10,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Zakaria El Ouahdi",
+        "number": 11,
+        "position": "DF",
+        "age": 24
+      },
+      {
+        "name": "Redouane Halhal",
+        "number": 12,
+        "position": "DF",
+        "age": 23
+      },
+      {
+        "name": "Sofyan Amrabat",
+        "number": 13,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Azzedine Ounahi",
+        "number": 14,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Bilal El Khannouss",
+        "number": 15,
+        "position": "MF",
+        "age": 22
+      },
+      {
+        "name": "Ismael Saibari",
+        "number": 16,
+        "position": "MF",
+        "age": 25
+      },
+      {
+        "name": "Neil El Aynaoui",
+        "number": 17,
+        "position": "MF",
+        "age": 24
+      },
+      {
+        "name": "Samir El Mourabet",
+        "number": 18,
+        "position": "MF",
+        "age": 19
+      },
+      {
+        "name": "Ayyoub Bouaddi",
+        "number": 19,
+        "position": "MF",
+        "age": 18
+      },
+      {
+        "name": "Ayoub El Kaabi",
+        "number": 20,
+        "position": "FW",
+        "age": 32
+      },
+      {
+        "name": "Soufiane Rahimi",
+        "number": 21,
+        "position": "FW",
+        "age": 30
+      },
+      {
+        "name": "Abde Ezzalzouli",
+        "number": 22,
+        "position": "FW",
+        "age": 24
+      },
+      {
+        "name": "Brahim Díaz",
+        "number": 23,
+        "position": "FW",
+        "age": 26
+      }
+    ],
+    "away": [
+      {
+        "name": "Johny Placide",
+        "number": 1,
+        "position": "GK",
+        "age": 38
+      },
+      {
+        "name": "Alexandre Pierre",
+        "number": 2,
+        "position": "GK",
+        "age": 25
+      },
+      {
+        "name": "Josué Duverger",
+        "number": 3,
+        "position": "GK",
+        "age": 26
+      },
+      {
+        "name": "Ricardo Adé",
+        "number": 4,
+        "position": "DF",
+        "age": 36
+      },
+      {
+        "name": "Carlens Arcus",
+        "number": 5,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Martin Expérience",
+        "number": 6,
+        "position": "DF",
+        "age": 27
+      },
+      {
+        "name": "Jean-Kévin Duverne",
+        "number": 7,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Duke Lacroix",
+        "number": 8,
+        "position": "DF",
+        "age": 32
+      },
+      {
+        "name": "Wilguens Paugain",
+        "number": 9,
+        "position": "DF",
+        "age": 24
+      },
+      {
+        "name": "Hannes Delcroix",
+        "number": 10,
+        "position": "DF",
+        "age": 27
+      },
+      {
+        "name": "Keeto Thermoncy",
+        "number": 11,
+        "position": "DF",
+        "age": 20
+      },
+      {
+        "name": "Leverton Pierre",
+        "number": 12,
+        "position": "MF",
+        "age": 28
+      },
+      {
+        "name": "Danley Jean Jacques",
+        "number": 13,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Carl Sainté",
+        "number": 14,
+        "position": "MF",
+        "age": 23
+      },
+      {
+        "name": "Jean-Ricner Bellegarde",
+        "number": 15,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Woodensky Pierre",
+        "number": 16,
+        "position": "MF",
+        "age": 21
+      },
+      {
+        "name": "Dominique Simon",
+        "number": 17,
+        "position": "MF",
+        "age": 25
+      },
+      {
+        "name": "Duckens Nazon",
+        "number": 18,
+        "position": "FW",
+        "age": 32
+      },
+      {
+        "name": "Frantzdy Pierrot",
+        "number": 19,
+        "position": "FW",
+        "age": 31
+      },
+      {
+        "name": "Derrick Etienne Jr.",
+        "number": 20,
+        "position": "FW",
+        "age": 29
+      },
+      {
+        "name": "Louicius Deedson",
+        "number": 21,
+        "position": "FW",
+        "age": 25
+      },
+      {
+        "name": "Ruben Providence",
+        "number": 22,
+        "position": "FW",
+        "age": 24
+      },
+      {
+        "name": "Josué Casimir",
+        "number": 23,
+        "position": "FW",
+        "age": 24
+      }
+    ]
+  }
+}

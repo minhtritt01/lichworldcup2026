@@ -34,25 +34,52 @@ function normalize(s: string) {
   return s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]/g, '');
 }
 
+// TSDB search/event naming sometimes differs from our team names
+const TSDB_NAME_ALIASES: Record<string, string> = {
+  'czechia': 'Czech Republic',
+  'türkiye': 'Turkey',
+  'bosnia & herzegovina': 'Bosnia-Herzegovina',
+};
+
+async function findEventIdBySearch(m: typeof MOCK_MATCHES[0]): Promise<string | null> {
+  const home = TSDB_NAME_ALIASES[m.home_team.toLowerCase()] ?? m.home_team;
+  const away = TSDB_NAME_ALIASES[m.away_team.toLowerCase()] ?? m.away_team;
+  const query = `${home}_vs_${away}`.replace(/ /g, '_');
+  try {
+    const res = await fetch(`${TSDB}/searchevents.php?e=${encodeURIComponent(query)}`, {
+      headers: { 'User-Agent': 'Mozilla/5.0' },
+    });
+    if (!res.ok) return null;
+    const data = await res.json() as { event?: Array<{ idEvent: string; strLeague: string }> };
+    const match = (data.event ?? []).find(e => e.strLeague.toLowerCase().includes('world cup'));
+    return match?.idEvent ?? null;
+  } catch {
+    return null;
+  }
+}
+
 async function findEventId(m: typeof MOCK_MATCHES[0]): Promise<string | null> {
   const date = m.kickoff_utc.slice(0, 10);
   try {
     const res = await fetch(`${TSDB}/eventsday.php?d=${date}&s=Soccer`, {
       headers: { 'User-Agent': 'Mozilla/5.0' },
     });
-    if (!res.ok) return null;
-    const data = await res.json() as { events?: Array<{ idEvent: string; strHomeTeam: string; strAwayTeam: string; strLeague: string }> };
-    const events = (data.events ?? []).filter(e => e.strLeague.toLowerCase().includes('world cup'));
-    const homeN = normalize(m.home_team);
-    const awayN = normalize(m.away_team);
-    const match = events.find(e =>
-      (normalize(e.strHomeTeam).includes(homeN.slice(0, 5)) || homeN.includes(normalize(e.strHomeTeam).slice(0, 5))) &&
-      (normalize(e.strAwayTeam).includes(awayN.slice(0, 5)) || awayN.includes(normalize(e.strAwayTeam).slice(0, 5)))
-    );
-    return match?.idEvent ?? null;
+    if (res.ok) {
+      const data = await res.json() as { events?: Array<{ idEvent: string; strHomeTeam: string; strAwayTeam: string; strLeague: string }> };
+      const events = (data.events ?? []).filter(e => e.strLeague.toLowerCase().includes('world cup'));
+      const homeN = normalize(m.home_team);
+      const awayN = normalize(m.away_team);
+      const match = events.find(e =>
+        (normalize(e.strHomeTeam).includes(homeN.slice(0, 5)) || homeN.includes(normalize(e.strHomeTeam).slice(0, 5))) &&
+        (normalize(e.strAwayTeam).includes(awayN.slice(0, 5)) || awayN.includes(normalize(e.strAwayTeam).slice(0, 5)))
+      );
+      if (match) return match.idEvent;
+    }
   } catch {
-    return null;
+    // fall through to search-based lookup
   }
+  // eventsday.php doesn't index every match — fall back to direct name search
+  return findEventIdBySearch(m);
 }
 
 // ─── Helpers ──────────────────────────────────────────────
@@ -83,7 +110,7 @@ function readEventId(id: string): string | null {
     const p = join(SCRAPED, `${id}-${suffix}.json`);
     if (existsSync(p)) {
       const d = JSON.parse(readFileSync(p, 'utf-8'));
-      if (d.eventId && d.eventId !== 'manual') return d.eventId;
+      if (d.eventId && d.eventId !== 'manual' && d.eventId !== 'local') return d.eventId;
     }
   }
   return null;
@@ -135,8 +162,13 @@ async function main() {
     }
 
     // Re-scrape only if kickoff has passed (match could be finished)
-    const eventId = readEventId(id);
+    let eventId = readEventId(id);
     const kickoffPassed = new Date(m.kickoff_utc).getTime() < Date.now();
+    if (!eventId && (hasPre(id) || hasPost(id)) && kickoffPassed) {
+      console.log(`  🔍 No usable event ID on file (placeholder) — rediscovering on TSDB...`);
+      eventId = await findEventId(m);
+      if (!eventId) console.log(`  ⏭  Still not found on TSDB — skipping rescrape`);
+    }
     if (eventId && !hasPost(id) && kickoffPassed) {
       console.log(`  🔄 Kickoff passed — checking if finished...`);
       const nowFinished = rescrape(eventId, id);

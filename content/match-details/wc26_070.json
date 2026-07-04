@@ -1,5 +1,55 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 15,
+      "type": "goal",
+      "player": "Gaël Kakuta",
+      "detail": "Kakuta receives a pinpoint pass from Samuel Moutoussamy on the edge of the box and slots a low finish into the far corner, giving DR Congo an early lead.",
+      "teamSlug": "congo-dr"
+    },
+    {
+      "minute": 28,
+      "type": "yellow",
+      "player": "Eldor Shomurodov",
+      "detail": "Shomurodov receives a yellow card for a reckless sliding tackle that catches Aaron Wan-Bissaka above the ankle.",
+      "teamSlug": "uzbekistan"
+    },
+    {
+      "minute": 42,
+      "type": "goal",
+      "player": "Meschack Elia",
+      "detail": "Elia rises above the Uzbekistan defense to power home a header from a Nathanaël Mbuku cross, doubling DR Congo's advantage.",
+      "teamSlug": "congo-dr"
+    },
+    {
+      "minute": 57,
+      "type": "goal",
+      "player": "Eldor Shomurodov",
+      "detail": "Shomurodov cuts inside from the left wing and curls a beautiful effort past Lionel Mpasi into the top corner, giving Uzbekistan a lifeline.",
+      "teamSlug": "uzbekistan"
+    },
+    {
+      "minute": 69,
+      "type": "yellow",
+      "player": "Brian Cipenga",
+      "detail": "Cipenga receives a yellow for a dangerous challenge on Doniyor Akhmedov in the center of the pitch.",
+      "teamSlug": "congo-dr"
+    },
+    {
+      "minute": 75,
+      "type": "goal",
+      "player": "Nathanaël Mbuku",
+      "detail": "Mbuku collects a loose ball in the box after Uzbekistan's failed clearance and fires past Abduvohid Nematov to seal the victory for DR Congo.",
+      "teamSlug": "congo-dr"
+    },
+    {
+      "minute": 86,
+      "type": "yellow",
+      "player": "Doniyor Akhmedov",
+      "detail": "Akhmedov receives a yellow for time-wasting and repeated fouling in midfield as Uzbekistan chases the game.",
+      "teamSlug": "uzbekistan"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "congo-dr",
     "teamName": "DR Congo",

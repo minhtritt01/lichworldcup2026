@@ -1,5 +1,48 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 16,
+      "type": "yellow",
+      "player": "Son Heung-min",
+      "detail": "Aggressive challenge on Khuliso Mudau down the right flank leaves the referee with no choice but to caution the South Korean winger.",
+      "teamSlug": "han-quoc"
+    },
+    {
+      "minute": 29,
+      "type": "yellow",
+      "player": "Thalente Mbatha",
+      "detail": "Tactical foul to break up a dangerous South Korean counterattack. Mbatha cynically hauls down Lee Jae-sung to protect his backline.",
+      "teamSlug": "nam-phi"
+    },
+    {
+      "minute": 38,
+      "type": "goal",
+      "player": "Lyle Foster",
+      "detail": "Foster rises majestically above the crowded South Korean defense to meet Khuliso Mudau's perfectly weighted corner from the right. His powerful header whistles past Kim Seung-gyu into the far corner—South Africa takes the lead.",
+      "teamSlug": "nam-phi"
+    },
+    {
+      "minute": 56,
+      "type": "yellow",
+      "player": "Kim Min-jae",
+      "detail": "The South Korean center-back clips Themba Zwane as the attacker darts into the box. A clear yellow for the clumsy defending.",
+      "teamSlug": "han-quoc"
+    },
+    {
+      "minute": 68,
+      "type": "substitution",
+      "player": "Oh Hyeon-gyu",
+      "detail": "South Korea withdraws their striker to inject fresh energy into midfield as they desperately hunt for an equalizer with 20 minutes remaining.",
+      "teamSlug": "han-quoc"
+    },
+    {
+      "minute": 81,
+      "type": "yellow",
+      "player": "Aubrey Modiba",
+      "detail": "Modiba slides in late on Lee Jae-sung near the South Korean box. Desperate defending earns a caution as South Africa's backline tightens the screws.",
+      "teamSlug": "nam-phi"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "nam-phi",
     "teamName": "South Africa",

@@ -1,5 +1,55 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 12,
+      "type": "yellow",
+      "player": "Mathías Villasanti",
+      "detail": "Booked for a hard sliding tackle on Connor Metcalfe in the center of midfield, a crucial challenge to disrupt Australia's buildup.",
+      "teamSlug": "paraguay"
+    },
+    {
+      "minute": 28,
+      "type": "yellow",
+      "player": "Aiden O'Neill",
+      "detail": "Received a caution for a reckless challenge on Miguel Almirón, catching him high with the shoulder during a direct transition.",
+      "teamSlug": "uc"
+    },
+    {
+      "minute": 41,
+      "type": "yellow",
+      "player": "Omar Alderete",
+      "detail": "Booked for a tactical foul to break up a dangerous Australian counter-attack developing down the right flank.",
+      "teamSlug": "paraguay"
+    },
+    {
+      "minute": 54,
+      "type": "red",
+      "player": "Connor Metcalfe",
+      "detail": "Sent off with a straight red card for a studs-up challenge on Ángel Romero, deemed dangerous play by the referee.",
+      "teamSlug": "uc"
+    },
+    {
+      "minute": 68,
+      "type": "yellow",
+      "player": "Ángel Romero",
+      "detail": "Cautioned for dissent and protesting the referee's decision, showing visible frustration over a previous challenge call.",
+      "teamSlug": "paraguay"
+    },
+    {
+      "minute": 75,
+      "type": "substitution",
+      "player": "Mathew Leckie",
+      "detail": "Substituted off for Australia to shore up the defense after Metcalfe's dismissal left the backline depleted.",
+      "teamSlug": "uc"
+    },
+    {
+      "minute": 87,
+      "type": "yellow",
+      "player": "Andrés Cubas",
+      "detail": "Booked in the final moments for deliberate time-wasting, attempting to run down the clock while Paraguay held their clean sheet.",
+      "teamSlug": "paraguay"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "paraguay",
     "teamName": "Paraguay",

@@ -1,5 +1,48 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 12,
+      "type": "yellow",
+      "player": "Andy Robertson",
+      "detail": "Andy Robertson earns a yellow card for a late challenge on Vinícius Júnior down the left wing, catching the Brazilian winger as he cuts inside.",
+      "teamSlug": "scotland"
+    },
+    {
+      "minute": 18,
+      "type": "goal",
+      "player": "Neymar",
+      "detail": "Neymar slots the ball into the bottom corner with his left foot after receiving a through ball from Bruno Guimarães, catching Craig Gordon off his line.",
+      "teamSlug": "brazil"
+    },
+    {
+      "minute": 28,
+      "type": "yellow",
+      "player": "Kieran Tierney",
+      "detail": "Kieran Tierney receives a yellow for a high boot on Fabinho, who was shielding the ball in midfield.",
+      "teamSlug": "scotland"
+    },
+    {
+      "minute": 52,
+      "type": "goal",
+      "player": "Matheus Cunha",
+      "detail": "Matheus Cunha rises highest to meet a pinpoint cross from Bruno Guimarães at the back post, powering a header into the top corner from 8 yards.",
+      "teamSlug": "brazil"
+    },
+    {
+      "minute": 67,
+      "type": "goal",
+      "player": "Vinícius Júnior",
+      "detail": "Vinícius Júnior cuts in from the left wing on his stronger right foot and curls a striking finish into the far corner from 18 yards after beating Robertson.",
+      "teamSlug": "brazil"
+    },
+    {
+      "minute": 81,
+      "type": "yellow",
+      "player": "John McGinn",
+      "detail": "John McGinn is booked for a cynical foul on Casemiro, frustrating Scotland's inability to break down Brazil's midfield.",
+      "teamSlug": "scotland"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "scotland",
     "teamName": "Scotland",

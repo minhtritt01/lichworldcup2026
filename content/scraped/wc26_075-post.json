@@ -1,0 +1,322 @@
+{
+  "matchId": "wc26_075",
+  "eventId": "2499836",
+  "status": "finished",
+  "scrapedAt": "2026-07-04T04:42:35.300Z",
+  "general": {
+    "homeTeam": "Netherlands",
+    "homeSlug": "ha-lan",
+    "awayTeam": "Morocco",
+    "awaySlug": "maroc",
+    "stage": "FIFA World Cup",
+    "group": "",
+    "kickoffUTC": "2026-06-30T01:00:00",
+    "venue": "Estadio BBVA",
+    "referee": ""
+  },
+  "score": {
+    "home": 1,
+    "away": 1
+  },
+  "events": [],
+  "form": {
+    "home": [
+      {
+        "opponent": "Morocco",
+        "result": "D",
+        "score": "1-1",
+        "date": "2026-06-30"
+      }
+    ],
+    "away": [
+      {
+        "opponent": "Haiti",
+        "result": "W",
+        "score": "4-2",
+        "date": "2026-06-24"
+      }
+    ]
+  },
+  "squads": {
+    "home": [
+      {
+        "name": "Bart Verbruggen",
+        "number": 1,
+        "position": "GK",
+        "age": 23
+      },
+      {
+        "name": "Denzel Dumfries",
+        "number": 2,
+        "position": "DF",
+        "age": 30
+      },
+      {
+        "name": "Jurriën Timber",
+        "number": 3,
+        "position": "DF",
+        "age": 25
+      },
+      {
+        "name": "Virgil van Dijk",
+        "number": 4,
+        "position": "DF",
+        "age": 34
+      },
+      {
+        "name": "Nathan Aké",
+        "number": 5,
+        "position": "DF",
+        "age": 31
+      },
+      {
+        "name": "Stefan de Vrij",
+        "number": 6,
+        "position": "DF",
+        "age": 34
+      },
+      {
+        "name": "Frenkie de Jong",
+        "number": 7,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Tijjani Reijnders",
+        "number": 8,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Memphis Depay",
+        "number": 9,
+        "position": "FW",
+        "age": 32
+      },
+      {
+        "name": "Cody Gakpo",
+        "number": 10,
+        "position": "FW",
+        "age": 27
+      },
+      {
+        "name": "Xavi Simons",
+        "number": 11,
+        "position": "FW",
+        "age": 23
+      },
+      {
+        "name": "Remko Pasveer",
+        "number": 12,
+        "position": "GK",
+        "age": 42
+      },
+      {
+        "name": "Matthijs de Ligt",
+        "number": 13,
+        "position": "DF",
+        "age": 26
+      },
+      {
+        "name": "Mats Wieffer",
+        "number": 14,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Teun Koopmeiners",
+        "number": 15,
+        "position": "MF",
+        "age": 28
+      },
+      {
+        "name": "Ryan Gravenberch",
+        "number": 16,
+        "position": "MF",
+        "age": 24
+      },
+      {
+        "name": "Donyell Malen",
+        "number": 17,
+        "position": "FW",
+        "age": 27
+      },
+      {
+        "name": "Brian Brobbey",
+        "number": 18,
+        "position": "FW",
+        "age": 24
+      },
+      {
+        "name": "Wout Weghorst",
+        "number": 19,
+        "position": "FW",
+        "age": 33
+      },
+      {
+        "name": "Georginio Wijnaldum",
+        "number": 20,
+        "position": "MF",
+        "age": 35
+      },
+      {
+        "name": "Devyne Rensch",
+        "number": 21,
+        "position": "DF",
+        "age": 23
+      },
+      {
+        "name": "Ian Maatsen",
+        "number": 22,
+        "position": "DF",
+        "age": 24
+      },
+      {
+        "name": "Justin Bijlow",
+        "number": 23,
+        "position": "GK",
+        "age": 28
+      }
+    ],
+    "away": [
+      {
+        "name": "Yassine Bounou",
+        "number": 1,
+        "position": "GK",
+        "age": 35
+      },
+      {
+        "name": "Munir Mohamedi",
+        "number": 2,
+        "position": "GK",
+        "age": 37
+      },
+      {
+        "name": "Ahmed Tagnaouti",
+        "number": 3,
+        "position": "GK",
+        "age": 30
+      },
+      {
+        "name": "Achraf Hakimi",
+        "number": 4,
+        "position": "DF",
+        "age": 27
+      },
+      {
+        "name": "Nayef Aguerd",
+        "number": 5,
+        "position": "DF",
+        "age": 30
+      },
+      {
+        "name": "Noussair Mazraoui",
+        "number": 6,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Youssef Belammari",
+        "number": 7,
+        "position": "DF",
+        "age": 27
+      },
+      {
+        "name": "Anass Salah-Eddine",
+        "number": 8,
+        "position": "DF",
+        "age": 24
+      },
+      {
+        "name": "Chadi Riad",
+        "number": 9,
+        "position": "DF",
+        "age": 22
+      },
+      {
+        "name": "Issa Diop",
+        "number": 10,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Zakaria El Ouahdi",
+        "number": 11,
+        "position": "DF",
+        "age": 24
+      },
+      {
+        "name": "Redouane Halhal",
+        "number": 12,
+        "position": "DF",
+        "age": 23
+      },
+      {
+        "name": "Sofyan Amrabat",
+        "number": 13,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Azzedine Ounahi",
+        "number": 14,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Bilal El Khannouss",
+        "number": 15,
+        "position": "MF",
+        "age": 22
+      },
+      {
+        "name": "Ismael Saibari",
+        "number": 16,
+        "position": "MF",
+        "age": 25
+      },
+      {
+        "name": "Neil El Aynaoui",
+        "number": 17,
+        "position": "MF",
+        "age": 24
+      },
+      {
+        "name": "Samir El Mourabet",
+        "number": 18,
+        "position": "MF",
+        "age": 19
+      },
+      {
+        "name": "Ayyoub Bouaddi",
+        "number": 19,
+        "position": "MF",
+        "age": 18
+      },
+      {
+        "name": "Ayoub El Kaabi",
+        "number": 20,
+        "position": "FW",
+        "age": 32
+      },
+      {
+        "name": "Soufiane Rahimi",
+        "number": 21,
+        "position": "FW",
+        "age": 30
+      },
+      {
+        "name": "Abde Ezzalzouli",
+        "number": 22,
+        "position": "FW",
+        "age": 24
+      },
+      {
+        "name": "Brahim Díaz",
+        "number": 23,
+        "position": "FW",
+        "age": 26
+      }
+    ]
+  }
+}

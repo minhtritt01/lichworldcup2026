@@ -1,15 +1,58 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 15,
+      "type": "goal",
+      "player": "Martin Ødegaard",
+      "detail": "Norway breaks on the counter-attack; Ødegaard receives the ball on the right wing and cuts inside before striking a low shot that finds the bottom corner from 18 yards.",
+      "teamSlug": "na-uy"
+    },
+    {
+      "minute": 28,
+      "type": "yellow",
+      "player": "Seko Fofana",
+      "detail": "Seko Fofana is cautioned for a reckless challenge on Morten Thorsby in midfield.",
+      "teamSlug": "bo-bien-nga"
+    },
+    {
+      "minute": 41,
+      "type": "goal",
+      "player": "Simon Adingra",
+      "detail": "Simon Adingra strikes a powerful free kick from 22 yards after a foul on the left flank; his effort curves over the wall and nestles in the top corner.",
+      "teamSlug": "bo-bien-nga"
+    },
+    {
+      "minute": 54,
+      "type": "yellow",
+      "player": "Birger Meling",
+      "detail": "Birger Meling receives a yellow card for a tactical foul on Wilfried Singo on the left wing.",
+      "teamSlug": "na-uy"
+    },
+    {
+      "minute": 63,
+      "type": "goal",
+      "player": "Sander Berge",
+      "detail": "Sander Berge powers home a header from a pinpoint cross delivered by Julian Ryerson from the right wing, beating Yahia Fofana at the near post.",
+      "teamSlug": "na-uy"
+    },
+    {
+      "minute": 72,
+      "type": "yellow",
+      "player": "Odilon Kossounou",
+      "detail": "Odilon Kossounou is booked for a dangerous foul on Martin Ødegaard near the penalty area.",
+      "teamSlug": "bo-bien-nga"
+    }
+  ],
   "homeLineup": {
-    "teamSlug": "a-quan-bang-e",
-    "teamName": "Runner-up E",
+    "teamSlug": "bo-bien-nga",
+    "teamName": "Ivory Coast",
     "formation": "4-3-3",
     "accent": "#ef4444",
     "players": []
   },
   "awayLineup": {
-    "teamSlug": "a-quan-bang-i",
-    "teamName": "Runner-up I",
+    "teamSlug": "na-uy",
+    "teamName": "Norway",
     "formation": "4-3-3",
     "accent": "#2563eb",
     "players": []

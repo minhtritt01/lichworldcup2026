@@ -1,5 +1,55 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 8,
+      "type": "yellow",
+      "player": "Kevin Castaño",
+      "detail": "Yellow card for a reckless challenge on Vitinha in midfield, breaking up a promising Portuguese counterattack.",
+      "teamSlug": "colombia"
+    },
+    {
+      "minute": 21,
+      "type": "yellow",
+      "player": "João Palhinha",
+      "detail": "Yellow card for a tactical foul stopping Luis Díaz's dangerous run down the left wing.",
+      "teamSlug": "bo-dao-nha"
+    },
+    {
+      "minute": 35,
+      "type": "yellow",
+      "player": "Yerry Mina",
+      "detail": "Yellow card for a hard challenge on Bernardo Silva as Colombia's defense holds firm.",
+      "teamSlug": "colombia"
+    },
+    {
+      "minute": 45,
+      "type": "substitution",
+      "player": "Jorge Carrascal",
+      "detail": "Colombia replaces Carrascal with fresh midfield reinforcement at halftime to adjust their tactical approach.",
+      "teamSlug": "colombia"
+    },
+    {
+      "minute": 61,
+      "type": "substitution",
+      "player": "Gonçalo Inácio",
+      "detail": "Portugal brings on defensive reinforcement for Inácio to maintain their compact defensive shape.",
+      "teamSlug": "bo-dao-nha"
+    },
+    {
+      "minute": 74,
+      "type": "yellow",
+      "player": "Bernardo Silva",
+      "detail": "Yellow card for a frustrated challenge on Richard Ríos after a contested midfield battle.",
+      "teamSlug": "bo-dao-nha"
+    },
+    {
+      "minute": 87,
+      "type": "yellow",
+      "player": "Daniel Muñoz",
+      "detail": "Yellow card for time-wasting to preserve Colombia's point in the dying stages of the match.",
+      "teamSlug": "colombia"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "colombia",
     "teamName": "Colombia",

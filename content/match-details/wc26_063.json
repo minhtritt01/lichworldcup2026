@@ -1,5 +1,55 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 12,
+      "type": "yellow",
+      "player": "Ryan Mendes",
+      "detail": "Cynical sliding tackle from behind on Hassan Al-Tambakti to stop a Saudi Arabia counter-attack. Ryan Mendes catches the left-back late, earning the first caution.",
+      "teamSlug": "cape-verde"
+    },
+    {
+      "minute": 29,
+      "type": "yellow",
+      "player": "Saud Abdulhamid",
+      "detail": "Reckless shoulder charge on Dailon Livramento down the right flank. Saud Abdulhamid's aggressive defending earns him a yellow for excessive force.",
+      "teamSlug": "a-rap-xe-ut"
+    },
+    {
+      "minute": 44,
+      "type": "yellow",
+      "player": "Jovane Cabral",
+      "detail": "Dissent after being fouled by Mohamed Kanno in midfield. Jovane Cabral protests loudly at the referee's decision, receiving a caution for backchat.",
+      "teamSlug": "cape-verde"
+    },
+    {
+      "minute": 56,
+      "type": "yellow",
+      "player": "Ali Al-Bulayhi",
+      "detail": "Deliberate handball on the goal line to block a dangerous Cape Verde cross. Ali Al-Bulayhi's instinctive arm earns a yellow card and a free kick.",
+      "teamSlug": "a-rap-xe-ut"
+    },
+    {
+      "minute": 70,
+      "type": "yellow",
+      "player": "Kevin Pina",
+      "detail": "Professional foul to break up a threatening Saudi Arabia counter-attack. Kevin Pina cynically brings down Salem Al-Dawsari in midfield to disrupt the tempo.",
+      "teamSlug": "cape-verde"
+    },
+    {
+      "minute": 79,
+      "type": "yellow",
+      "player": "Firas Al-Buraikan",
+      "detail": "Two-footed challenge on João Paulo in the center circle. Firas Al-Buraikan's reckless tackle earns a caution from the referee.",
+      "teamSlug": "a-rap-xe-ut"
+    },
+    {
+      "minute": 87,
+      "type": "red",
+      "player": "Salman Al-Faraj",
+      "detail": "Second yellow card for a tactical foul on João Paulo. Salman Al-Faraj's frustration boils over late in the match, earning a dismissal.",
+      "teamSlug": "a-rap-xe-ut"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "cape-verde",
     "teamName": "Cape Verde",

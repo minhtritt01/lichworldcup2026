@@ -1,5 +1,55 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 15,
+      "type": "yellow",
+      "player": "Tariq Lamptey",
+      "detail": "Receives a caution for a cynical foul stopping Ivan Perišić's attacking run down the right flank.",
+      "teamSlug": "ghana"
+    },
+    {
+      "minute": 28,
+      "type": "goal",
+      "player": "Andrej Kramarić",
+      "detail": "Powerful header at the near post following a precise cross from Mateo Kovačić, beating Lawrence Ati Zigi at full stretch.",
+      "teamSlug": "croatia"
+    },
+    {
+      "minute": 38,
+      "type": "yellow",
+      "player": "Iddrisu Baba",
+      "detail": "Yellow card for a reckless sliding tackle on Luka Modrić in midfield.",
+      "teamSlug": "ghana"
+    },
+    {
+      "minute": 45,
+      "type": "goal",
+      "player": "André Ayew",
+      "detail": "Clinical left-footed finish following a Ghana counter-attack, slotting the ball low past Dominik Livaković's outstretched hand.",
+      "teamSlug": "ghana"
+    },
+    {
+      "minute": 62,
+      "type": "goal",
+      "player": "Ante Budimir",
+      "detail": "Tap-in from four yards after Nikola Moro's pass finds him unmarked in the box, finishing with a composed right-footed strike.",
+      "teamSlug": "croatia"
+    },
+    {
+      "minute": 71,
+      "type": "yellow",
+      "player": "Thomas Partey",
+      "detail": "Receives yellow for a firm tackle that catches Mateo Kovačić late, earning the referee's caution.",
+      "teamSlug": "ghana"
+    },
+    {
+      "minute": 82,
+      "type": "substitution",
+      "player": "Jordan Ayew",
+      "detail": "Ghana makes a substitution, replacing Jordan Ayew with fresh legs to fight for the closing moments.",
+      "teamSlug": "ghana"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "croatia",
     "teamName": "Croatia",

@@ -1,17 +1,217 @@
 {
   "incidents": [],
   "homeLineup": {
-    "teamSlug": "nhat-bang-j",
-    "teamName": "Winner J",
+    "teamSlug": "argentina",
+    "teamName": "Argentina",
     "formation": "4-3-3",
     "accent": "#ef4444",
-    "players": []
+    "players": [
+      {
+        "name": "Juan Musso",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 12,
+        "teamSlug": "argentina",
+        "captain": false
+      },
+      {
+        "name": "Leonardo Balerdi",
+        "number": 2,
+        "role": "RB",
+        "x": 14,
+        "y": 28,
+        "teamSlug": "argentina",
+        "captain": false
+      },
+      {
+        "name": "Nicolás Tagliafico",
+        "number": 3,
+        "role": "CB",
+        "x": 36,
+        "y": 30,
+        "teamSlug": "argentina",
+        "captain": false
+      },
+      {
+        "name": "Gonzalo Montiel",
+        "number": 4,
+        "role": "CB",
+        "x": 64,
+        "y": 30,
+        "teamSlug": "argentina",
+        "captain": false
+      },
+      {
+        "name": "Lisandro Martínez",
+        "number": 6,
+        "role": "LB",
+        "x": 86,
+        "y": 28,
+        "teamSlug": "argentina",
+        "captain": false
+      },
+      {
+        "name": "Leandro Paredes",
+        "number": 5,
+        "role": "DM",
+        "x": 22,
+        "y": 48,
+        "teamSlug": "argentina",
+        "captain": false
+      },
+      {
+        "name": "Rodrigo De Paul",
+        "number": 7,
+        "role": "CM",
+        "x": 50,
+        "y": 56,
+        "teamSlug": "argentina",
+        "captain": false
+      },
+      {
+        "name": "Valentín Barco",
+        "number": 8,
+        "role": "CM",
+        "x": 78,
+        "y": 48,
+        "teamSlug": "argentina",
+        "captain": false
+      },
+      {
+        "name": "Julián Álvarez",
+        "number": 9,
+        "role": "RW",
+        "x": 18,
+        "y": 76,
+        "teamSlug": "argentina",
+        "captain": false
+      },
+      {
+        "name": "Lionel Messi",
+        "number": 10,
+        "role": "ST",
+        "x": 50,
+        "y": 84,
+        "teamSlug": "argentina",
+        "captain": true
+      },
+      {
+        "name": "Thiago Almada",
+        "number": 16,
+        "role": "LW",
+        "x": 82,
+        "y": 76,
+        "teamSlug": "argentina",
+        "captain": false
+      }
+    ]
   },
   "awayLineup": {
-    "teamSlug": "a-quan-bang-h",
-    "teamName": "Runner-up H",
+    "teamSlug": "cape-verde",
+    "teamName": "Cape Verde",
     "formation": "4-3-3",
     "accent": "#2563eb",
-    "players": []
+    "players": [
+      {
+        "name": "Vozinha",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 88,
+        "teamSlug": "cape-verde",
+        "captain": true
+      },
+      {
+        "name": "Stopira",
+        "number": 2,
+        "role": "RB",
+        "x": 14,
+        "y": 72,
+        "teamSlug": "cape-verde",
+        "captain": false
+      },
+      {
+        "name": "Diney Borges",
+        "number": 3,
+        "role": "CB",
+        "x": 36,
+        "y": 70,
+        "teamSlug": "cape-verde",
+        "captain": false
+      },
+      {
+        "name": "Pico Lopes",
+        "number": 4,
+        "role": "CB",
+        "x": 64,
+        "y": 70,
+        "teamSlug": "cape-verde",
+        "captain": false
+      },
+      {
+        "name": "Logan Costa",
+        "number": 5,
+        "role": "LB",
+        "x": 86,
+        "y": 72,
+        "teamSlug": "cape-verde",
+        "captain": false
+      },
+      {
+        "name": "Kevin Pina",
+        "number": 6,
+        "role": "DM",
+        "x": 22,
+        "y": 52,
+        "teamSlug": "cape-verde",
+        "captain": false
+      },
+      {
+        "name": "Jovane Cabral",
+        "number": 7,
+        "role": "CM",
+        "x": 50,
+        "y": 44,
+        "teamSlug": "cape-verde",
+        "captain": false
+      },
+      {
+        "name": "João Paulo",
+        "number": 8,
+        "role": "CM",
+        "x": 78,
+        "y": 52,
+        "teamSlug": "cape-verde",
+        "captain": false
+      },
+      {
+        "name": "Gilson Benchimol",
+        "number": 9,
+        "role": "RW",
+        "x": 18,
+        "y": 24,
+        "teamSlug": "cape-verde",
+        "captain": false
+      },
+      {
+        "name": "Dailon Livramento",
+        "number": 19,
+        "role": "ST",
+        "x": 50,
+        "y": 16,
+        "teamSlug": "cape-verde",
+        "captain": false
+      },
+      {
+        "name": "Ryan Mendes",
+        "number": 20,
+        "role": "LW",
+        "x": 82,
+        "y": 24,
+        "teamSlug": "cape-verde",
+        "captain": false
+      }
+    ]
   }
 }

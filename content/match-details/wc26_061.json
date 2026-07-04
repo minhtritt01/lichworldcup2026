@@ -1,5 +1,48 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 15,
+      "type": "goal",
+      "player": "Kylian Mbappé",
+      "detail": "Mbappé explodes down the right wing and finishes with a low drive across Nyland after Théo Hernández plays him in behind the Norwegian defense.",
+      "teamSlug": "phap"
+    },
+    {
+      "minute": 32,
+      "type": "yellow",
+      "player": "Omar Elabdellaoui",
+      "detail": "Elabdellaoui brings down Dembélé in a desperate sliding tackle on the left wing.",
+      "teamSlug": "na-uy"
+    },
+    {
+      "minute": 41,
+      "type": "goal",
+      "player": "Ousmane Dembélé",
+      "detail": "Dembélé cuts inside from the left and bends a precise left-foot shot into the far corner after a quick one-two with Griezmann.",
+      "teamSlug": "phap"
+    },
+    {
+      "minute": 55,
+      "type": "goal",
+      "player": "Alexander Sørloth",
+      "detail": "Sørloth powers a header past Maignan from close range, nodding home Martin Ødegaard's inswinging corner with authority.",
+      "teamSlug": "na-uy"
+    },
+    {
+      "minute": 68,
+      "type": "goal",
+      "player": "Antoine Griezmann",
+      "detail": "Griezmann steps up and calmly slots the penalty low to Nyland's right after Leo Skiri Østigård fouls Mbappé inside the box.",
+      "teamSlug": "phap"
+    },
+    {
+      "minute": 81,
+      "type": "goal",
+      "player": "Kylian Mbappé",
+      "detail": "Mbappé sprints onto a loose ball and finishes with a clinical right-foot shot into the bottom corner on the counterattack.",
+      "teamSlug": "phap"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "na-uy",
     "teamName": "Norway",

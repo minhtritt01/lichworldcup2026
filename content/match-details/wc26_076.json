@@ -1,15 +1,58 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 11,
+      "type": "yellow",
+      "player": "Hiroki Sakai",
+      "detail": "Booked for a reckless challenge on Vinícius Júnior down the left flank, catching the Brazilian winger dangerously high.",
+      "teamSlug": "nhat-ban"
+    },
+    {
+      "minute": 27,
+      "type": "goal",
+      "player": "Raphinha",
+      "detail": "Clinical right-footed finish from 18 yards after a brilliant one-two with Vinícius Júnior on the right wing, nestling the ball inside the far post.",
+      "teamSlug": "brazil"
+    },
+    {
+      "minute": 44,
+      "type": "yellow",
+      "player": "Matheus Cunha",
+      "detail": "Cautioned for protesting a non-call, gesturing aggressively at the referee after being denied a penalty claim.",
+      "teamSlug": "brazil"
+    },
+    {
+      "minute": 59,
+      "type": "goal",
+      "player": "Hidemasa Morita",
+      "detail": "Excellent left-footed finish from inside the box after latching onto Wataru Endo's perfectly weighted through ball down the middle.",
+      "teamSlug": "nhat-ban"
+    },
+    {
+      "minute": 71,
+      "type": "yellow",
+      "player": "Yuto Nagatomo",
+      "detail": "Booked for a sliding challenge from behind on Alex Sandro after losing possession in midfield.",
+      "teamSlug": "nhat-ban"
+    },
+    {
+      "minute": 83,
+      "type": "goal",
+      "player": "Neymar",
+      "detail": "Curling left-footed strike into the top corner from 20 yards after cutting inside from the left wing and shifting the ball onto his favoured foot.",
+      "teamSlug": "brazil"
+    }
+  ],
   "homeLineup": {
-    "teamSlug": "nhat-bang-c",
-    "teamName": "Winner C",
+    "teamSlug": "brazil",
+    "teamName": "Brazil",
     "formation": "4-3-3",
     "accent": "#ef4444",
     "players": []
   },
   "awayLineup": {
-    "teamSlug": "a-quan-bang-f",
-    "teamName": "Runner-up F",
+    "teamSlug": "nhat-ban",
+    "teamName": "Japan",
     "formation": "4-3-3",
     "accent": "#2563eb",
     "players": []

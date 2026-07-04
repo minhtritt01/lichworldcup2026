@@ -1,0 +1,322 @@
+{
+  "matchId": "wc26_063",
+  "eventId": "2391772",
+  "status": "finished",
+  "scrapedAt": "2026-07-04T04:05:38.630Z",
+  "general": {
+    "homeTeam": "Cape Verde",
+    "homeSlug": "cape-verde",
+    "awayTeam": "Saudi Arabia",
+    "awaySlug": "a-rap-xe-ut",
+    "stage": "FIFA World Cup",
+    "group": "H",
+    "kickoffUTC": "2026-06-27T00:00:00",
+    "venue": "NRG Stadium",
+    "referee": ""
+  },
+  "score": {
+    "home": 0,
+    "away": 0
+  },
+  "events": [],
+  "form": {
+    "home": [
+      {
+        "opponent": "Saudi Arabia",
+        "result": "D",
+        "score": "0-0",
+        "date": "2026-06-27"
+      }
+    ],
+    "away": [
+      {
+        "opponent": "Uruguay",
+        "result": "D",
+        "score": "1-1",
+        "date": "2026-06-15"
+      }
+    ]
+  },
+  "squads": {
+    "home": [
+      {
+        "name": "Vozinha",
+        "number": 1,
+        "position": "GK",
+        "age": 40
+      },
+      {
+        "name": "Stopira",
+        "number": 2,
+        "position": "DF",
+        "age": 38
+      },
+      {
+        "name": "Diney Borges",
+        "number": 3,
+        "position": "DF",
+        "age": 31
+      },
+      {
+        "name": "Pico Lopes",
+        "number": 4,
+        "position": "DF",
+        "age": 33
+      },
+      {
+        "name": "Logan Costa",
+        "number": 5,
+        "position": "DF",
+        "age": 25
+      },
+      {
+        "name": "Kevin Pina",
+        "number": 6,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Jovane Cabral",
+        "number": 7,
+        "position": "MF",
+        "age": 28
+      },
+      {
+        "name": "João Paulo",
+        "number": 8,
+        "position": "MF",
+        "age": 28
+      },
+      {
+        "name": "Gilson Benchimol",
+        "number": 9,
+        "position": "FW",
+        "age": 24
+      },
+      {
+        "name": "Jamiro Monteiro",
+        "number": 10,
+        "position": "MF",
+        "age": 32
+      },
+      {
+        "name": "Garry Rodrigues",
+        "number": 11,
+        "position": "MF",
+        "age": 35
+      },
+      {
+        "name": "Márcio Rosa",
+        "number": 12,
+        "position": "GK",
+        "age": 29
+      },
+      {
+        "name": "Sidny Lopes Cabral",
+        "number": 13,
+        "position": "DF",
+        "age": 23
+      },
+      {
+        "name": "Deroy Duarte",
+        "number": 14,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Laros Duarte",
+        "number": 15,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Yannick Semedo",
+        "number": 16,
+        "position": "MF",
+        "age": 30
+      },
+      {
+        "name": "Willy Semedo",
+        "number": 17,
+        "position": "MF",
+        "age": 32
+      },
+      {
+        "name": "Telmo Arcanjo",
+        "number": 18,
+        "position": "MF",
+        "age": 25
+      },
+      {
+        "name": "Dailon Livramento",
+        "number": 19,
+        "position": "FW",
+        "age": 25
+      },
+      {
+        "name": "Ryan Mendes",
+        "number": 20,
+        "position": "FW",
+        "age": 36
+      },
+      {
+        "name": "Nuno da Costa",
+        "number": 21,
+        "position": "MF",
+        "age": 35
+      },
+      {
+        "name": "Steven Moreira",
+        "number": 22,
+        "position": "DF",
+        "age": 31
+      },
+      {
+        "name": "CJ Dos Santos",
+        "number": 23,
+        "position": "GK",
+        "age": 25
+      }
+    ],
+    "away": [
+      {
+        "name": "Mohammed Al-Owais",
+        "number": 1,
+        "position": "GK",
+        "age": 34
+      },
+      {
+        "name": "Fawaz Al-Qarni",
+        "number": 2,
+        "position": "GK",
+        "age": 27
+      },
+      {
+        "name": "Waleed Abdullah",
+        "number": 3,
+        "position": "GK",
+        "age": 25
+      },
+      {
+        "name": "Saud Abdulhamid",
+        "number": 4,
+        "position": "DF",
+        "age": 26
+      },
+      {
+        "name": "Ali Al-Bulayhi",
+        "number": 5,
+        "position": "DF",
+        "age": 36
+      },
+      {
+        "name": "Abdulelah Al-Amri",
+        "number": 6,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Hassan Al-Tambakti",
+        "number": 7,
+        "position": "DF",
+        "age": 25
+      },
+      {
+        "name": "Mohammed Al-Burayk",
+        "number": 8,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Salman Al-Faraj",
+        "number": 9,
+        "position": "MF",
+        "age": 36
+      },
+      {
+        "name": "Mohamed Kanno",
+        "number": 10,
+        "position": "MF",
+        "age": 28
+      },
+      {
+        "name": "Abdullah Otayf",
+        "number": 11,
+        "position": "MF",
+        "age": 33
+      },
+      {
+        "name": "Nasser Al-Dawsari",
+        "number": 12,
+        "position": "MF",
+        "age": 35
+      },
+      {
+        "name": "Sami Al-Najei",
+        "number": 13,
+        "position": "MF",
+        "age": 33
+      },
+      {
+        "name": "Riyadh Sharahili",
+        "number": 14,
+        "position": "MF",
+        "age": 33
+      },
+      {
+        "name": "Ali Al-Hassan",
+        "number": 15,
+        "position": "MF",
+        "age": 25
+      },
+      {
+        "name": "Salem Al-Dawsari",
+        "number": 16,
+        "position": "FW",
+        "age": 34
+      },
+      {
+        "name": "Firas Al-Buraikan",
+        "number": 17,
+        "position": "FW",
+        "age": 25
+      },
+      {
+        "name": "Hattan Bahebri",
+        "number": 18,
+        "position": "FW",
+        "age": 29
+      },
+      {
+        "name": "Mohammed Maran",
+        "number": 19,
+        "position": "FW",
+        "age": 28
+      },
+      {
+        "name": "Fahad Al-Muwallad",
+        "number": 20,
+        "position": "FW",
+        "age": 31
+      },
+      {
+        "name": "Abdulrahman Ghareeb",
+        "number": 21,
+        "position": "FW",
+        "age": 29
+      },
+      {
+        "name": "Sultan Al-Ghannam",
+        "number": 22,
+        "position": "DF",
+        "age": 23
+      },
+      {
+        "name": "Ahmed Al-Ghamdi",
+        "number": 23,
+        "position": "DF",
+        "age": 28
+      }
+    ]
+  }
+}

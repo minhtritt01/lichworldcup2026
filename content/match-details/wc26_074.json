@@ -1,15 +1,65 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 14,
+      "type": "yellow",
+      "player": "Fabián Balbuena",
+      "detail": "Balbuena pulls down Jamal Musiala from behind in midfield, earning an early caution as Germany dominates possession.",
+      "teamSlug": "paraguay"
+    },
+    {
+      "minute": 31,
+      "type": "yellow",
+      "player": "Joshua Kimmich",
+      "detail": "Kimmich receives a yellow for a tactical foul stopping a dangerous Paraguay counterattack on the right flank.",
+      "teamSlug": "duc"
+    },
+    {
+      "minute": 36,
+      "type": "goal",
+      "player": "Florian Wirtz",
+      "detail": "Wirtz pounces on a rebound after Musiala's shot is blocked, finishing with a left-footed drive from 12 yards into the far corner.",
+      "teamSlug": "duc"
+    },
+    {
+      "minute": 52,
+      "type": "yellow",
+      "player": "Omar Alderete",
+      "detail": "Alderete is cautioned for a heavy challenge on Maximilian Mittelstädt as Paraguay struggles to contain Germany's width.",
+      "teamSlug": "paraguay"
+    },
+    {
+      "minute": 61,
+      "type": "goal",
+      "player": "Miguel Almirón",
+      "detail": "Almirón cuts inside from the right wing past David Raum and curls a precise low shot into the bottom corner, leaving Neuer with no chance.",
+      "teamSlug": "paraguay"
+    },
+    {
+      "minute": 70,
+      "type": "yellow",
+      "player": "Mathías Villasanti",
+      "detail": "Villasanti receives a caution for obstructing Wirtz as Germany intensifies their push for a winner.",
+      "teamSlug": "paraguay"
+    },
+    {
+      "minute": 83,
+      "type": "yellow",
+      "player": "Antonio Rüdiger",
+      "detail": "Rüdiger is booked for a late, heavy challenge on Andrés Cubas as tempers rise in the closing stages.",
+      "teamSlug": "duc"
+    }
+  ],
   "homeLineup": {
-    "teamSlug": "nhat-bang-e",
-    "teamName": "Winner E",
+    "teamSlug": "duc",
+    "teamName": "Germany",
     "formation": "4-3-3",
     "accent": "#ef4444",
     "players": []
   },
   "awayLineup": {
-    "teamSlug": "best-3rd-1",
-    "teamName": "Best 3rd",
+    "teamSlug": "paraguay",
+    "teamName": "Paraguay",
     "formation": "4-3-3",
     "accent": "#2563eb",
     "players": []

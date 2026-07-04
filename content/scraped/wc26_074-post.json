@@ -1,0 +1,322 @@
+{
+  "matchId": "wc26_074",
+  "eventId": "2502846",
+  "status": "finished",
+  "scrapedAt": "2026-07-04T04:42:31.766Z",
+  "general": {
+    "homeTeam": "Germany",
+    "homeSlug": "duc",
+    "awayTeam": "Paraguay",
+    "awaySlug": "paraguay",
+    "stage": "FIFA World Cup",
+    "group": "",
+    "kickoffUTC": "2026-06-29T20:30:00",
+    "venue": "Gillette Stadium",
+    "referee": ""
+  },
+  "score": {
+    "home": 1,
+    "away": 1
+  },
+  "events": [],
+  "form": {
+    "home": [
+      {
+        "opponent": "Paraguay",
+        "result": "D",
+        "score": "1-1",
+        "date": "2026-06-29"
+      }
+    ],
+    "away": [
+      {
+        "opponent": "Australia",
+        "result": "D",
+        "score": "0-0",
+        "date": "2026-06-26"
+      }
+    ]
+  },
+  "squads": {
+    "home": [
+      {
+        "name": "Manuel Neuer",
+        "number": 1,
+        "position": "GK",
+        "age": 40
+      },
+      {
+        "name": "Marc-André ter Stegen",
+        "number": 2,
+        "position": "GK",
+        "age": 34
+      },
+      {
+        "name": "Oliver Baumann",
+        "number": 3,
+        "position": "GK",
+        "age": 36
+      },
+      {
+        "name": "Joshua Kimmich",
+        "number": 4,
+        "position": "DF",
+        "age": 31
+      },
+      {
+        "name": "Antonio Rüdiger",
+        "number": 5,
+        "position": "DF",
+        "age": 33
+      },
+      {
+        "name": "Jonathan Tah",
+        "number": 6,
+        "position": "DF",
+        "age": 30
+      },
+      {
+        "name": "Robin Koch",
+        "number": 7,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "David Raum",
+        "number": 8,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Maximilian Mittelstädt",
+        "number": 9,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Jamal Musiala",
+        "number": 10,
+        "position": "MF",
+        "age": 23
+      },
+      {
+        "name": "Florian Wirtz",
+        "number": 11,
+        "position": "MF",
+        "age": 23
+      },
+      {
+        "name": "Toni Kroos",
+        "number": 12,
+        "position": "MF",
+        "age": 36
+      },
+      {
+        "name": "Leon Goretzka",
+        "number": 13,
+        "position": "MF",
+        "age": 31
+      },
+      {
+        "name": "Emre Can",
+        "number": 14,
+        "position": "MF",
+        "age": 32
+      },
+      {
+        "name": "Ilkay Gündogan",
+        "number": 15,
+        "position": "MF",
+        "age": 35
+      },
+      {
+        "name": "Aleksandar Pavlović",
+        "number": 16,
+        "position": "MF",
+        "age": 21
+      },
+      {
+        "name": "Kai Havertz",
+        "number": 17,
+        "position": "FW",
+        "age": 27
+      },
+      {
+        "name": "Leroy Sané",
+        "number": 18,
+        "position": "FW",
+        "age": 30
+      },
+      {
+        "name": "Maximilian Beier",
+        "number": 19,
+        "position": "FW",
+        "age": 23
+      },
+      {
+        "name": "Niclas Füllkrug",
+        "number": 20,
+        "position": "FW",
+        "age": 33
+      },
+      {
+        "name": "Denis Undav",
+        "number": 21,
+        "position": "FW",
+        "age": 29
+      },
+      {
+        "name": "Nick Woltemade",
+        "number": 22,
+        "position": "FW",
+        "age": 24
+      },
+      {
+        "name": "Assan Ouédraogo",
+        "number": 23,
+        "position": "FW",
+        "age": 19
+      }
+    ],
+    "away": [
+      {
+        "name": "Antony Silva",
+        "number": 1,
+        "position": "GK",
+        "age": 41
+      },
+      {
+        "name": "Alfredo Aguilar",
+        "number": 2,
+        "position": "GK",
+        "age": 31
+      },
+      {
+        "name": "Rodrigo Muñoz",
+        "number": 3,
+        "position": "GK",
+        "age": 32
+      },
+      {
+        "name": "Fabián Balbuena",
+        "number": 4,
+        "position": "DF",
+        "age": 34
+      },
+      {
+        "name": "Gustavo Velázquez",
+        "number": 5,
+        "position": "DF",
+        "age": 31
+      },
+      {
+        "name": "Omar Alderete",
+        "number": 6,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Junior Alonso",
+        "number": 7,
+        "position": "DF",
+        "age": 30
+      },
+      {
+        "name": "Robert Rojas",
+        "number": 8,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Mathías Villasanti",
+        "number": 9,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Miguel Almirón",
+        "number": 10,
+        "position": "MF",
+        "age": 32
+      },
+      {
+        "name": "Andrés Cubas",
+        "number": 11,
+        "position": "MF",
+        "age": 28
+      },
+      {
+        "name": "Ángel Cardozo",
+        "number": 12,
+        "position": "MF",
+        "age": 28
+      },
+      {
+        "name": "Braian Samudio",
+        "number": 13,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Richard Sánchez",
+        "number": 14,
+        "position": "MF",
+        "age": 31
+      },
+      {
+        "name": "Diego Gómez",
+        "number": 15,
+        "position": "MF",
+        "age": 23
+      },
+      {
+        "name": "Julio Enciso",
+        "number": 16,
+        "position": "MF",
+        "age": 22
+      },
+      {
+        "name": "Ángel Romero",
+        "number": 17,
+        "position": "FW",
+        "age": 34
+      },
+      {
+        "name": "Óscar Romero",
+        "number": 18,
+        "position": "FW",
+        "age": 33
+      },
+      {
+        "name": "Antonio Sanabria",
+        "number": 19,
+        "position": "FW",
+        "age": 30
+      },
+      {
+        "name": "Iván Torres",
+        "number": 20,
+        "position": "FW",
+        "age": 24
+      },
+      {
+        "name": "Gabriel Ávalos",
+        "number": 21,
+        "position": "FW",
+        "age": 30
+      },
+      {
+        "name": "Braian Ojeda",
+        "number": 22,
+        "position": "FW",
+        "age": 23
+      },
+      {
+        "name": "Gastón Giménez",
+        "number": 23,
+        "position": "DF",
+        "age": 32
+      }
+    ]
+  }
+}

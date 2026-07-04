@@ -1,5 +1,55 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 12,
+      "type": "yellow",
+      "player": "Karim Boudiaf",
+      "detail": "Receives a caution for a reckless two-footed challenge on Benjamin Tahirović in central midfield.",
+      "teamSlug": "qatar"
+    },
+    {
+      "minute": 23,
+      "type": "goal",
+      "player": "Edin Džeko",
+      "detail": "Breaks the deadlock with a clinical finish from 12 yards, latching onto a through ball from Armin Gigović and slotting past Abunada's left hand.",
+      "teamSlug": "bosnia"
+    },
+    {
+      "minute": 34,
+      "type": "yellow",
+      "player": "Lucas Mendes",
+      "detail": "Cynically fouls Ermedin Demirović to halt a promising Bosnia counter-attack, earning a yellow card.",
+      "teamSlug": "qatar"
+    },
+    {
+      "minute": 44,
+      "type": "goal",
+      "player": "Armin Gigović",
+      "detail": "Doubles Bosnia's lead with a stunning long-range effort from 25 yards that curls into the top-right corner, leaving Abunada stranded.",
+      "teamSlug": "bosnia"
+    },
+    {
+      "minute": 63,
+      "type": "goal",
+      "player": "Edmilson Junior",
+      "detail": "Pulls one back for Qatar with a powerful downward header from a Jassem Gaber cross, finding the net from 8 yards.",
+      "teamSlug": "qatar"
+    },
+    {
+      "minute": 77,
+      "type": "yellow",
+      "player": "Sead Kolašinac",
+      "detail": "Receives a caution for a frustrated foul after being dispossessed in a contested aerial duel near midfield.",
+      "teamSlug": "bosnia"
+    },
+    {
+      "minute": 87,
+      "type": "goal",
+      "player": "Samed Baždar",
+      "detail": "Seals Bosnia's victory with a swift counter-attack finish, latching onto a loose ball after a Demirović flick and firing past Abunada from 10 yards.",
+      "teamSlug": "bosnia"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "bosnia",
     "teamName": "Bosnia & Herzegovina",

@@ -1,5 +1,48 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 13,
+      "type": "goal",
+      "player": "Thiago Almada",
+      "detail": "Thiago Almada cuts inside from the right and fires a low drive past Yazeed Abulaila into the far corner after receiving the ball from Rodrigo De Paul.",
+      "teamSlug": "argentina"
+    },
+    {
+      "minute": 27,
+      "type": "yellow",
+      "player": "Iyad Haddad",
+      "detail": "Iyad Haddad receives a yellow card for a hard tackle on Leandro Paredes in midfield.",
+      "teamSlug": "jordan"
+    },
+    {
+      "minute": 39,
+      "type": "goal",
+      "player": "Musa Al-Taamari",
+      "detail": "Musa Al-Taamari pounces on a defensive error and slots a composed left-footed finish past Juan Musso from 12 yards.",
+      "teamSlug": "jordan"
+    },
+    {
+      "minute": 54,
+      "type": "goal",
+      "player": "Julián Álvarez",
+      "detail": "Julián Álvarez rises powerfully above the Jordan defense to head home Gonzalo Montiel's precise cross from the right wing.",
+      "teamSlug": "argentina"
+    },
+    {
+      "minute": 68,
+      "type": "yellow",
+      "player": "Leandro Paredes",
+      "detail": "Leandro Paredes is shown yellow for a cynical foul on Ahmad Dababneh in midfield.",
+      "teamSlug": "argentina"
+    },
+    {
+      "minute": 76,
+      "type": "goal",
+      "player": "Lionel Messi",
+      "detail": "Lionel Messi calmly converts a penalty, sending Yazeed Abulaila the wrong way after Ahmad Hayel is brought down in the penalty area.",
+      "teamSlug": "argentina"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "jordan",
     "teamName": "Jordan",

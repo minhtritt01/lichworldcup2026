@@ -1,5 +1,48 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 15,
+      "type": "yellow",
+      "player": "Willian Pacho",
+      "detail": "Received a yellow card for a reckless sliding challenge on Florian Wirtz near the right touchline.",
+      "teamSlug": "ecuador"
+    },
+    {
+      "minute": 31,
+      "type": "goal",
+      "player": "Enner Valencia",
+      "detail": "Rising majestically above Jonathan Tah, Ecuador's captain powered a header into the net from Anthony Valencia's pinpoint cross from the right flank.",
+      "teamSlug": "ecuador"
+    },
+    {
+      "minute": 42,
+      "type": "goal",
+      "player": "Leroy Sané",
+      "detail": "Demonstrating clinical composure, Sané received a through ball from Toni Kroos and placed a low drive past Galíndez into the bottom corner from 14 yards.",
+      "teamSlug": "duc"
+    },
+    {
+      "minute": 56,
+      "type": "yellow",
+      "player": "Robin Koch",
+      "detail": "Booked for a late sliding challenge on Kendry Páez, arriving after the midfielder had already released the ball.",
+      "teamSlug": "duc"
+    },
+    {
+      "minute": 68,
+      "type": "goal",
+      "player": "Kevin Rodríguez",
+      "detail": "Finishing a devastating counterattack with a composed left-footed strike from inside the box after receiving a weighted pass from Kendry Páez.",
+      "teamSlug": "ecuador"
+    },
+    {
+      "minute": 79,
+      "type": "yellow",
+      "player": "Joshua Kimmich",
+      "detail": "Received a yellow card for a foul on John Yeboah, his second caution-worthy offense within minutes as frustration mounted.",
+      "teamSlug": "duc"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "ecuador",
     "teamName": "Ecuador",

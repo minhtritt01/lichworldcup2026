@@ -1,17 +1,217 @@
 {
   "incidents": [],
   "homeLineup": {
-    "teamSlug": "a-quan-bang-k",
-    "teamName": "Runner-up K",
+    "teamSlug": "colombia",
+    "teamName": "Colombia",
     "formation": "4-3-3",
     "accent": "#ef4444",
-    "players": []
+    "players": [
+      {
+        "name": "David Ospina",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 12,
+        "teamSlug": "colombia",
+        "captain": true
+      },
+      {
+        "name": "Daniel Muñoz",
+        "number": 2,
+        "role": "RB",
+        "x": 14,
+        "y": 28,
+        "teamSlug": "colombia",
+        "captain": false
+      },
+      {
+        "name": "Jhon Lucumí",
+        "number": 3,
+        "role": "CB",
+        "x": 36,
+        "y": 30,
+        "teamSlug": "colombia",
+        "captain": false
+      },
+      {
+        "name": "Santiago Arias",
+        "number": 4,
+        "role": "CB",
+        "x": 64,
+        "y": 30,
+        "teamSlug": "colombia",
+        "captain": false
+      },
+      {
+        "name": "Yerry Mina",
+        "number": 13,
+        "role": "LB",
+        "x": 86,
+        "y": 28,
+        "teamSlug": "colombia",
+        "captain": false
+      },
+      {
+        "name": "Kevin Castaño",
+        "number": 5,
+        "role": "DM",
+        "x": 22,
+        "y": 48,
+        "teamSlug": "colombia",
+        "captain": false
+      },
+      {
+        "name": "Richard Ríos",
+        "number": 6,
+        "role": "CM",
+        "x": 50,
+        "y": 56,
+        "teamSlug": "colombia",
+        "captain": false
+      },
+      {
+        "name": "Jorge Carrascal",
+        "number": 8,
+        "role": "CM",
+        "x": 78,
+        "y": 48,
+        "teamSlug": "colombia",
+        "captain": false
+      },
+      {
+        "name": "Luis Díaz",
+        "number": 7,
+        "role": "RW",
+        "x": 18,
+        "y": 76,
+        "teamSlug": "colombia",
+        "captain": false
+      },
+      {
+        "name": "Jhon Córdoba",
+        "number": 9,
+        "role": "ST",
+        "x": 50,
+        "y": 84,
+        "teamSlug": "colombia",
+        "captain": false
+      },
+      {
+        "name": "Cucho Hernández",
+        "number": 19,
+        "role": "LW",
+        "x": 82,
+        "y": 76,
+        "teamSlug": "colombia",
+        "captain": false
+      }
+    ]
   },
   "awayLineup": {
-    "teamSlug": "a-quan-bang-l",
-    "teamName": "Runner-up L",
+    "teamSlug": "croatia",
+    "teamName": "Croatia",
     "formation": "4-3-3",
     "accent": "#2563eb",
-    "players": []
+    "players": [
+      {
+        "name": "Dominik Livaković",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 88,
+        "teamSlug": "croatia",
+        "captain": false
+      },
+      {
+        "name": "Josip Stanišić",
+        "number": 2,
+        "role": "RB",
+        "x": 14,
+        "y": 72,
+        "teamSlug": "croatia",
+        "captain": false
+      },
+      {
+        "name": "Marin Pongračić",
+        "number": 3,
+        "role": "CB",
+        "x": 36,
+        "y": 70,
+        "teamSlug": "croatia",
+        "captain": false
+      },
+      {
+        "name": "Joško Gvardiol",
+        "number": 4,
+        "role": "CB",
+        "x": 64,
+        "y": 70,
+        "teamSlug": "croatia",
+        "captain": false
+      },
+      {
+        "name": "Duje Ćaleta-Car",
+        "number": 5,
+        "role": "LB",
+        "x": 86,
+        "y": 72,
+        "teamSlug": "croatia",
+        "captain": false
+      },
+      {
+        "name": "Nikola Moro",
+        "number": 7,
+        "role": "DM",
+        "x": 22,
+        "y": 52,
+        "teamSlug": "croatia",
+        "captain": false
+      },
+      {
+        "name": "Mateo Kovačić",
+        "number": 8,
+        "role": "CM",
+        "x": 50,
+        "y": 44,
+        "teamSlug": "croatia",
+        "captain": true
+      },
+      {
+        "name": "Luka Modrić",
+        "number": 10,
+        "role": "CM",
+        "x": 78,
+        "y": 52,
+        "teamSlug": "croatia",
+        "captain": false
+      },
+      {
+        "name": "Andrej Kramarić",
+        "number": 9,
+        "role": "RW",
+        "x": 18,
+        "y": 24,
+        "teamSlug": "croatia",
+        "captain": false
+      },
+      {
+        "name": "Ante Budimir",
+        "number": 11,
+        "role": "ST",
+        "x": 50,
+        "y": 16,
+        "teamSlug": "croatia",
+        "captain": false
+      },
+      {
+        "name": "Ivan Perišić",
+        "number": 14,
+        "role": "LW",
+        "x": 82,
+        "y": 24,
+        "teamSlug": "croatia",
+        "captain": false
+      }
+    ]
   }
 }

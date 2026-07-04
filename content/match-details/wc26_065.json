@@ -1,5 +1,48 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 12,
+      "type": "yellow",
+      "player": "Saeid Ezatolahi",
+      "detail": "Saeid Ezatolahi received a caution for a reckless two-footed challenge on Mahmoud Trezeguet in Iran's half.",
+      "teamSlug": "iran"
+    },
+    {
+      "minute": 31,
+      "type": "goal",
+      "player": "Mohamed Salah",
+      "detail": "Mohamed Salah latched onto a loose ball in the box after Amr El Sulaya's deflected cross and fired a low left-footed finish past Alireza Beiranvand into the bottom corner.",
+      "teamSlug": "ai-cap"
+    },
+    {
+      "minute": 44,
+      "type": "yellow",
+      "player": "Tarek Hamed",
+      "detail": "Tarek Hamed was booked for a late studs-up challenge on Alireza Jahanbakhsh near the Egyptian penalty area.",
+      "teamSlug": "ai-cap"
+    },
+    {
+      "minute": 57,
+      "type": "goal",
+      "player": "Mehdi Taremi",
+      "detail": "Mehdi Taremi rose above the Egyptian defense to powerfully head in a precise cross from Ali Gholizadeh, leaving Mohamed El-Shenawy with no chance.",
+      "teamSlug": "iran"
+    },
+    {
+      "minute": 71,
+      "type": "yellow",
+      "player": "Morteza Pouraliganji",
+      "detail": "Morteza Pouraliganji was cautioned for a hard foul bringing down Omar Marmoush as he broke toward goal.",
+      "teamSlug": "iran"
+    },
+    {
+      "minute": 82,
+      "type": "yellow",
+      "player": "Ahmed Hegazy",
+      "detail": "Ahmed Hegazy received a yellow card for dissent after protesting a non-call on a shoulder challenge.",
+      "teamSlug": "ai-cap"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "ai-cap",
     "teamName": "Egypt",

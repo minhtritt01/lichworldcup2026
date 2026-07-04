@@ -1,0 +1,322 @@
+{
+  "matchId": "wc26_065",
+  "eventId": "2391773",
+  "status": "finished",
+  "scrapedAt": "2026-07-04T04:09:02.987Z",
+  "general": {
+    "homeTeam": "Egypt",
+    "homeSlug": "ai-cap",
+    "awayTeam": "Iran",
+    "awaySlug": "iran",
+    "stage": "FIFA World Cup",
+    "group": "G",
+    "kickoffUTC": "2026-06-27T03:00:00",
+    "venue": "Lumen Field",
+    "referee": ""
+  },
+  "score": {
+    "home": 1,
+    "away": 1
+  },
+  "events": [],
+  "form": {
+    "home": [
+      {
+        "opponent": "Iran",
+        "result": "D",
+        "score": "1-1",
+        "date": "2026-06-27"
+      }
+    ],
+    "away": [
+      {
+        "opponent": "New Zealand",
+        "result": "D",
+        "score": "2-2",
+        "date": "2026-06-16"
+      }
+    ]
+  },
+  "squads": {
+    "home": [
+      {
+        "name": "Mohamed El-Shenawy",
+        "number": 1,
+        "position": "GK",
+        "age": 37
+      },
+      {
+        "name": "Gabaski",
+        "number": 2,
+        "position": "GK",
+        "age": 33
+      },
+      {
+        "name": "Mohamed Sobhi",
+        "number": 3,
+        "position": "GK",
+        "age": 27
+      },
+      {
+        "name": "Ahmed Hegazy",
+        "number": 4,
+        "position": "DF",
+        "age": 35
+      },
+      {
+        "name": "Ali Gabr",
+        "number": 5,
+        "position": "DF",
+        "age": 37
+      },
+      {
+        "name": "Omar Kamal",
+        "number": 6,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Akram Tawfik",
+        "number": 7,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Ayman Ashraf",
+        "number": 8,
+        "position": "DF",
+        "age": 32
+      },
+      {
+        "name": "Tarek Hamed",
+        "number": 9,
+        "position": "MF",
+        "age": 37
+      },
+      {
+        "name": "Mahmoud Trezeguet",
+        "number": 10,
+        "position": "MF",
+        "age": 31
+      },
+      {
+        "name": "Mohamed Salah",
+        "number": 11,
+        "position": "FW",
+        "age": 34
+      },
+      {
+        "name": "Amr El Sulaya",
+        "number": 12,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Mohamed Elneny",
+        "number": 13,
+        "position": "MF",
+        "age": 33
+      },
+      {
+        "name": "Ramadan Sobhi",
+        "number": 14,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Amr El Sulaya",
+        "number": 15,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Nasser Maher",
+        "number": 16,
+        "position": "MF",
+        "age": 31
+      },
+      {
+        "name": "Emam Ashour",
+        "number": 17,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Mostafa Mohamed",
+        "number": 18,
+        "position": "FW",
+        "age": 26
+      },
+      {
+        "name": "Omar Marmoush",
+        "number": 19,
+        "position": "FW",
+        "age": 27
+      },
+      {
+        "name": "Mahmoud Hassan Trezeguet",
+        "number": 20,
+        "position": "FW",
+        "age": 31
+      },
+      {
+        "name": "Zizo",
+        "number": 21,
+        "position": "FW",
+        "age": 34
+      },
+      {
+        "name": "Mohamed Abdel-Moneim",
+        "number": 22,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Ahmed El Fotouh",
+        "number": 23,
+        "position": "DF",
+        "age": 26
+      }
+    ],
+    "away": [
+      {
+        "name": "Alireza Beiranvand",
+        "number": 1,
+        "position": "GK",
+        "age": 33
+      },
+      {
+        "name": "Payam Niazmand",
+        "number": 2,
+        "position": "GK",
+        "age": 36
+      },
+      {
+        "name": "Hossein Hosseini",
+        "number": 3,
+        "position": "GK",
+        "age": 27
+      },
+      {
+        "name": "Milad Mohammadi",
+        "number": 4,
+        "position": "DF",
+        "age": 32
+      },
+      {
+        "name": "Morteza Pouraliganji",
+        "number": 5,
+        "position": "DF",
+        "age": 33
+      },
+      {
+        "name": "Majid Hosseini",
+        "number": 6,
+        "position": "DF",
+        "age": 26
+      },
+      {
+        "name": "Sadegh Moharrami",
+        "number": 7,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Shahab Zahedi",
+        "number": 8,
+        "position": "DF",
+        "age": 30
+      },
+      {
+        "name": "Saeid Ezatolahi",
+        "number": 9,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Ali Gholizadeh",
+        "number": 10,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Alireza Jahanbakhsh",
+        "number": 11,
+        "position": "MF",
+        "age": 32
+      },
+      {
+        "name": "Ahmad Nourollahi",
+        "number": 12,
+        "position": "MF",
+        "age": 32
+      },
+      {
+        "name": "Mehdi Torabi",
+        "number": 13,
+        "position": "MF",
+        "age": 31
+      },
+      {
+        "name": "Vahid Amiri",
+        "number": 14,
+        "position": "MF",
+        "age": 35
+      },
+      {
+        "name": "Saman Ghoddos",
+        "number": 15,
+        "position": "MF",
+        "age": 32
+      },
+      {
+        "name": "Omid Noorafkan",
+        "number": 16,
+        "position": "MF",
+        "age": 23
+      },
+      {
+        "name": "Sardar Azmoun",
+        "number": 17,
+        "position": "FW",
+        "age": 31
+      },
+      {
+        "name": "Mehdi Taremi",
+        "number": 18,
+        "position": "FW",
+        "age": 33
+      },
+      {
+        "name": "Allahyar Sayyadmanesh",
+        "number": 19,
+        "position": "FW",
+        "age": 26
+      },
+      {
+        "name": "Karim Ansarifard",
+        "number": 20,
+        "position": "FW",
+        "age": 36
+      },
+      {
+        "name": "Shahin Augoustart",
+        "number": 21,
+        "position": "FW",
+        "age": 22
+      },
+      {
+        "name": "Hossein Kanaani",
+        "number": 22,
+        "position": "DF",
+        "age": 38
+      },
+      {
+        "name": "Roozbeh Cheshmi",
+        "number": 23,
+        "position": "DF",
+        "age": 30
+      }
+    ]
+  }
+}

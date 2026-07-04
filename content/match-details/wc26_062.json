@@ -1,5 +1,55 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 18,
+      "type": "goal",
+      "player": "Nicolas Jackson",
+      "detail": "Jackson pounced on a loose ball in the box following a goalmouth scramble from Mané's blocked shot, firing past Hassan from three yards.",
+      "teamSlug": "senegal"
+    },
+    {
+      "minute": 31,
+      "type": "goal",
+      "player": "Sadio Mané",
+      "detail": "Mané cut inside from the left wing and curled a precision left-footed shot into the far corner from 18 yards, leaving Hassan rooted to the spot.",
+      "teamSlug": "senegal"
+    },
+    {
+      "minute": 41,
+      "type": "yellow",
+      "player": "Nashat Akram",
+      "detail": "Akram received a yellow card for a heavy two-footed challenge on Nampalys Mendy in midfield.",
+      "teamSlug": "iraq"
+    },
+    {
+      "minute": 53,
+      "type": "goal",
+      "player": "Cheikhou Kouyaté",
+      "detail": "Couyaté rose unmarked at the back post to powerfully head home a corner delivery, giving Senegal a commanding 3-0 lead.",
+      "teamSlug": "senegal"
+    },
+    {
+      "minute": 68,
+      "type": "goal",
+      "player": "Nampalys Mendy",
+      "detail": "Nampalys Mendy finished from eight yards at the far post after Ismaïla Sarr's low cross evaded the Iraqi defense.",
+      "teamSlug": "senegal"
+    },
+    {
+      "minute": 77,
+      "type": "yellow",
+      "player": "Ali Adnan",
+      "detail": "Adnan was cautioned for a cynical foul on Formose Mendy, attempting to stop a dangerous Senegal counter-attack.",
+      "teamSlug": "iraq"
+    },
+    {
+      "minute": 86,
+      "type": "goal",
+      "player": "Idrissa Gueye",
+      "detail": "Gueye arrived at the back post to tap in after Sarr's inswinging cross evaded the Iraqi goalkeeper and defense.",
+      "teamSlug": "senegal"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "senegal",
     "teamName": "Senegal",

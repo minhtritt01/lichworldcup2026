@@ -1,5 +1,48 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 15,
+      "type": "yellow",
+      "player": "Godfried Roemeratoe",
+      "detail": "Earns yellow card for a late sliding tackle on Simon Adingra on the left flank, denying a dangerous counter-attack.",
+      "teamSlug": "curacao"
+    },
+    {
+      "minute": 28,
+      "type": "goal",
+      "player": "Simon Adingra",
+      "detail": "Receives a perfectly weighted through ball from Franck Kessié and slots it past Eloy Room with a composed left-footed finish from 12 yards.",
+      "teamSlug": "bo-bien-nga"
+    },
+    {
+      "minute": 54,
+      "type": "yellow",
+      "player": "Juninho Bacuna",
+      "detail": "Booked for dissent after protesting a corner decision, gesturing aggressively toward the referee.",
+      "teamSlug": "curacao"
+    },
+    {
+      "minute": 68,
+      "type": "goal",
+      "player": "Ange-Yoan Bonny",
+      "detail": "Pounces on a loose ball at the far post following a goalmouth scramble after Seko Fofana's low cross, tapping in from close range.",
+      "teamSlug": "bo-bien-nga"
+    },
+    {
+      "minute": 76,
+      "type": "yellow",
+      "player": "Roshon van Eijma",
+      "detail": "Receives caution for a professional foul, pulling back Ange-Yoan Bonny to stop a counter-attack down the right wing.",
+      "teamSlug": "curacao"
+    },
+    {
+      "minute": 87,
+      "type": "yellow",
+      "player": "Jürgen Locadia",
+      "detail": "Shown yellow for a dangerous high boot challenge on Odilon Kossounou when disputing a 50-50 ball.",
+      "teamSlug": "curacao"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "curacao",
     "teamName": "Curaçao",
