@@ -1,5 +1,55 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 12,
+      "type": "yellow",
+      "player": "Ramiz Zerrouki",
+      "detail": "Zerrouki slides in aggressively on Remo Freuler, catching the Swiss midfielder with a late challenge that leaves the referee with no choice but to brandish a yellow card.",
+      "teamSlug": "algeria"
+    },
+    {
+      "minute": 28,
+      "type": "yellow",
+      "player": "Zinedine Belaïd",
+      "detail": "Belaïd desperately slides to block Johan Manzambi's forward run but catches him below the knee, earning a booking for the cynical foul.",
+      "teamSlug": "algeria"
+    },
+    {
+      "minute": 35,
+      "type": "goal",
+      "player": "Dan Ndoye",
+      "detail": "Ndoye reacts quickest to a loose ball bouncing toward the box after a rushed Algerian clearance, striking a low effort from 18 yards that squirms under Melvin Mastil's hands into the bottom corner.",
+      "teamSlug": "thuy-si"
+    },
+    {
+      "minute": 63,
+      "type": "yellow",
+      "player": "Aïssa Mandi",
+      "detail": "Mandi lunges desperately at Breel Embolo with an extended leg, making unnecessary contact that draws an immediate yellow card from the referee.",
+      "teamSlug": "algeria"
+    },
+    {
+      "minute": 71,
+      "type": "goal",
+      "player": "Breel Embolo",
+      "detail": "Embolo rises majestically between two Algerian defenders to power a header downward from Johan Manzambi's pinpoint cross from the right byline, leaving Mastil helpless.",
+      "teamSlug": "thuy-si"
+    },
+    {
+      "minute": 81,
+      "type": "yellow",
+      "player": "Denis Zakaria",
+      "detail": "Zakaria takes an age to collect a throw-in, deliberately delaying the restart of play—the referee shows him yellow for time-wasting as Algeria desperately searches for a lifeline.",
+      "teamSlug": "thuy-si"
+    },
+    {
+      "minute": 89,
+      "type": "yellow",
+      "player": "Riyad Mahrez",
+      "detail": "Mahrez angrily swipes the ball away after the referee denies an Algerian appeal for a late penalty shout, earning a caution for dissent in the closing moments.",
+      "teamSlug": "algeria"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "thuy-si",
     "teamName": "Switzerland",

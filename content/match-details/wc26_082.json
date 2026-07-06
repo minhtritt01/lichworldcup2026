@@ -1,5 +1,55 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 12,
+      "type": "yellow",
+      "player": "Idrissa Gueye",
+      "detail": "Sliding tackle on Kevin De Bruyne in midfield; referee warns him for excessive force.",
+      "teamSlug": "senegal"
+    },
+    {
+      "minute": 27,
+      "type": "goal",
+      "player": "Kevin De Bruyne",
+      "detail": "De Bruyne cuts inside from the right wing and strikes a powerful, bending shot from 20 yards that curls past Édouard Mendy into the far corner. Belgium 1–0.",
+      "teamSlug": "bi"
+    },
+    {
+      "minute": 39,
+      "type": "goal",
+      "player": "Sadio Mané",
+      "detail": "Senegal breaks on the counter; Mané latches onto a through ball from Gueye and finishes low past Courtois at the near post. 1–1.",
+      "teamSlug": "senegal"
+    },
+    {
+      "minute": 52,
+      "type": "goal",
+      "player": "Leandro Trossard",
+      "detail": "Doku delivers a low cutback from the right; Trossard arrives at the back post and volleys first-time past Mendy. Belgium 2–1.",
+      "teamSlug": "bi"
+    },
+    {
+      "minute": 67,
+      "type": "yellow",
+      "player": "Kalidou Koulibaly",
+      "detail": "Cynical foul in midfield to break up a dangerous Belgium counter-attack; yellow carded for denying an obvious goal-scoring opportunity.",
+      "teamSlug": "senegal"
+    },
+    {
+      "minute": 76,
+      "type": "goal",
+      "player": "Nicolas Jackson",
+      "detail": "Ismaïla Sarr sends a dangerous cross from the right wing; Jackson rises high and converts at the far post with a close-range finish. 2–2.",
+      "teamSlug": "senegal"
+    },
+    {
+      "minute": 88,
+      "type": "goal",
+      "player": "Romelu Lukaku",
+      "detail": "De Bruyne delivers a precise corner from the right; Lukaku rises above the Senegal defense and powers a header into the top corner. Belgium 3–2.",
+      "teamSlug": "bi"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "bi",
     "teamName": "Belgium",

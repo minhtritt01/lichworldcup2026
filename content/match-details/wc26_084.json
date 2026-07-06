@@ -1,5 +1,48 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 18,
+      "type": "yellow",
+      "player": "Marko Arnautović",
+      "detail": "Arnautović receives a yellow for a heavy-handed challenge on Aymeric Laporte while contesting possession.",
+      "teamSlug": "ao"
+    },
+    {
+      "minute": 27,
+      "type": "goal",
+      "player": "Lamine Yamal",
+      "detail": "Yamal cuts inside from the right flank and strikes a low drive into the far corner past Schlager from 18 yards. Spain 1-0.",
+      "teamSlug": "tay-ban-nha"
+    },
+    {
+      "minute": 34,
+      "type": "yellow",
+      "player": "Kevin Danso",
+      "detail": "Danso is cautioned for a reckless sliding challenge on Pedri attempting to break up Spain's midfield control.",
+      "teamSlug": "ao"
+    },
+    {
+      "minute": 44,
+      "type": "goal",
+      "player": "Nico Williams",
+      "detail": "Williams meets a cutback from Alejandro Balde and finishes with a powerful left-footed strike across Schlager into the bottom corner. Spain 2-0.",
+      "teamSlug": "tay-ban-nha"
+    },
+    {
+      "minute": 71,
+      "type": "goal",
+      "player": "Álvaro Morata",
+      "detail": "Morata arrives completely unmarked at the back post and powers a Dani Carvajal cross past Schlager. Spain 3-0.",
+      "teamSlug": "tay-ban-nha"
+    },
+    {
+      "minute": 83,
+      "type": "yellow",
+      "player": "Marcel Sabitzer",
+      "detail": "Sabitzer receives a caution for excessive force on Alejandro Balde with a late challenge down the left flank.",
+      "teamSlug": "ao"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "tay-ban-nha",
     "teamName": "Spain",

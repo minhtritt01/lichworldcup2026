@@ -1,5 +1,55 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 15,
+      "type": "yellow",
+      "player": "Daniel Amartey",
+      "detail": "Ghana defender receives a caution for a reckless sliding challenge on Vitinha in the midfield.",
+      "teamSlug": "ghana"
+    },
+    {
+      "minute": 23,
+      "type": "goal",
+      "player": "Cristiano Ronaldo",
+      "detail": "Ronaldo rises above the Ghana defense and powers a downward header past Ati Zigi from Cancelo's near-post corner delivery.",
+      "teamSlug": "bo-dao-nha"
+    },
+    {
+      "minute": 38,
+      "type": "goal",
+      "player": "Inaki Williams",
+      "detail": "Williams breaks the offside trap on a counter-attack, races past Rúben Dias, and curls a precise left-footed shot into the far corner.",
+      "teamSlug": "ghana"
+    },
+    {
+      "minute": 56,
+      "type": "goal",
+      "player": "Rafael Leão",
+      "detail": "Leão receives the ball on a quick transition, cuts inside past Lamptey, and finishes with a low drive across Ati Zigi into the bottom corner.",
+      "teamSlug": "bo-dao-nha"
+    },
+    {
+      "minute": 68,
+      "type": "goal",
+      "player": "André Ayew",
+      "detail": "Ayew rises highest at the far post from a Lamptey in-swinging corner and powers a thumping header past Costa to level the match.",
+      "teamSlug": "ghana"
+    },
+    {
+      "minute": 73,
+      "type": "yellow",
+      "player": "João Palhinha",
+      "detail": "Portugal midfielder booked for a hard challenge on Iddrisu Baba in the center circle.",
+      "teamSlug": "bo-dao-nha"
+    },
+    {
+      "minute": 81,
+      "type": "goal",
+      "player": "Bernardo Silva",
+      "detail": "Silva reacts fastest to a loose ball after Ati Zigi parries Vitinha's effort, and taps in from close range to secure the victory.",
+      "teamSlug": "bo-dao-nha"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "bo-dao-nha",
     "teamName": "Portugal",

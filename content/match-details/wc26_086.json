@@ -1,5 +1,55 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 18,
+      "type": "yellow",
+      "player": "Pico Lopes",
+      "detail": "Cape Verde defender cynically fouls Rodrigo De Paul to stop a dangerous counter-attack down the left.",
+      "teamSlug": "cape-verde"
+    },
+    {
+      "minute": 31,
+      "type": "goal",
+      "player": "Lionel Messi",
+      "detail": "Messi receives from De Paul on the wing and curls a right-footed shot from 22 yards into the far corner with precision.",
+      "teamSlug": "argentina"
+    },
+    {
+      "minute": 41,
+      "type": "goal",
+      "player": "Ryan Mendes",
+      "detail": "Mendes capitalizes on a defensive error, latching onto a loose ball and driving a low finish past Musso to level the match.",
+      "teamSlug": "cape-verde"
+    },
+    {
+      "minute": 58,
+      "type": "goal",
+      "player": "Julián Álvarez",
+      "detail": "Álvarez reacts fastest to a scramble at the penalty spot after Almada's header is blocked, tapping in from close range.",
+      "teamSlug": "argentina"
+    },
+    {
+      "minute": 69,
+      "type": "yellow",
+      "player": "Lisandro Martínez",
+      "detail": "Argentina's defender receives a booking for an excessive sliding challenge on João Paulo in the midfield.",
+      "teamSlug": "argentina"
+    },
+    {
+      "minute": 74,
+      "type": "goal",
+      "player": "Jovane Cabral",
+      "detail": "Cabral cuts inside from the left flank and strikes a precision left-footed shot that finds the bottom corner for an unlikely equalizer.",
+      "teamSlug": "cape-verde"
+    },
+    {
+      "minute": 87,
+      "type": "goal",
+      "player": "Thiago Almada",
+      "detail": "Almada receives on the edge of the box and strikes a first-time right-footed volley that arcs into the top corner to seal Argentina's victory.",
+      "teamSlug": "argentina"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "argentina",
     "teamName": "Argentina",

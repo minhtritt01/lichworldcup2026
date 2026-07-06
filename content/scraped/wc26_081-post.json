@@ -1,0 +1,322 @@
+{
+  "matchId": "wc26_081",
+  "eventId": "2499837",
+  "status": "finished",
+  "scrapedAt": "2026-07-06T17:07:53.321Z",
+  "general": {
+    "homeTeam": "USA",
+    "homeSlug": "my",
+    "awayTeam": "Bosnia-Herzegovina",
+    "awaySlug": "bosnia",
+    "stage": "FIFA World Cup",
+    "group": "",
+    "kickoffUTC": "2026-07-02T00:00:00",
+    "venue": "Levi's Stadium",
+    "referee": ""
+  },
+  "score": {
+    "home": 2,
+    "away": 0
+  },
+  "events": [],
+  "form": {
+    "home": [
+      {
+        "opponent": "Bosnia-Herzegovina",
+        "result": "W",
+        "score": "2-0",
+        "date": "2026-07-02"
+      }
+    ],
+    "away": [
+      {
+        "opponent": "Qatar",
+        "result": "W",
+        "score": "3-1",
+        "date": "2026-06-24"
+      }
+    ]
+  },
+  "squads": {
+    "home": [
+      {
+        "name": "Matt Turner",
+        "number": 1,
+        "position": "GK",
+        "age": 31
+      },
+      {
+        "name": "Sergiño Dest",
+        "number": 2,
+        "position": "DF",
+        "age": 25
+      },
+      {
+        "name": "Antonee Robinson",
+        "number": 3,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Chris Richards",
+        "number": 4,
+        "position": "DF",
+        "age": 26
+      },
+      {
+        "name": "Tim Ream",
+        "number": 5,
+        "position": "DF",
+        "age": 38
+      },
+      {
+        "name": "Mark McKenzie",
+        "number": 6,
+        "position": "DF",
+        "age": 26
+      },
+      {
+        "name": "Weston McKennie",
+        "number": 7,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Tyler Adams",
+        "number": 8,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Ricardo Pepi",
+        "number": 9,
+        "position": "FW",
+        "age": 23
+      },
+      {
+        "name": "Christian Pulisic",
+        "number": 10,
+        "position": "FW",
+        "age": 27
+      },
+      {
+        "name": "Brenden Aaronson",
+        "number": 11,
+        "position": "FW",
+        "age": 25
+      },
+      {
+        "name": "Matt Freese",
+        "number": 12,
+        "position": "GK",
+        "age": 27
+      },
+      {
+        "name": "Joe Scally",
+        "number": 13,
+        "position": "DF",
+        "age": 23
+      },
+      {
+        "name": "Auston Trusty",
+        "number": 14,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Miles Robinson",
+        "number": 15,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Max Arfsten",
+        "number": 16,
+        "position": "DF",
+        "age": 24
+      },
+      {
+        "name": "Cristian Roldan",
+        "number": 17,
+        "position": "MF",
+        "age": 30
+      },
+      {
+        "name": "Gio Reyna",
+        "number": 18,
+        "position": "MF",
+        "age": 23
+      },
+      {
+        "name": "Haji Wright",
+        "number": 19,
+        "position": "FW",
+        "age": 28
+      },
+      {
+        "name": "Folarin Balogun",
+        "number": 20,
+        "position": "FW",
+        "age": 24
+      },
+      {
+        "name": "Tim Weah",
+        "number": 21,
+        "position": "FW",
+        "age": 26
+      },
+      {
+        "name": "Malik Tillman",
+        "number": 22,
+        "position": "MF",
+        "age": 24
+      },
+      {
+        "name": "Alex Freeman",
+        "number": 23,
+        "position": "DF",
+        "age": 23
+      }
+    ],
+    "away": [
+      {
+        "name": "Nikola Vasilj",
+        "number": 1,
+        "position": "GK",
+        "age": 30
+      },
+      {
+        "name": "Martin Zlomislić",
+        "number": 2,
+        "position": "GK",
+        "age": 27
+      },
+      {
+        "name": "Osman Hadžikić",
+        "number": 3,
+        "position": "GK",
+        "age": 30
+      },
+      {
+        "name": "Sead Kolašinac",
+        "number": 4,
+        "position": "DF",
+        "age": 32
+      },
+      {
+        "name": "Dennis Hadžikadunić",
+        "number": 5,
+        "position": "DF",
+        "age": 27
+      },
+      {
+        "name": "Amar Dedić",
+        "number": 6,
+        "position": "DF",
+        "age": 23
+      },
+      {
+        "name": "Nikola Katić",
+        "number": 7,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Tarik Muharemović",
+        "number": 8,
+        "position": "DF",
+        "age": 23
+      },
+      {
+        "name": "Nihad Mujakić",
+        "number": 9,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Stjepan Radeljić",
+        "number": 10,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Nidal Čelik",
+        "number": 11,
+        "position": "DF",
+        "age": 19
+      },
+      {
+        "name": "Amir Hadžiahmetović",
+        "number": 12,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Benjamin Tahirović",
+        "number": 13,
+        "position": "MF",
+        "age": 23
+      },
+      {
+        "name": "Armin Gigović",
+        "number": 14,
+        "position": "MF",
+        "age": 24
+      },
+      {
+        "name": "Dženis Burnić",
+        "number": 15,
+        "position": "MF",
+        "age": 28
+      },
+      {
+        "name": "Ivan Bašić",
+        "number": 16,
+        "position": "MF",
+        "age": 24
+      },
+      {
+        "name": "Esmir Bajraktarević",
+        "number": 17,
+        "position": "MF",
+        "age": 21
+      },
+      {
+        "name": "Amar Memić",
+        "number": 18,
+        "position": "MF",
+        "age": 25
+      },
+      {
+        "name": "Ivan Šunjić",
+        "number": 19,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Kerim Alajbegović",
+        "number": 20,
+        "position": "MF",
+        "age": 18
+      },
+      {
+        "name": "Ermin Mahmić",
+        "number": 21,
+        "position": "MF",
+        "age": 21
+      },
+      {
+        "name": "Edin Džeko",
+        "number": 22,
+        "position": "FW",
+        "age": 40
+      },
+      {
+        "name": "Ermedin Demirović",
+        "number": 23,
+        "position": "FW",
+        "age": 28
+      }
+    ]
+  }
+}

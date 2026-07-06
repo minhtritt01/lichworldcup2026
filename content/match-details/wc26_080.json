@@ -1,5 +1,55 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 18,
+      "type": "yellow",
+      "player": "Samuel Moutoussamy",
+      "detail": "Reckless sliding challenge on Phil Foden near midfield; referee immediately books the DR Congo midfielder for dangerous play.",
+      "teamSlug": "congo-dr"
+    },
+    {
+      "minute": 28,
+      "type": "goal",
+      "player": "Marcus Rashford",
+      "detail": "England breaks down the left; Luke Shaw whips a pinpoint cross to the far post, and Rashford peels off his marker to strike a low left-footed finish that beats Mpasi at the near post.",
+      "teamSlug": "anh"
+    },
+    {
+      "minute": 41,
+      "type": "yellow",
+      "player": "Declan Rice",
+      "detail": "Tactical foul on Gaël Kakuta just outside the England box to deny a dangerous counterattack; cynical challenge earns the booking.",
+      "teamSlug": "anh"
+    },
+    {
+      "minute": 56,
+      "type": "goal",
+      "player": "Gaël Kakuta",
+      "detail": "DR Congo strikes on the break; Meschack Elia carries forward and slides a through-ball to Kakuta, who cuts onto his right foot and curls a strike into the far corner from 18 yards.",
+      "teamSlug": "congo-dr"
+    },
+    {
+      "minute": 73,
+      "type": "goal",
+      "player": "Harry Kane",
+      "detail": "Phil Foden delivers a wicked cross from the right flank; Kane rises above Steve Kapuadi at the penalty spot and heads powerfully past Mpasi into the net.",
+      "teamSlug": "anh"
+    },
+    {
+      "minute": 80,
+      "type": "substitution",
+      "player": "Marcus Rashford / James Maddison",
+      "detail": "England manager withdraws goalscorer Rashford for fresh legs in midfield to control the closing stages.",
+      "teamSlug": "anh"
+    },
+    {
+      "minute": 87,
+      "type": "yellow",
+      "player": "Axel Tuanzebe",
+      "detail": "DR Congo defender pulls back Harry Kane to prevent a clear run on goal in the dying stages; cynical foul draws a late booking.",
+      "teamSlug": "congo-dr"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "anh",
     "teamName": "England",

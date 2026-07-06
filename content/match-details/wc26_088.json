@@ -1,5 +1,55 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 9,
+      "type": "yellow",
+      "player": "Milos Degenek",
+      "detail": "Early warning for aggressive body contact with Mostafa Mohamed during a contested aerial challenge.",
+      "teamSlug": "uc"
+    },
+    {
+      "minute": 26,
+      "type": "goal",
+      "player": "Mohamed Salah",
+      "detail": "Devastating counterattack. Salah burst down the right flank, cut inside past Jacob Italiano with a sharp touch, and struck a low drive with his left foot into the far corner—unstoppable finishing.",
+      "teamSlug": "ai-cap"
+    },
+    {
+      "minute": 41,
+      "type": "yellow",
+      "player": "Akram Tawfik",
+      "detail": "Tactical foul to halt a dangerous Australian fast break down the left side.",
+      "teamSlug": "ai-cap"
+    },
+    {
+      "minute": 59,
+      "type": "goal",
+      "player": "Mathew Leckie",
+      "detail": "Powerful header at the back post from Cameron Devlin's pinpoint cross. Leckie attacked the ball with perfect timing, burying it past a helpless Mohamed El-Shenawy.",
+      "teamSlug": "uc"
+    },
+    {
+      "minute": 68,
+      "type": "yellow",
+      "player": "Connor Metcalfe",
+      "detail": "Reckless late challenge on Omar Marmoush in the middle of the pitch after losing the ball.",
+      "teamSlug": "uc"
+    },
+    {
+      "minute": 78,
+      "type": "yellow",
+      "player": "Aiden O'Neill",
+      "detail": "Frustrated pull-back on Mahmoud Trezeguet near the Egyptian box when the winger had dangerous space.",
+      "teamSlug": "uc"
+    },
+    {
+      "minute": 84,
+      "type": "yellow",
+      "player": "Ahmed Hegazy",
+      "detail": "Cynical pulling-back of an Australian attacker in the penalty area to prevent a dangerous chance.",
+      "teamSlug": "ai-cap"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "uc",
     "teamName": "Australia",

@@ -1,5 +1,48 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 12,
+      "type": "yellow",
+      "player": "Dennis Hadžikadunić",
+      "detail": "The Bosnia center-back committed a two-footed challenge on Brenden Aaronson near the left touchline, earning a caution for excessive force.",
+      "teamSlug": "bosnia"
+    },
+    {
+      "minute": 23,
+      "type": "goal",
+      "player": "Christian Pulisic",
+      "detail": "Cristian Roldan delivered a low cross from the right wing; Pulisic timed his run to perfection and finished with a clinical left-footed strike from eight yards past Vasilj.",
+      "teamSlug": "my"
+    },
+    {
+      "minute": 41,
+      "type": "yellow",
+      "player": "Amir Hadžiahmetović",
+      "detail": "The Bosnia midfielder was cautioned for a reckless sliding challenge on Sergiño Dest in midfield, catching the winger with studs showing.",
+      "teamSlug": "bosnia"
+    },
+    {
+      "minute": 58,
+      "type": "goal",
+      "player": "Brenden Aaronson",
+      "detail": "Tyler Adams executed a perfectly weighted through ball that split the Bosnia defense; Aaronson sprinted onto it and fired a first-time finish low into the far corner from twelve yards.",
+      "teamSlug": "my"
+    },
+    {
+      "minute": 71,
+      "type": "yellow",
+      "player": "Sead Kolašinac",
+      "detail": "The Bosnia left-back was booked for a cynical foul on Ricardo Pepi when the forward threatened to break free down the right flank.",
+      "teamSlug": "bosnia"
+    },
+    {
+      "minute": 85,
+      "type": "yellow",
+      "player": "Tim Ream",
+      "detail": "Ream received a caution for a heavy challenge on Edin Džeko near the USA box, though he made clean contact with the ball.",
+      "teamSlug": "my"
+    }
+  ],
   "homeLineup": {
     "teamSlug": "my",
     "teamName": "USA",
