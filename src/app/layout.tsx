@@ -1,5 +1,6 @@
 import type { ReactNode } from 'react';
 import { cookies } from 'next/headers';
+import { GoogleAnalytics } from '@next/third-parties/google';
 import { ThemeProvider } from '../components/ThemeProvider';
 import './globals.css';
 
@@ -36,6 +37,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           {children}
         </ThemeProvider>
       </body>
+      <GoogleAnalytics gaId="G-31RBWHFLB7" />
     </html>
   );
 }
