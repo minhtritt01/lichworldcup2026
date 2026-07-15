@@ -33,8 +33,17 @@ export default function PostMatchReport({ report }: Props) {
             <p className="text-3xl sm:text-4xl font-semibold text-white tabular-nums tracking-wider">
               {d?.score?.home ?? '?'} – {d?.score?.away ?? '?'}
             </p>
+            {d?.penalties && (
+              <p className="text-[11px] font-medium text-amber-400 mt-1 tabular-nums">
+                {locale === 'vi'
+                  ? `Luân lưu ${d.penalties.home}–${d.penalties.away}`
+                  : `${d.penalties.home}–${d.penalties.away} on penalties`}
+              </p>
+            )}
             <p className="text-[10px] text-slate-400 mt-1">
-              {locale === 'vi' ? 'Kết thúc' : 'Full time'}
+              {d?.penalties
+                ? locale === 'vi' ? 'Sau loạt luân lưu' : 'After penalties'
+                : locale === 'vi' ? 'Kết thúc' : 'Full time'}
             </p>
           </div>
           <div className="text-center flex-1">

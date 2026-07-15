@@ -1,17 +1,267 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 12,
+      "type": "yellow",
+      "player": "Kevin Castaño",
+      "detail": "Colombian midfielder Castaño receives a caution for a reckless two-footed challenge on Denis Zakaria in midfield, the referee brandishing a yellow card.",
+      "teamSlug": "colombia"
+    },
+    {
+      "minute": 28,
+      "type": "shot",
+      "player": "Breel Embolo",
+      "detail": "Embolo cuts inside from the left wing and fires a powerful 20-yard effort that curls just over the crossbar, leaving Ospina helpless.",
+      "teamSlug": "thuy-si"
+    },
+    {
+      "minute": 41,
+      "type": "yellow",
+      "player": "Remo Freuler",
+      "detail": "Swiss midfielder Freuler slides in late on Jorge Carrascal's ankle, earning a booking as the Colombian winger tumbles to the ground.",
+      "teamSlug": "thuy-si"
+    },
+    {
+      "minute": 55,
+      "type": "shot",
+      "player": "Luis Díaz",
+      "detail": "Díaz glides past Silvan Widmer on the left and curls a left-footed strike from 18 yards that Gregor Kobel gets down low to smother at the near post.",
+      "teamSlug": "colombia"
+    },
+    {
+      "minute": 67,
+      "type": "yellow",
+      "player": "Manuel Akanji",
+      "detail": "Akanji receives a yellow card for cynically bringing down Cucho Hernández with a last-man tackle as the Colombian forward broke clear.",
+      "teamSlug": "thuy-si"
+    },
+    {
+      "minute": 79,
+      "type": "shot",
+      "player": "Dan Ndoye",
+      "detail": "Ndoye receives space on the right flank and attempts a 22-yard strike with his weaker left foot; Ospina pushes it out for a corner.",
+      "teamSlug": "thuy-si"
+    },
+    {
+      "minute": 87,
+      "type": "yellow",
+      "player": "Yerry Mina",
+      "detail": "Colombian centre-back Mina is cautioned for a professional foul, catching Embolo from behind as he broke away on a counter-attack.",
+      "teamSlug": "colombia"
+    }
+  ],
   "homeLineup": {
-    "teamSlug": "thang-85",
-    "teamName": "Thắng trận 85",
+    "teamSlug": "thuy-si",
+    "teamName": "Switzerland",
     "formation": "4-3-3",
     "accent": "#ef4444",
-    "players": []
+    "players": [
+      {
+        "name": "Gregor Kobel",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 12,
+        "teamSlug": "thuy-si",
+        "captain": false
+      },
+      {
+        "name": "Miro Muheim",
+        "number": 2,
+        "role": "RB",
+        "x": 14,
+        "y": 28,
+        "teamSlug": "thuy-si",
+        "captain": false
+      },
+      {
+        "name": "Silvan Widmer",
+        "number": 3,
+        "role": "CB",
+        "x": 36,
+        "y": 30,
+        "teamSlug": "thuy-si",
+        "captain": false
+      },
+      {
+        "name": "Nico Elvedi",
+        "number": 4,
+        "role": "CB",
+        "x": 64,
+        "y": 30,
+        "teamSlug": "thuy-si",
+        "captain": false
+      },
+      {
+        "name": "Manuel Akanji",
+        "number": 5,
+        "role": "LB",
+        "x": 86,
+        "y": 28,
+        "teamSlug": "thuy-si",
+        "captain": false
+      },
+      {
+        "name": "Denis Zakaria",
+        "number": 6,
+        "role": "DM",
+        "x": 22,
+        "y": 48,
+        "teamSlug": "thuy-si",
+        "captain": false
+      },
+      {
+        "name": "Remo Freuler",
+        "number": 8,
+        "role": "CM",
+        "x": 50,
+        "y": 56,
+        "teamSlug": "thuy-si",
+        "captain": false
+      },
+      {
+        "name": "Johan Manzambi",
+        "number": 9,
+        "role": "CM",
+        "x": 78,
+        "y": 48,
+        "teamSlug": "thuy-si",
+        "captain": false
+      },
+      {
+        "name": "Breel Embolo",
+        "number": 7,
+        "role": "RW",
+        "x": 18,
+        "y": 76,
+        "teamSlug": "thuy-si",
+        "captain": false
+      },
+      {
+        "name": "Dan Ndoye",
+        "number": 11,
+        "role": "ST",
+        "x": 50,
+        "y": 84,
+        "teamSlug": "thuy-si",
+        "captain": false
+      },
+      {
+        "name": "Rubén Vargas",
+        "number": 17,
+        "role": "LW",
+        "x": 82,
+        "y": 76,
+        "teamSlug": "thuy-si",
+        "captain": false
+      }
+    ]
   },
   "awayLineup": {
-    "teamSlug": "thang-87",
-    "teamName": "Thắng trận 87",
+    "teamSlug": "colombia",
+    "teamName": "Colombia",
     "formation": "4-3-3",
     "accent": "#2563eb",
-    "players": []
+    "players": [
+      {
+        "name": "David Ospina",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 88,
+        "teamSlug": "colombia",
+        "captain": true
+      },
+      {
+        "name": "Daniel Muñoz",
+        "number": 2,
+        "role": "RB",
+        "x": 14,
+        "y": 72,
+        "teamSlug": "colombia",
+        "captain": false
+      },
+      {
+        "name": "Jhon Lucumí",
+        "number": 3,
+        "role": "CB",
+        "x": 36,
+        "y": 70,
+        "teamSlug": "colombia",
+        "captain": false
+      },
+      {
+        "name": "Santiago Arias",
+        "number": 4,
+        "role": "CB",
+        "x": 64,
+        "y": 70,
+        "teamSlug": "colombia",
+        "captain": false
+      },
+      {
+        "name": "Yerry Mina",
+        "number": 13,
+        "role": "LB",
+        "x": 86,
+        "y": 72,
+        "teamSlug": "colombia",
+        "captain": false
+      },
+      {
+        "name": "Kevin Castaño",
+        "number": 5,
+        "role": "DM",
+        "x": 22,
+        "y": 52,
+        "teamSlug": "colombia",
+        "captain": false
+      },
+      {
+        "name": "Richard Ríos",
+        "number": 6,
+        "role": "CM",
+        "x": 50,
+        "y": 44,
+        "teamSlug": "colombia",
+        "captain": false
+      },
+      {
+        "name": "Jorge Carrascal",
+        "number": 8,
+        "role": "CM",
+        "x": 78,
+        "y": 52,
+        "teamSlug": "colombia",
+        "captain": false
+      },
+      {
+        "name": "Luis Díaz",
+        "number": 7,
+        "role": "RW",
+        "x": 18,
+        "y": 24,
+        "teamSlug": "colombia",
+        "captain": false
+      },
+      {
+        "name": "Jhon Córdoba",
+        "number": 9,
+        "role": "ST",
+        "x": 50,
+        "y": 16,
+        "teamSlug": "colombia",
+        "captain": false
+      },
+      {
+        "name": "Cucho Hernández",
+        "number": 19,
+        "role": "LW",
+        "x": 82,
+        "y": 24,
+        "teamSlug": "colombia",
+        "captain": false
+      }
+    ]
   }
 }

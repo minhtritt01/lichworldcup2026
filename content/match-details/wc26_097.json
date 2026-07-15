@@ -1,17 +1,267 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 15,
+      "type": "yellow",
+      "player": "Noussair Mazraoui",
+      "detail": "Mazraoui throws himself in front of Dembélé with a desperate sliding tackle just outside the box; the challenge catches the winger after the ball has gone, earning him an early caution.",
+      "teamSlug": "maroc"
+    },
+    {
+      "minute": 27,
+      "type": "yellow",
+      "player": "Sofyan Amrabat",
+      "detail": "Following a heavy foul to stop a French counter-attack, Amrabat leaves his foot in on Tchouaméni in midfield; the referee shows yellow for the late challenge.",
+      "teamSlug": "maroc"
+    },
+    {
+      "minute": 35,
+      "type": "goal",
+      "player": "Kylian Mbappé",
+      "detail": "Mbappé explodes down the right flank after collecting Rabiot's pass in space, cuts inside sharply past Belammari's sliding leg, and bends a low left-footed shot inside Bounou's far post from 18 yards out.",
+      "teamSlug": "phap"
+    },
+    {
+      "minute": 58,
+      "type": "yellow",
+      "player": "Bilal El Khannouss",
+      "detail": "Under increasing French pressure, El Khannouss slides into Kanté's legs with excessive force in the center circle, earning a swift yellow card for reckless play.",
+      "teamSlug": "maroc"
+    },
+    {
+      "minute": 69,
+      "type": "goal",
+      "player": "Antoine Griezmann",
+      "detail": "After Dembélé cuts the ball back from the right wing, Griezmann meets it with an instinctive finish from 8 yards, his composed right-footed strike finding the bottom corner past a sprawling Bounou.",
+      "teamSlug": "phap"
+    },
+    {
+      "minute": 79,
+      "type": "yellow",
+      "player": "N'Golo Kanté",
+      "detail": "Kanté cynically slides through to block an El Kaabi counterattack, denying Morocco a dangerous break; the referee books him for the professional foul.",
+      "teamSlug": "phap"
+    },
+    {
+      "minute": 86,
+      "type": "yellow",
+      "player": "Youssef Belammari",
+      "detail": "Belammari retaliates after a strong shoulder challenge from Mbappé, pushing the French winger; the referee cards him for unsporting conduct as emotions boil over late in the match.",
+      "teamSlug": "maroc"
+    }
+  ],
   "homeLineup": {
-    "teamSlug": "thang-89",
-    "teamName": "Thắng trận 89",
+    "teamSlug": "phap",
+    "teamName": "France",
     "formation": "4-3-3",
     "accent": "#ef4444",
-    "players": []
+    "players": [
+      {
+        "name": "Mike Maignan",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 12,
+        "teamSlug": "phap",
+        "captain": false
+      },
+      {
+        "name": "Jules Koundé",
+        "number": 4,
+        "role": "RB",
+        "x": 14,
+        "y": 28,
+        "teamSlug": "phap",
+        "captain": false
+      },
+      {
+        "name": "Dayot Upamecano",
+        "number": 5,
+        "role": "CB",
+        "x": 36,
+        "y": 30,
+        "teamSlug": "phap",
+        "captain": false
+      },
+      {
+        "name": "William Saliba",
+        "number": 6,
+        "role": "CB",
+        "x": 64,
+        "y": 30,
+        "teamSlug": "phap",
+        "captain": false
+      },
+      {
+        "name": "Théo Hernández",
+        "number": 7,
+        "role": "LB",
+        "x": 86,
+        "y": 28,
+        "teamSlug": "phap",
+        "captain": false
+      },
+      {
+        "name": "N'Golo Kanté",
+        "number": 9,
+        "role": "DM",
+        "x": 22,
+        "y": 48,
+        "teamSlug": "phap",
+        "captain": false
+      },
+      {
+        "name": "Aurélien Tchouaméni",
+        "number": 10,
+        "role": "CM",
+        "x": 50,
+        "y": 56,
+        "teamSlug": "phap",
+        "captain": false
+      },
+      {
+        "name": "Adrien Rabiot",
+        "number": 11,
+        "role": "CM",
+        "x": 78,
+        "y": 48,
+        "teamSlug": "phap",
+        "captain": false
+      },
+      {
+        "name": "Kylian Mbappé",
+        "number": 15,
+        "role": "RW",
+        "x": 18,
+        "y": 76,
+        "teamSlug": "phap",
+        "captain": true
+      },
+      {
+        "name": "Antoine Griezmann",
+        "number": 16,
+        "role": "ST",
+        "x": 50,
+        "y": 84,
+        "teamSlug": "phap",
+        "captain": false
+      },
+      {
+        "name": "Ousmane Dembélé",
+        "number": 17,
+        "role": "LW",
+        "x": 82,
+        "y": 76,
+        "teamSlug": "phap",
+        "captain": false
+      }
+    ]
   },
   "awayLineup": {
-    "teamSlug": "thang-90",
-    "teamName": "Thắng trận 90",
+    "teamSlug": "maroc",
+    "teamName": "Morocco",
     "formation": "4-3-3",
     "accent": "#2563eb",
-    "players": []
+    "players": [
+      {
+        "name": "Yassine Bounou",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 88,
+        "teamSlug": "maroc",
+        "captain": false
+      },
+      {
+        "name": "Achraf Hakimi",
+        "number": 4,
+        "role": "RB",
+        "x": 14,
+        "y": 72,
+        "teamSlug": "maroc",
+        "captain": true
+      },
+      {
+        "name": "Nayef Aguerd",
+        "number": 5,
+        "role": "CB",
+        "x": 36,
+        "y": 70,
+        "teamSlug": "maroc",
+        "captain": false
+      },
+      {
+        "name": "Noussair Mazraoui",
+        "number": 6,
+        "role": "CB",
+        "x": 64,
+        "y": 70,
+        "teamSlug": "maroc",
+        "captain": false
+      },
+      {
+        "name": "Youssef Belammari",
+        "number": 7,
+        "role": "LB",
+        "x": 86,
+        "y": 72,
+        "teamSlug": "maroc",
+        "captain": false
+      },
+      {
+        "name": "Sofyan Amrabat",
+        "number": 13,
+        "role": "DM",
+        "x": 22,
+        "y": 52,
+        "teamSlug": "maroc",
+        "captain": false
+      },
+      {
+        "name": "Azzedine Ounahi",
+        "number": 14,
+        "role": "CM",
+        "x": 50,
+        "y": 44,
+        "teamSlug": "maroc",
+        "captain": false
+      },
+      {
+        "name": "Bilal El Khannouss",
+        "number": 15,
+        "role": "CM",
+        "x": 78,
+        "y": 52,
+        "teamSlug": "maroc",
+        "captain": false
+      },
+      {
+        "name": "Ayoub El Kaabi",
+        "number": 20,
+        "role": "RW",
+        "x": 18,
+        "y": 24,
+        "teamSlug": "maroc",
+        "captain": false
+      },
+      {
+        "name": "Soufiane Rahimi",
+        "number": 21,
+        "role": "ST",
+        "x": 50,
+        "y": 16,
+        "teamSlug": "maroc",
+        "captain": false
+      },
+      {
+        "name": "Abde Ezzalzouli",
+        "number": 22,
+        "role": "LW",
+        "x": 82,
+        "y": 24,
+        "teamSlug": "maroc",
+        "captain": false
+      }
+    ]
   }
 }

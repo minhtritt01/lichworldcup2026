@@ -35,6 +35,8 @@ export interface PreMatchData {
 
 export interface PostMatchData {
   score: { home: number; away: number };
+  // Only present when the tie went to a shootout
+  penalties?: { home: number; away: number };
   goals: GoalEvent[];
   stats: MatchStat[];
   turningPoint: { minute: string; description: string };

@@ -1,108 +1,158 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 18,
+      "type": "yellow",
+      "player": "Duje Ćaleta-Car",
+      "detail": "Ćaleta-Car receives a yellow for a high, reckless challenge on Rafael Leão near the left sideline.",
+      "teamSlug": "croatia"
+    },
+    {
+      "minute": 27,
+      "type": "goal",
+      "player": "Cristiano Ronaldo",
+      "detail": "Ronaldo peels away from his marker and fires a crisp left-footed strike from 18 yards after Bernardo Silva's incisive pass splits the Croatian midfield.",
+      "teamSlug": "bo-dao-nha"
+    },
+    {
+      "minute": 51,
+      "type": "goal",
+      "player": "Andrej Kramarić",
+      "detail": "Kramarić latches onto a loose ball in the box and diverts it past Diogo Costa with a first-time touch after Luka Modrić's low cross finds the back post.",
+      "teamSlug": "croatia"
+    },
+    {
+      "minute": 64,
+      "type": "yellow",
+      "player": "Rúben Neves",
+      "detail": "Neves is cautioned for a reckless tackle on Mateo Kovačić in the middle of the park.",
+      "teamSlug": "bo-dao-nha"
+    },
+    {
+      "minute": 71,
+      "type": "goal",
+      "player": "Vitinha",
+      "detail": "Vitinha receives the ball on the edge of the area and slots a composed finish into the far corner after Rafael Leão's darting run draws out the Croatian defense.",
+      "teamSlug": "bo-dao-nha"
+    },
+    {
+      "minute": 79,
+      "type": "substitution",
+      "player": "Ivan Perišić",
+      "detail": "Perišić replaces Ante Budimir as Croatia looks to mount a late offensive push.",
+      "teamSlug": "croatia"
+    },
+    {
+      "minute": 88,
+      "type": "yellow",
+      "player": "João Palhinha",
+      "detail": "Palhinha receives a second-half booking for a cynical foul to stop a Croatian counter-attack.",
+      "teamSlug": "bo-dao-nha"
+    }
+  ],
   "homeLineup": {
-    "teamSlug": "colombia",
-    "teamName": "Colombia",
+    "teamSlug": "bo-dao-nha",
+    "teamName": "Portugal",
     "formation": "4-3-3",
     "accent": "#ef4444",
     "players": [
       {
-        "name": "David Ospina",
+        "name": "Diogo Costa",
         "number": 1,
         "role": "GK",
         "x": 50,
         "y": 12,
-        "teamSlug": "colombia",
-        "captain": true
+        "teamSlug": "bo-dao-nha",
+        "captain": false
       },
       {
-        "name": "Daniel Muñoz",
-        "number": 2,
+        "name": "João Cancelo",
+        "number": 4,
         "role": "RB",
         "x": 14,
         "y": 28,
-        "teamSlug": "colombia",
+        "teamSlug": "bo-dao-nha",
         "captain": false
       },
       {
-        "name": "Jhon Lucumí",
-        "number": 3,
+        "name": "Rúben Dias",
+        "number": 5,
         "role": "CB",
         "x": 36,
         "y": 30,
-        "teamSlug": "colombia",
+        "teamSlug": "bo-dao-nha",
         "captain": false
       },
       {
-        "name": "Santiago Arias",
-        "number": 4,
+        "name": "Gonçalo Inácio",
+        "number": 6,
         "role": "CB",
         "x": 64,
         "y": 30,
-        "teamSlug": "colombia",
+        "teamSlug": "bo-dao-nha",
         "captain": false
       },
       {
-        "name": "Yerry Mina",
-        "number": 13,
+        "name": "Nuno Mendes",
+        "number": 7,
         "role": "LB",
         "x": 86,
         "y": 28,
-        "teamSlug": "colombia",
+        "teamSlug": "bo-dao-nha",
         "captain": false
       },
       {
-        "name": "Kevin Castaño",
-        "number": 5,
+        "name": "Rúben Neves",
+        "number": 9,
         "role": "DM",
         "x": 22,
         "y": 48,
-        "teamSlug": "colombia",
+        "teamSlug": "bo-dao-nha",
         "captain": false
       },
       {
-        "name": "Richard Ríos",
-        "number": 6,
+        "name": "João Palhinha",
+        "number": 12,
         "role": "CM",
         "x": 50,
         "y": 56,
-        "teamSlug": "colombia",
+        "teamSlug": "bo-dao-nha",
         "captain": false
       },
       {
-        "name": "Jorge Carrascal",
-        "number": 8,
+        "name": "Vitinha",
+        "number": 13,
         "role": "CM",
         "x": 78,
         "y": 48,
-        "teamSlug": "colombia",
+        "teamSlug": "bo-dao-nha",
         "captain": false
       },
       {
-        "name": "Luis Díaz",
-        "number": 7,
+        "name": "Cristiano Ronaldo",
+        "number": 10,
         "role": "RW",
         "x": 18,
         "y": 76,
-        "teamSlug": "colombia",
-        "captain": false
+        "teamSlug": "bo-dao-nha",
+        "captain": true
       },
       {
-        "name": "Jhon Córdoba",
-        "number": 9,
+        "name": "Bernardo Silva",
+        "number": 11,
         "role": "ST",
         "x": 50,
         "y": 84,
-        "teamSlug": "colombia",
+        "teamSlug": "bo-dao-nha",
         "captain": false
       },
       {
-        "name": "Cucho Hernández",
-        "number": 19,
+        "name": "Rafael Leão",
+        "number": 16,
         "role": "LW",
         "x": 82,
         "y": 76,
-        "teamSlug": "colombia",
+        "teamSlug": "bo-dao-nha",
         "captain": false
       }
     ]

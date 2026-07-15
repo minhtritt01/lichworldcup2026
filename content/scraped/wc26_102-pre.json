@@ -1,25 +1,317 @@
 {
   "matchId": "wc26_102",
-  "eventId": "local",
+  "eventId": "2528727",
   "status": "upcoming",
-  "scrapedAt": "2026-06-12T14:44:31.479Z",
+  "scrapedAt": "2026-07-14T15:38:04.481Z",
   "general": {
-    "homeTeam": "Thắng trận 99",
-    "homeSlug": "thang-99",
-    "awayTeam": "Thắng trận 100",
-    "awaySlug": "thang-100",
-    "stage": "Bán Kết",
+    "homeTeam": "England",
+    "homeSlug": "anh",
+    "awayTeam": "Argentina",
+    "awaySlug": "argentina",
+    "stage": "FIFA World Cup",
     "group": "",
-    "kickoffUTC": "2026-07-15T19:00:00Z",
+    "kickoffUTC": "2026-07-15T19:00:00",
     "venue": "Mercedes-Benz Stadium",
     "referee": ""
   },
   "form": {
-    "home": [],
-    "away": []
+    "home": [
+      {
+        "opponent": "DR Congo",
+        "result": "W",
+        "score": "2-1",
+        "date": "2026-07-01"
+      }
+    ],
+    "away": [
+      {
+        "opponent": "Switzerland",
+        "result": "W",
+        "score": "3-1",
+        "date": "2026-07-12"
+      }
+    ]
   },
   "squads": {
-    "home": [],
-    "away": []
+    "home": [
+      {
+        "name": "Jordan Pickford",
+        "number": 1,
+        "position": "GK",
+        "age": 32
+      },
+      {
+        "name": "Dean Henderson",
+        "number": 2,
+        "position": "GK",
+        "age": 29
+      },
+      {
+        "name": "Aaron Ramsdale",
+        "number": 3,
+        "position": "GK",
+        "age": 28
+      },
+      {
+        "name": "Kyle Walker",
+        "number": 4,
+        "position": "DF",
+        "age": 36
+      },
+      {
+        "name": "Harry Maguire",
+        "number": 5,
+        "position": "DF",
+        "age": 33
+      },
+      {
+        "name": "John Stones",
+        "number": 6,
+        "position": "DF",
+        "age": 32
+      },
+      {
+        "name": "Luke Shaw",
+        "number": 7,
+        "position": "DF",
+        "age": 30
+      },
+      {
+        "name": "Reece James",
+        "number": 8,
+        "position": "DF",
+        "age": 26
+      },
+      {
+        "name": "Ben Chilwell",
+        "number": 9,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Jude Bellingham",
+        "number": 10,
+        "position": "MF",
+        "age": 22
+      },
+      {
+        "name": "Declan Rice",
+        "number": 11,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Phil Foden",
+        "number": 12,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Conor Gallagher",
+        "number": 13,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Trent Alexander-Arnold",
+        "number": 14,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Kobbie Mainoo",
+        "number": 15,
+        "position": "MF",
+        "age": 21
+      },
+      {
+        "name": "Harry Kane",
+        "number": 16,
+        "position": "FW",
+        "age": 32
+      },
+      {
+        "name": "Bukayo Saka",
+        "number": 17,
+        "position": "FW",
+        "age": 24
+      },
+      {
+        "name": "Marcus Rashford",
+        "number": 18,
+        "position": "FW",
+        "age": 28
+      },
+      {
+        "name": "Jack Grealish",
+        "number": 19,
+        "position": "FW",
+        "age": 30
+      },
+      {
+        "name": "Raheem Sterling",
+        "number": 20,
+        "position": "FW",
+        "age": 31
+      },
+      {
+        "name": "Cole Palmer",
+        "number": 21,
+        "position": "FW",
+        "age": 24
+      },
+      {
+        "name": "Marc Guéhi",
+        "number": 22,
+        "position": "DF",
+        "age": 25
+      },
+      {
+        "name": "Lewis Dunk",
+        "number": 23,
+        "position": "DF",
+        "age": 34
+      }
+    ],
+    "away": [
+      {
+        "name": "Juan Musso",
+        "number": 1,
+        "position": "GK",
+        "age": 32
+      },
+      {
+        "name": "Leonardo Balerdi",
+        "number": 2,
+        "position": "DF",
+        "age": 27
+      },
+      {
+        "name": "Nicolás Tagliafico",
+        "number": 3,
+        "position": "DF",
+        "age": 33
+      },
+      {
+        "name": "Gonzalo Montiel",
+        "number": 4,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Leandro Paredes",
+        "number": 5,
+        "position": "MF",
+        "age": 32
+      },
+      {
+        "name": "Lisandro Martínez",
+        "number": 6,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Rodrigo De Paul",
+        "number": 7,
+        "position": "MF",
+        "age": 32
+      },
+      {
+        "name": "Valentín Barco",
+        "number": 8,
+        "position": "MF",
+        "age": 21
+      },
+      {
+        "name": "Julián Álvarez",
+        "number": 9,
+        "position": "FW",
+        "age": 26
+      },
+      {
+        "name": "Lionel Messi",
+        "number": 10,
+        "position": "FW",
+        "age": 38
+      },
+      {
+        "name": "Giovani Lo Celso",
+        "number": 11,
+        "position": "MF",
+        "age": 30
+      },
+      {
+        "name": "Gerónimo Rulli",
+        "number": 12,
+        "position": "GK",
+        "age": 34
+      },
+      {
+        "name": "Cristian Romero",
+        "number": 13,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Exequiel Palacios",
+        "number": 14,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Nico González",
+        "number": 15,
+        "position": "MF",
+        "age": 28
+      },
+      {
+        "name": "Thiago Almada",
+        "number": 16,
+        "position": "FW",
+        "age": 25
+      },
+      {
+        "name": "Giuliano Simeone",
+        "number": 17,
+        "position": "FW",
+        "age": 23
+      },
+      {
+        "name": "Nico Paz",
+        "number": 18,
+        "position": "FW",
+        "age": 21
+      },
+      {
+        "name": "Nicolás Otamendi",
+        "number": 19,
+        "position": "DF",
+        "age": 38
+      },
+      {
+        "name": "Alexis Mac Allister",
+        "number": 20,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Jose Manuel Lopez",
+        "number": 21,
+        "position": "FW",
+        "age": 25
+      },
+      {
+        "name": "Lautaro Martínez",
+        "number": 22,
+        "position": "FW",
+        "age": 28
+      },
+      {
+        "name": "Emiliano Martínez",
+        "number": 23,
+        "position": "GK",
+        "age": 33
+      }
+    ]
   }
 }

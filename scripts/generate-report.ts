@@ -130,6 +130,7 @@ function buildPreData(data: MatchPreData) {
 function buildPostData(data: MatchPostData) {
   return {
     score: data.score,
+    ...(data.penalties ? { penalties: data.penalties } : {}),
     goals: [
       // Claude will fill these in the analysis; we leave an empty array here
       // so the structure renders cleanly
@@ -209,15 +210,21 @@ Plain markdown only, NO code fences.`;
 }
 
 function postAnalysisPrompt(data: MatchPostData, locale: 'vi' | 'en'): string {
-  const { general, score, squads } = data;
+  const { general, score, squads, penalties } = data;
   const homePlayers = squads.home.slice(0, 11).map(p => p.name).join(', ');
   const awayPlayers = squads.away.slice(0, 11).map(p => p.name).join(', ');
+  const penWinner = penalties
+    ? (penalties.home > penalties.away ? general.homeTeam : general.awayTeam)
+    : null;
 
   if (locale === 'vi') {
+    const penLineVi = penalties
+      ? `\nLOẠT SÚT LUÂN LƯU: ${general.homeTeam} ${penalties.home}–${penalties.away} ${general.awayTeam} — ${penWinner} đi tiếp. Bài viết BẮT BUỘC phải nêu rõ trận đấu được định đoạt trên chấm 11m và ${penWinner} giành quyền đi tiếp.\n`
+      : '';
     return `Bạn là biên tập viên thể thao World Cup 2026 viết cho website tường thuật trực tiếp. Hãy viết bài phân tích sau trận hấp dẫn và hợp lý bằng tiếng Việt dựa trên hai đội, tỷ số cuối và phong cách thi đấu đặc trưng. KHÔNG từ chối và KHÔNG yêu cầu thêm dữ liệu — hãy sáng tạo các chi tiết chiến thuật, khoảnh khắc then chốt và bước ngoặt phù hợp với tỷ số và các đội.
 
 KẾT QUẢ: ${general.homeTeam} ${score.home}–${score.away} ${general.awayTeam}
-Bảng ${general.group} | ${general.stage} | Sân: ${general.venue}
+${penLineVi}Bảng ${general.group} | ${general.stage} | Sân: ${general.venue}
 
 ĐỘI HÌNH:
 ${general.homeTeam}: ${homePlayers}
@@ -232,10 +239,14 @@ YÊU CẦU: Viết 4 đoạn phân tích bằng tiếng Việt, mỗi đoạn 12
 Chỉ trả lời nội dung markdown thuần, KHÔNG dùng code fence.`;
   }
 
+  const penLineEn = penalties
+    ? `\nPENALTY SHOOTOUT: ${general.homeTeam} ${penalties.home}–${penalties.away} ${general.awayTeam} — ${penWinner} advance. The article MUST make clear the tie was settled on penalties and that ${penWinner} went through.\n`
+    : '';
+
   return `You are a World Cup 2026 senior sports analyst writing for a live score website. Write a plausible, engaging post-match analysis in English based on the teams, the final score, and typical playing styles. Do not refuse or ask for more data — invent plausible tactical details, key moments, and a turning point that fit the scoreline and teams.
 
 RESULT: ${general.homeTeam} ${score.home}–${score.away} ${general.awayTeam}
-Group ${general.group} | ${general.stage} | ${general.venue}
+${penLineEn}Group ${general.group} | ${general.stage} | ${general.venue}
 
 SQUADS:
 ${general.homeTeam}: ${homePlayers}
@@ -306,17 +317,24 @@ function assemblePost(
   analysis: string,
   locale: 'vi' | 'en'
 ): string {
-  const { general, score } = data;
+  const { general, score, penalties } = data;
   const isVi = locale === 'vi';
   const now = new Date().toISOString();
 
+  // A shootout tie is level on the scoreline — say who actually went through
+  const penSuffix = penalties
+    ? isVi
+      ? ` (pen ${penalties.home}-${penalties.away})`
+      : ` (${penalties.home}-${penalties.away} pens)`
+    : '';
+
   const title = isVi
-    ? `Kết quả ${general.homeTeam} ${score.home}-${score.away} ${general.awayTeam} — World Cup 2026 Bảng ${general.group}`
-    : `${general.homeTeam} ${score.home}-${score.away} ${general.awayTeam} — World Cup 2026 Group ${general.group} Result`;
+    ? `Kết quả ${general.homeTeam} ${score.home}-${score.away}${penSuffix} ${general.awayTeam} — World Cup 2026 Bảng ${general.group}`
+    : `${general.homeTeam} ${score.home}-${score.away}${penSuffix} ${general.awayTeam} — World Cup 2026 Group ${general.group} Result`;
 
   const desc = isVi
-    ? `Phân tích chiến thuật và tổng kết sau trận ${general.homeTeam} ${score.home}-${score.away} ${general.awayTeam} tại World Cup 2026.`
-    : `Post-match analysis for ${general.homeTeam} ${score.home}-${score.away} ${general.awayTeam} at the 2026 FIFA World Cup.`;
+    ? `Phân tích chiến thuật và tổng kết sau trận ${general.homeTeam} ${score.home}-${score.away}${penSuffix} ${general.awayTeam} tại World Cup 2026.`
+    : `Post-match analysis for ${general.homeTeam} ${score.home}-${score.away}${penSuffix} ${general.awayTeam} at the 2026 FIFA World Cup.`;
 
   const tags = isVi
     ? `["world cup 2026", "ket qua", "${general.homeSlug}", "${general.awaySlug}"]`
@@ -338,7 +356,7 @@ awaySlug: "${general.awaySlug}"
 stage: "Bảng ${general.group} - ${general.stage}"
 kickoff: "${general.kickoffUTC}"
 stadium: "${general.venue}"
-finalScore: "${score.home}-${score.away}"
+finalScore: "${score.home}-${score.away}${penSuffix}"
 tags: ${tags}
 ---
 

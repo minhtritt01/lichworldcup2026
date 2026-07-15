@@ -1,17 +1,274 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 15,
+      "type": "yellow",
+      "player": "Bruno Guimarães",
+      "detail": "Booked for a late sliding challenge on Morten Thorsby in midfield as Brazil plays with intensity early on.",
+      "teamSlug": "brazil"
+    },
+    {
+      "minute": 28,
+      "type": "goal",
+      "player": "Vinícius Júnior",
+      "detail": "Bursts down the left wing and cuts inside; his left-footed strike curls low past Ørjan Nyland's near post from 18 yards.",
+      "teamSlug": "brazil"
+    },
+    {
+      "minute": 41,
+      "type": "yellow",
+      "player": "Sander Berge",
+      "detail": "Crunching tackle on Vinícius Júnior; the Norwegian midfielder is cautioned for excessive force as frustration builds.",
+      "teamSlug": "na-uy"
+    },
+    {
+      "minute": 58,
+      "type": "goal",
+      "player": "Erling Haaland",
+      "detail": "Unmarked at the far post, Haaland rises decisively above Gabriel Magalhães and powers a downward header into the net from Martin Ødegaard's teasing cross.",
+      "teamSlug": "na-uy"
+    },
+    {
+      "minute": 68,
+      "type": "substitution",
+      "player": "Fabinho",
+      "detail": "Brazil makes a defensive change; Fabinho is withdrawn to give the midfield more legs against Norway's pressing.",
+      "teamSlug": "brazil"
+    },
+    {
+      "minute": 74,
+      "type": "goal",
+      "player": "Alexander Sørloth",
+      "detail": "Sørloth cuts infield from the right and strikes clinically from 20 yards with his weaker left foot; the ball finds the bottom corner as Alisson can only watch.",
+      "teamSlug": "na-uy"
+    },
+    {
+      "minute": 83,
+      "type": "yellow",
+      "player": "Casemiro",
+      "detail": "Booked for a cynical foul as Brazil desperately hunts an equalizer in the closing stages.",
+      "teamSlug": "brazil"
+    },
+    {
+      "minute": 88,
+      "type": "substitution",
+      "player": "Mohamed Elyounoussi",
+      "detail": "Norway sees out the victory; Elyounoussi is brought on to waste precious final minutes.",
+      "teamSlug": "na-uy"
+    }
+  ],
   "homeLineup": {
-    "teamSlug": "thang-76",
-    "teamName": "Thắng trận 76",
+    "teamSlug": "brazil",
+    "teamName": "Brazil",
     "formation": "4-3-3",
     "accent": "#ef4444",
-    "players": []
+    "players": [
+      {
+        "name": "Alisson",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 12,
+        "teamSlug": "brazil",
+        "captain": false
+      },
+      {
+        "name": "Wesley",
+        "number": 2,
+        "role": "RB",
+        "x": 14,
+        "y": 28,
+        "teamSlug": "brazil",
+        "captain": false
+      },
+      {
+        "name": "Gabriel Magalhães",
+        "number": 3,
+        "role": "CB",
+        "x": 36,
+        "y": 30,
+        "teamSlug": "brazil",
+        "captain": false
+      },
+      {
+        "name": "Marquinhos",
+        "number": 4,
+        "role": "CB",
+        "x": 64,
+        "y": 30,
+        "teamSlug": "brazil",
+        "captain": true
+      },
+      {
+        "name": "Alex Sandro",
+        "number": 6,
+        "role": "LB",
+        "x": 86,
+        "y": 28,
+        "teamSlug": "brazil",
+        "captain": false
+      },
+      {
+        "name": "Casemiro",
+        "number": 5,
+        "role": "DM",
+        "x": 22,
+        "y": 48,
+        "teamSlug": "brazil",
+        "captain": false
+      },
+      {
+        "name": "Bruno Guimarães",
+        "number": 8,
+        "role": "CM",
+        "x": 50,
+        "y": 56,
+        "teamSlug": "brazil",
+        "captain": false
+      },
+      {
+        "name": "Fabinho",
+        "number": 17,
+        "role": "CM",
+        "x": 78,
+        "y": 48,
+        "teamSlug": "brazil",
+        "captain": false
+      },
+      {
+        "name": "Vinícius Júnior",
+        "number": 7,
+        "role": "RW",
+        "x": 18,
+        "y": 76,
+        "teamSlug": "brazil",
+        "captain": false
+      },
+      {
+        "name": "Matheus Cunha",
+        "number": 9,
+        "role": "ST",
+        "x": 50,
+        "y": 84,
+        "teamSlug": "brazil",
+        "captain": false
+      },
+      {
+        "name": "Neymar",
+        "number": 10,
+        "role": "LW",
+        "x": 82,
+        "y": 76,
+        "teamSlug": "brazil",
+        "captain": false
+      }
+    ]
   },
   "awayLineup": {
-    "teamSlug": "thang-78",
-    "teamName": "Thắng trận 78",
+    "teamSlug": "na-uy",
+    "teamName": "Norway",
     "formation": "4-3-3",
     "accent": "#2563eb",
-    "players": []
+    "players": [
+      {
+        "name": "Ørjan Nyland",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 88,
+        "teamSlug": "na-uy",
+        "captain": true
+      },
+      {
+        "name": "Omar Elabdellaoui",
+        "number": 4,
+        "role": "RB",
+        "x": 14,
+        "y": 72,
+        "teamSlug": "na-uy",
+        "captain": false
+      },
+      {
+        "name": "Leo Skiri Østigård",
+        "number": 5,
+        "role": "CB",
+        "x": 36,
+        "y": 70,
+        "teamSlug": "na-uy",
+        "captain": false
+      },
+      {
+        "name": "Andreas Hanche-Olsen",
+        "number": 6,
+        "role": "CB",
+        "x": 64,
+        "y": 70,
+        "teamSlug": "na-uy",
+        "captain": false
+      },
+      {
+        "name": "Birger Meling",
+        "number": 7,
+        "role": "LB",
+        "x": 86,
+        "y": 72,
+        "teamSlug": "na-uy",
+        "captain": false
+      },
+      {
+        "name": "Sander Berge",
+        "number": 9,
+        "role": "DM",
+        "x": 22,
+        "y": 52,
+        "teamSlug": "na-uy",
+        "captain": false
+      },
+      {
+        "name": "Morten Thorsby",
+        "number": 10,
+        "role": "CM",
+        "x": 50,
+        "y": 44,
+        "teamSlug": "na-uy",
+        "captain": false
+      },
+      {
+        "name": "Martin Ødegaard",
+        "number": 11,
+        "role": "CM",
+        "x": 78,
+        "y": 52,
+        "teamSlug": "na-uy",
+        "captain": false
+      },
+      {
+        "name": "Erling Haaland",
+        "number": 16,
+        "role": "RW",
+        "x": 18,
+        "y": 24,
+        "teamSlug": "na-uy",
+        "captain": false
+      },
+      {
+        "name": "Alexander Sørloth",
+        "number": 17,
+        "role": "ST",
+        "x": 50,
+        "y": 16,
+        "teamSlug": "na-uy",
+        "captain": false
+      },
+      {
+        "name": "Mohamed Elyounoussi",
+        "number": 18,
+        "role": "LW",
+        "x": 82,
+        "y": 24,
+        "teamSlug": "na-uy",
+        "captain": false
+      }
+    ]
   }
 }

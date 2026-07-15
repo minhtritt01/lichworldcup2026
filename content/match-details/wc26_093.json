@@ -1,17 +1,267 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 15,
+      "type": "yellow",
+      "player": "João Palhinha",
+      "detail": "Slides in late on Pedri in midfield, earning a caution for the aggressive challenge.",
+      "teamSlug": "bo-dao-nha"
+    },
+    {
+      "minute": 32,
+      "type": "yellow",
+      "player": "Dani Carvajal",
+      "detail": "Tactical foul to stop Bernardo Silva's run down the right wing, picks up a yellow card.",
+      "teamSlug": "tay-ban-nha"
+    },
+    {
+      "minute": 39,
+      "type": "goal",
+      "player": "Lamine Yamal",
+      "detail": "Receives Pedri's pass on the right flank, cuts inside past Nuno Mendes, and finishes low to the far corner with precision.",
+      "teamSlug": "tay-ban-nha"
+    },
+    {
+      "minute": 58,
+      "type": "substitution",
+      "player": "Vitinha",
+      "detail": "Portugal brings off their midfielder to strengthen defensive midfield presence.",
+      "teamSlug": "bo-dao-nha"
+    },
+    {
+      "minute": 71,
+      "type": "yellow",
+      "player": "Rúben Dias",
+      "detail": "Commits a professional foul to halt a Spanish counter-attack, receives a caution.",
+      "teamSlug": "bo-dao-nha"
+    },
+    {
+      "minute": 76,
+      "type": "substitution",
+      "player": "Álvaro Morata",
+      "detail": "Spain withdraws their striker to reinforce midfield control in the closing stages.",
+      "teamSlug": "tay-ban-nha"
+    },
+    {
+      "minute": 84,
+      "type": "yellow",
+      "player": "Alejandro Balde",
+      "detail": "Professional foul on the left flank to stop a Portuguese counter, earns a yellow card.",
+      "teamSlug": "tay-ban-nha"
+    }
+  ],
   "homeLineup": {
-    "teamSlug": "thang-83",
-    "teamName": "Thắng trận 83",
+    "teamSlug": "bo-dao-nha",
+    "teamName": "Portugal",
     "formation": "4-3-3",
     "accent": "#ef4444",
-    "players": []
+    "players": [
+      {
+        "name": "Diogo Costa",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 12,
+        "teamSlug": "bo-dao-nha",
+        "captain": false
+      },
+      {
+        "name": "João Cancelo",
+        "number": 4,
+        "role": "RB",
+        "x": 14,
+        "y": 28,
+        "teamSlug": "bo-dao-nha",
+        "captain": false
+      },
+      {
+        "name": "Rúben Dias",
+        "number": 5,
+        "role": "CB",
+        "x": 36,
+        "y": 30,
+        "teamSlug": "bo-dao-nha",
+        "captain": false
+      },
+      {
+        "name": "Gonçalo Inácio",
+        "number": 6,
+        "role": "CB",
+        "x": 64,
+        "y": 30,
+        "teamSlug": "bo-dao-nha",
+        "captain": false
+      },
+      {
+        "name": "Nuno Mendes",
+        "number": 7,
+        "role": "LB",
+        "x": 86,
+        "y": 28,
+        "teamSlug": "bo-dao-nha",
+        "captain": false
+      },
+      {
+        "name": "Rúben Neves",
+        "number": 9,
+        "role": "DM",
+        "x": 22,
+        "y": 48,
+        "teamSlug": "bo-dao-nha",
+        "captain": false
+      },
+      {
+        "name": "João Palhinha",
+        "number": 12,
+        "role": "CM",
+        "x": 50,
+        "y": 56,
+        "teamSlug": "bo-dao-nha",
+        "captain": false
+      },
+      {
+        "name": "Vitinha",
+        "number": 13,
+        "role": "CM",
+        "x": 78,
+        "y": 48,
+        "teamSlug": "bo-dao-nha",
+        "captain": false
+      },
+      {
+        "name": "Cristiano Ronaldo",
+        "number": 10,
+        "role": "RW",
+        "x": 18,
+        "y": 76,
+        "teamSlug": "bo-dao-nha",
+        "captain": true
+      },
+      {
+        "name": "Bernardo Silva",
+        "number": 11,
+        "role": "ST",
+        "x": 50,
+        "y": 84,
+        "teamSlug": "bo-dao-nha",
+        "captain": false
+      },
+      {
+        "name": "Rafael Leão",
+        "number": 16,
+        "role": "LW",
+        "x": 82,
+        "y": 76,
+        "teamSlug": "bo-dao-nha",
+        "captain": false
+      }
+    ]
   },
   "awayLineup": {
-    "teamSlug": "thang-84",
-    "teamName": "Thắng trận 84",
+    "teamSlug": "tay-ban-nha",
+    "teamName": "Spain",
     "formation": "4-3-3",
     "accent": "#2563eb",
-    "players": []
+    "players": [
+      {
+        "name": "Unai Simón",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 88,
+        "teamSlug": "tay-ban-nha",
+        "captain": false
+      },
+      {
+        "name": "Dani Carvajal",
+        "number": 4,
+        "role": "RB",
+        "x": 14,
+        "y": 72,
+        "teamSlug": "tay-ban-nha",
+        "captain": true
+      },
+      {
+        "name": "Robin Le Normand",
+        "number": 5,
+        "role": "CB",
+        "x": 36,
+        "y": 70,
+        "teamSlug": "tay-ban-nha",
+        "captain": false
+      },
+      {
+        "name": "Aymeric Laporte",
+        "number": 6,
+        "role": "CB",
+        "x": 64,
+        "y": 70,
+        "teamSlug": "tay-ban-nha",
+        "captain": false
+      },
+      {
+        "name": "Alejandro Balde",
+        "number": 7,
+        "role": "LB",
+        "x": 86,
+        "y": 72,
+        "teamSlug": "tay-ban-nha",
+        "captain": false
+      },
+      {
+        "name": "Rodri",
+        "number": 10,
+        "role": "DM",
+        "x": 22,
+        "y": 52,
+        "teamSlug": "tay-ban-nha",
+        "captain": false
+      },
+      {
+        "name": "Pedri",
+        "number": 11,
+        "role": "CM",
+        "x": 50,
+        "y": 44,
+        "teamSlug": "tay-ban-nha",
+        "captain": false
+      },
+      {
+        "name": "Fabián Ruiz",
+        "number": 12,
+        "role": "CM",
+        "x": 78,
+        "y": 52,
+        "teamSlug": "tay-ban-nha",
+        "captain": false
+      },
+      {
+        "name": "Lamine Yamal",
+        "number": 16,
+        "role": "RW",
+        "x": 18,
+        "y": 24,
+        "teamSlug": "tay-ban-nha",
+        "captain": false
+      },
+      {
+        "name": "Nico Williams",
+        "number": 17,
+        "role": "ST",
+        "x": 50,
+        "y": 16,
+        "teamSlug": "tay-ban-nha",
+        "captain": false
+      },
+      {
+        "name": "Álvaro Morata",
+        "number": 18,
+        "role": "LW",
+        "x": 82,
+        "y": 24,
+        "teamSlug": "tay-ban-nha",
+        "captain": false
+      }
+    ]
   }
 }

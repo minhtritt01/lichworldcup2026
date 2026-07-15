@@ -1,0 +1,322 @@
+{
+  "matchId": "wc26_093",
+  "eventId": "2511721",
+  "status": "finished",
+  "scrapedAt": "2026-07-14T15:26:33.826Z",
+  "general": {
+    "homeTeam": "Portugal",
+    "homeSlug": "bo-dao-nha",
+    "awayTeam": "Spain",
+    "awaySlug": "tay-ban-nha",
+    "stage": "FIFA World Cup",
+    "group": "",
+    "kickoffUTC": "2026-07-06T19:00:00",
+    "venue": "AT&T Stadium",
+    "referee": ""
+  },
+  "score": {
+    "home": 0,
+    "away": 1
+  },
+  "events": [],
+  "form": {
+    "home": [
+      {
+        "opponent": "Spain",
+        "result": "L",
+        "score": "0-1",
+        "date": "2026-07-06"
+      }
+    ],
+    "away": [
+      {
+        "opponent": "Belgium",
+        "result": "W",
+        "score": "2-1",
+        "date": "2026-07-10"
+      }
+    ]
+  },
+  "squads": {
+    "home": [
+      {
+        "name": "Diogo Costa",
+        "number": 1,
+        "position": "GK",
+        "age": 26
+      },
+      {
+        "name": "José Sá",
+        "number": 2,
+        "position": "GK",
+        "age": 33
+      },
+      {
+        "name": "Rui Patrício",
+        "number": 3,
+        "position": "GK",
+        "age": 38
+      },
+      {
+        "name": "João Cancelo",
+        "number": 4,
+        "position": "DF",
+        "age": 32
+      },
+      {
+        "name": "Rúben Dias",
+        "number": 5,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Gonçalo Inácio",
+        "number": 6,
+        "position": "DF",
+        "age": 24
+      },
+      {
+        "name": "Nuno Mendes",
+        "number": 7,
+        "position": "DF",
+        "age": 24
+      },
+      {
+        "name": "Diogo Dalot",
+        "number": 8,
+        "position": "DF",
+        "age": 27
+      },
+      {
+        "name": "Rúben Neves",
+        "number": 9,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Cristiano Ronaldo",
+        "number": 10,
+        "position": "FW",
+        "age": 41
+      },
+      {
+        "name": "Bernardo Silva",
+        "number": 11,
+        "position": "FW",
+        "age": 31
+      },
+      {
+        "name": "João Palhinha",
+        "number": 12,
+        "position": "MF",
+        "age": 30
+      },
+      {
+        "name": "Vitinha",
+        "number": 13,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Bruno Fernandes",
+        "number": 14,
+        "position": "MF",
+        "age": 31
+      },
+      {
+        "name": "João Mário",
+        "number": 15,
+        "position": "MF",
+        "age": 33
+      },
+      {
+        "name": "Rafael Leão",
+        "number": 16,
+        "position": "FW",
+        "age": 27
+      },
+      {
+        "name": "Pedro Neto",
+        "number": 17,
+        "position": "FW",
+        "age": 26
+      },
+      {
+        "name": "Gonçalo Ramos",
+        "number": 18,
+        "position": "FW",
+        "age": 25
+      },
+      {
+        "name": "João Félix",
+        "number": 19,
+        "position": "FW",
+        "age": 26
+      },
+      {
+        "name": "Francisco Conceição",
+        "number": 20,
+        "position": "FW",
+        "age": 23
+      },
+      {
+        "name": "Diogo Jota",
+        "number": 21,
+        "position": "FW",
+        "age": 29
+      },
+      {
+        "name": "Pepe",
+        "number": 22,
+        "position": "DF",
+        "age": 43
+      },
+      {
+        "name": "António Silva",
+        "number": 23,
+        "position": "DF",
+        "age": 22
+      }
+    ],
+    "away": [
+      {
+        "name": "Unai Simón",
+        "number": 1,
+        "position": "GK",
+        "age": 29
+      },
+      {
+        "name": "David Raya",
+        "number": 2,
+        "position": "GK",
+        "age": 30
+      },
+      {
+        "name": "Alex Remiro",
+        "number": 3,
+        "position": "GK",
+        "age": 31
+      },
+      {
+        "name": "Dani Carvajal",
+        "number": 4,
+        "position": "DF",
+        "age": 34
+      },
+      {
+        "name": "Robin Le Normand",
+        "number": 5,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Aymeric Laporte",
+        "number": 6,
+        "position": "DF",
+        "age": 32
+      },
+      {
+        "name": "Alejandro Balde",
+        "number": 7,
+        "position": "DF",
+        "age": 22
+      },
+      {
+        "name": "Dani Vivian",
+        "number": 8,
+        "position": "DF",
+        "age": 26
+      },
+      {
+        "name": "Pau Cubarsí",
+        "number": 9,
+        "position": "DF",
+        "age": 19
+      },
+      {
+        "name": "Rodri",
+        "number": 10,
+        "position": "MF",
+        "age": 30
+      },
+      {
+        "name": "Pedri",
+        "number": 11,
+        "position": "MF",
+        "age": 23
+      },
+      {
+        "name": "Fabián Ruiz",
+        "number": 12,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Martín Zubimendi",
+        "number": 13,
+        "position": "MF",
+        "age": 27
+      },
+      {
+        "name": "Dani Olmo",
+        "number": 14,
+        "position": "MF",
+        "age": 28
+      },
+      {
+        "name": "Mikel Merino",
+        "number": 15,
+        "position": "MF",
+        "age": 30
+      },
+      {
+        "name": "Lamine Yamal",
+        "number": 16,
+        "position": "FW",
+        "age": 18
+      },
+      {
+        "name": "Nico Williams",
+        "number": 17,
+        "position": "FW",
+        "age": 23
+      },
+      {
+        "name": "Álvaro Morata",
+        "number": 18,
+        "position": "FW",
+        "age": 33
+      },
+      {
+        "name": "Ferran Torres",
+        "number": 19,
+        "position": "FW",
+        "age": 26
+      },
+      {
+        "name": "Mikel Oyarzabal",
+        "number": 20,
+        "position": "FW",
+        "age": 29
+      },
+      {
+        "name": "Yeremy Pino",
+        "number": 21,
+        "position": "FW",
+        "age": 23
+      },
+      {
+        "name": "Pedri González",
+        "number": 22,
+        "position": "MF",
+        "age": 23
+      },
+      {
+        "name": "Marc Pubill",
+        "number": 23,
+        "position": "DF",
+        "age": 23
+      }
+    ]
+  }
+}

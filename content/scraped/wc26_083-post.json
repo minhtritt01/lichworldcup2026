@@ -1,0 +1,322 @@
+{
+  "matchId": "wc26_083",
+  "eventId": "2503393",
+  "status": "finished",
+  "scrapedAt": "2026-07-14T15:25:47.522Z",
+  "general": {
+    "homeTeam": "Portugal",
+    "homeSlug": "bo-dao-nha",
+    "awayTeam": "Croatia",
+    "awaySlug": "croatia",
+    "stage": "FIFA World Cup",
+    "group": "",
+    "kickoffUTC": "2026-07-02T23:00:00",
+    "venue": "BMO Field",
+    "referee": ""
+  },
+  "score": {
+    "home": 2,
+    "away": 1
+  },
+  "events": [],
+  "form": {
+    "home": [
+      {
+        "opponent": "Spain",
+        "result": "L",
+        "score": "0-1",
+        "date": "2026-07-06"
+      }
+    ],
+    "away": [
+      {
+        "opponent": "Ghana",
+        "result": "W",
+        "score": "2-1",
+        "date": "2026-06-27"
+      }
+    ]
+  },
+  "squads": {
+    "home": [
+      {
+        "name": "Diogo Costa",
+        "number": 1,
+        "position": "GK",
+        "age": 26
+      },
+      {
+        "name": "José Sá",
+        "number": 2,
+        "position": "GK",
+        "age": 33
+      },
+      {
+        "name": "Rui Patrício",
+        "number": 3,
+        "position": "GK",
+        "age": 38
+      },
+      {
+        "name": "João Cancelo",
+        "number": 4,
+        "position": "DF",
+        "age": 32
+      },
+      {
+        "name": "Rúben Dias",
+        "number": 5,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Gonçalo Inácio",
+        "number": 6,
+        "position": "DF",
+        "age": 24
+      },
+      {
+        "name": "Nuno Mendes",
+        "number": 7,
+        "position": "DF",
+        "age": 24
+      },
+      {
+        "name": "Diogo Dalot",
+        "number": 8,
+        "position": "DF",
+        "age": 27
+      },
+      {
+        "name": "Rúben Neves",
+        "number": 9,
+        "position": "MF",
+        "age": 29
+      },
+      {
+        "name": "Cristiano Ronaldo",
+        "number": 10,
+        "position": "FW",
+        "age": 41
+      },
+      {
+        "name": "Bernardo Silva",
+        "number": 11,
+        "position": "FW",
+        "age": 31
+      },
+      {
+        "name": "João Palhinha",
+        "number": 12,
+        "position": "MF",
+        "age": 30
+      },
+      {
+        "name": "Vitinha",
+        "number": 13,
+        "position": "MF",
+        "age": 26
+      },
+      {
+        "name": "Bruno Fernandes",
+        "number": 14,
+        "position": "MF",
+        "age": 31
+      },
+      {
+        "name": "João Mário",
+        "number": 15,
+        "position": "MF",
+        "age": 33
+      },
+      {
+        "name": "Rafael Leão",
+        "number": 16,
+        "position": "FW",
+        "age": 27
+      },
+      {
+        "name": "Pedro Neto",
+        "number": 17,
+        "position": "FW",
+        "age": 26
+      },
+      {
+        "name": "Gonçalo Ramos",
+        "number": 18,
+        "position": "FW",
+        "age": 25
+      },
+      {
+        "name": "João Félix",
+        "number": 19,
+        "position": "FW",
+        "age": 26
+      },
+      {
+        "name": "Francisco Conceição",
+        "number": 20,
+        "position": "FW",
+        "age": 23
+      },
+      {
+        "name": "Diogo Jota",
+        "number": 21,
+        "position": "FW",
+        "age": 29
+      },
+      {
+        "name": "Pepe",
+        "number": 22,
+        "position": "DF",
+        "age": 43
+      },
+      {
+        "name": "António Silva",
+        "number": 23,
+        "position": "DF",
+        "age": 22
+      }
+    ],
+    "away": [
+      {
+        "name": "Dominik Livaković",
+        "number": 1,
+        "position": "GK",
+        "age": 31
+      },
+      {
+        "name": "Josip Stanišić",
+        "number": 2,
+        "position": "DF",
+        "age": 26
+      },
+      {
+        "name": "Marin Pongračić",
+        "number": 3,
+        "position": "DF",
+        "age": 28
+      },
+      {
+        "name": "Joško Gvardiol",
+        "number": 4,
+        "position": "DF",
+        "age": 24
+      },
+      {
+        "name": "Duje Ćaleta-Car",
+        "number": 5,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Josip Šutalo",
+        "number": 6,
+        "position": "DF",
+        "age": 26
+      },
+      {
+        "name": "Nikola Moro",
+        "number": 7,
+        "position": "MF",
+        "age": 28
+      },
+      {
+        "name": "Mateo Kovačić",
+        "number": 8,
+        "position": "MF",
+        "age": 32
+      },
+      {
+        "name": "Andrej Kramarić",
+        "number": 9,
+        "position": "FW",
+        "age": 35
+      },
+      {
+        "name": "Luka Modrić",
+        "number": 10,
+        "position": "MF",
+        "age": 40
+      },
+      {
+        "name": "Ante Budimir",
+        "number": 11,
+        "position": "FW",
+        "age": 34
+      },
+      {
+        "name": "Ivor Pandur",
+        "number": 12,
+        "position": "GK",
+        "age": 26
+      },
+      {
+        "name": "Nikola Vlašić",
+        "number": 13,
+        "position": "MF",
+        "age": 28
+      },
+      {
+        "name": "Ivan Perišić",
+        "number": 14,
+        "position": "FW",
+        "age": 37
+      },
+      {
+        "name": "Mario Pašalić",
+        "number": 15,
+        "position": "MF",
+        "age": 31
+      },
+      {
+        "name": "Martin Baturina",
+        "number": 16,
+        "position": "MF",
+        "age": 23
+      },
+      {
+        "name": "Petar Sučić",
+        "number": 17,
+        "position": "MF",
+        "age": 22
+      },
+      {
+        "name": "Kristijan Jakić",
+        "number": 18,
+        "position": "DF",
+        "age": 29
+      },
+      {
+        "name": "Toni Fruk",
+        "number": 19,
+        "position": "MF",
+        "age": 25
+      },
+      {
+        "name": "Igor Matanović",
+        "number": 20,
+        "position": "FW",
+        "age": 23
+      },
+      {
+        "name": "Luka Sučić",
+        "number": 21,
+        "position": "MF",
+        "age": 23
+      },
+      {
+        "name": "Luka Vušković",
+        "number": 22,
+        "position": "DF",
+        "age": 19
+      },
+      {
+        "name": "Dominik Kotarski",
+        "number": 23,
+        "position": "GK",
+        "age": 26
+      }
+    ]
+  }
+}

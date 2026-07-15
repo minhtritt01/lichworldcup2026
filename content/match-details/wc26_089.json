@@ -1,17 +1,267 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 12,
+      "type": "yellow",
+      "player": "Mathías Villasanti",
+      "detail": "Cynical foul to halt Mbappé's run down the left flank.",
+      "teamSlug": "paraguay"
+    },
+    {
+      "minute": 28,
+      "type": "goal",
+      "player": "Kylian Mbappé",
+      "detail": "Receives a threaded pass from Tchouaméni, cuts inside his marker onto his left foot, and curls a low strike into the far corner from 18 yards.",
+      "teamSlug": "phap"
+    },
+    {
+      "minute": 36,
+      "type": "yellow",
+      "player": "Omar Alderete",
+      "detail": "Clumsy challenge on Dembélé during a run down the right wing.",
+      "teamSlug": "paraguay"
+    },
+    {
+      "minute": 48,
+      "type": "yellow",
+      "player": "Junior Alonso",
+      "detail": "Lunges late on Kanté to disrupt a dangerous French buildup.",
+      "teamSlug": "paraguay"
+    },
+    {
+      "minute": 55,
+      "type": "yellow",
+      "player": "Adrien Rabiot",
+      "detail": "Rakes his boot across Ángel Romero in a contested midfield tackle.",
+      "teamSlug": "phap"
+    },
+    {
+      "minute": 68,
+      "type": "substitution",
+      "player": "Óscar Romero",
+      "detail": "Óscar Romero replaced to add fresh legs in attack.",
+      "teamSlug": "paraguay"
+    },
+    {
+      "minute": 81,
+      "type": "substitution",
+      "player": "Antoine Griezmann",
+      "detail": "Antoine Griezmann withdrawn as France manages the final minutes.",
+      "teamSlug": "phap"
+    }
+  ],
   "homeLineup": {
-    "teamSlug": "thang-74",
-    "teamName": "Thắng trận 74",
+    "teamSlug": "paraguay",
+    "teamName": "Paraguay",
     "formation": "4-3-3",
     "accent": "#ef4444",
-    "players": []
+    "players": [
+      {
+        "name": "Antony Silva",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 12,
+        "teamSlug": "paraguay",
+        "captain": true
+      },
+      {
+        "name": "Fabián Balbuena",
+        "number": 4,
+        "role": "RB",
+        "x": 14,
+        "y": 28,
+        "teamSlug": "paraguay",
+        "captain": false
+      },
+      {
+        "name": "Gustavo Velázquez",
+        "number": 5,
+        "role": "CB",
+        "x": 36,
+        "y": 30,
+        "teamSlug": "paraguay",
+        "captain": false
+      },
+      {
+        "name": "Omar Alderete",
+        "number": 6,
+        "role": "CB",
+        "x": 64,
+        "y": 30,
+        "teamSlug": "paraguay",
+        "captain": false
+      },
+      {
+        "name": "Junior Alonso",
+        "number": 7,
+        "role": "LB",
+        "x": 86,
+        "y": 28,
+        "teamSlug": "paraguay",
+        "captain": false
+      },
+      {
+        "name": "Mathías Villasanti",
+        "number": 9,
+        "role": "DM",
+        "x": 22,
+        "y": 48,
+        "teamSlug": "paraguay",
+        "captain": false
+      },
+      {
+        "name": "Miguel Almirón",
+        "number": 10,
+        "role": "CM",
+        "x": 50,
+        "y": 56,
+        "teamSlug": "paraguay",
+        "captain": false
+      },
+      {
+        "name": "Andrés Cubas",
+        "number": 11,
+        "role": "CM",
+        "x": 78,
+        "y": 48,
+        "teamSlug": "paraguay",
+        "captain": false
+      },
+      {
+        "name": "Ángel Romero",
+        "number": 17,
+        "role": "RW",
+        "x": 18,
+        "y": 76,
+        "teamSlug": "paraguay",
+        "captain": false
+      },
+      {
+        "name": "Óscar Romero",
+        "number": 18,
+        "role": "ST",
+        "x": 50,
+        "y": 84,
+        "teamSlug": "paraguay",
+        "captain": false
+      },
+      {
+        "name": "Antonio Sanabria",
+        "number": 19,
+        "role": "LW",
+        "x": 82,
+        "y": 76,
+        "teamSlug": "paraguay",
+        "captain": false
+      }
+    ]
   },
   "awayLineup": {
-    "teamSlug": "thang-77",
-    "teamName": "Thắng trận 77",
+    "teamSlug": "phap",
+    "teamName": "France",
     "formation": "4-3-3",
     "accent": "#2563eb",
-    "players": []
+    "players": [
+      {
+        "name": "Mike Maignan",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 88,
+        "teamSlug": "phap",
+        "captain": false
+      },
+      {
+        "name": "Jules Koundé",
+        "number": 4,
+        "role": "RB",
+        "x": 14,
+        "y": 72,
+        "teamSlug": "phap",
+        "captain": false
+      },
+      {
+        "name": "Dayot Upamecano",
+        "number": 5,
+        "role": "CB",
+        "x": 36,
+        "y": 70,
+        "teamSlug": "phap",
+        "captain": false
+      },
+      {
+        "name": "William Saliba",
+        "number": 6,
+        "role": "CB",
+        "x": 64,
+        "y": 70,
+        "teamSlug": "phap",
+        "captain": false
+      },
+      {
+        "name": "Théo Hernández",
+        "number": 7,
+        "role": "LB",
+        "x": 86,
+        "y": 72,
+        "teamSlug": "phap",
+        "captain": false
+      },
+      {
+        "name": "N'Golo Kanté",
+        "number": 9,
+        "role": "DM",
+        "x": 22,
+        "y": 52,
+        "teamSlug": "phap",
+        "captain": false
+      },
+      {
+        "name": "Aurélien Tchouaméni",
+        "number": 10,
+        "role": "CM",
+        "x": 50,
+        "y": 44,
+        "teamSlug": "phap",
+        "captain": false
+      },
+      {
+        "name": "Adrien Rabiot",
+        "number": 11,
+        "role": "CM",
+        "x": 78,
+        "y": 52,
+        "teamSlug": "phap",
+        "captain": false
+      },
+      {
+        "name": "Kylian Mbappé",
+        "number": 15,
+        "role": "RW",
+        "x": 18,
+        "y": 24,
+        "teamSlug": "phap",
+        "captain": true
+      },
+      {
+        "name": "Antoine Griezmann",
+        "number": 16,
+        "role": "ST",
+        "x": 50,
+        "y": 16,
+        "teamSlug": "phap",
+        "captain": false
+      },
+      {
+        "name": "Ousmane Dembélé",
+        "number": 17,
+        "role": "LW",
+        "x": 82,
+        "y": 24,
+        "teamSlug": "phap",
+        "captain": false
+      }
+    ]
   }
 }

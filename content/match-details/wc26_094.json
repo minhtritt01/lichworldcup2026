@@ -1,17 +1,267 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 12,
+      "type": "goal",
+      "player": "Kevin De Bruyne",
+      "detail": "De Bruyne seized on a USA turnover in midfield and struck a low drive from 18 yards that skipped past Turner into the far corner.",
+      "teamSlug": "bi"
+    },
+    {
+      "minute": 28,
+      "type": "goal",
+      "player": "Christian Pulisic",
+      "detail": "Pulisic latched onto a loose ball in the Belgium box and fired a clinical left-footed finish past Courtois at the near post.",
+      "teamSlug": "my"
+    },
+    {
+      "minute": 38,
+      "type": "goal",
+      "player": "Romelu Lukaku",
+      "detail": "Lukaku rose majestically above Chris Richards to power home a bullet header from a Tielemans cross on the right wing.",
+      "teamSlug": "bi"
+    },
+    {
+      "minute": 44,
+      "type": "yellow",
+      "player": "Tyler Adams",
+      "detail": "Adams was cautioned for a heavy late challenge on De Bruyne as frustration mounted for the hosts.",
+      "teamSlug": "my"
+    },
+    {
+      "minute": 61,
+      "type": "goal",
+      "player": "Leandro Trossard",
+      "detail": "Trossard cut inside from the left flank and curled an exquisite effort into the top corner, leaving Turner utterly helpless.",
+      "teamSlug": "bi"
+    },
+    {
+      "minute": 73,
+      "type": "yellow",
+      "player": "Antonee Robinson",
+      "detail": "Robinson received a yellow for a cynical foul on Doku as Belgium looked to wrap up the victory.",
+      "teamSlug": "my"
+    },
+    {
+      "minute": 82,
+      "type": "goal",
+      "player": "Jeremy Doku",
+      "detail": "Doku accelerated down the right wing and sent in a low cross that deflected off Robinson's leg and past a stranded Turner into the bottom corner.",
+      "teamSlug": "bi"
+    }
+  ],
   "homeLineup": {
-    "teamSlug": "thang-81",
-    "teamName": "Thắng trận 81",
+    "teamSlug": "my",
+    "teamName": "USA",
     "formation": "4-3-3",
     "accent": "#ef4444",
-    "players": []
+    "players": [
+      {
+        "name": "Matt Turner",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 12,
+        "teamSlug": "my",
+        "captain": false
+      },
+      {
+        "name": "Sergiño Dest",
+        "number": 2,
+        "role": "RB",
+        "x": 14,
+        "y": 28,
+        "teamSlug": "my",
+        "captain": false
+      },
+      {
+        "name": "Antonee Robinson",
+        "number": 3,
+        "role": "CB",
+        "x": 36,
+        "y": 30,
+        "teamSlug": "my",
+        "captain": false
+      },
+      {
+        "name": "Chris Richards",
+        "number": 4,
+        "role": "CB",
+        "x": 64,
+        "y": 30,
+        "teamSlug": "my",
+        "captain": false
+      },
+      {
+        "name": "Tim Ream",
+        "number": 5,
+        "role": "LB",
+        "x": 86,
+        "y": 28,
+        "teamSlug": "my",
+        "captain": false
+      },
+      {
+        "name": "Weston McKennie",
+        "number": 7,
+        "role": "DM",
+        "x": 22,
+        "y": 48,
+        "teamSlug": "my",
+        "captain": false
+      },
+      {
+        "name": "Tyler Adams",
+        "number": 8,
+        "role": "CM",
+        "x": 50,
+        "y": 56,
+        "teamSlug": "my",
+        "captain": true
+      },
+      {
+        "name": "Cristian Roldan",
+        "number": 17,
+        "role": "CM",
+        "x": 78,
+        "y": 48,
+        "teamSlug": "my",
+        "captain": false
+      },
+      {
+        "name": "Ricardo Pepi",
+        "number": 9,
+        "role": "RW",
+        "x": 18,
+        "y": 76,
+        "teamSlug": "my",
+        "captain": false
+      },
+      {
+        "name": "Christian Pulisic",
+        "number": 10,
+        "role": "ST",
+        "x": 50,
+        "y": 84,
+        "teamSlug": "my",
+        "captain": false
+      },
+      {
+        "name": "Brenden Aaronson",
+        "number": 11,
+        "role": "LW",
+        "x": 82,
+        "y": 76,
+        "teamSlug": "my",
+        "captain": false
+      }
+    ]
   },
   "awayLineup": {
-    "teamSlug": "thang-82",
-    "teamName": "Thắng trận 82",
+    "teamSlug": "bi",
+    "teamName": "Belgium",
     "formation": "4-3-3",
     "accent": "#2563eb",
-    "players": []
+    "players": [
+      {
+        "name": "Thibaut Courtois",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 88,
+        "teamSlug": "bi",
+        "captain": true
+      },
+      {
+        "name": "Zeno Debast",
+        "number": 2,
+        "role": "RB",
+        "x": 14,
+        "y": 72,
+        "teamSlug": "bi",
+        "captain": false
+      },
+      {
+        "name": "Arthur Theate",
+        "number": 3,
+        "role": "CB",
+        "x": 36,
+        "y": 70,
+        "teamSlug": "bi",
+        "captain": false
+      },
+      {
+        "name": "Brandon Mechele",
+        "number": 4,
+        "role": "CB",
+        "x": 64,
+        "y": 70,
+        "teamSlug": "bi",
+        "captain": false
+      },
+      {
+        "name": "Maxim De Cuyper",
+        "number": 5,
+        "role": "LB",
+        "x": 86,
+        "y": 72,
+        "teamSlug": "bi",
+        "captain": false
+      },
+      {
+        "name": "Axel Witsel",
+        "number": 6,
+        "role": "DM",
+        "x": 22,
+        "y": 52,
+        "teamSlug": "bi",
+        "captain": false
+      },
+      {
+        "name": "Kevin De Bruyne",
+        "number": 7,
+        "role": "CM",
+        "x": 50,
+        "y": 44,
+        "teamSlug": "bi",
+        "captain": false
+      },
+      {
+        "name": "Youri Tielemans",
+        "number": 8,
+        "role": "CM",
+        "x": 78,
+        "y": 52,
+        "teamSlug": "bi",
+        "captain": false
+      },
+      {
+        "name": "Romelu Lukaku",
+        "number": 9,
+        "role": "RW",
+        "x": 18,
+        "y": 24,
+        "teamSlug": "bi",
+        "captain": false
+      },
+      {
+        "name": "Leandro Trossard",
+        "number": 10,
+        "role": "ST",
+        "x": 50,
+        "y": 16,
+        "teamSlug": "bi",
+        "captain": false
+      },
+      {
+        "name": "Jeremy Doku",
+        "number": 11,
+        "role": "LW",
+        "x": 82,
+        "y": 24,
+        "teamSlug": "bi",
+        "captain": false
+      }
+    ]
   }
 }

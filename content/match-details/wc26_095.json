@@ -1,17 +1,267 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 20,
+      "type": "yellow",
+      "player": "Tarek Hamed",
+      "detail": "Late sliding tackle on Rodrigo De Paul in midfield. Referee cautions for excessive force.",
+      "teamSlug": "ai-cap"
+    },
+    {
+      "minute": 24,
+      "type": "goal",
+      "player": "Lionel Messi",
+      "detail": "Free kick from 25 yards after Nicolás Tagliafico was fouled. Messi curls the ball beautifully over the wall, bending it into the top-left corner past El-Shenawy's outstretched hand.",
+      "teamSlug": "argentina"
+    },
+    {
+      "minute": 35,
+      "type": "goal",
+      "player": "Omar Marmoush",
+      "detail": "Egypt counter-attack after Argentina turnover. Marmoush receives a through ball from Mahmoud Trezeguet, cuts inside past Leonardo Balerdi, and fires a low drive past Musso's near post.",
+      "teamSlug": "ai-cap"
+    },
+    {
+      "minute": 49,
+      "type": "goal",
+      "player": "Julián Álvarez",
+      "detail": "Gonzalo Montiel crosses low from the right wing. Álvarez makes a late run into the box and taps in at the near post from four yards.",
+      "teamSlug": "argentina"
+    },
+    {
+      "minute": 68,
+      "type": "yellow",
+      "player": "Leandro Paredes",
+      "detail": "Tactical foul to halt an Egypt counter-attack. Paredes slides in from behind on Amr El Sulaya. Cautioned.",
+      "teamSlug": "argentina"
+    },
+    {
+      "minute": 72,
+      "type": "goal",
+      "player": "Mohamed Salah",
+      "detail": "Receives the ball on the right flank from Akram Tawfik. Salah cuts inside toward goal, takes a touch at 18 yards, and strikes a curling shot that bends past Musso into the far corner.",
+      "teamSlug": "ai-cap"
+    },
+    {
+      "minute": 86,
+      "type": "goal",
+      "player": "Thiago Almada",
+      "detail": "Receives a loose ball in the box after Egypt's defensive breakdown. Almada spins and shoots from 10 yards with his left foot, a low drive that finds the bottom-right corner to seal the victory.",
+      "teamSlug": "argentina"
+    }
+  ],
   "homeLineup": {
-    "teamSlug": "thang-86",
-    "teamName": "Thắng trận 86",
+    "teamSlug": "argentina",
+    "teamName": "Argentina",
     "formation": "4-3-3",
     "accent": "#ef4444",
-    "players": []
+    "players": [
+      {
+        "name": "Juan Musso",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 12,
+        "teamSlug": "argentina",
+        "captain": false
+      },
+      {
+        "name": "Leonardo Balerdi",
+        "number": 2,
+        "role": "RB",
+        "x": 14,
+        "y": 28,
+        "teamSlug": "argentina",
+        "captain": false
+      },
+      {
+        "name": "Nicolás Tagliafico",
+        "number": 3,
+        "role": "CB",
+        "x": 36,
+        "y": 30,
+        "teamSlug": "argentina",
+        "captain": false
+      },
+      {
+        "name": "Gonzalo Montiel",
+        "number": 4,
+        "role": "CB",
+        "x": 64,
+        "y": 30,
+        "teamSlug": "argentina",
+        "captain": false
+      },
+      {
+        "name": "Lisandro Martínez",
+        "number": 6,
+        "role": "LB",
+        "x": 86,
+        "y": 28,
+        "teamSlug": "argentina",
+        "captain": false
+      },
+      {
+        "name": "Leandro Paredes",
+        "number": 5,
+        "role": "DM",
+        "x": 22,
+        "y": 48,
+        "teamSlug": "argentina",
+        "captain": false
+      },
+      {
+        "name": "Rodrigo De Paul",
+        "number": 7,
+        "role": "CM",
+        "x": 50,
+        "y": 56,
+        "teamSlug": "argentina",
+        "captain": false
+      },
+      {
+        "name": "Valentín Barco",
+        "number": 8,
+        "role": "CM",
+        "x": 78,
+        "y": 48,
+        "teamSlug": "argentina",
+        "captain": false
+      },
+      {
+        "name": "Julián Álvarez",
+        "number": 9,
+        "role": "RW",
+        "x": 18,
+        "y": 76,
+        "teamSlug": "argentina",
+        "captain": false
+      },
+      {
+        "name": "Lionel Messi",
+        "number": 10,
+        "role": "ST",
+        "x": 50,
+        "y": 84,
+        "teamSlug": "argentina",
+        "captain": true
+      },
+      {
+        "name": "Thiago Almada",
+        "number": 16,
+        "role": "LW",
+        "x": 82,
+        "y": 76,
+        "teamSlug": "argentina",
+        "captain": false
+      }
+    ]
   },
   "awayLineup": {
-    "teamSlug": "thang-88",
-    "teamName": "Thắng trận 88",
+    "teamSlug": "ai-cap",
+    "teamName": "Egypt",
     "formation": "4-3-3",
     "accent": "#2563eb",
-    "players": []
+    "players": [
+      {
+        "name": "Mohamed El-Shenawy",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 88,
+        "teamSlug": "ai-cap",
+        "captain": false
+      },
+      {
+        "name": "Ahmed Hegazy",
+        "number": 4,
+        "role": "RB",
+        "x": 14,
+        "y": 72,
+        "teamSlug": "ai-cap",
+        "captain": true
+      },
+      {
+        "name": "Ali Gabr",
+        "number": 5,
+        "role": "CB",
+        "x": 36,
+        "y": 70,
+        "teamSlug": "ai-cap",
+        "captain": false
+      },
+      {
+        "name": "Omar Kamal",
+        "number": 6,
+        "role": "CB",
+        "x": 64,
+        "y": 70,
+        "teamSlug": "ai-cap",
+        "captain": false
+      },
+      {
+        "name": "Akram Tawfik",
+        "number": 7,
+        "role": "LB",
+        "x": 86,
+        "y": 72,
+        "teamSlug": "ai-cap",
+        "captain": false
+      },
+      {
+        "name": "Tarek Hamed",
+        "number": 9,
+        "role": "DM",
+        "x": 22,
+        "y": 52,
+        "teamSlug": "ai-cap",
+        "captain": false
+      },
+      {
+        "name": "Mahmoud Trezeguet",
+        "number": 10,
+        "role": "CM",
+        "x": 50,
+        "y": 44,
+        "teamSlug": "ai-cap",
+        "captain": false
+      },
+      {
+        "name": "Amr El Sulaya",
+        "number": 12,
+        "role": "CM",
+        "x": 78,
+        "y": 52,
+        "teamSlug": "ai-cap",
+        "captain": false
+      },
+      {
+        "name": "Mohamed Salah",
+        "number": 11,
+        "role": "RW",
+        "x": 18,
+        "y": 24,
+        "teamSlug": "ai-cap",
+        "captain": false
+      },
+      {
+        "name": "Mostafa Mohamed",
+        "number": 18,
+        "role": "ST",
+        "x": 50,
+        "y": 16,
+        "teamSlug": "ai-cap",
+        "captain": false
+      },
+      {
+        "name": "Omar Marmoush",
+        "number": 19,
+        "role": "LW",
+        "x": 82,
+        "y": 24,
+        "teamSlug": "ai-cap",
+        "captain": false
+      }
+    ]
   }
 }

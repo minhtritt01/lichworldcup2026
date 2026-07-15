@@ -1,17 +1,267 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 14,
+      "type": "yellow",
+      "player": "Sander Berge",
+      "detail": "Berge catches Phil Foden with a late challenge in midfield, earning a caution for a reckless tackle.",
+      "teamSlug": "na-uy"
+    },
+    {
+      "minute": 18,
+      "type": "goal",
+      "player": "Bukayo Saka",
+      "detail": "Phil Foden whips a dangerous cross from the left wing, and Saka peels away from his marker to finish clinically at the near post. England 1-0.",
+      "teamSlug": "anh"
+    },
+    {
+      "minute": 36,
+      "type": "goal",
+      "player": "Erling Haaland",
+      "detail": "Martin Ødegaard threads a perfectly weighted through ball between the England center-backs, and Haaland bursts clear before placing a low shot past Jordan Pickford. Level at 1-1.",
+      "teamSlug": "na-uy"
+    },
+    {
+      "minute": 45,
+      "type": "yellow",
+      "player": "Harry Maguire",
+      "detail": "Maguire is cautioned for a heavy challenge on Mohamed Elyounoussi as the referee cracks down on physical play.",
+      "teamSlug": "anh"
+    },
+    {
+      "minute": 67,
+      "type": "goal",
+      "player": "Marcus Rashford",
+      "detail": "After a turnover in midfield, England break quickly and Rashford cuts in from the left wing before curling a left-footed strike into the far corner from 18 yards. England 2-1.",
+      "teamSlug": "anh"
+    },
+    {
+      "minute": 73,
+      "type": "yellow",
+      "player": "Birger Meling",
+      "detail": "Meling receives a yellow card for pulling back Jude Bellingham in a dangerous position on the left flank.",
+      "teamSlug": "na-uy"
+    },
+    {
+      "minute": 87,
+      "type": "yellow",
+      "player": "Declan Rice",
+      "detail": "Rice is booked for time-wasting as England try to see out the final minutes with possession.",
+      "teamSlug": "anh"
+    }
+  ],
   "homeLineup": {
-    "teamSlug": "thang-91",
-    "teamName": "Thắng trận 91",
+    "teamSlug": "na-uy",
+    "teamName": "Norway",
     "formation": "4-3-3",
     "accent": "#ef4444",
-    "players": []
+    "players": [
+      {
+        "name": "Ørjan Nyland",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 12,
+        "teamSlug": "na-uy",
+        "captain": true
+      },
+      {
+        "name": "Omar Elabdellaoui",
+        "number": 4,
+        "role": "RB",
+        "x": 14,
+        "y": 28,
+        "teamSlug": "na-uy",
+        "captain": false
+      },
+      {
+        "name": "Leo Skiri Østigård",
+        "number": 5,
+        "role": "CB",
+        "x": 36,
+        "y": 30,
+        "teamSlug": "na-uy",
+        "captain": false
+      },
+      {
+        "name": "Andreas Hanche-Olsen",
+        "number": 6,
+        "role": "CB",
+        "x": 64,
+        "y": 30,
+        "teamSlug": "na-uy",
+        "captain": false
+      },
+      {
+        "name": "Birger Meling",
+        "number": 7,
+        "role": "LB",
+        "x": 86,
+        "y": 28,
+        "teamSlug": "na-uy",
+        "captain": false
+      },
+      {
+        "name": "Sander Berge",
+        "number": 9,
+        "role": "DM",
+        "x": 22,
+        "y": 48,
+        "teamSlug": "na-uy",
+        "captain": false
+      },
+      {
+        "name": "Morten Thorsby",
+        "number": 10,
+        "role": "CM",
+        "x": 50,
+        "y": 56,
+        "teamSlug": "na-uy",
+        "captain": false
+      },
+      {
+        "name": "Martin Ødegaard",
+        "number": 11,
+        "role": "CM",
+        "x": 78,
+        "y": 48,
+        "teamSlug": "na-uy",
+        "captain": false
+      },
+      {
+        "name": "Erling Haaland",
+        "number": 16,
+        "role": "RW",
+        "x": 18,
+        "y": 76,
+        "teamSlug": "na-uy",
+        "captain": false
+      },
+      {
+        "name": "Alexander Sørloth",
+        "number": 17,
+        "role": "ST",
+        "x": 50,
+        "y": 84,
+        "teamSlug": "na-uy",
+        "captain": false
+      },
+      {
+        "name": "Mohamed Elyounoussi",
+        "number": 18,
+        "role": "LW",
+        "x": 82,
+        "y": 76,
+        "teamSlug": "na-uy",
+        "captain": false
+      }
+    ]
   },
   "awayLineup": {
-    "teamSlug": "thang-92",
-    "teamName": "Thắng trận 92",
+    "teamSlug": "anh",
+    "teamName": "England",
     "formation": "4-3-3",
     "accent": "#2563eb",
-    "players": []
+    "players": [
+      {
+        "name": "Jordan Pickford",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 88,
+        "teamSlug": "anh",
+        "captain": true
+      },
+      {
+        "name": "Kyle Walker",
+        "number": 4,
+        "role": "RB",
+        "x": 14,
+        "y": 72,
+        "teamSlug": "anh",
+        "captain": false
+      },
+      {
+        "name": "Harry Maguire",
+        "number": 5,
+        "role": "CB",
+        "x": 36,
+        "y": 70,
+        "teamSlug": "anh",
+        "captain": false
+      },
+      {
+        "name": "John Stones",
+        "number": 6,
+        "role": "CB",
+        "x": 64,
+        "y": 70,
+        "teamSlug": "anh",
+        "captain": false
+      },
+      {
+        "name": "Luke Shaw",
+        "number": 7,
+        "role": "LB",
+        "x": 86,
+        "y": 72,
+        "teamSlug": "anh",
+        "captain": false
+      },
+      {
+        "name": "Jude Bellingham",
+        "number": 10,
+        "role": "DM",
+        "x": 22,
+        "y": 52,
+        "teamSlug": "anh",
+        "captain": false
+      },
+      {
+        "name": "Declan Rice",
+        "number": 11,
+        "role": "CM",
+        "x": 50,
+        "y": 44,
+        "teamSlug": "anh",
+        "captain": false
+      },
+      {
+        "name": "Phil Foden",
+        "number": 12,
+        "role": "CM",
+        "x": 78,
+        "y": 52,
+        "teamSlug": "anh",
+        "captain": false
+      },
+      {
+        "name": "Harry Kane",
+        "number": 16,
+        "role": "RW",
+        "x": 18,
+        "y": 24,
+        "teamSlug": "anh",
+        "captain": false
+      },
+      {
+        "name": "Bukayo Saka",
+        "number": 17,
+        "role": "ST",
+        "x": 50,
+        "y": 16,
+        "teamSlug": "anh",
+        "captain": false
+      },
+      {
+        "name": "Marcus Rashford",
+        "number": 18,
+        "role": "LW",
+        "x": 82,
+        "y": 24,
+        "teamSlug": "anh",
+        "captain": false
+      }
+    ]
   }
 }

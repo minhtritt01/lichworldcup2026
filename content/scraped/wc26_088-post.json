@@ -2,7 +2,7 @@
   "matchId": "wc26_088",
   "eventId": "2502848",
   "status": "finished",
-  "scrapedAt": "2026-07-06T17:14:42.720Z",
+  "scrapedAt": "2026-07-14T16:29:36.233Z",
   "general": {
     "homeTeam": "Australia",
     "homeSlug": "uc",
@@ -17,6 +17,10 @@
   "score": {
     "home": 1,
     "away": 1
+  },
+  "penalties": {
+    "home": 2,
+    "away": 4
   },
   "events": [],
   "form": {

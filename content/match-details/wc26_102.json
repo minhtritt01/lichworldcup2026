@@ -1,17 +1,217 @@
 {
   "incidents": [],
   "homeLineup": {
-    "teamSlug": "thang-99",
-    "teamName": "Thắng trận 99",
+    "teamSlug": "anh",
+    "teamName": "England",
     "formation": "4-3-3",
     "accent": "#ef4444",
-    "players": []
+    "players": [
+      {
+        "name": "Jordan Pickford",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 12,
+        "teamSlug": "anh",
+        "captain": true
+      },
+      {
+        "name": "Kyle Walker",
+        "number": 4,
+        "role": "RB",
+        "x": 14,
+        "y": 28,
+        "teamSlug": "anh",
+        "captain": false
+      },
+      {
+        "name": "Harry Maguire",
+        "number": 5,
+        "role": "CB",
+        "x": 36,
+        "y": 30,
+        "teamSlug": "anh",
+        "captain": false
+      },
+      {
+        "name": "John Stones",
+        "number": 6,
+        "role": "CB",
+        "x": 64,
+        "y": 30,
+        "teamSlug": "anh",
+        "captain": false
+      },
+      {
+        "name": "Luke Shaw",
+        "number": 7,
+        "role": "LB",
+        "x": 86,
+        "y": 28,
+        "teamSlug": "anh",
+        "captain": false
+      },
+      {
+        "name": "Jude Bellingham",
+        "number": 10,
+        "role": "DM",
+        "x": 22,
+        "y": 48,
+        "teamSlug": "anh",
+        "captain": false
+      },
+      {
+        "name": "Declan Rice",
+        "number": 11,
+        "role": "CM",
+        "x": 50,
+        "y": 56,
+        "teamSlug": "anh",
+        "captain": false
+      },
+      {
+        "name": "Phil Foden",
+        "number": 12,
+        "role": "CM",
+        "x": 78,
+        "y": 48,
+        "teamSlug": "anh",
+        "captain": false
+      },
+      {
+        "name": "Harry Kane",
+        "number": 16,
+        "role": "RW",
+        "x": 18,
+        "y": 76,
+        "teamSlug": "anh",
+        "captain": false
+      },
+      {
+        "name": "Bukayo Saka",
+        "number": 17,
+        "role": "ST",
+        "x": 50,
+        "y": 84,
+        "teamSlug": "anh",
+        "captain": false
+      },
+      {
+        "name": "Marcus Rashford",
+        "number": 18,
+        "role": "LW",
+        "x": 82,
+        "y": 76,
+        "teamSlug": "anh",
+        "captain": false
+      }
+    ]
   },
   "awayLineup": {
-    "teamSlug": "thang-100",
-    "teamName": "Thắng trận 100",
+    "teamSlug": "argentina",
+    "teamName": "Argentina",
     "formation": "4-3-3",
     "accent": "#2563eb",
-    "players": []
+    "players": [
+      {
+        "name": "Juan Musso",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 88,
+        "teamSlug": "argentina",
+        "captain": false
+      },
+      {
+        "name": "Leonardo Balerdi",
+        "number": 2,
+        "role": "RB",
+        "x": 14,
+        "y": 72,
+        "teamSlug": "argentina",
+        "captain": false
+      },
+      {
+        "name": "Nicolás Tagliafico",
+        "number": 3,
+        "role": "CB",
+        "x": 36,
+        "y": 70,
+        "teamSlug": "argentina",
+        "captain": false
+      },
+      {
+        "name": "Gonzalo Montiel",
+        "number": 4,
+        "role": "CB",
+        "x": 64,
+        "y": 70,
+        "teamSlug": "argentina",
+        "captain": false
+      },
+      {
+        "name": "Lisandro Martínez",
+        "number": 6,
+        "role": "LB",
+        "x": 86,
+        "y": 72,
+        "teamSlug": "argentina",
+        "captain": false
+      },
+      {
+        "name": "Leandro Paredes",
+        "number": 5,
+        "role": "DM",
+        "x": 22,
+        "y": 52,
+        "teamSlug": "argentina",
+        "captain": false
+      },
+      {
+        "name": "Rodrigo De Paul",
+        "number": 7,
+        "role": "CM",
+        "x": 50,
+        "y": 44,
+        "teamSlug": "argentina",
+        "captain": false
+      },
+      {
+        "name": "Valentín Barco",
+        "number": 8,
+        "role": "CM",
+        "x": 78,
+        "y": 52,
+        "teamSlug": "argentina",
+        "captain": false
+      },
+      {
+        "name": "Julián Álvarez",
+        "number": 9,
+        "role": "RW",
+        "x": 18,
+        "y": 24,
+        "teamSlug": "argentina",
+        "captain": false
+      },
+      {
+        "name": "Lionel Messi",
+        "number": 10,
+        "role": "ST",
+        "x": 50,
+        "y": 16,
+        "teamSlug": "argentina",
+        "captain": true
+      },
+      {
+        "name": "Thiago Almada",
+        "number": 16,
+        "role": "LW",
+        "x": 82,
+        "y": 24,
+        "teamSlug": "argentina",
+        "captain": false
+      }
+    ]
   }
 }

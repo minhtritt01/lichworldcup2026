@@ -89,6 +89,8 @@ export interface MatchPostData {
     referee: string;
   };
   score: { home: number; away: number };
+  // Only set when the tie was decided by a shootout (TSDB status 'AP')
+  penalties?: { home: number; away: number };
   events: MatchEvent[];
   form: {
     home: FormEntry[];
@@ -137,7 +139,10 @@ interface TsdbEvent {
   idAwayTeam: string;
   intHomeScore: string | null;
   intAwayScore: string | null;
-  strStatus: string;   // 'NS' | 'FT' | 'HT' | '1H' | '2H'
+  // On status 'AP' TSDB puts the shootout tally in the *Extra fields
+  intHomeScoreExtra?: string | null;
+  intAwayScoreExtra?: string | null;
+  strStatus: string;   // 'NS' | 'FT' | 'HT' | '1H' | '2H' | 'AET' | 'AP'
   dateEvent: string;
   strTime: string;
   strTimestamp?: string;
@@ -446,6 +451,11 @@ async function main(): Promise<void> {
   let outPath: string;
 
   if (status === 'finished') {
+    const wentToPens = (event.strStatus ?? '').toUpperCase() === 'AP';
+    const penalties = wentToPens
+      ? { home: Number(event.intHomeScoreExtra ?? 0), away: Number(event.intAwayScoreExtra ?? 0) }
+      : undefined;
+
     const data: MatchPostData = {
       matchId,
       eventId,
@@ -456,6 +466,7 @@ async function main(): Promise<void> {
         home: Number(event.intHomeScore ?? 0),
         away: Number(event.intAwayScore ?? 0),
       },
+      ...(penalties ? { penalties } : {}),
       events,
       form: formData,
       squads,
@@ -463,6 +474,7 @@ async function main(): Promise<void> {
     outPath = join(outDir, `${matchId}-post.json`);
     writeFileSync(outPath, JSON.stringify(data, null, 2));
     console.log(`\n  Final score: ${data.score.home}–${data.score.away}`);
+    if (penalties) console.log(`  Penalty shootout: ${penalties.home}–${penalties.away}`);
   } else {
     const data: MatchPreData = {
       matchId,

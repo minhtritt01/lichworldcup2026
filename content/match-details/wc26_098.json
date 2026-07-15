@@ -1,17 +1,267 @@
 {
-  "incidents": [],
+  "incidents": [
+    {
+      "minute": 11,
+      "type": "yellow",
+      "player": "Kevin De Bruyne",
+      "detail": "Hard tackle on Pedri in midfield, earning a caution for dangerous play.",
+      "teamSlug": "bi"
+    },
+    {
+      "minute": 28,
+      "type": "goal",
+      "player": "Álvaro Morata",
+      "detail": "Nico Williams cuts inside from the left wing and delivers a low cross; Morata's quick one-touch finish finds the far corner of the net.",
+      "teamSlug": "tay-ban-nha"
+    },
+    {
+      "minute": 39,
+      "type": "yellow",
+      "player": "Arthur Theate",
+      "detail": "Cynical foul on Lamine Yamal's sprint down the right flank to deny a dangerous counter-attack.",
+      "teamSlug": "bi"
+    },
+    {
+      "minute": 44,
+      "type": "goal",
+      "player": "Jeremy Doku",
+      "detail": "Leandro Trossard intercepts a loose pass and breaks forward; Doku's clever run to the near post and clinical low finish levels the match.",
+      "teamSlug": "bi"
+    },
+    {
+      "minute": 71,
+      "type": "yellow",
+      "player": "Fabián Ruiz",
+      "detail": "Tactical foul on Kevin De Bruyne to break up Belgium's dangerous midfield push.",
+      "teamSlug": "tay-ban-nha"
+    },
+    {
+      "minute": 76,
+      "type": "goal",
+      "player": "Lamine Yamal",
+      "detail": "Pedri threads a through ball into space; Yamal cuts inside and curls a left-footed strike from the edge of the penalty area, catching Courtois off his line.",
+      "teamSlug": "tay-ban-nha"
+    },
+    {
+      "minute": 87,
+      "type": "yellow",
+      "player": "Romelu Lukaku",
+      "detail": "Late protest of a missed handball call near the penalty area, earning a yellow for dissent.",
+      "teamSlug": "bi"
+    }
+  ],
   "homeLineup": {
-    "teamSlug": "thang-93",
-    "teamName": "Thắng trận 93",
+    "teamSlug": "tay-ban-nha",
+    "teamName": "Spain",
     "formation": "4-3-3",
     "accent": "#ef4444",
-    "players": []
+    "players": [
+      {
+        "name": "Unai Simón",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 12,
+        "teamSlug": "tay-ban-nha",
+        "captain": false
+      },
+      {
+        "name": "Dani Carvajal",
+        "number": 4,
+        "role": "RB",
+        "x": 14,
+        "y": 28,
+        "teamSlug": "tay-ban-nha",
+        "captain": true
+      },
+      {
+        "name": "Robin Le Normand",
+        "number": 5,
+        "role": "CB",
+        "x": 36,
+        "y": 30,
+        "teamSlug": "tay-ban-nha",
+        "captain": false
+      },
+      {
+        "name": "Aymeric Laporte",
+        "number": 6,
+        "role": "CB",
+        "x": 64,
+        "y": 30,
+        "teamSlug": "tay-ban-nha",
+        "captain": false
+      },
+      {
+        "name": "Alejandro Balde",
+        "number": 7,
+        "role": "LB",
+        "x": 86,
+        "y": 28,
+        "teamSlug": "tay-ban-nha",
+        "captain": false
+      },
+      {
+        "name": "Rodri",
+        "number": 10,
+        "role": "DM",
+        "x": 22,
+        "y": 48,
+        "teamSlug": "tay-ban-nha",
+        "captain": false
+      },
+      {
+        "name": "Pedri",
+        "number": 11,
+        "role": "CM",
+        "x": 50,
+        "y": 56,
+        "teamSlug": "tay-ban-nha",
+        "captain": false
+      },
+      {
+        "name": "Fabián Ruiz",
+        "number": 12,
+        "role": "CM",
+        "x": 78,
+        "y": 48,
+        "teamSlug": "tay-ban-nha",
+        "captain": false
+      },
+      {
+        "name": "Lamine Yamal",
+        "number": 16,
+        "role": "RW",
+        "x": 18,
+        "y": 76,
+        "teamSlug": "tay-ban-nha",
+        "captain": false
+      },
+      {
+        "name": "Nico Williams",
+        "number": 17,
+        "role": "ST",
+        "x": 50,
+        "y": 84,
+        "teamSlug": "tay-ban-nha",
+        "captain": false
+      },
+      {
+        "name": "Álvaro Morata",
+        "number": 18,
+        "role": "LW",
+        "x": 82,
+        "y": 76,
+        "teamSlug": "tay-ban-nha",
+        "captain": false
+      }
+    ]
   },
   "awayLineup": {
-    "teamSlug": "thang-94",
-    "teamName": "Thắng trận 94",
+    "teamSlug": "bi",
+    "teamName": "Belgium",
     "formation": "4-3-3",
     "accent": "#2563eb",
-    "players": []
+    "players": [
+      {
+        "name": "Thibaut Courtois",
+        "number": 1,
+        "role": "GK",
+        "x": 50,
+        "y": 88,
+        "teamSlug": "bi",
+        "captain": true
+      },
+      {
+        "name": "Zeno Debast",
+        "number": 2,
+        "role": "RB",
+        "x": 14,
+        "y": 72,
+        "teamSlug": "bi",
+        "captain": false
+      },
+      {
+        "name": "Arthur Theate",
+        "number": 3,
+        "role": "CB",
+        "x": 36,
+        "y": 70,
+        "teamSlug": "bi",
+        "captain": false
+      },
+      {
+        "name": "Brandon Mechele",
+        "number": 4,
+        "role": "CB",
+        "x": 64,
+        "y": 70,
+        "teamSlug": "bi",
+        "captain": false
+      },
+      {
+        "name": "Maxim De Cuyper",
+        "number": 5,
+        "role": "LB",
+        "x": 86,
+        "y": 72,
+        "teamSlug": "bi",
+        "captain": false
+      },
+      {
+        "name": "Axel Witsel",
+        "number": 6,
+        "role": "DM",
+        "x": 22,
+        "y": 52,
+        "teamSlug": "bi",
+        "captain": false
+      },
+      {
+        "name": "Kevin De Bruyne",
+        "number": 7,
+        "role": "CM",
+        "x": 50,
+        "y": 44,
+        "teamSlug": "bi",
+        "captain": false
+      },
+      {
+        "name": "Youri Tielemans",
+        "number": 8,
+        "role": "CM",
+        "x": 78,
+        "y": 52,
+        "teamSlug": "bi",
+        "captain": false
+      },
+      {
+        "name": "Romelu Lukaku",
+        "number": 9,
+        "role": "RW",
+        "x": 18,
+        "y": 24,
+        "teamSlug": "bi",
+        "captain": false
+      },
+      {
+        "name": "Leandro Trossard",
+        "number": 10,
+        "role": "ST",
+        "x": 50,
+        "y": 16,
+        "teamSlug": "bi",
+        "captain": false
+      },
+      {
+        "name": "Jeremy Doku",
+        "number": 11,
+        "role": "LW",
+        "x": 82,
+        "y": 24,
+        "teamSlug": "bi",
+        "captain": false
+      }
+    ]
   }
 }
